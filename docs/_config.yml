@@ -1,0 +1,43 @@
+# Site settings
+email: info@bela.io
+baseurl: ""
+paginate: 10
+paginate_path: "/blog/page-:num"
+google_analytics: 
+# This is the image on the about page:
+about-image: main.jpg
+site-image: 02.jpg
+
+# SEO settings
+title: Bela Blog
+description: A blog about Bela.
+url: "http://localhost:4000/"
+twitter_username: 
+default_img: 
+
+#Author names
+github: "http://www.github.com/"
+twitter: "http://www.twitter.com/"  
+
+# images
+
+
+# Profile settings
+# name: 
+# profile_img: 
+# profile: 
+# social:
+#   github: 
+
+# Build settings
+include: ["_categories", "_authors"]
+exclude: ["_screenshots", "Gemfile", "Gemfile.lock"]
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Sass
+sass:
+  style: compressed
+
+# Gems
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer, youtube]

@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="section-padding--lg mast">
+    <a class="nav nav--white" href="{{ site.baseurl }}/">
+      <i class="fa fa-lg fa-arrow-left"></i>
+      <span>Back to Blog</span>
+    </a>
+    <figure class="absolute-bg mast__img" style="background-image: url('{{ {{site.baseurl}}/assets/images/{{page.image}}');"></figure>
+    <div class="mast__container">
+      <span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
+      <h1 itemprop="name headline">{{ page.title }}</h1>
+      {% if page.categories.size > 0 %}
+        <span>
+                    Posted in 
+          {% for cat in page.categories %}
+          <a class="category_link" href="{{site.baseurl}}/category/{{ cat }}">{{ cat }}</a>
+          {% endfor %}
+        </span>
+      {% endif %}
+      <span></span>
+    </div>
+  </header>
+
+  <section class="section-padding post" itemprop="articleBody">
+    {{ content }}
+  </section>
+
+  <section class="profile">
+    <div class="profile__card">
+      <div class="profile__img">
+        <figure class="absolute-bg" style="background-image: url('{{ site.url }}/assets/images/{{ site.data.authors.[page.author].author-image }}');"></figure>
+      </div>
+      <div class="profile__container">
+        <h3>{{ site.data.authors.[page.author].name }}</h3>
+        <p>{{ site.data.authors.[page.author].profile }}</p>
+        {% if site.data.authors.[page.author].email or site.data.authors.[page.author].social %}
+          <ul class="profile__social">
+              <li><a class="fa fa-lg fa-envelope-o" href="mailto:{{ site.data.authors.[page.author].email }}"></a></li>
+              <li><a class="fa fa-lg fa-github" href="http://www.github.com/{{ site.data.authors.[page.author].github }}" target="_blank"></a></li>
+              <li><a class="fa fa-lg fa-twitter" href="http://www.twitter.com/{{ site.data.authors.[page.author].twitter }}" target="_blank"></a></li>
+            
+          </ul>
+        {% endif %}
+      </div>
+    </div>
+  </section>
+
+</article>
+
+{% if page.previous.url %}
+  <section class="next">
+    <a class="next__link" href="{{page.previous.url | prepend: site.baseurl }}" style="background-image: url('{{ site.url }}/assets/images/{{ page.previous.image }}');">
+      <div class="next__container">
+        <span>Read Next</span>
+        <h2>{{page.previous.title}}</h2>
+      </div>
+    </a>
+  </section>
+{% endif %}
