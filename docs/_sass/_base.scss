@@ -12,6 +12,7 @@ $color-black: #0a0a0a;
 $color-grey: #f8f9f9;
 $color-white: #fff;
 $color-link: #6fc475;
+$color-linkActive: #aaa;
 
 $mq-xs: 20em;
 $mq-sm: 30em;
@@ -89,7 +90,7 @@ a {
   &:hover,
   &:active,
   &:focus {
-    color: $color-alpha;
+    color: $color-linkActive;
   }
 }
 
