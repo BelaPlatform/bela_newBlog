@@ -317,6 +317,7 @@
   top: 1.25em;
   left: 1em;
   z-index: 99;
+  border: none;
 
   display: flex;
   align-items: center;
@@ -584,7 +585,3 @@
   .category_link::hover {
     color: #7ff18e;
   }
-
-.fa {
-  border: none;
-}
