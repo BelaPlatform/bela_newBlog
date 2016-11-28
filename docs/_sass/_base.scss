@@ -11,6 +11,7 @@ $color-alpha--light: #e1f1e3;
 $color-black: #0a0a0a;
 $color-grey: #f8f9f9;
 $color-white: #fff;
+$color-link: #6fc475;
 
 $mq-xs: 20em;
 $mq-sm: 30em;
@@ -80,8 +81,9 @@ p {
 }
 
 a {
-  color: $color-black;
+  color: $color-link;
   text-decoration: none;
+  border-bottom: 1px black dotted;
   transition: color 0.4s ease-in-out;
 
   &:hover,
