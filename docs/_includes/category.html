@@ -5,7 +5,7 @@
       <span>Back to Blog</span>
     </a>
     {% for post in site.categories[page.title] %}
-      <figure class="absolute-bg preview__img" style="background-image: url('../../assets/images/{{ page.cat-image }}');"></figure>
+      <figure class="absolute-bg preview__img" style="background-image: url('{{ site.baseurl }}{{ site.imageurl }}{{ page.cat-image }}');"></figure>
     {% endfor %}
     <div class="previews__container">
       <span>Category</span>
