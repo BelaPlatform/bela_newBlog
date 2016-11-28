@@ -7,7 +7,6 @@ astrid:
   author-image: astrid.jpg
 someoneElse:
   name: Someone Else
-  avatar: http://bigbinary.com/assets/team/neeraj.jpg
   github: someoneElse
   twitter: someoneElse
   email: someone@bela.io
