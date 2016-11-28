@@ -261,6 +261,7 @@
   &__social {
     display: flex;
     margin-top: 1em;
+    border: none;
 
     @media (min-width: $mq-sm) {
       margin-top: 0;
