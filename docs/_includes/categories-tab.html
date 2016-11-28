@@ -6,7 +6,7 @@
         <a class="card__link" href="{{ site.baseurl }}/category/{{ category | first | downcase | slugify }}/">
           {% for post in site.categories[cat_name] limit: 1 %}
             <div class="card__img">
-                <figure class="absolute-bg" style="background-image: url('assets/images/{{ cat_name }}.jpg');"></figure>              
+                <figure class="absolute-bg" style="background-image: url('{{ site.baseurl }}{{ site.imageurl }}{{ cat_name }}.jpg');"></figure>              
             </div>
           {% endfor %}
           <div class="card__container">
