@@ -255,13 +255,14 @@
 
   &__archive {
     @include border-slide();
-
     @extend %letter-spacing;
+    border: none;
   }
 
   &__social {
     display: flex;
     margin-top: 1em;
+    border: none;
 
     @media (min-width: $mq-sm) {
       margin-top: 0;
@@ -317,7 +318,6 @@
   top: 1.25em;
   left: 1em;
   z-index: 99;
-  border: none;
 
   display: flex;
   align-items: center;
@@ -345,6 +345,7 @@
 
   &--black {
     color: $color-black;
+    border: none;
 
     &:hover,
     &:active,
@@ -355,6 +356,7 @@
 
   &--white {
     color: $color-white;
+    border: none;
 
     &:hover,
     &:active,
