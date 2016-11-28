@@ -117,8 +117,11 @@ This link has more info in case you're stuck: https://jekyllrb.com/docs/installa
 This is super easy. Two parts: first, test that it looks the way you want it to, and second, push to the master.
 
 ### Make sure it looks the way you want it to 
+
 First, go to the ````config.yml```` file. On lines 3-6 you'll see lines that are commented out. Do two things:
+
 a. Uncomment line 4
+
 b. Comment line 5
 
 Then save the file. The Jekyll build will now run locally, and you'll be able to view it.
@@ -133,8 +136,11 @@ $ bundle exec jekyll serve
 Now, go to http://localhost:4000 and check that it looks okay. 
 
 ###NOW PUSH
+
 Before pushing, to back to the config.yml file and do two things:
+
 a. Comment line 4
+
 b. Uncomment line 5
 
 Then save the file.
