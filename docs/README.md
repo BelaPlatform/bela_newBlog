@@ -101,17 +101,39 @@ The author-image field looks for a photo in assets/images/. Make sure you add yo
 
 ## Deploy!
 
-1. Make sure Jekyll is installed.
+* Make sure Jekyll is installed.
 To deploy you need Jekyll installed (you'll only have to do this once). It should be as easy as this:
 
 ````$ gem install jekyll````
 
-This link has more info: https://jekyllrb.com/docs/installation/
+* Make sure bundler is installed.
+To deploy you'll also need bundler, which smashes all this nonsense together. It should be as easy as this:
 
-2. Test before making a pull request
+````$ gem install bundler````
+
+This link has more info in case you're stuck: https://jekyllrb.com/docs/installation/
+
+* Go to the ````_config.yml```` file. On lines 3-6 you'll see lines that are commented out. Do two things:
+
+a. Uncomment line 4 
+
+b. Comment line 6 
+
+Then save the file. The Jekyll build will now run locally, and you'll be able to view it.
+
+* Make git forget about your local `_config.yml` 
+In order to make sure you don't mistakenly commit it back with the change in place, and without you having to edit the file everytime you commit, run this:
+```
+git update-index --assume-unchanged docs/_config.yml
+```
+NOTE: if you ever want to commit actual changes to `_config.yml`, then you will have to run 
+```git update-index --no-assume-unchanged docs/_config.yml```.
+
+## Test before making a pull request 
 This is super easy. Two parts: first, test that it looks the way you want it to, and second, push to the master.
 
 ### Make sure it looks the way you want it to 
+
 After you've written your post, go to the command line. Go to your cloned Github repo and cd into the ````docs```` folder. (I'm assuming it's in ````~/Github```` here for the sake of example.) 
 
 ````
@@ -119,4 +141,8 @@ $ cd ~/Github/bela_newBlog/docs
 $ bundle exec jekyll serve
 ````
 
-Now, go to http://localhost:4000 and check that it looks okay. If it does, push everything to the master branch, and Github pages will automagically update, recompile, and serve the site. MAGIC!
+Now, go to http://localhost:4000 and check that it looks okay. 
+
+###NOW PUSH
+
+Push everything to the master branch, and Github pages will automagically update, recompile, and serve the site. MAGIC!
