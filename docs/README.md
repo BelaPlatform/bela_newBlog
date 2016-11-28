@@ -7,6 +7,7 @@
 ````$ touch _posts/YYYY-MM-DD-title-here.markdown````
 3. Great! Now go into that file you just made and paste this (including the dashes):
 
+````
 ---
 layout: post
 title: "Your title here"
@@ -18,7 +19,7 @@ description: "Post description here."
 image: imageName.jpg
 author: authorName
 ---
-
+````
 ## The components of a post
 
 1. Categories. You can list as many as you like here. You can choose existing ones that are listed in the _categories file, or make a new one. (To make a new one, see Making a New Category).
