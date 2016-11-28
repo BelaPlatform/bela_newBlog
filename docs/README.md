@@ -111,7 +111,9 @@ This is super easy. Two parts: first, test that it looks the way you want it to,
 ### Make sure it looks the way you want it to 
 After you've written your post, go to the command line. Go to your cloned Github repo and cd into the ````docs```` folder. (I'm assuming it's in ````~/Github```` here for the sake of example.) 
 
-````$ cd ~/Github/bela_newBlog/docs
-$ bundle exec jekyll serve````
+````
+$ cd ~/Github/bela_newBlog/docs
+$ bundle exec jekyll serve
+````
 
 Now, go to http://localhost:4000 and check that it looks okay. If it does, push everything to the master branch, and Github pages will automagically update, recompile, and serve the site. MAGIC!
