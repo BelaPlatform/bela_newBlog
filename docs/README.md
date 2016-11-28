@@ -126,7 +126,7 @@ In order to make sure you don't mistakenly commit it back with the change in pla
 ```
 git update-index --assume-unchanged docs/_config.yml
 ```
-If you ever want to commit actual changes to `_config.yml`, then you will have to manually add it to the index with `git add _config.yml`.
+NOTE: if you ever want to commit actual changes to `_config.yml`, then you will have to run this first ````git update-index --no-assume-unchanged docs/_config.yml```.
 
 ## Test before making a pull request 
 This is super easy. Two parts: first, test that it looks the way you want it to, and second, push to the master.
