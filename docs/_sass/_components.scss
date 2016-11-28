@@ -92,6 +92,7 @@
   &__link {
     display: block;
     padding: 2em 1em;
+    border: none;
 
     @media (min-width: $mq-md) {
       padding: 4em 8em;
