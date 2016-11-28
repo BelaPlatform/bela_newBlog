@@ -12,3 +12,10 @@ someoneElse:
   email: someone@bela.io
   profile: This is someone completely different.
   author-image: someoneElse.jpg
+robert:
+  name: Robert Jack
+  github: roberthjack
+  twitter: rjack0101
+  email: robert@bela.io
+  profile: Robert likes making instruments.
+  author-image: robert.jpg

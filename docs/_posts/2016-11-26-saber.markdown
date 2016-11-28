@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Making an Audio Lightsaber"
+date: 2016-11-28
+categories:
+  - Hardware
+  - Sound Design
+description: "DIY Audio Lightsaber made with Bela"
+image: saber.jpg
+author: robert
+---
+
+Rapid Prototyping and Sound Design with Bela
+
+In this project Robbie and Chris explain how to make a super-sensitive audio lightsaber from a cardboard tube, an accelerometer, a piezo disk and Bela. They use Puredata for the sound design and sensor processing to make a working lightsaber fit for a Jedi! The Heavy Compiler from Enzien Audio is used to produce optimised C code from their Puredata patches to run on the board.
+
+{% include single-image.html fileName="new_saber.jpg" %}
+
+In the video below they walk through the steps they took to recreate the famous swooping sound design of the lightsaber using a looped sample of tv hum and variable delay lines. They then explain how to bring this sound model to life as a piece of interactive hardware, with an accelerometer to calculate the velocity of the cardboard tube and a piezo disk to detect impacts. This is definitely one to try at home, may the force be with you!
+
+{% include youtube.html youtube="ivjHWiHN1UM" %}

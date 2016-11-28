@@ -1,6 +1,6 @@
 # Site settings
 email: info@bela.io
-baseurl: "https://disastrid.github.io/bela_newBlog"
+baseurl: ""
 imageurl: "/assets/images/"
 paginate: 10
 paginate_path: "/blog/page-:num"
