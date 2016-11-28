@@ -3,7 +3,6 @@ layout: post
 title: "This is a test"
 date: 2016-11-24
 categories:
-  - Juice
   - Hardware
 description: "So much hardware."
 image: 05.jpg
