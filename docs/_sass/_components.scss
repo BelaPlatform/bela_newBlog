@@ -247,6 +247,7 @@
   justify-content: space-between;
   padding-left: 2em;
   padding-right: 2em;
+  border: none;
 
   @media (min-width: $mq-sm) {
     flex-direction: row;
@@ -261,7 +262,6 @@
   &__social {
     display: flex;
     margin-top: 1em;
-    border: none;
 
     @media (min-width: $mq-sm) {
       margin-top: 0;
