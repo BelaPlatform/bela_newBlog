@@ -47,13 +47,14 @@ Sometimes you might want to put a post in a category that doesn't yet exist. Her
 
 1. Make a new category by creating a blank HTML file in the _category directory.
 
-Name this after the category you're creating, like audio.html for example.
+Name this after the category you're creating, like audio.html for example. 
+NOTE: If your category has more than one word (ie, Augmented Instruments), then name the file with a dash between each word, like this:  augmented-instruments.html. 
 
 2. Copy and paste this in your new blank html file, and fill out with your info:
 ````
 ---
 layout: default
-title: Audio
+title: "Audio"
 description:
 permalink: /category/audio/
 cat-image: audio.jpg
@@ -63,13 +64,15 @@ cat-image: audio.jpg
 
 See that ````{% include category.html %}```` bit there? It's important. Don't leave it out.
 
-3. Indicate the category title.
+3. Indicate the category title. 
 
-4. Indicate the permalink - the page that category's posts will be displayed on. This is usually /category/yourCategoryTitle.
+4. Indicate the permalink - the page that category's posts will be displayed on. This is usually /category/your-category-title
 
-5. Give the category an image.
+5. Give the category an image - it has to be a jpg.
 
-Specify the file name in the cat-image field, and put it where images live: /assets/images/ 
+NOTE: There is a naming convention for this, because of boring reasons. That convention is the category title, all lower case, no spaces. For example, Augmented Instruments image would be augmentedinstruments.jpg.
+
+Specify that file name in the cat-image field, and put it where images live: /assets/images/ 
 For our purposes, name the category image after the title of the category so the images directory stays understandable.
 
 ## Adding a main post image
