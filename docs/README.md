@@ -101,17 +101,19 @@ The author-image field looks for a photo in assets/images/. Make sure you add yo
 
 ## Deploy!
 
-1. Make sure Jekyll is installed.
+* Make sure Jekyll is installed.
 To deploy you need Jekyll installed (you'll only have to do this once). It should be as easy as this:
 
 ````$ gem install jekyll````
 
-1. Make sure bundler is installed.
+* Make sure bundler is installed.
 To deploy you'll also need bundler, which smashes all this nonsense together. It should be as easy as this:
+
 ````$ gem install bundler````
+
 This link has more info in case you're stuck: https://jekyllrb.com/docs/installation/
 
-1. First, go to the ````_config.yml```` file. On lines 3-6 you'll see lines that are commented out. Do two things:
+* Go to the ````_config.yml```` file. On lines 3-6 you'll see lines that are commented out. Do two things:
 
 a. Uncomment line 4 
 
@@ -119,14 +121,14 @@ b. Comment line 6
 
 Then save the file. The Jekyll build will now run locally, and you'll be able to view it.
 
-1. Make git forget about your local `_config.yml` 
+* Make git forget about your local `_config.yml` 
 In order to make sure you don't mistakenly commit it back with the change in place, and without you having to edit the file everytime you commit, run this:
 ```
 git update-index --assume-unchanged docs/_config.yml
 ```
 If you ever want to commit actual changes to `_config.yml`, then you will have to manually add it to the index with `git add _config.yml`.
 
-1. Test before making a pull request 
+## Test before making a pull request 
 This is super easy. Two parts: first, test that it looks the way you want it to, and second, push to the master.
 
 ### Make sure it looks the way you want it to 
