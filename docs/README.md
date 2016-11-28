@@ -32,17 +32,19 @@ author: authorName
     - To embed a youtube video, use this:
     {% include youtube.html youtube="youtubeID" %} 
     the youtube variable should be the YouTube ID of the video you want to embed. Not the whole URL!
-    - To add code:
+    - To add code: Surround the code with three backticks (`) on a line above and below a code block.
     ```
-    Use backticks like this.
+    Then it will look like this! :)
     ```
-The reason for these includes is that they make embedding easy, they don't require you to learn any HTML conventions, and your content will always be responsive on desktop and mobile.
+The reason I've implemented these includes is that they make embedding easy, they don't require you to learn any HTML conventions, and your content will always be responsive on desktop and mobile. 
+
+(There are also a couple of includes coming to lay out images two side by side, and three side by side - this is not a trivial task to make everything responsive, so give me a bit of time with it. If you need other things for including content, let me know and I'll write them!) 
 
 ## Making a new category
 
 Sometimes you might want to put a post in a category that doesn't yet exist. Here's what to do:
 
-1. Make a new category in the _category directory.
+1. Make a new category by creating a blank HTML file in the _category directory.
 
 Name this after the category you're creating, like audio.html for example.
 
@@ -60,11 +62,14 @@ cat-image: audio.jpg
 
 See that ````{% include category.html %}```` bit there? It's important. Don't leave it out.
 
-3. Give the category an image.
+3. Indicate the category title.
 
-Name it after the cat-image field you specified, and put it where images live: /assets/images/
+4. Indicate the permalink - the page that category's posts will be displayed on. This is usually /category/yourCategoryTitle.
 
-Done!
+5. Give the category an image.
+
+Specify the file name in the cat-image field, and put it where images live: /assets/images/ 
+For our purposes, name the category image after the title of the category so the images directory stays understandable.
 
 ## Adding a main post image
 
@@ -80,20 +85,20 @@ Author info lives in /_data/authors.yaml. To add yourself as an author, find tha
 
 jimbob:
   name: Jim Bob
-  github: jimbob
-  twitter: jimbob
+  github: jimbobcode
+  twitter: jimbobtweets
   email: jimbob@bela.io
   profile: Some words about you. About 200 characters is enough.
   author-image: jimbob.jpg
 
 ### Make sure you have a picture!
 
-The author-image field looks for a photo in assets/images/. Make sure you add your author pic to that directory, and that the name of the file matches what you put in the author-image field.
+The author-image field looks for a photo in assets/images/. Make sure you add your author pic to that directory, and that the name of the file matches what you put in the author-image field. (Again, name it after yourself so the images directory doesn't get crazy.)
 
 ## Deploy!
 
 1. Make sure Jekyll is installed.
-To deploy you need Jekyll installed. It should be as easy as this:
+To deploy you need Jekyll installed (you'll only have to do this once). It should be as easy as this:
 
 ````$ gem install jekyll````
 
@@ -106,6 +111,6 @@ This is super easy. Two parts: first, test that it looks the way you want it to,
 After you've written your post, go to the command line. Go to your cloned Github repo and cd into the ````docs```` folder. (I'm assuming it's in ````~/Github```` here for the sake of example.) 
 
 ````$ cd ~/Github/bela_newBlog/docs
-$ bundle exec jekyll serve 
+$ bundle exec jekyll serve````
 
-Now, go to http://localhost:4000 and check that it looks okay. If it does, push everything to the master branch, and Github pages will automagically update, recompile, and serve the site.
+Now, go to http://localhost:4000 and check that it looks okay. If it does, push everything to the master branch, and Github pages will automagically update, recompile, and serve the site. MAGIC!
