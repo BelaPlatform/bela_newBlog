@@ -106,12 +106,26 @@ To deploy you need Jekyll installed (you'll only have to do this once). It shoul
 
 ````$ gem install jekyll````
 
-This link has more info: https://jekyllrb.com/docs/installation/
+2. Make sure bundler is installed.
+To deploy you'll also need bundler, which smashes all this nonsense together. It should be as easy as this:
+
+````$ gem install bundler````
+
+This link has more info in case you're stuck: https://jekyllrb.com/docs/installation/
 
 2. Test before making a pull request
 This is super easy. Two parts: first, test that it looks the way you want it to, and second, push to the master.
 
 ### Make sure it looks the way you want it to 
+
+First, go to the ````config.yml```` file. On lines 3-6 you'll see lines that are commented out. Do two things:
+
+a. Uncomment line 4
+
+b. Comment line 5
+
+Then save the file. The Jekyll build will now run locally, and you'll be able to view it.
+
 After you've written your post, go to the command line. Go to your cloned Github repo and cd into the ````docs```` folder. (I'm assuming it's in ````~/Github```` here for the sake of example.) 
 
 ````
@@ -119,4 +133,16 @@ $ cd ~/Github/bela_newBlog/docs
 $ bundle exec jekyll serve
 ````
 
-Now, go to http://localhost:4000 and check that it looks okay. If it does, push everything to the master branch, and Github pages will automagically update, recompile, and serve the site. MAGIC!
+Now, go to http://localhost:4000 and check that it looks okay. 
+
+###NOW PUSH
+
+Before pushing, to back to the config.yml file and do two things:
+
+a. Comment line 4
+
+b. Uncomment line 5
+
+Then save the file.
+
+Push everything to the master branch, and Github pages will automagically update, recompile, and serve the site. MAGIC!
