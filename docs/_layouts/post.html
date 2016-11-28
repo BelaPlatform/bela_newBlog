@@ -8,7 +8,7 @@ layout: default
       <i class="fa fa-lg fa-arrow-left"></i>
       <span>Back to Blog</span>
     </a>
-    <figure class="absolute-bg mast__img" style="background-image: url('{{ {{site.baseurl}}/assets/images/{{page.image}}');"></figure>
+    <figure class="absolute-bg mast__img" style="background-image: url('{{ site.baseurl }}{{ site.imageurl }}{{ page.image }}');"></figure>
     <div class="mast__container">
       <span><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></span>
       <h1 itemprop="name headline">{{ page.title }}</h1>
