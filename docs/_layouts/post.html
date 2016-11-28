@@ -16,7 +16,7 @@ layout: default
         <span>
                     Posted in 
           {% for cat in page.categories %}
-          <a class="category_link" href="{{site.baseurl}}/category/{{ cat | downcase }}">{{ cat }}</a>
+          <a class="category_link" href="{{ site.baseurl }}/category/{{ cat | slugify }}">{{ cat }}</a>
           {% endfor %}
         </span>
       {% endif %}
