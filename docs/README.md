@@ -41,6 +41,10 @@ The reason I've implemented these includes is that they make embedding easy, the
 
 (There are also a couple of includes coming to lay out images two side by side, and three side by side - this is not a trivial task to make everything responsive, so give me a bit of time with it. If you need other things for including content, let me know and I'll write them!) 
 
+Want to know how to make headers in a post? How to make things bold, italic, or include links? It's all in markdown, and the reference is here: 
+
+kramdown.gettalong.org/syntax.html
+
 ## Making a new category
 
 Sometimes you might want to put a post in a category that doesn't yet exist. Here's what to do:
