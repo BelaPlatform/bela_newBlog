@@ -66,10 +66,10 @@ h1, h2 {
 }
 
 h1 {
-  $fontSize: 3em;
+  $fontSize: 2.6em;
 
   @media (min-width: $mq-md) {
-    font-size: $fontSize;
+    font-size: 1.9em;
   }
 
   @media (min-width: $mq-xl) {

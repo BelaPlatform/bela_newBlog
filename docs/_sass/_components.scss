@@ -53,12 +53,12 @@
     justify-content: center;
     height: 100%;
     width: 100%;
-    padding: 2em;
 
     color: $color-white;
 
     h1 {
       text-align: center;
+      text-size: 2em;
     }
     span {
       @extend %letter-spacing;
