@@ -12,10 +12,36 @@ author: robert
 
 Rapid Prototyping and Sound Design with Bela
 
-In this project Robbie and Chris explain how to make a super-sensitive audio lightsaber from a cardboard tube, an accelerometer, a piezo disk and Bela. They use Puredata for the sound design and sensor processing to make a working lightsaber fit for a Jedi! The Heavy Compiler from Enzien Audio is used to produce optimised C code from their Puredata patches to run on the board.
+In this post we'll explain how to make a super-sensitive audio lightsaber from a cardboard tube, accelerometer, piezo disk, speaker, battery and a Bela board. This project was made using Pure Data with Bela and was created to show how easy Bela is to use for rapid prototyping and for bringing sound models to life. The patch we've created comes as one of the standard examples on Bela and takes care of the sound design and sensor processing (which we discuss in more detail below) to create an audio lightsaber fit for a Jedi! To begin let's discuss the components you need to create this project.
 
-{% include single-image.html fileName="new_saber.jpg" %}
+{% include single-image.html fileName="saber_3.jpg" %}
 
-In the video below they walk through the steps they took to recreate the famous swooping sound design of the lightsaber using a looped sample of tv hum and variable delay lines. They then explain how to bring this sound model to life as a piece of interactive hardware, with an accelerometer to calculate the velocity of the cardboard tube and a piezo disk to detect impacts. This is definitely one to try at home, may the force be with you!
+Firstly, and perhaps most importantly, you need to find a cardboard tube that can act as the main body of saber. This tube needs to be at least ... cm in diameter to allow you to fit the Bela board inside its hilt. It's also a good idea to try and find quite a sturdy cardboard tube that will withstand a good beating -- we've had a few casualities already from people getting over-excited while duelling! We found that poster tubes or tubes used for mailing long rails worked best.
+
+{% include single-image.html fileName="saber_4.jpg" %}
+
+The two sensors that we use in this project are the piezo disk and the accelerometer. In this case we're treating the piezo disk like a microphone and pluging it into the audio input of Bela. Piezo disks generate a voltage when they are deformed and so when they are attached to surfaces they can also translate vibrations on that surface into a voltage. It's for this reason that they are often used as the core element in contact microphones and hydrophones. In this case we are using one to detect strikes on the cardboard tube and using that (audio) signal to trigger an impact sound. It should be attached to the inside of the tube toward the far end (we used double sided velcro to do this).
+
+{% include single-image.html fileName="saber_fritzing.jpg" %}
+
+The accelerometer is hooked up to Bela as shown in this circuit diagram and should also be attached inside the tube. This sensor gives us three signals that represent the movement of the tube, x, y and z. In the Pure Data patch we are integrating these signals to calculate the overall velocity of the tube and using this to drive the electrical hum part of the sound model. The final piece of the puzzle is a speaker to add at the top of tube. We used an 8 Ohm speaker similar to [this one](https://www.rapidonline.com/visaton-bg-13-17-20-p-round-full-range-speakers-8-ohm-554247), however the most important thing is to find one that matches the diameter of your tube. This makes fixing the speaker to the tube much easier -- we used cable ties to attach ours in the first prototype. 
+
+{% include single-image.html fileName="saber_2.jpg" %}
+
+**Sound Design**
+
+The sound engine that we created in Pure Data consists of two main parts, the shooshing sound that is created when you swing the saber about, and the electric crashing sound that is triggered when the saber impacts with something. The basis of the swooshing sound is a sample of tv hum that is looped inside the patch and passed into multiple delay lines that have a variable amount of delay. When we move the saber, which is detected by the accelerometer, we change the length of the delay. This creates an effect that is very similar to the doppler effect, a perceptual effect that happens with moving sound sources. For the impact and unsheathing sound we used a noise source with a flanger effect applied that was trigger by the piezo input. Have a look at the video below to see hear the saber in action and to get more information.
 
 {% include youtube.html youtube="ivjHWiHN1UM" %}
+
+**Redesign**
+
+Shortly after the intial prototype Ho Huen redesigned the saber to incorporate flashing in lights (in both red and blue), a new laser cut holder for the Bela board and battery and speaker that slides perfectly into the new perspex tube. Ho also designed a little breakout board that combines the accelerometer and piezo inputs to make them easier to run down the tube. The next goal is to remake the lightsaber into an even more lightweight version with brighter lights.
+
+{% include single-image.html fileName="saber_school.jpg" %}
+
+**Portable Version**
+
+When showcasing Bela we quickly realised that the lightsaber was not easiest demo to move around. Using the same components we created a minature version of the lightsaber that is able to fit into a rucksack. The result is the vangelisiser, with sound design inspired by the one and only Vangelis. Have a listen below.
+
+{% include single-image.html fileName="saber_new.jpg" %}
