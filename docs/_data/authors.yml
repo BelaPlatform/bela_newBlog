@@ -19,3 +19,16 @@ robert:
   email: robert@bela.io
   profile: Robert likes making instruments.
   author-image: robert.jpg
+andrew:
+  name: Andrew McPherson
+  github: apmcpherson
+  twitter: InstrumentsLab
+  email: andrew@bela.io
+  profile: And now for something completely different.
+  author-image: andrew.jpg
+giulio:
+  name: Giulio Moro
+  github: giuliomoro
+  email: giulio@bela.io
+  profile: Doing PhD while doing Bela while doing PhD while doing Bela.
+  author-image: giulio.jpg
