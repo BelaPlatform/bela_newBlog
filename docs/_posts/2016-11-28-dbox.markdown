@@ -9,7 +9,7 @@ categories:
   - Hacking
 description: "Hackable Musical Instruments"
 image: hacking.jpg
-author: robert
+author: andrew
 ---
 
 Hackable Musical Instruments

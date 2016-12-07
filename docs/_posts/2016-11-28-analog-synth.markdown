@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "Using Bela with an Analog Synth"
-date: 2016-11-28
+date: 2016-03-31
 categories:
   - Hardware
   - Synths
 description: "Interfacing with a Doepfer Dark Energy II Analog Synth using Bela and Pure Data"
 image: darknrg.jpg
-author: robert
+author: giulio
 ---
 
 Interfacing with analog synths
