@@ -30,13 +30,15 @@ The accelerometer is hooked up to Bela as shown in this circuit diagram and shou
 
 **Sound Design**
 
-The sound engine that we created in Pure Data consists of two main parts, the shooshing sound that is created when you swing the saber about, and the electric crashing sound that is triggered when the saber impacts with something. The basis of the swooshing sound is a sample of tv hum that is looped inside the patch and passed into multiple delay lines that have a variable amount of delay. When we move the saber, which is detected by the accelerometer, we change the length of the delay. This creates an effect that is very similar to the doppler effect, a perceptual effect that happens with moving sound sources. For the impact and unsheathing sound we used a noise source with a flanger effect applied that was trigger by the piezo input. Have a look at the video below to see hear the saber in action and to get more information.
+The sound engine that we created in Pure Data consists of two main parts, the shooshing sound that is created when you swing the saber about, and the electric crashing sound that is triggered when the saber impacts with something. The basis of the swooshing sound is a sample of tv hum that is looped inside the patch and passed into multiple delay lines that have a variable amount of delay. When we move the saber, which is detected by the accelerometer, we change the length of the delay. This creates an effect that is very similar to the doppler effect, a perceptual effect that happens with moving sound sources. For the impact and unsheathing sound we used a noise source with a flanger effect applied that was trigger by the piezo input. Have a look at the video below to see and hear the saber in action and to get more information.
 
 {% include youtube.html youtube="ivjHWiHN1UM" %}
 
 **Redesign**
 
 Shortly after the intial prototype Ho Huen redesigned the saber to incorporate flashing in lights (in both red and blue), a new laser cut holder for the Bela board and battery and speaker that slides perfectly into the new perspex tube. Ho also designed a little breakout board that combines the accelerometer and piezo inputs to make them easier to run down the tube. The next goal is to remake the lightsaber into an even more lightweight version with brighter lights.
+
+{% include single-image.html fileName="saber_hilt.jpg" %}
 
 {% include single-image.html fileName="saber_school.jpg" %}
 
