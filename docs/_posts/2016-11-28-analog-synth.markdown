@@ -12,7 +12,7 @@ author: giulio
 
 Interfacing with analog synths
 
-This video shows Giulio putting Bela through its paces in combination with an analog synth. We are running a Pure Data project on the board which we updates on the fly, and are patching the analog outputs of Bela to the CV ins of a Doepfer Dark Energy II. This demo just scratches the surface of what’s possible when Bela is used to control an analog synth, or equally, when an analog synth is used to control Bela. It should serve as a good introduction for anyone who is wondering what can be done with the board out-of-the-box, and shows how easily a Bela-based module would be to get up and running.
+In this video we put Bela through its paces in combination with an analog synth. We are running a Pure Data project on the board which we updates on the fly, and are patching the analog outputs of Bela to the CV ins of a Doepfer Dark Energy II. This demo just scratches the surface of what’s possible when Bela is used to control an analog synth, or equally, when an analog synth is used to control Bela. It should serve as a good introduction for anyone who is wondering what can be done with the board out-of-the-box, and shows how easily a Bela-based module would be to get up and running.
 
 {% include youtube.html youtube="xAYvp6fVWBM" %}
 
