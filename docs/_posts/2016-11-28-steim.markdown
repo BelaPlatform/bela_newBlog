@@ -5,7 +5,7 @@ date: 2016-12-01
 categories:
   - Workshops
 description: "STEIM Bela Workshop 2016"
-image: workshops.jpg
+image: steim-7.jpg
 author: andrew
 ---
 
@@ -23,6 +23,8 @@ Participants: [Marije Baalman](https://www.marijebaalman.eu/), [Till Bovermann](
 {% include single-image.html fileName="steim-2.jpg" %}
 
 {% include single-image.html fileName="steim-3.jpg" %}
+
+{% include single-image.html fileName="steim-6.jpg" %}
 
 {% include single-image.html fileName="steim-4.jpg" %}
 
