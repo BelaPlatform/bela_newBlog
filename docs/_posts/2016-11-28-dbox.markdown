@@ -12,7 +12,7 @@ image: hacking.jpg
 author: andrew
 ---
 
-Hackable Musical Instruments
+# Hackable Musical Instruments
 
 The D-Box was the first instrument ever made with Bela and is a digital musical instrument intended to be repurposed and rewired by the performer in unusual ways. It was created by Andrew McPherson and Victor Zappi and gave birth to BeagleRT, the project that would go on to become Bela. It was designed to be initially simple and constrained, but to allow the performer hack and subvert these constraints using circuit bending techniques. For more information about the rationale behind the D-box and the internal wirings of the instrument itself see [here](http://www.eecs.qmul.ac.uk/~andrewm/hackable.html).
 

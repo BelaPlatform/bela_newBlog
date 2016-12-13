@@ -9,7 +9,7 @@ image: steim-7.jpg
 author: andrew
 ---
 
-STEIM Bela Workshop August 2016
+# STEIM Bela Workshop 2016
 
 In August 2016 a three-day workshop was organised at [STEIM](http://steim.org/) (Amsterdam), a renowned centre for experimental music. STEIM was chosen for its influence in the DMI community and for the interest that several members had expressed in Bela. Eight experienced DMI creators participated to the event, with two Bela creators acting as technical facilitators and two other researchers collecting documentary evidence. The goal of the workshop was for each DMI creator to port their existing instrument design to Bela.
 
