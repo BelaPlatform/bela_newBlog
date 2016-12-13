@@ -52,6 +52,6 @@ Here are some pictures of the next prototype. The goal is to remake the lightsab
 
 **Portable Version**
 
-When showcasing Bela we quickly realised that the lightsaber was not the easiest demo to move around. Using the same components we created a minature version of the lightsaber that is able to fit into a rucksack adn premiered at Sonar 2016. The result is the vangelisiser, with sound design inspired by the one and only Vangelis. Have a listen below.
+When showcasing Bela we quickly realised that the lightsaber was not the easiest demo to move around. Using the same components we created a minature version of the lightsaber that is able to fit into a rucksack and premiered at Sonar 2016. The result is the vangelisiser, with sound design inspired by the one and only Vangelis. Have a listen below.
 
 {% include single-image.html fileName="saber_new.jpg" %}
