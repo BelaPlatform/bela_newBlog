@@ -392,6 +392,13 @@
     margin-top: 30px;
   }
 
+  ul,
+  li {
+    list-style-type: circle;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+
   p:first-child {
     font-size: 1.25em;
   }

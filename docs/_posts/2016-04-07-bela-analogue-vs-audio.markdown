@@ -89,7 +89,8 @@ There's also a difference in voltage range on these parts:
 * **Analogue out**: 0 to 5V.
 * **Analogue in**: 0 to 4.096V. The reason for the 4.096V range is to provide a stable voltage reference which allows a simple conversion from millivolts to digital values.
 * **Audio out**: up to 2V peak-to-peak (i.e. -1V to +1V) at full volume, which can be programmatically reduced. The audio output is capable of driving headphones, where the analogue outputs are not. If you don't want to use the built-in headphone amplifier, there are separate pads on the board with a line out signal (which also drives the speaker amps).
-* **Audio in**: up to 2V peak-to-peak, but this can be programmatically increased using the on-chip PGA (programmable gain amplifier) which can provide up to 59.5dB of extra gain. But keep in mind this extra gain increases the analogue noise at the input too.
+* **Audio in**: up to 2V peak-to-peak, but this can be programmatically increased using the on-chip PGA (programmable gain amplifier) which can provide up to 59.5dB of extra gain. But keep in mind this extra gain increases the analogue noise at the input too.  
+
 
 The Bela cape also has two speaker amplifiers ([LM4876](http://www.ti.com/lit/ds/symlink/lm4876.pdf)) which can drive 8 ohm speakers with up to 1.1W of power each. These amplifiers have differential outputs (i.e. both terminals of the speaker vary in voltage, and neither one is connected to ground), with each output swinging between 0 and 5V.
 
@@ -100,6 +101,8 @@ We designed an Audio Expander Capelet which converts the analogue I/Os into extr
 To use the analogue I/Os as extra audio channels, then, we need to do three things. First, we need to provide **AC coupling** so we can send and receive bipolar (positive and negative) audio signals. Second, we need to add some extra **analogue filtering** to make up for the lack of onboard digital filtering in the SAR ADC and string DAC. Third, we need to match levels between the analogue and audio converters, which can be done in either hardware of software.
 
 The capelet does all of these things. AC coupling is fairly easy: basically, just add a capacitor in series with the outputs, and a capacitor and a couple resistors for the inputs.
+
+{% include single-image.html fileName="audioExp01.jpg" %}
 
 Filtering is less easy, mainly because the more aliasing we want to eliminate, the higher the order of filter we need. Higher-order filters in turn mean more parts, more board space, tighter component tolerances, and above all more cost. So we have to make a decision on the price/performance balance. For studio-quality applications, no embedded board can possibly match the performance of multi-thousand-dollar rack gear. But we want something that is good enough to use in a musical instrument with decent sound. We are still finalising the design of the audio capelet but the most likely scenario will be second-order filters on each input and output.
 
