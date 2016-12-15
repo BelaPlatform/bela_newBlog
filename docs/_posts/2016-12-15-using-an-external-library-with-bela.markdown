@@ -35,7 +35,7 @@ The actual pre-compiled binaries that make up the library are only needed at lin
 ## How to use a library on Bela
 
 Bela runs Debian (a distribution of Linux), which comes with, `apt`, a command-line package manager which can be used to install a large selection of pre-compiled libraries.
-If your library is available for Debian throught `apt`, installing it will requir a few easy steps.
+If your library is available for Debian throught `apt`, installing it will require a few easy steps. Note that you will need to be connected to the internet and run `apt-get update` before you go through the following steps.
 
 ### Find it
 
