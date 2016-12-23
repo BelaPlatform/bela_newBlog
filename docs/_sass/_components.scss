@@ -175,7 +175,7 @@
       }
       
       .card__more {
-        box-shadow: inset 175px 0 0 0 rgba($teal-main, 0.7);
+        box-shadow: inset 175px 0 0 0 rgba($teal-base, 0.7);
         color: $color-white;
       }
     }
@@ -206,7 +206,10 @@
   }
 
   &__more {
-    @include button-slide(0.25em);
+    @include card-button-slide(0.35em);
+  }
+  &__header {
+    color: $teal-base;
   }
 }
 
