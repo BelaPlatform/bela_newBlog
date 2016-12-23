@@ -30,6 +30,9 @@ author: authorName
     - To add an image, use this:
     {% include single-image.html fileName="06.jpg" %}
     the fileName variable will the name of the image you are including. This image should already be in the images folder when you publish your post (~/assets/images).
+    *NEW!* Now you can add image captions. Simply add it as a ``caption=""`` field in your image include. For example:
+    {% include single-image.html fileName="foo.jpg" caption="omg it's a caption" %}
+    The contents of the caption attribute will appear below your image. This is a new feature so please report bugs or problems.
     - To embed a youtube video, use this:
     {% include youtube.html youtube="youtubeID" %} 
     the youtube variable should be the YouTube ID of the video you want to embed. Not the whole URL!
