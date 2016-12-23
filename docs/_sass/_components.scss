@@ -27,7 +27,7 @@
     }
 
     &.active {
-      border-bottom: 3px solid $color-alpha;
+      border-bottom: 3px solid $teal-main;
     }
   }
 }
@@ -76,10 +76,11 @@
   }
 
   &:hover {
-    background-color: $color-alpha--light;
+    // background-color: $color-alpha--light;
+    background-color: rgba($teal-01, 0.07);
 
     .preview__more {
-      box-shadow: inset 175px 0 0 0 $color-alpha;
+      box-shadow: inset 175px 0 0 0 rgba($color-alpha, 0.7);
       color: $color-white;
     }
   }
@@ -110,7 +111,7 @@
   }
 
   &__header {
-    color: $color-alpha;
+    color: rgba($teal-base, 1.0);
 
     margin-bottom: 0.5em;
   }
@@ -167,14 +168,14 @@
     }
 
     &:hover {
-      background-color: $color-alpha--light;
+      background-color: rgba($black, 0.05);
 
       &:after {
-        opacity: 1;
+        // opacity: 0.5;
       }
       
       .card__more {
-        box-shadow: inset 175px 0 0 0 $color-alpha;
+        box-shadow: inset 175px 0 0 0 rgba($teal-main, 0.7);
         color: $color-white;
       }
     }
@@ -295,6 +296,7 @@
   }
 
   &__container {
+    font-family: $font-accent;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -322,7 +324,7 @@
   display: flex;
   align-items: center;
 
-  font-family: $font-body;
+  font-family: $font-accent;
 
   @media (min-width: $mq-sm) {
     left: 2em;
@@ -375,6 +377,8 @@
   margin: 0 auto;
 
   font-family: $font-post;
+  font-size: 0.93em;
+  line-height: 2em;
 
   @media (min-width: $mq-md) {
     width: 55%;
@@ -387,9 +391,13 @@
 
   h1, 
   h2 {
-    line-height: 1.2;
+    line-height: 1.2em;
     margin-bottom: 15px;
     margin-top: 30px;
+  }
+
+  h2 {
+    color: rgba($teal-base, 0.5);
   }
 
   ul,
@@ -404,11 +412,15 @@
   }
 
   a {
-    border-bottom: 1px solid $color-alpha;
+    border-bottom: 1px dotted $black;
   }
 
   img {
     padding-bottom: 0.75em;
+    &.caption {
+      font-size: 0.7em;
+      line-height: 1em;
+    }
   }
 
   figure {
@@ -581,8 +593,18 @@
 
 /* image handlers */
 
-.full-width img {
-  overflow: hidden;
+.image-include {
+  display: block;
+  > img {
+    overflow: hidden;
+    padding-bottom: 5px;
+  }
+  .image-caption {
+      padding: 0 0 30px;
+      margin-top: 0;
+      font-size: 0.7em;
+      line-height: 1em;
+  }
 }
 
 /* code highlighting */
@@ -600,7 +622,7 @@
   border: none;
 }
   .category_link::hover {
-    color: #7ff18e;
+    color: $teal-01;
   }
 
 .footer__social ul li a {

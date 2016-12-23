@@ -2,11 +2,14 @@
  * Base Variables
  */
 $font-header: 'Space Mono', monospace;
-$font-body: 'Inconsolata', monospace;
-$font-post: 'Lora', serif;
+$font-body: 'Poppins', sans-serif;
+$font-accent: 'Inconsolata', monospace;
+// $font-body: 'Inconsolata', monospace;
+// $font-post: 'Lora', serif;
+$font-post: 'Poppins', sans-serif;
 
-$color-alpha: #9dc1a2;
-$color-alpha--light: #e1f1e3;
+$color-alpha: $teal-main;
+$color-alpha--light: rgba($teal-main, 0.5);
 
 $color-black: #0a0a0a;
 $color-grey: #f8f9f9;
@@ -82,7 +85,7 @@ p {
 }
 
 a {
-  color: $color-link;
+  color: $teal-main;
   text-decoration: none;
   border-bottom: 1px black dotted;
   transition: color 0.4s ease-in-out;
