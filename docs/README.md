@@ -96,6 +96,7 @@ The image name is in the "image: " field of your post header. Put that image in 
 
 Author info lives in /_data/authors.yaml. To add yourself as an author, find that file and copy+paste the fields and fill them out with your info:
 
+```
 jimbob:
   name: Jim Bob
   github: jimbobcode
@@ -103,6 +104,7 @@ jimbob:
   email: jimbob@bela.io
   profile: Some words about you. About 200 characters is enough.
   author-image: jimbob.jpg
+```
 
 ### Make sure you have a picture!
 
