@@ -19,7 +19,8 @@ All the details are below, but let's start with the brief summary. This table ex
 || Bits | Sample Rate (kHz) | Level | Coupling | Conversion latency | Internal aliasing filter?
 | Audio In | 16 | 44.1 | +/- 1V (gain available) | AC | 0.39ms | yes
 | Audio Out | 16 | 44.1 | +/- 1V (gain available) | AC | 0.47ms | yes
-| Analog Out | 16 | 22.05 x 8 44.1 x 4 88.2 x 2 | 0-5V | DC | 10us | no
+| Analog In | 16 | 22.05 x 8 44.1 x 4 88.2 x 2 | 0-4.096V | DC | < 10us | no
+| Analog Out | 16 | 22.05 x 8 44.1 x 4 88.2 x 2 | 0-5V | DC | < 10us | no
 
 The difference is that the audio I/Os are optimised specifically for the demands of audio, where the analogue I/Os are more general-purpose. The capelet will add the necessary circuitry to give you AC coupling and some filtering on the analogue I/Os, making those inputs and outputs usable as extra audio channels.
 
