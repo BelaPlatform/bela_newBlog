@@ -64,6 +64,12 @@ All the details are below, but let's start with the brief summary. This table ex
 	</tr>
 </table>
 
+|| Bits | Sample Rate | Level | Coupling | Conversion latency | Internal aliasing filter?
+| One | Two | Three | Four | Five | Six
+| One | Two | Three | Four | Five | Six
+| One | Two | Three | Four | Five | Six
+| One | Two | Three | Four | Five | Six
+
 The difference is that the audio I/Os are optimised specifically for the demands of audio, where the analogue I/Os are more general-purpose. The capelet will add the necessary circuitry to give you AC coupling and some filtering on the analogue I/Os, making those inputs and outputs usable as extra audio channels.
 
 ## What's on the Bela cape
