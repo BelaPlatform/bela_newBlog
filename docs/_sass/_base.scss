@@ -114,6 +114,31 @@ ol, ul {
   list-style-type: none;
 }
 
+
+table {
+  width: auto;
+  font-size: inherit;
+  border-collapse: collapse;
+  margin: 40px 0;
+  tr:first-child {
+    background: rgba($teal-main, 0.1);
+    font-weight: bolder;
+  }
+  tr:not(:first-child) {
+    border-bottom: 1px solid $grey-light;
+  }
+  td {
+    height: auto;
+    font-family: $font-body;
+    font-size: 80%;
+    color: black;
+    padding: 10px 20px;
+    &:first-child {
+      padding-right: 2em;
+    }
+  }
+}
+
 /**
  * Text Selection
  */

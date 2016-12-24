@@ -37,56 +37,56 @@ $header-color: rgba(0, 0, 0, 0.7);
 }
 
 
-// span.color 
-td
-	{
-	margin: 10px;
-	padding: 20px;
-	width: 60px;	
-	height: 60px;
-	display: inline-block;
-	font-family: space_bold;
-	vertical-align: bottom;
-	color: white;
-	> p {
-		font-size: 1em;
-		line-height: 1.5em;
-		font-family: inherit;
-		color: black;
-		}
-	&.base {
-		background: $teal-base;
-	}
-	&.main {
-		background: $teal-main;
-	}
-	&.accent-1 {
-		background: $teal-01;
-	}
-	&.accent-2 {
-		background: $teal-02;
-	}
-	&.accent-3 {
-		background: $teal-03;
-		> p {
-			z-index: 100;
-			color: rgba($black, 0.5);
-		}
-	}
-	&.trans-8 {
-		opacity: 0.8;
-	}
-	&.trans-6 {
-		opacity: 0.6;
-	}
-	&.trans-4 {
-		opacity: 0.4;
-	}
-	&.trans-2 {
-		opacity: 0.2;
+// // span.color 
+// // td
+// // 	{
+// // 	margin: 10px;
+// // 	padding: 20px;
+// // 	width: 60px;	
+// // 	height: 60px;
+// // 	display: inline-block;
+// // 	font-family: space_bold;
+// // 	vertical-align: bottom;
+// // 	color: white;
+// // 	> p {
+// // 		font-size: 1em;
+// // 		line-height: 1.5em;
+// // 		font-family: inherit;
+// // 		color: black;
+// // 		}
+// 	&.base {
+// 		background: $teal-base;
+// 	}
+// 	&.main {
+// 		background: $teal-main;
+// 	}
+// 	&.accent-1 {
+// 		background: $teal-01;
+// 	}
+// 	&.accent-2 {
+// 		background: $teal-02;
+// 	}
+// 	&.accent-3 {
+// 		background: $teal-03;
+// 		> p {
+// 			z-index: 100;
+// 			color: rgba($black, 0.5);
+// 		}
+// 	}
+// 	&.trans-8 {
+// 		opacity: 0.8;
+// 	}
+// 	&.trans-6 {
+// 		opacity: 0.6;
+// 	}
+// 	&.trans-4 {
+// 		opacity: 0.4;
+// 	}
+// 	&.trans-2 {
+// 		opacity: 0.2;
 
-	}
-	&.trans-1 {
-		opacity: 0.1;
-	}
-}
+// 	}
+// 	&.trans-1 {
+// 		opacity: 0.1;
+// 	}
+// }
