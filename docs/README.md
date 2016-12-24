@@ -27,16 +27,17 @@ author: authorName
 3. Image. See Adding a Post Image.
 4. Author. This should link to your author profile! If you don't already have one, see Making and Editing Your Author Profile.
 5. The content. This is everything underneath the last three dashes. Write your text in plain text, nothing fancy. There's an easy way to add a few things though:
-    - To add an image, use this:
-    {% include single-image.html fileName="06.jpg" %}
+
+    - To add an image, use this:  
+    `{% include single-image.html fileName="06.jpg" %}`  
     the fileName variable will the name of the image you are including. This image should already be in the images folder when you publish your post (~/assets/images).
-    *NEW!* Now you can add image captions. Simply add it as a ``caption=""`` field in your image include. For example:
-    {% include single-image.html fileName="foo.jpg" caption="omg it's a caption" %}
+    *NEW!* Now you can add image captions. Simply add it as a ``caption=""`` field in your image include. For example:  
+    `{% include single-image.html fileName="foo.jpg" caption="omg it's a caption" %}`  
     The contents of the caption attribute will appear below your image. This is a new feature so please report bugs or problems.
     - To embed a youtube video, use this:
     {% include youtube.html youtube="youtubeID" %} 
     the youtube variable should be the YouTube ID of the video you want to embed. Not the whole URL!
-    - To add code: Surround the code with three backticks (`) on a line above and below a code block.
+    - code: Surround the code with three backticks (`) on a line above and below a code block.
     ```
     Then it will look like this! :)
     ```
@@ -96,6 +97,7 @@ The image name is in the "image: " field of your post header. Put that image in 
 
 Author info lives in /_data/authors.yaml. To add yourself as an author, find that file and copy+paste the fields and fill them out with your info:
 
+```
 jimbob:
   name: Jim Bob
   github: jimbobcode
@@ -103,6 +105,7 @@ jimbob:
   email: jimbob@bela.io
   profile: Some words about you. About 200 characters is enough.
   author-image: jimbob.jpg
+```
 
 ### Make sure you have a picture!
 
