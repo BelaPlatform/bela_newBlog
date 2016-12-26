@@ -2,17 +2,20 @@
  * Base Variables
  */
 $font-header: 'Space Mono', monospace;
-$font-body: 'Inconsolata', monospace;
-$font-post: 'Lora', serif;
+$font-body: 'Poppins', sans-serif;
+$font-accent: 'Inconsolata', monospace;
+// $font-body: 'Inconsolata', monospace;
+// $font-post: 'Lora', serif;
+$font-post: 'Poppins', sans-serif;
 
-$color-alpha: #9dc1a2;
-$color-alpha--light: #e1f1e3;
+$color-alpha: $teal-main;
+$color-alpha--light: rgba($teal-main, 0.5);
 
 $color-black: #0a0a0a;
 $color-grey: #f8f9f9;
 $color-white: #fff;
 $color-link: #6fc475;
-$color-linkActive: #aaa;
+$color-linkActive: $teal-01;
 
 $mq-xs: 20em;
 $mq-sm: 30em;
@@ -82,7 +85,7 @@ p {
 }
 
 a {
-  color: $color-link;
+  color: $teal-main;
   text-decoration: none;
   border-bottom: 1px black dotted;
   transition: color 0.4s ease-in-out;
@@ -109,6 +112,31 @@ ol, ul {
   padding: 0;
 
   list-style-type: none;
+}
+
+
+table {
+  width: auto;
+  font-size: inherit;
+  border-collapse: collapse;
+  margin: 40px 0;
+  tr:first-child {
+    background: rgba($teal-main, 0.1);
+    font-weight: bolder;
+  }
+  tr:not(:first-child) {
+    border-bottom: 1px solid $grey-light;
+  }
+  td {
+    height: auto;
+    font-family: $font-body;
+    font-size: 80%;
+    color: black;
+    padding: 10px 20px;
+    &:first-child {
+      padding-right: 2em;
+    }
+  }
 }
 
 /**

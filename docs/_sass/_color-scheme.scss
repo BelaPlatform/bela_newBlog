@@ -1,0 +1,92 @@
+$white: #ffffff;
+$black: #000000;
+
+// Base Material palette teal:
+$teal-base: #009587;
+
+// Main Bela color:
+$teal-main: #00bea4; //rgb(0,190,164)
+$teal-main-rgb: "0,190,164";
+
+// Increasingly brighter - for rollovers:
+$teal-01: #1ce8b5; //rgb(28,232,81)
+$teal-02: #63ffd9;
+$teal-03: #a6ffea;
+
+$text-heading: rgba($black, 0.7);
+
+$grey-ultralight: rgba($black, 0.05);
+$grey-light: rgba($black, 0.1);
+$grey-mid: #bdbdbd;
+
+$grey-tabs: #c9c9c9;
+
+$grey-editorbg: #eeeeee;
+
+$grey-toolbar: #bcbcbc;
+
+$amber-accent: #f26d21;
+
+$header-color: rgba(0, 0, 0, 0.7);
+
+@mixin background-hue($color) {
+}
+
+#color {
+	
+}
+
+
+// // span.color 
+// // td
+// // 	{
+// // 	margin: 10px;
+// // 	padding: 20px;
+// // 	width: 60px;	
+// // 	height: 60px;
+// // 	display: inline-block;
+// // 	font-family: space_bold;
+// // 	vertical-align: bottom;
+// // 	color: white;
+// // 	> p {
+// // 		font-size: 1em;
+// // 		line-height: 1.5em;
+// // 		font-family: inherit;
+// // 		color: black;
+// // 		}
+// 	&.base {
+// 		background: $teal-base;
+// 	}
+// 	&.main {
+// 		background: $teal-main;
+// 	}
+// 	&.accent-1 {
+// 		background: $teal-01;
+// 	}
+// 	&.accent-2 {
+// 		background: $teal-02;
+// 	}
+// 	&.accent-3 {
+// 		background: $teal-03;
+// 		> p {
+// 			z-index: 100;
+// 			color: rgba($black, 0.5);
+// 		}
+// 	}
+// 	&.trans-8 {
+// 		opacity: 0.8;
+// 	}
+// 	&.trans-6 {
+// 		opacity: 0.6;
+// 	}
+// 	&.trans-4 {
+// 		opacity: 0.4;
+// 	}
+// 	&.trans-2 {
+// 		opacity: 0.2;
+
+// 	}
+// 	&.trans-1 {
+// 		opacity: 0.1;
+// 	}
+// }
