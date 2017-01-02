@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Making an Audio Lightsaber"
-date: 2016-11-28
+title: "Building an Audio Lightsaber"
+date: 2016-11-22
 categories:
   - "Hardware"
   - "Sound Design"
@@ -28,7 +28,7 @@ The two sensors that we use in this project are the piezo disk and the accelerom
 
 The accelerometer is hooked up to Bela as shown in this circuit diagram and should also be attached inside the tube. This sensor gives us three signals that represent the movement of the tube, x, y and z. In the Pure Data patch we are integrating these signals to calculate the overall velocity of the tube and using this to drive the electrical hum part of the sound model. The final piece of the puzzle is a speaker to add at the top of tube. We used an 8 Ohm speaker similar to [this one](https://www.rapidonline.com/visaton-bg-13-17-20-p-round-full-range-speakers-8-ohm-554247), however the most important thing is to find one that matches the diameter of your tube. This makes fixing the speaker to the tube much easier -- we used cable ties to attach ours in the first prototype. 
 
-{% include single-image.html fileName="saber_2.jpg" %}
+{% include single-image.html fileName="saber_2.jpg" caption="The code for the saber comes as an example project with Bela and can be found here: examples/10-Instruments/saber." %}
 
 ## Sound Design
 
@@ -40,20 +40,20 @@ The sound engine that we created in Pure Data consists of two main parts, the sh
 
 Shortly after the intial prototype Ho Huen from the electronics lab at Queen Mary University of London redesigned the saber to incorporate flashing in lights (in both red and blue), a new laser cut holder for the Bela board and battery and speaker that slides perfectly into the new perspex tube. Ho also designed a little breakout board that combines the accelerometer and piezo inputs to make them easier to run down the tube.
 
-{% include single-image.html fileName="saber_hilt.jpg" %}
+{% include single-image.html fileName="saber_hilt.jpg" caption="The first redesign of the saber hilt with a retractable cradle for Bela and battery." %}
 
-{% include single-image.html fileName="saber_school.jpg" %}
+{% include single-image.html fileName="saber_school.jpg" caption="Pushing the sabers to their limits at Sutton Big Bang Science Fair 2016." %}
 
 Here are some pictures of the next prototype. The goal is to remake the lightsaber into a more lightweight version with brighter lights that can withstand even the most intense duelling.
 
-{% include single-image.html fileName="saber_ho_1.jpg" %}
+{% include single-image.html fileName="saber_ho_1.jpg" caption="The second redesign of the saber hilt including master power switch with LED and pot for adjusting the LED brightness of the blade." %}
 
-{% include single-image.html fileName="saber_ho_2.jpg" %}
+{% include single-image.html fileName="saber_ho_2.jpg" caption="Combining piezo and accelerometer with mini break-out board." %}
 
-{% include single-image.html fileName="saber_ho_3.jpg" %}
+{% include single-image.html fileName="saber_ho_3.jpg" caption="The redesigned hilt from another angle." %}
 
 ## Portable Version: the Vangelisiser
 
 When showcasing Bela we quickly realised that the lightsaber was not the easiest demo to move around. Using the same components we created a minature version of the lightsaber that is able to fit into a rucksack and premiered at Sonar 2016. The result is the vangelisiser, with sound design inspired by the one and only Vangelis. Have a listen below.
 
-{% include single-image.html fileName="saber_new.jpg" %}
+{% include single-image.html fileName="saber_new.jpg" caption="The vangelisisers on show at Sonar 2016."%}

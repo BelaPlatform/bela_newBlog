@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bela: analogue vs audio"
-date: 2016-04-07
+date: 2016-11-07
 categories:
   - "Hardware"
 description: "Details on analogue and audio channels on Bela, with respect to timing, noise and aliasing performance"
@@ -94,7 +94,7 @@ The Bela cape also has two speaker amplifiers ([LM4876](http://www.ti.com/lit/ds
 
 ## The Bela Audio Expander Capelet
 
-We designed an Audio Expander Capelet which converts the analogue I/Os into extra audio inputs and outputs. With this capelet you can have up to 6 total audio inputs and 6 outputs, all sampled together at 44.1kHz. Alternatively, you can go up to 10 inputs and 10 outputs, with 8 of those sampled at 22.05kHz.
+We designed an Audio Expander Capelet which converts the analogue I/Os into extra audio inputs and outputs. With this capelet you can have up to 6 total audio inputs and 6 outputs, all sampled together at 44.1kHz. Alternatively, you can go up to 10 inputs and 10 outputs, with 8 of those sampled at 22.05kHz. This capelet is now available to buy from [shop.bela.io](https://shop.bela.io/).
 
 To use the analogue I/Os as extra audio channels, then, we need to do three things. First, we need to provide **AC coupling** so we can send and receive bipolar (positive and negative) audio signals. Second, we need to add some extra **analogue filtering** to make up for the lack of onboard digital filtering in the SAR ADC and string DAC. Third, we need to match levels between the analogue and audio converters, which can be done in either hardware of software.
 
