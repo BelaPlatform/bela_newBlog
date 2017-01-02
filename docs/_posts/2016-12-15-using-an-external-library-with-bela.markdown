@@ -4,6 +4,7 @@ title: "Using an external library within a Bela project"
 date: 2016-12-15
 categories:
   - Software
+  - Tutorials
 description: "How to access the functionalities of an external library from within your Bela project."
 image: external-libraries.png
 author: giulio
