@@ -10,8 +10,6 @@ image: external-libraries.png
 author: giulio
 ---
 
-# External libraries
-
 Bela is a full-fledged Linux computer and a Bela program is no different from a standard Linux program so in principle you can access any library that is available on Linux from within your Bela project.
 In this tutorial we will see two examples of how that can be done.
 

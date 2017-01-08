@@ -11,10 +11,6 @@ image: percussion-instrument.jpg
 author: robert
 ---
 
-# The tile instrument
-
-## Building a low latency percussion instrument with ceramic tiles, piezo disks, and Bela
-
 In this post we're looking at building percussion instruments with Bela. Latency (the delay between hitting an instrument and hearing it) is a pretty big issue when it comes to percussion instruments and, as any drummer will know, it can be quite distracting when you are trying to play rhythmically complex music. The percussion instrument we have made detects strikes using piezo elements connected to the eight analog inputs on the Bela board. This can give us very low latency (around 1ms) making the instrument feel like it's responding right under your fingertips. We wanted a nice hard playing surface for this instrument and so decided to make the control interface from eight ceramic tiles of different sizes. Each of the tiles has a piezo element attached to the back to detect vibrations in the tile which then triggers the playback of a sample. Here's a video of us testing the first prototype:
 
 {% include youtube.html youtube="XejcHPECBUU" %}

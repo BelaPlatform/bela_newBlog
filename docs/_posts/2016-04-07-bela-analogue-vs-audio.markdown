@@ -8,7 +8,6 @@ description: "Details on analogue and audio channels on Bela, with respect to ti
 image: bela-analogue-vs-audio.jpg
 author: andrew
 ---
-# Bela: analogue vs audio
 
 ## Summary: Advantages and Disadvantages
 

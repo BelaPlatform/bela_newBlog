@@ -10,8 +10,6 @@ image: darknrg.jpg
 author: giulio
 ---
 
-# Interfacing with analog synths
-
 In this video we put Bela through its paces in combination with an analog synth. We are running a Pure Data project on the board which we update on the fly and are patching the analog outputs of Bela to the CV ins of a [Doepfer Dark Energy II](http://www.doepfer.de/Dark_Energy_II_e.htm). This video just scratches the surface of what’s possible when Bela is used to control an analog synth or when an analog synth is used to control Bela. It's a good introduction for anyone who is wondering what can be done with the board out-of-the-box, and shows how easily a Bela-based Eurorack module would be to get up and running. Bela has stereo audio in and out plus eight analog inputs and outputs and so has enormous capacity for interfacing with modular synths, but there are a few things to bear in mind before getting started.
 
 {% include youtube.html youtube="xAYvp6fVWBM" %}
@@ -34,4 +32,4 @@ The video also includes a demonstration of how to take CV out from the analog sy
 
 ## Eurorack
 
-If you're interested in how Bela could be used as the basis of a Eurorack module then then it's worth looking at this extensive discussion on the Bela forum: [https://forum.bela.io/d/30-eurorack-input](https://forum.bela.io/d/30-eurorack-input).
+If you're interested in how Bela could be used as the basis of a Eurorack module then it's worth looking at this extensive discussion on the Bela forum: [https://forum.bela.io/d/30-eurorack-input](https://forum.bela.io/d/30-eurorack-input).
