@@ -12,12 +12,40 @@ image: hacking.jpg
 author: andrew
 ---
 
-The D-Box was the first instrument ever made with Bela and is a digital musical instrument intended to be repurposed and rewired by the performer in unusual ways. It was created by Andrew McPherson and Victor Zappi and gave birth to BeagleRT, the project that would go on to become Bela. It was designed to be initially simple and constrained, but to allow the performer hack and subvert these constraints using circuit bending techniques. For more information about the rationale behind the D-box and the internal wirings of the instrument itself see [here](http://www.eecs.qmul.ac.uk/~andrewm/hackable.html).
+The D-Box was where it all began: the first instrument ever made with Bela, and the reason Bela was created in the first place!
 
-Below are some videos of the D-Box in action:
+The D-Box is a hackable digital musical instrument: an instrument designed for the performer to modify and repurpose it in unexpected, possibly idiosyncratic ways. It was developed by Victor Zappi and Andrew McPherson as a study in performer *appropriation* of music technology, on the EPSRC-funded [Hackable Instruments](http://www.eecs.qmul.ac.uk/~andrewm/hackable.html) project (2013-14).
+
+To appropriate an object is to come to a personal working relationship with it, which might differ from the designer's original intent. Appropriation is frequently seen throughout music history, as some of the most transformative uses of musical instruments have been ones that run counter to the instrument's original purpose: jazz saxophone technique differs substantially from the original 19th century classical technique; distortion and feedback on the electric guitar were engineering problems before they became the sound of rock and roll; the turntable was a home playback device before it became a live looping instrument in the hands of DJs. However, this kind of unexpected use rarely figures directly into the design and evaluation of the latest digital musical instruments.
+
+To investigate appropriation of digital instruments, we took a page from the practice of *circuit bending*, where experimental musicians rewire electronic devices in exploratory ways to produce glitchy and unusual sounds. The D-Box is an instrument which, though based on digital audio synthesis, nonetheless allows the performer to modify it using circuit bending techniques. Here is a video of the D-Box in action:
 
 {% include youtube.html youtube="JOAO-EUtrGQ" %}
+
+Though the exterior of the instrument is simple -- a wooden cube with two capacitive touch sensors and a speaker -- inside is a sophisticated analog and digital system based on Bela. In addition to the BeagleBone Black, Bela cape and battery, cracking open the side of the box reveals a breadboard populated with wires and electronic components which can be changed by the user:
+
+{% include single-image.html fileName="dbox_1.jpg" caption="The D-Box, with the side panel exposed to show the rewirable breadboard." %}
+
+The behaviour of the D-Box is determined by low-latency feedback loops between hardware and software (described in [this paper](http://www.nime.org/proceedings/2015/nime2015_258.pdf)). The loops exhibit nonlinear and sometimes chaotic behaviour, so that changing the circuits on the board can have unpredictable yet generally repeatable effects. The goal of this design was to create an instrument whose space of sonic possibilities was not limited by the original imagination of the designers: the performer can discover effects and behaviours that were never explicitly consider in the original design.
+
+The D-Box has been used in a number of workshops, including a pair of public 2015 workshops used as part of an investigation of exploratory play in music technology (see [this paper](http://eprints.nottingham.ac.uk/33165/1/dbox_rev.pdf)). A limited number of D-Box kits were available as rewards on the Bela Kickstarter campaign.
+
+Many of the features that later came to define Bela originated from the needs of the D-Box. Bela's ultra-low-latency audio environment, its synchronous sampling of audio and sensors and its 16-bit analog I/Os were all created to support the feedback loops on the D-Box breadboard; the speaker amplifiers on the Bela cape also reflect the original need for the D-Box to be a self-contained instrument with a built-in speaker.
+
+Since the D-Box, Bela has expanded in capability and ease of use, but the core technical design decisions remain in play. Because of its history, we can legitimately say that Bela was designed from day one with digital musical instruments in mind.
+
+More videos of the D-Box in action:
 
 {% include youtube.html youtube="wwjWiWRFt5E" %}
 
 {% include youtube.html youtube="8Swv_4AYR0Y" %}
+
+Papers:
+
+*V. Zappi and A. McPherson. Design and use of a hackable digital instrument. Proc. Live Interfaces, Lisbon, Portugal, 2014.* [PDF](http://www.eecs.qmul.ac.uk/~andrewm/zappi_icli14.pdf)
+
+*A. McPherson and V. Zappi. Exposing the scaffolding of digital instruments with hardware-software feedback loops. Proc. New Interfaces for Musical Expression, Baton Rouge, LA, USA, 2015.* [PDF](https://nime2015.lsu.edu/proceedings/258/0258-paper.pdf)
+
+*V. Zappi and A. McPherson. The D-Box: how to rethink a digital musical instrument. Proc. ISEA, Vancouver, BC, Canada, 2015.* [PDF](http://isea2015.org/proceeding/submissions/ISEA2015_submission_209.pdf)
+
+*A. McPherson, A. Chamberlain, A. Hazzard, S. McGrath and S. Benford. Designing for exploratory play with a hackable digital musical instrument. Proc. DIS, Brisbane, Australia, 2016.* [PDF](http://eprints.nottingham.ac.uk/33165/1/dbox_rev.pdf)

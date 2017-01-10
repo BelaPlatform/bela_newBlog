@@ -9,21 +9,30 @@ image: steim-7.jpg
 author: andrew
 ---
 
-In August 2016 a three-day workshop was organised at [STEIM](http://steim.org/) (Amsterdam), a renowned centre for experimental music. STEIM was chosen for its influence in the DMI community and for the interest that several members had expressed in Bela. Eight experienced DMI creators participated to the event, with two Bela creators acting as technical facilitators and two other researchers collecting documentary evidence. The goal of the workshop was for each DMI creator to port their existing instrument design to Bela.
+In August 2016, we organised a three-day workshop in collaboration with [STEIM](http://steim.org/), a renowned centre for experimental music in Amsterdam. 
 
-{% include single-image.html fileName="steim-1.jpg" caption="Caption goes here" %}
+The idea for the workshop came from a discussion at the [Musical Organics](http://www.sonicwriting.org/steim.html) Symposium organised by [Thor Magnusson](http://www.ixi-audio.net/thor/) at STEIM in May 2016. The purpose of the workshop was for digital musical instrument (DMI) creators to port existing instrument designs to Bela. Eight experienced DMI creators participated, with two members of the Bela team (Andrew and Giulio) acting as technical facilitators and two other researchers (Fabio Morreale of the C4DM [Augmented Instruments Lab](http://www.eecs.qmul.ac.uk/~andrewm), QMUL and Alan Chamberlain of the [Mixed Reality Laboratory](https://www.nottingham.ac.uk/research/groups/mixedrealitylab/), University of Nottingham) collected documentary evidence for a CHI 2017 paper.
 
-The workshop started with participants presenting their instrument (pre-Bela) to the group, including a description and short demo performance if the instrument was in a working state. The facilitators then introduced Bela and supplied each participant with a Bela kit. After a hands-on tutorial that got participants acquainted with the hardware and programming tools they would need for the rest of the workshop, the activity shifted to instrument-making. Finally, at the end of the last day, participants were invited to give a final demonstration of their newly-ported instrument. 
+{% include single-image.html fileName="steim-1.jpg" caption="Andrew and Giulio help STEIM workshop participants get started with Bela." %}
 
+The workshop started with participants presenting their instrument (pre-Bela) to the group, including a description and in some cases a short demo performance. The facilitators then introduced Bela and supplied each participant with a Bela kit. After a hands-on Bela tutorial, the activity for the remainder of the time shifted to instrument-making. At the end of the last day, participants were invited to give a final demonstration of their newly-ported instrument. 
 
-Participants: [Marije Baalman](https://www.marijebaalman.eu/), [Till Bovermann](http://tai-studio.org/), [Tijs Ham](http://tapage-sound.com/), [Mark Ijzerman](http://markijzerman.com/), [Tom Mudd](http://www.tommudd.co.uk/), [Jonathan Reus](http://jonathanreus.com/), [Fedde ten Berge](http://www.feddetenberge.nl/), [Dianne Verdonk](https://dianneverdonk.wordpress.com/).
+The participants in the workshop were [Marije Baalman](https://www.marijebaalman.eu/), [Till Bovermann](http://tai-studio.org/), [Tijs Ham](http://tapage-sound.com/), [Mark Ijzerman](http://markijzerman.com/), [Tom Mudd](http://www.tommudd.co.uk/), [Jonathan Reus](http://jonathanreus.com/), [Fedde ten Berge](http://www.feddetenberge.nl/) and [Dianne Verdonk](https://dianneverdonk.wordpress.com/).
 
-{% include single-image.html fileName="steim-2.jpg" caption="Caption goes here" %}
+{% include single-image.html fileName="steim-2.jpg" caption="Mark IJzerman and Dianne Verdonk assemble hardware for their instruments." %}
 
-{% include single-image.html fileName="steim-3.jpg" caption="Caption goes here" %}
+5 of the 8 instruments used SuperCollider on Bela, support for which was added by Marije Baalman and Dan Stowell with help from Till Bovermann and Giulio Moro. 2 of the 8 instruments used Pd and 1 used C++. Over the course of three days, participants worked with each other and with the facilitators to get their instruments up and running. Marije and Till also worked on supporting and documenting various capabilities of Bela SuperCollider, including tutorials on using [rotary encoders](http://tai-studio.org/2016/08/12/bela-rotary.html) and [serial communication](http://tai-studio.org/2016/08/12/bela-capsense.html).
 
-{% include single-image.html fileName="steim-6.jpg" caption="Caption goes here" %}
+A paper on the workshop and its relationship to the growing Bela community will be presented at the [CHI 2017](http://chi2017.acm.org) conference in May 2017: 
 
-{% include single-image.html fileName="steim-4.jpg" caption="Caption goes here" %}
+*F. Morreale, G. Moro, A. Chamberlain, S. Benford and A. McPherson. Building a maker community around an open hardware platform. Proc. CHI, Denver, USA, 2017.*
 
-{% include single-image.html fileName="steim-5.jpg" caption="Caption goes here" %}
+Below are some photos from the workshop. More info on the instruments and their continuing use will be featured on this blog as time goes on!
+
+{% include single-image.html fileName="steim-3.jpg" caption="Testing a Bela setup using sensors, MIDI input and the speaker amplifiers on the Bela cape." %}
+
+{% include single-image.html fileName="steim-6.jpg" caption="La Diantenne, a pitched percussion instrument by Dianne Verdonk, was ported to Bela during the workshop." %}
+
+{% include single-image.html fileName="steim-4.jpg" caption="The Scrempler, a SuperCollider-based live sampling instrument by Marije Baalman, was ported to Bela during the workshop." %}
+
+{% include single-image.html fileName="steim-5.jpg" caption="Wearable instrument tech using Bela by Jonathan Reus." %}
