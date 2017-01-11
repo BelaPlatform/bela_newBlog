@@ -174,7 +174,7 @@ In order to get started with the project, you need to:
 If you hit the "run" button at this point, then you will get the following error:
 
 ```
-Building PyoClass.cpp...i
+Building PyoClass.cpp...
 Build finished
 In file m_pyo.h: 'Python.h' file not found column: 10, line: 2
 ```
