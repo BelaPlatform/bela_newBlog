@@ -4,6 +4,7 @@ title: "Bela: analogue vs audio"
 date: 2016-11-07
 categories:
   - "Hardware"
+  - "Tutorials"
 description: "Details on analogue and audio channels on Bela, with respect to timing, noise and aliasing performance"
 image: bela-analogue-vs-audio.jpg
 author: andrew
