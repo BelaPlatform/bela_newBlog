@@ -32,4 +32,4 @@ The video also includes a demonstration of how to take CV out from the analog sy
 
 ## Eurorack
 
-If you're interested in how Bela could be used as the basis of a Eurorack module then it's worth looking at this extensive discussion on the Bela forum: [https://forum.bela.io/d/30-eurorack-input](https://forum.bela.io/d/30-eurorack-input).
+If you're interested in how Bela could be used as the basis of a Eurorack module then it's worth reading through this extensive discussion on the Bela forum: [https://forum.bela.io/d/30-eurorack-input](https://forum.bela.io/d/30-eurorack-input).

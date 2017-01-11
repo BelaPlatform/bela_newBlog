@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using an external library within a Bela project"
-date: 2017-01-11
+date: 2017-01-04
 categories:
   - Software
   - Tutorials
@@ -40,7 +40,7 @@ The actual pre-compiled binaries that make up the library are only needed at lin
 
 In order to use a library in a Bela project, you first have to install the library, then `#include` the appropriate headers in your source files and - last - make sure that the linker links it in.
 
-## Get it
+## How to get it
 
 ### Using `apt`
 
@@ -71,7 +71,7 @@ In many cases, the developers provide a set of step-by-step instructions on how 
 If this is the case, the instructions are working and up-to-date, and the dependencies are easily available, then building the libary from source may require copy/pasting a few instructions and wait a couple of minutes.
 Unfortunately this is not always the case, but it is always worth giving it a try.
 
-## Use it 
+## How to use it 
 
 By now you should have your library on the system and you want to use it in your project.
 
