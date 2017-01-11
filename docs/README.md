@@ -45,6 +45,12 @@ The reason I've implemented these includes is that they make embedding easy, the
 
 (There are also a couple of includes coming to lay out images two side by side, and three side by side - this is not a trivial task to make everything responsive, so give me a bit of time with it. If you need other things for including content, let me know and I'll write them!) 
 
+To write a comment that should not be displayed in the generated HTML (e.g.: a TODO), you can do as follows:
+
+```
+[comment]: <> (TODO: include examples of dynamic loader errors)
+```
+
 ### But how do I make something bold/italic/a link in markdown?
 
 It's easy and intuitive, and the whole reference is here:
