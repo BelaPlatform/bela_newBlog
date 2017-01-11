@@ -612,10 +612,19 @@
 
 /* code highlighting */
 
+/* block code */
+
 .highlight {
   background: #ddd;
   padding: 0.5em;
   border-radius: 0.5em;
+}
+
+/* inline code */
+
+code.highlighter-rouge {
+  background: #eaeaea;
+  border-radius: 5px;
 }
 
 /* link in post head to other categories */
