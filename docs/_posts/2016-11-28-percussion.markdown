@@ -11,7 +11,9 @@ image: percussion-instrument.jpg
 author: robert
 ---
 
-In this post we'll discuss building percussion instruments with Bela. Bela is a great platform for making self-contained digital musical instruments and particularly well suited to percussion instruments due the low levels of action-sound latency that can be achieved with the platform. Latency (the delay between hitting an instrument and hearing it) is a big issue when it comes to digital percussion instruments and, as any drummer will know, it can be quite distracting when you are trying to play rhythmically complex music. 
+In this post we'll discuss building percussion instruments with Bela. 
+
+Bela is a great platform for making self-contained digital musical instruments and particularly well suited to percussion instruments due the low levels of action-sound latency that can be achieved with the platform. Latency (the delay between hitting an instrument and hearing it) is a big issue when it comes to digital percussion instruments and, as any drummer will know, it can be quite distracting when you are trying to play rhythmically complex music. 
 
 The percussion instrument we have made detects strikes using piezo elements connected to the eight analog inputs on the Bela board. This can give us very low latency (around 1ms) making the instrument feel like it's responding right under your fingertips. We wanted a nice hard playing surface for this instrument and so decided to make the control interface from eight ceramic tiles of different sizes. Each of the tiles has a piezo element attached to the back to detect vibrations in the tile which then triggers the playback of a sample. Here's a video of us testing the first prototype:
 
