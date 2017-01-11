@@ -19,9 +19,9 @@ The percussion instrument we have made detects strikes using piezo elements conn
 
 ## Piezo disks with Bela
 
-Piezo disks generate a voltage when they are deformed and are great sensors for making drum triggers or detecting knocks or changes in pressure in solid objects. One way of connecting the piezo disks to Bela is to use a simple voltage divider circuit using two equally valued resistors. The analog inputs on the Bela board have a voltage range of 0-4.096V. If we were to connect the piezo directly to the analog input we would end up clipping the negative part of the piezo signal (half-wave rectification). 
+Piezo disks generate a voltage when they are deformed and are great sensors for making drum triggers or detecting knocks or changes in pressure in solid objects. One way of connecting the piezo disks to Bela is to use a simple voltage biasing circuit using two equally valued resistors. The analog inputs on the Bela board have a voltage range of 0-4.096V. If we were to connect the piezo directly to the analog input we would end up clipping the negative part of the piezo signal (half-wave rectification). 
 
-By using the voltage divider we realign the zero point of the piezo signal up to around 2V, which gives us enough headroom to read both the positive and negative part of the piezo signal. Here’s an image of the voltage divider circuit for three piezo disks: in our circuit we used two 2.2 MOhm resistors for each piezo disk. If you'd like to learn more about voltage dividers take a look at the documentation for the LDR example that comes on the board: [examples/06-Sensors/LDR](https://github.com/BelaPlatform/Bela/blob/master/examples/06-Sensors/LDR/render.cpp).
+By using the voltage biasing circuit we realign the zero point of the piezo signal up to around 2V, which gives us enough headroom to read both the positive and negative part of the piezo signal. Here’s an image of the voltage divider circuit for three piezo disks: in our circuit we used two 2.2 MOhm resistors for each piezo disk.
 
 {% include single-image.html fileName="percussion-fritzing.jpg" %}
 
@@ -29,12 +29,10 @@ By using the voltage divider we realign the zero point of the piezo signal up to
 
 Once we have our signal coming in via the analog inputs we perform a peak detection routine on the signal to identify when a strike occurs on one of the tiles. To make this easier we first perform some signal conditioning and smoothing to the signal (DC offset filter, full wave rectification and a moving average filter). Once the signal is looking more uniform we then use a peak detection algorithm which detects strikes on each of the tiles by looking for a downward trend in the sensor data when the incoming value is above a minimum threshold. 
 
-Once a peak is detected the amplitude of the strike is measured and then assigned to a sample appropriate to the tile. Our synthesis engine is capable of 40 different voices with an oldest-out voice stealing algorithm if all voices became allocated to allow for fast repeated strikes. A single voice version of the code comes as an example with Bela: [examples/04-Audio/sample-piezo-trigger](https://github.com/BelaPlatform/Bela/tree/master/examples/04-Audio).
+Once a peak is detected the amplitude of the strike is measured and then assigned to a sample appropriate to the tile. Our synthesis engine is capable of 40 different voices with an oldest-out voice stealing algorithm, to allow for fast repeated strikes if all voices became allocated. A single voice version of the code comes as an example with Bela: [examples/04-Audio/sample-piezo-trigger](https://github.com/BelaPlatform/Bela/tree/master/examples/04-Audio).
 
 This was all written in C++ using the browser-based IDE. The scope was an invaluable feature for debugging. When conditioning the signal we were able to watch the raw input signal simultaneously with a filtered version of itself and also to visualise the exact moment when a note was triggered, all from the browser.
 
 Here's a short video the second prototype instrument being played:
 
 {% include youtube.html youtube="be8dB2JmQl4" %}
-
-{% include single-image.html fileName="percussion-instrument.jpg" %}
