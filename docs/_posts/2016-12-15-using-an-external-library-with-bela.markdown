@@ -15,14 +15,14 @@ When writing a computer program, most of the time you will not have to write all
 Bela is a full-fledged Linux computer and a Bela program is no different from a standard Linux program so in principle you can access any library that is available on Linux from within your Bela project.
 In this tutorial we will see two examples of how that can be done.
 
-### A word of warning
+## A word of warning
 
 While you can use standard Linux libraries with Bela, you should be careful about using calls to these libraries from within your Bela audio code.
 As a general rule, you should not use in the audio callback (e.g.: Bela's `render()` function) any functions or methods that have an unbound execution time, for instance: functions that may perform system calls, or memory reallocation, or algorithms that do not have a constant complexity. [Here](http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing) is a more exhaustive list of things you should NOT do in the audio thread.
 
 NOTE: some of the steps below will require your BeagleBone to be connected to the internet. The most straightforward way to do so is connecting it via the ethernet cable to a home router. Other options involve [wifi dongles](https://github.com/BelaPlatform/Bela/wiki/Connecting-Bela-to-wifi), or sharing your computer's connection over the ethernet over USB connection. The latter is very much depending on your host operating system, so just [google it](https://www.google.com/?q=share+wifi+over+ethernet).
 
-## What is a library?
+# What is a library?
 
 The internet is full of answers to this question, we very briefly review here some basic concepts.
 
@@ -35,13 +35,13 @@ Libraries are usually composed of one or more header files and one or more pre-c
 The header files are used by your `.c` or `.cpp` files to know about the existance of classes, methods, functions, variables, so that they compile correctly.
 The actual pre-compiled binaries that make up the library are only needed at linking time, so that the linker can find the symbols.
 
-## How to use a library on Bela
+# How to use a library on Bela
 
 In order to use a library in a Bela project, you first have to install the library, then `#include` the appropriate headers in your source files and - last - make sure that the linker links it in.
 
-### Get it
+## Get it
 
-#### Using `apt`
+### Using `apt`
 
 Bela runs Debian (a distribution of Linux), which comes with, `apt`, a command-line package manager which can be used to install a large selection of pre-compiled libraries.
 If your library is available for Debian throught `apt`, then installing it will require a few easy steps. Note that you will need to be connected to the internet and run `apt-get update` before you go through the following steps.
@@ -59,7 +59,7 @@ apt-get install PACKAGENAME
 ```
 
 
-#### Without `apt`
+### Without `apt`
 
 There are many cases when the library is not available through `apt`, or `apt` is providing an older version of the library.
 In these cases the libary developers/maintainers may provide a binary compiled for ARM Linux hard-float (Bela's architecture).
@@ -70,11 +70,11 @@ In many cases, the developers provide a set of step-by-step instructions on how 
 If this is the case, the instructions are working and up-to-date, and the dependencies are easily available, then building the libary from source may require copy/pasting a few instructions and wait a couple of minutes.
 Unfortunately this is not always the case, but it is always worth giving it a try.
 
-### Use it 
+## Use it 
 
 By now you should have your library on the system and you want to use it in your project.
 
-#### Include it
+### Include it
 
 You will have one or more source files that need to know about the library's API in order to be able to use it. For instance, the compiler needs to know that a function or a global variable is defined somewhere else, otherwise it will throw an error.
 Remember that the compiler needs to know, e.g.: what methods a class has, how much space in memory an object will take, what global variables are defined, so it needs to know about the interface of the library, which is usually specified in a header file with extension `.h`, provided as part of the source code of the library.
@@ -83,7 +83,7 @@ In order to make the compiler aware of the library, you would then have to  use 
 Anyhow, a good starting guess is:
 
 ```
-#include <LIBRARYNAME.h>
+include <LIBRARYNAME.h>
 ```
 but you should check the documentation if this does not work as expected.
 The angled brackets (`<...>`) notation used for `#include` means that the compiler will look for a file with that name in the include search folders. By default, these typically include `/usr/local/include` and `/usr/include` (and `/root/Bela/include` for a Bela project!). Any library installed via `apt-get` will probably add their header files to those same folders and as such it should work out of the box.
@@ -101,7 +101,7 @@ CPPFLAGS=-I/root/LIBRARYNAME/include;
 
 [comment]: <> (TODO: include examples of compiler errors)
 
-#### Link it
+### Link it
 
 The last stage of the build process is the "linking", where the linker collects all the intermediate object files generated by compiling each individual source file, resolves external symbols (including the ones belonging to the library!) and produces your executable binary output file.
 You must tell the linker you want to use the library, so that it knows it should look into it for any unresolved symbols.
@@ -141,7 +141,7 @@ However, more often than not - especially if you used `apt-get` to install the l
 
 [comment]: <> (TODO: include examples of linker errors (undefined symbol, library not found))
 
-#### Last catch: runtime error
+### Last catch: runtime error
 
 With the instructions above, your project will compile and link fine and will generate an executable which the IDE will run for you.
 However unlikely, you may incur in a runtime error: if you are using a dynamic library and the dynamic loader cannot find the library's binary file (the `.so` file), then the program will refuse to run.
@@ -155,7 +155,7 @@ ldconfig /path/to/binary/folder
 
 [comment]: <> (TODO: include examples of dynamic loader errors)
 
-## A practical example: pyo
+# A practical example: pyo
 
 `pyo` is a Python module written in C to help DSP script creation and it is one of the way you can process audio and sensors signal on Bela.
 The module was developed by [Olivier Bélanger](http://olivier.ajaxsoundstudio.com/), who also contributed a [wrapper](https://github.com/belangeo/pyo-bela) to get `pyo` run on Bela.
@@ -182,7 +182,7 @@ this error is thrown by the compiler while pre-compiling the file `PyoClass.cpp`
 If you open the file in the IDE, you can see it contains the following line:
 
 ```
-#include "Python.h"
+include "Python.h"
 ```
 
 but the compiler cannot find the file `Python.h` because it is not located in one of the standard include paths, rather it is in `/usr/include/python2.7`, so you will have to specify in the "Make parameters" box:
@@ -231,7 +231,7 @@ Note that the file `libpython2.7.so` resides in one of the standard folders, so 
 Hit the run button again and the project will happily link and run.
 That's it: your Bela program using an external library is up and running.
 
-### Enjoy `pyo`
+## Enjoy `pyo`
 Once your program start you will probably get the following message:
 
 ```
