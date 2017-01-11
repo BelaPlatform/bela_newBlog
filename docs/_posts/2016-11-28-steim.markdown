@@ -21,7 +21,7 @@ The participants in the workshop were [Marije Baalman](https://www.marijebaalman
 
 {% include single-image.html fileName="steim-2.jpg" caption="Mark IJzerman and Dianne Verdonk assemble hardware for their instruments." %}
 
-5 of the 8 instruments used SuperCollider on Bela, support for which was added by Marije Baalman and Dan Stowell with help from Till Bovermann and Giulio Moro. 2 of the 8 instruments used Pd and 1 used C++. Over the course of three days, participants worked with each other and with the facilitators to get their instruments up and running. Marije and Till also worked on supporting and documenting various capabilities of Bela SuperCollider, including tutorials on using [rotary encoders](http://tai-studio.org/2016/08/12/bela-rotary.html) and [serial communication](http://tai-studio.org/2016/08/12/bela-capsense.html).
+5 of the 8 instruments used SuperCollider on Bela, support for which was added by Marije Baalman and Dan Stowell with help from Till Bovermann and Giulio Moro. 2 of the 8 instruments used Pd and 1 used C++. Over the course of three days, participants worked with each other and with the facilitators to get their instruments up and running. Marije and Till also worked on supporting and documenting various capabilities of SuperCollider on Bela, including tutorials on using [rotary encoders](http://tai-studio.org/2016/08/12/bela-rotary.html) and [serial communication](http://tai-studio.org/2016/08/12/bela-capsense.html).
 
 A paper on the workshop and its relationship to the growing Bela community will be presented at the [CHI 2017](http://chi2017.acm.org) conference in May 2017: 
 
