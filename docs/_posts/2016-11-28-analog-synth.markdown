@@ -10,13 +10,17 @@ image: darknrg.jpg
 author: giulio
 ---
 
-In this video we put Bela through its paces in combination with an analog synth. We are running a Pure Data project on the board which we update on the fly and are patching the analog outputs of Bela to the CV ins of a [Doepfer Dark Energy II](http://www.doepfer.de/Dark_Energy_II_e.htm). This video just scratches the surface of what’s possible when Bela is used to control an analog synth or when an analog synth is used to control Bela. It's a good introduction for anyone who is wondering what can be done with the board out-of-the-box, and shows how easily a Bela-based Eurorack module would be to get up and running. Bela has stereo audio in and out plus eight analog inputs and outputs and so has enormous capacity for interfacing with modular synths, but there are a few things to bear in mind before getting started.
+In this video we put Bela through its paces in combination with an analog synth. 
+
+We are running a Pure Data project on the board which we update on the fly and are patching the analog outputs of Bela to the CV ins of a [Doepfer Dark Energy II](http://www.doepfer.de/Dark_Energy_II_e.htm). This video just scratches the surface of what’s possible when Bela is used to control an analog synth or when an analog synth is used to control Bela. It's a good introduction for anyone who is wondering what can be done with the board out-of-the-box, and shows how easily a Bela-based Eurorack module would be to get up and running. Bela has stereo audio in and out plus eight analog inputs and outputs and so has enormous capacity for interfacing with modular synths, but there are a few things to bear in mind before getting started.
 
 {% include youtube.html youtube="xAYvp6fVWBM" %}
 
 ## Hardware
 
-The circuit diagram below shows how to connect Bela to the Dark Energy. The connectors shown on the left hand side of the diagram are mono jack plugs to make things easier but for trying things out you could equally do this with crocodile clips. When connecting up the mono jack sockets it's important to make sure that ground is connected to the sleeve of the socket and the signal to the tip. In the circuit diagram and also in the video you'll see that we're using a force sensitive resistor to add some physical control to the Dark Energy. This sensor changes its resistance when you apply pressure to the circular part by squeezing it. In Pure Data we measure the change in voltage at the analog input. This type of circuit is known as a voltage divider circuit. If you'd like to learn more about voltage dividers take a look at the documentation for the LDR example that comes on the board: [examples/06-Sensors/LDR](https://github.com/BelaPlatform/Bela/blob/master/examples/06-Sensors/LDR/render.cpp).
+The circuit diagram below shows how to connect Bela to the Dark Energy. The connectors shown on the left hand side of the diagram are mono jack sockets to make things easier which you can plug patching cable directly into, but for trying things out you could equally do this with crocodile clips on the patch cable. 
+
+When connecting up the mono jack sockets it's important to make sure that ground is connected to the sleeve of the socket and the signal to the tip. In the circuit diagram and also in the video you'll see that we're using a force sensitive resistor to add some physical control to the Dark Energy. This sensor changes its resistance when you apply pressure to the circular part by squeezing it. In Pure Data we measure the change in voltage at the analog input. This type of circuit we're using to read the FSR is known as a voltage divider circuit. If you'd like to learn more about voltage dividers take a look at the documentation for the LDR example that comes on the board: [examples/06-Sensors/LDR](https://github.com/BelaPlatform/Bela/blob/master/examples/06-Sensors/LDR/render.cpp).
 
 {% include single-image.html fileName="bela-darknrg.jpg" %}
 
