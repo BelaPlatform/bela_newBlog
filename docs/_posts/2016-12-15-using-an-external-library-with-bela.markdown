@@ -249,8 +249,8 @@ Hit run again and you will get some amazing sounds out of your board!
 # Conclusion
 
 We showed how to use an external library within a Bela project.
-How easy the whole process is really depends on whether the library you intend to use is available through the `apt` package manager or how straightforward the library developers' instructions are.
-On the other hand, `apt` provides a wide catalogue of thousands of libraries, and otherwise often times building the library yourself is far from impossible.
+How easy the whole process is really depends on whether the library you need is available through the `apt` package manager or how straightforward the library developers' instructions are.
+`apt` itself provides a wide catalogue of thousands of libraries, and often times building the library yourself is far from impossible.
 
 We hope you learned something useful in the process, about what libraries are, how they work and how to interpret the often obscure error messages during the build process.
 
