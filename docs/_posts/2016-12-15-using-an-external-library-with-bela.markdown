@@ -10,12 +10,13 @@ image: external-libraries.png
 author: giulio
 ---
 
-When writing a computer program, most of the time you will not have to write all the code that you need, but you will rely on parts of code written by others, often packaged in the form of a library.
+When writing a computer program, most of the time you do not have to write all the code that the program needs, but you will rely on parts of code written by others, often packaged in the form of a library.
+For instance, you rely on libraries every time you print a line of text to the console, or read a file from disk.
 
 Bela is a full-fledged Linux computer and a Bela program is no different from a standard Linux program so in principle you can access any library that is available on Linux from within your Bela project.
 In this tutorial we will see two examples of how that can be done.
 
-## A word of warning
+### A word of warning
 
 While you can use standard Linux libraries with Bela, you should be careful about using calls to these libraries from within your Bela audio code.
 As a general rule, you should not use in the audio callback (e.g.: Bela's `render()` function) any functions or methods that have an unbound execution time, for instance: functions that may perform system calls, or memory reallocation, or algorithms that do not have a constant complexity. [Here](http://www.rossbencina.com/code/real-time-audio-programming-101-time-waits-for-nothing) is a more exhaustive list of things you should NOT do in the audio thread.
@@ -43,7 +44,7 @@ In order to use a library in a Bela project, you first have to install the libra
 
 ### Using `apt`
 
-Bela runs Debian (a distribution of Linux), which comes with, `apt`, a command-line package manager which can be used to install a large selection of pre-compiled libraries.
+Bela runs Debian (a distribution of Linux), which comes with `apt`, a command-line package manager which can be used to install a large selection of pre-compiled libraries.
 If your library is available for Debian throught `apt`, then installing it will require a few easy steps. Note that you will need to be connected to the internet and run `apt-get update` before you go through the following steps.
 You need to find the name of the package that contains the library. A good guess, which works most of the time is `libLIBRARYNAME-dev`. Alternatively, you can google for "LIBRARYNAME debian". A more "scientific" approach to this is to use `apt`'s own search tool:
 
@@ -159,18 +160,18 @@ ldconfig /path/to/binary/folder
 
 `pyo` is a Python module written in C to help DSP script creation and it is one of the way you can process audio and sensors signal on Bela.
 The module was developed by [Olivier Bélanger](http://olivier.ajaxsoundstudio.com/), who also contributed a [wrapper](https://github.com/belangeo/pyo-bela) to get `pyo` run on Bela.
+
 The [example `pyo`-Bela project](https://github.com/belangeo/pyo-bela/tree/master/common) consists of a mix of `.cpp` and `.h` files and depends on the library `libpython2.7`, which is already installed on the board.
 The library's header file is called `Python.h`.
+This is a good example of a project which relies on an external library.
 
-It is therefore a good example of a project which requires a standard library.
+In order to get started with the project, you need to:
 
-In order to run it, you need to:
-
-* get yourself a copy of the pyo source code. Either `git clone` or download from [here](https://github.com/belangeo/pyo-bela/archive/master.zip).
+* get yourself a copy of the pyo source code. Either `git clone` or download from [here](https://github.com/belangeo/pyo-bela/).
 * create a new C++ project in the Bela IDE
 * drag on it the `.cpp` and `.h` files from the folder `pyo-bela/common`. DO NOT include the `settings.json` file.
 
-If you try to hit the "run" button at this point, then you will get the following error:
+If you hit the "run" button at this point, then you will get the following error:
 
 ```
 Building PyoClass.cpp...i
@@ -185,7 +186,7 @@ If you open the file in the IDE, you can see it contains the following line:
 include "Python.h"
 ```
 
-but the compiler cannot find the file `Python.h` because it is not located in one of the standard include paths, rather it is in `/usr/include/python2.7`, so you will have to specify in the "Make parameters" box:
+but the compiler cannot find the file `Python.h` because it is not located in one of the standard include paths, rather it is in `/usr/include/python2.7`, so you will have to specify this path in the "Make parameters" box:
 
 ```
 CPPFLAGS=-I/usr/include/python2.7;
@@ -226,9 +227,15 @@ Add the following to what is already in the box:
 LDLIBS=-lpython2.7;
 ```
 
-Note that the file `libpython2.7.so` resides in one of the standard folders, so there is no need to specify an additional search path for the library with the `-L` option.
+so that it looks like this:
 
-Hit the run button again and the project will happily link and run.
+```
+CPPFLAGS=-I/usr/include/python2.7;LDLIBS=-lpython2.7;
+```
+
+As the file `libpython2.7.so` resides in one of the standard folders, there is no need to specify an additional search path for the library with the `-L` option.
+
+Hit the "run" button again and the project will happily link and run.
 That's it: your Bela program using an external library is up and running.
 
 ## Enjoy `pyo`
