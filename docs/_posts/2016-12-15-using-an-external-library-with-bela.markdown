@@ -84,7 +84,7 @@ In order to make the compiler aware of the library, you would then have to  use 
 Anyhow, a good starting guess is:
 
 ```
-include <LIBRARYNAME.h>
+#include <LIBRARYNAME.h>
 ```
 but you should check the documentation if this does not work as expected.
 The angled brackets (`<...>`) notation used for `#include` means that the compiler will look for a file with that name in the include search folders. By default, these typically include `/usr/local/include` and `/usr/include` (and `/root/Bela/include` for a Bela project!). Any library installed via `apt-get` will probably add their header files to those same folders and as such it should work out of the box.
