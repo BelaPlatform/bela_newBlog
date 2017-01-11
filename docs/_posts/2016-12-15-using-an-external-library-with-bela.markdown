@@ -78,7 +78,7 @@ By now you should have your library on the system and you want to use it in your
 ### Include it
 
 You will have one or more source files that need to know about the library's API in order to be able to use it. For instance, the compiler needs to know that a function or a global variable is defined somewhere else, otherwise it will throw an error.
-Remember that the compiler needs to know, e.g.: what methods a class has, how much space in memory an object will take, what global variables are defined, so it needs to know about the interface of the library, which is usually specified in a header file with extension `.h`, provided as part of the source code of the library.
+Remember what the compiler needs to know, for example: what methods a class has, how much space in memory an object will take, what global variables are defined, it needs to know about the interface of the library, which is usually specified in a header file with extension `.h`, provided as part of the source code of the library.
 In order to make the compiler aware of the library, you would then have to  use the `#include` preprocessor directive at the top of any source file that needs to know about it. Again, the library documentation should tell you what files are to be included, as there may be distinct header files for distinct parts of the library. 
 
 Anyhow, a good starting guess is:
@@ -159,7 +159,7 @@ ldconfig /path/to/binary/folder
 # A practical example: pyo
 
 `pyo` is a Python module written in C to help DSP script creation and it is one of the way you can process audio and sensors signal on Bela.
-The module was developed by [Olivier Bélanger](http://olivier.ajaxsoundstudio.com/), who also contributed a [wrapper](https://github.com/belangeo/pyo-bela) to get `pyo` run on Bela.
+The module was developed by [Olivier Bélanger](http://olivier.ajaxsoundstudio.com/), who also contributed a [wrapper](https://github.com/belangeo/pyo-bela) to get `pyo` to run on Bela.
 
 The [example `pyo`-Bela project](https://github.com/belangeo/pyo-bela/tree/master/common) consists of a mix of `.cpp` and `.h` files and depends on the library `libpython2.7`, which is already installed on the board.
 The library's header file is called `Python.h`.

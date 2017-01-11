@@ -27,6 +27,8 @@ Once we have our signal coming in via the analog inputs we perform a peak detect
 
 This was all written in C++ using the browser-based IDE. The scope was an invaluable feature for debugging. When conditioning the signal we were able to watch the raw input signal simultaneously with a filtered version of itself and also to visualise the exact moment when a note was triggered, all from the browser.
 
-Here's a photo of the second prototype instrument:
+Here's a short video the second prototype instrument being played:
+
+{% include youtube.html youtube="Uao2vTXOlRk" %}
 
 {% include single-image.html fileName="percussion-instrument.jpg" %}
