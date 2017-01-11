@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "STEIM Bela Workshop 2016"
-date: 2016-12-01
+date: 2016-12-15
 categories:
   - Workshops
 description: "STEIM Bela Workshop 2016"

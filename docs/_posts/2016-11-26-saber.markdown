@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Building an Audio Lightsaber"
-date: 2016-11-22
+date: 2016-12-01
 categories:
   - "Hardware"
   - "Sound Design"

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Making a percussion instrument with Bela"
-date: 2016-12-02
+date: 2017-01-03
 categories:
   - Hardware
   - Synths

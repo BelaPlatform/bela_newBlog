@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Using an external library within a Bela project"
-date: 2016-12-15
+date: 2017-01-11
 categories:
   - Software
   - Tutorials
