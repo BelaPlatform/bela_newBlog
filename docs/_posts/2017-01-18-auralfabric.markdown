@@ -27,7 +27,7 @@ I first considered the scale of the map based on how big the conductive areas co
 
 ### Step 2: simplifying the map and creating symbols
 
-Linen was chosen as the best material for the fabric base due to its availability, resistance and plain-aesthetic qualities. I decided to represent the covered areas we entered during the soundwalk as coloured reliefs completely made of grey/gold conductive thread. The park areas were left olive-green if not interactive and green mixed with the grey/gold [conductive thread](http://www.shieldextrading.net/pdfs/23534x4hc.pdf) if interactive. This was to allow the map to be clearly understood in its different elements. Courtyards we crossed were embroidered as flat areas in white with parts in conductive thread, whilst landmarks like the Cutty Sark ship and the pier buildings were represented with a mixture of pale grey, with conductive thread only on the side where the walk took place.
+Linen was chosen as the best material for the fabric base due to its availability, resistance and plain-aesthetic qualities. I decided to represent the covered areas we entered during the soundwalk as coloured reliefs completely made of [grey/gold conductive thread](http://www.shieldextrading.net/pdfs/23534x4hc.pdf). The park areas were left olive-green if not interactive and green mixed with the conductive thread if interactive. This was to allow the map to be clearly understood in its different elements. Courtyards we crossed were embroidered as flat areas in white with parts in conductive thread, whilst landmarks like the Cutty Sark ship and the pier buildings were represented with a mixture of pale grey, with conductive thread only on the side where the walk took place.
 
 The River Thames, also present in the recordings, was depicted as a pale blue wavy surface with some conductive parts close to the sides where the walk took place. Buildings belonging to the area but not covered in the soundwalk were represented in flat pale grey hatch.
 
@@ -50,7 +50,7 @@ Particular care was taken when connecting the circuit traces in the inner embroi
 Here are some pointers that came from the process of working with the conductive thread: 
 
 * Two traces should never be too close to one another or they will trigger false readings by shorting together. 
-* The flow from the conductive top area should reach the capacitive board without encountering too much resistance from the fabric, or from making the path too long. I measured with a multimeter how well the stitches chosen for the underlying soft circuit would perform on this particular fabric. A backing fabric too thick, or a line of stitches too distant from each other can create discontinuities. It’s alway better to measure this on some samples before embroidering the final one as the particular materials and threads you use can behave very differently, and to avoid wasting time and material.
+* A multimeter comes in handy to verify the continuity of the circuit. In order to avoid wasting time and material, it’s alway better to check for continuity on some samples before embroidering the final one as the particular materials and threads in use can behave very differently.
 * Be patient and carefully design your circuit according to the intended position of the capacitive boards. For example, I decided to place the two of them (to allow for 24 separate readings) in the top corners of the fabric.
 
 ## Connecting with Bela:
