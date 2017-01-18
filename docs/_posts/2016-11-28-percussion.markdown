@@ -6,6 +6,7 @@ categories:
   - Hardware
   - Synths
   - Instruments
+  - Projects
 description: "Making a low latency percussion instrument with ceramic tiles, piezo disks, and Bela"
 image: percussion-instrument.jpg
 author: robert

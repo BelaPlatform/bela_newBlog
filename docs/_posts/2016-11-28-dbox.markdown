@@ -6,7 +6,7 @@ categories:
   - Instruments
   - Hardware
   - Synths
-  - Hacking
+  - Projects
 description: "Hackable Musical Instruments"
 image: hacking.jpg
 author: andrew

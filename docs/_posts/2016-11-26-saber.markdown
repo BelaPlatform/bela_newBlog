@@ -5,6 +5,7 @@ date: 2016-12-01
 categories:
   - "Hardware"
   - "Sound Design"
+  - "Projects"
 description: "DIY Audio Lightsaber made with Bela"
 image: saber.jpg
 author: robert
