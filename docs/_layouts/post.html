@@ -28,16 +28,15 @@ layout: default
     {{ content }}
   </section>
 
-{% for author in page.author %}
   <section class="profile">
     <div class="profile__card">
       <div class="profile__img">
-        <figure class="absolute-bg" style="background-image: url('../../../../assets/images/{{ site.data.authors.[author].author-image }}');"></figure>
+        <figure class="absolute-bg" style="background-image: url('../../../../assets/images/{{ site.data.authors.[page.author].author-image }}');"></figure>
       </div>
       <div class="profile__container">
-        <h3>{{ site.data.authors.[author].name }}</h3>
-        <p>{{ site.data.authors.[author].profile }}</p>
-        {% if site.data.authors.[author].email or site.data.authors.[author].social %}
+        <h3>{{ site.data.authors.[page.author].name }}</h3>
+        <p>{{ site.data.authors.[page.author].profile }}</p>
+        {% if site.data.authors.[page.author].email or site.data.authors.[page.author].social %}
           <ul class="profile__social">
               <li><a class="fa fa-lg fa-envelope" href="mailto:{{ site.data.authors.[page.author].email }}"></a></li>
               <li><a class="fa fa-lg fa-github" href="http://www.github.com/{{ site.data.authors.[page.author].github }}" target="_blank"></a></li>
@@ -46,10 +45,8 @@ layout: default
           </ul>
         {% endif %}
       </div>
-
     </div>
   </section>
-{% endfor %}
 
 </article>
 
