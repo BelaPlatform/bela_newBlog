@@ -10,7 +10,7 @@ image: Jacob-OHMI/jacob-head.png
 author: jacob
 ---
  
-In this post Jacob Harrison introduces the one-handed bass, an instrument that mechanises the fretting hand of a bass guitarist using Bela and an array of Solenoids.
+In this post Jacob Harrison introduces the one-handed bass, an instrument that mechanises the fretting hand of a bass guitarist using Bela and an array of solenoids.
 
 {% include single-image.html fileName="Jacob-OHMI/1_FrettingMech_Gif.gif" caption="" %}
 
