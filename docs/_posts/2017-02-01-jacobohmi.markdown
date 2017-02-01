@@ -25,8 +25,6 @@ Initially, we used the Arduino-based Teensy microcontroller to drive the solenoi
 Solenoids require a higher current than the Bela can provide, so we require an external power supply.  Here’s a schematic of the circuitry we used for a single solenoid channel. We used a TIP102 transistor to drive each solenoid:
  
 {% include single-image.html fileName="Jacob-OHMI/3_Solenoid_Circuit.png" caption="" %}
-
-##
  
 Here’s an image of the final circuit on the breadboard:
  
