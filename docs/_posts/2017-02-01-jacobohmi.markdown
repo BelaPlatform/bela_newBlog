@@ -24,23 +24,23 @@ Initially, we used the Arduino-based Teensy microcontroller to drive the solenoi
  
 Solenoids require a higher current than the Bela can provide, so we require an external power supply.  Here’s a schematic of the circuitry we used for a single solenoid channel. We used a TIP102 transistor to drive each solenoid:
  
-{% include single-image.html fileName="Jacob-OHMI/3_Solenoid_Circuit.png" caption="Schematic of the solenoid driving circuit" %}
+{% include single-image.html fileName="Jacob-OHMI/3_Solenoid_Circuit.png" caption="Schematic of the solenoid driving circuit." %}
  
-{% include single-image.html fileName="Jacob-OHMI/4_Breadboard_Annotated.png" caption="The final circuit on a breadboard" %}
+{% include single-image.html fileName="Jacob-OHMI/4_Breadboard_Annotated.png" caption="The final circuit on a breadboard." %}
 
 ## MIDI communication with Puredata
  
 Listening for incoming MIDI messages and passing them to the analogue outputs requires a very simple Puredata patch. We used the `[notein`] object to listen for any incoming MIDI notes. We then used the `[sel`] object to extract MIDI notes corresponding to the buttons on the controller that we wanted to use. The arguments of the `[sel`] object are the MIDI note numbers we are looking for, and the outputs correspond to the order that these arguments are written. We then connect the outputs to corresponding `[dac~`] objects.
  
-{% include single-image.html fileName="Jacob-OHMI/5_Puredata_Patch.png" caption="" %}
+{% include single-image.html fileName="Jacob-OHMI/5_Puredata_Patch.png" caption="The Pure Data patch that we ran on Bela." %}
 
-{% include single-image.html fileName="Jacob-OHMI/6_Beatstep_Mapping.png" caption="" %}
+{% include single-image.html fileName="Jacob-OHMI/6_Beatstep_Mapping.png" caption="An example of how we mapped the MIDI controller the actuation of the solenoids." %}
 
 ## Putting it all together
  
 The fretting mechanism itself is made out of lasercut plywood, a few threaded metal rods, nuts, bolts, and a lot of cable ties. It is made up of eight clamps, which attach to either side of the neck. The threaded rod connects the clamps on either side of the neck, and provide a hinge for the laser cut fretting arms to rotate around. The clamps hold the solenoids perpendicular to the neck, and the tips of the fretting arms are attached to the solenoid plungers. Whenever the solenoid is activated, the fretting arm is pulled down, and presses the string onto the fretboard. A spring return at the base of each fretting arm pushes each arm back up to rest height to avoid brushing the strings when note in use.
  
-{% include single-image.html fileName="Jacob-OHMI/7_mech.png" caption="" %}
+{% include single-image.html fileName="Jacob-OHMI/7_mech.png" caption="A diagram of the fretting mechanism." %}
 
 Here’s a video of the finished system, first being played with the free hand, then with the feet:
  
