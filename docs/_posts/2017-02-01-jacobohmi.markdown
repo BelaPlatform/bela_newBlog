@@ -32,9 +32,7 @@ Here’s an image of the final circuit on the breadboard:
 
 ## MIDI communication with Puredata
  
-Listening for incoming MIDI messages and passing them to the analogue outputs requires a very simple Puredata patch. We used the `[notein`] object to listen for any incoming MIDI notes. We then used the `[sel`] object to extract MIDI notes corresponding to the buttons on the controller that we wanted to use. The arguments of the `[sel`] object are the MIDI note numbers we are looking for, and the outputs correspond to the order that these arguments are written. We then connect the outputs to corresponding `[dac~`] objects. Note that for analogue outputs 1-6, we set the arguments of the `[dac~`] objects from 3-8.
- 
-Also note the toggle objects between the `[sel`] and `[dac~`] stages. These were purely for visual feedback while we were designing the patch. When using libpd in the Bela IDE, GUI objects such as these don’t work, so don’t be concerned if you don’t see the toggle switch activating once you’ve loaded your patch onto Bela.
+Listening for incoming MIDI messages and passing them to the analogue outputs requires a very simple Puredata patch. We used the `[notein`] object to listen for any incoming MIDI notes. We then used the `[sel`] object to extract MIDI notes corresponding to the buttons on the controller that we wanted to use. The arguments of the `[sel`] object are the MIDI note numbers we are looking for, and the outputs correspond to the order that these arguments are written. We then connect the outputs to corresponding `[dac~`] objects.
  
 {% include single-image.html fileName="Jacob-OHMI/5_Puredata_Patch.png" caption="" %}
 
