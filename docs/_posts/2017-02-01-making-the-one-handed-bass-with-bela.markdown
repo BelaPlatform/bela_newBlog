@@ -46,4 +46,4 @@ Here’s a video of the finished system, first being played with the free hand, 
  
 {% include youtube.html youtube="k6tvavgYHDA" %}
 
-*This project was made using [Bela](https://bela.io), the [open-source](https://github.com/BelaPlatform/Bela) platform for ultra-low latency audio and sensor processing. Find out more on our [website](https://bela.io), buy Bela at our [shop](https://shop.bela.io), follow us on [twitter](https://twitter.com/BelaPlatform) or join our community and discuss this post on our [forum](https://forum.bela.io).*
+*This project was made using [Bela](bela.io), the [open-source](https://github.com/BelaPlatform/Bela) platform for ultra-low latency audio and sensor processing. Find out more on our [website](bela.io), buy Bela at our [shop](https://shop.bela.io), follow us on [twitter](https://twitter.com/BelaPlatform) or join our community and discuss this post on our [forum](https://forum.bela.io).*
