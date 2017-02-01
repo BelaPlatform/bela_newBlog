@@ -14,7 +14,7 @@ In this post Jacob Harrison introduces the one-handed bass, an instrument that m
 
 {% include single-image.html fileName="Jacob-OHMI/1_FrettingMech_Gif.gif" caption="" %}
 
-In summer 2016, I worked with the One-Handed Musical Instrument ([OHMI](http://www.ohmi.org.uk/)) Trust on a design project concerned with adapting the bass guitar for one-handed playing. Inspired by musical robotics projects, we decided to design and build a prototype solenoid-actuated fretting mechanism, which attaches to the neck of a bass guitar. The mechanism is controlled via MIDI, which allows a range of controllers to be used. As it’s a prototype device, we only used six solenoid motors on the 2nd 3rd and 4th frets of the A and D strings.
+In summer 2016, we worked with the One-Handed Musical Instrument ([OHMI](http://www.ohmi.org.uk/)) Trust on a design project concerned with adapting the bass guitar for one-handed playing. Inspired by musical robotics projects, we decided to design and build a prototype solenoid-actuated fretting mechanism, which attaches to the neck of a bass guitar. The mechanism is controlled via MIDI, which allows a range of controllers to be used. As it’s a prototype device, we only used six solenoid motors on the 2nd 3rd and 4th frets of the A and D strings.
  
 Initially, we used the Arduino-based Teensy microcontroller to drive the solenoid circuits. To get MIDI signals from our controller (an Arturia Beatstep) to the Teensy, we had a Puredata patch running on a laptop. This arrangement was great for early prototypes, but the necessity for an intermediate laptop affected the usability of the instrument. This is where Bela comes in. Bela can act as MIDI host, so we were able to cut out the laptop stage and have our MIDI controller interact directly with the Puredata patch on Bela. We used Bela’s analogue outputs to drive the solenoid motors, using the same circuitry as we had with the Teensy.
  
@@ -24,21 +24,13 @@ Initially, we used the Arduino-based Teensy microcontroller to drive the solenoi
  
 Solenoids require a higher current than the Bela can provide, so we require an external power supply.  Here’s a schematic of the circuitry we used for a single solenoid channel. We used a TIP102 transistor to drive each solenoid:
  
-{% include single-image.html fileName="Jacob-OHMI/3_Solenoid_Circuit.png" caption="" %}
+{% include single-image.html fileName="Jacob-OHMI/3_Solenoid_Circuit.png" caption="Schematic of the solenoid driving circuit" %}
  
-Here’s an image of the final circuit on the breadboard:
- 
-{% include single-image.html fileName="Jacob-OHMI/4_Breadboard_Annotated.png" caption="" %}
+{% include single-image.html fileName="Jacob-OHMI/4_Breadboard_Annotated.png" caption="The final circuit on a breadboard" %}
 
 ## MIDI communication with Puredata
  
-<<<<<<< HEAD
 Listening for incoming MIDI messages and passing them to the analogue outputs requires a very simple Puredata patch. We used the `[notein`] object to listen for any incoming MIDI notes. We then used the `[sel`] object to extract MIDI notes corresponding to the buttons on the controller that we wanted to use. The arguments of the `[sel`] object are the MIDI note numbers we are looking for, and the outputs correspond to the order that these arguments are written. We then connect the outputs to corresponding `[dac~`] objects.
-=======
-Listening for incoming MIDI messages and passing them to the analogue outputs requires a very simple Puredata patch. We used the `[notein]` object to listen for any incoming MIDI notes. We then used the `[sel]` object to extract MIDI notes corresponding to the buttons on the controller that we wanted to use. The arguments of the `[sel]` object are the MIDI note numbers we are looking for, and the outputs correspond to the order that these arguments are written. We then connect the outputs to corresponding `[dac~]` objects. Note that for analogue outputs 1-6, we set the arguments of the dac~ objects from 3-8. This is because the first two analogue outputs are being used for audio output on the Bela cape.
- 
-Also note the toggle objects between the `[sel]` and `[dac~]` stages. These were purely for visual feedback while we were designing the patch. When using libpd in the Bela IDE, GUI objects such as these don’t work, so don’t be concerned if you don’t see the toggle switch activating once you’ve loaded your patch onto Bela.
->>>>>>> 1a7fa05e5529aba87091a89edd8112ea29157df9
  
 {% include single-image.html fileName="Jacob-OHMI/5_Puredata_Patch.png" caption="" %}
 
