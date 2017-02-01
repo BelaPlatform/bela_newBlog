@@ -16,7 +16,7 @@ In this post Jacob Harrison introduces the one-handed bass, an instrument that m
 
 In summer 2016, we worked with the One-Handed Musical Instrument ([OHMI](http://www.ohmi.org.uk/)) Trust on a design project concerned with adapting the bass guitar for one-handed playing. Inspired by musical robotics projects, we decided to design and build a prototype solenoid-actuated fretting mechanism, which attaches to the neck of a bass guitar. The mechanism is controlled via MIDI, which allows a range of controllers to be used. As it’s a prototype device, we only used six solenoid motors on the 2nd 3rd and 4th frets of the A and D strings.
  
-Initially, we used the Arduino-based Teensy microcontroller to drive the solenoid circuits. To get MIDI signals from our controller (an Arturia Beatstep) to the Teensy, we had a Puredata patch running on a laptop. This arrangement was great for early prototypes, but the necessity for an intermediate laptop affected the usability of the instrument. Bela can act as a MIDI host and can run Puredata patches so we were able to cut out the laptop altogether and have our USB MIDI controller interact directly with the same Puredata patch used previously, this time running on Bela. We used Bela’s analogue outputs to drive the solenoid motors, using the same external circuitry as we had with the Teensy.
+Initially, we used the Arduino-based Teensy microcontroller to drive the solenoid circuits. To get MIDI signals from our controller (an Arturia Beatstep) to the Teensy, we had a Pure Data patch running on a laptop. This arrangement was great for early prototypes, but the necessity for an intermediate laptop affected the usability of the instrument. Bela can act as a MIDI host and can run Pure Data patches so we were able to cut out the laptop altogether and have our USB MIDI controller interact directly with the same Pure Data patch used previously, this time running on Bela. We used Bela’s analogue outputs to drive the solenoid motors, using the same external circuitry as we had with the Teensy.
  
 {% include single-image.html fileName="Jacob-OHMI/2_Signal_Path.png" caption="" %}
  
@@ -28,9 +28,9 @@ Solenoids require a higher current than the Bela can provide, so we require an e
  
 {% include single-image.html fileName="Jacob-OHMI/4_Breadboard_Annotated.png" caption="The final circuit on a breadboard." %}
 
-## MIDI communication with Puredata
+## MIDI communication with Pure Data
  
-Listening for incoming MIDI messages and passing them to the analogue outputs requires a very simple Puredata patch. We used the `[notein`] object to listen for any incoming MIDI notes. We then used the `[sel`] object to extract MIDI notes corresponding to the buttons on the controller that we wanted to use. The arguments of the `[sel`] object are the MIDI note numbers we are looking for, and the outputs correspond to the order that these arguments are written. We then connect the outputs to corresponding `[dac~`] objects.
+Listening for incoming MIDI messages and passing them to the analogue outputs requires a very simple Pure Data patch. We used the `[notein`] object to listen for any incoming MIDI notes. We then used the `[sel`] object to extract MIDI notes corresponding to the buttons on the controller that we wanted to use. The arguments of the `[sel`] object are the MIDI note numbers we are looking for, and the outputs correspond to the order that these arguments are written. We then connect the outputs to corresponding `[dac~`] objects.
  
 {% include single-image.html fileName="Jacob-OHMI/5_Puredata_Patch.png" caption="The Pure Data patch that we ran on Bela." %}
 
