@@ -40,3 +40,5 @@ The night also included performances from [Neil Davidson](http://neildavidsoneve
 {% include single-image.html fileName="scottish-workshops/final-improv.jpg" caption="An improvisation involving Instruo, lil data and Giulio Moro." %}
 
 {% include single-image.html fileName="scottish-workshops/giulio-dbox.jpg" caption="Giulio improvising on the d-box." %}
+
+*These workshops were run using [Bela](http://bela.io), the [open-source](https://github.com/BelaPlatform/Bela) platform for ultra-low latency audio and sensor processing. Find out more on our [website](http://bela.io), buy Bela at our [shop](https://shop.bela.io), follow us on [twitter](https://twitter.com/BelaPlatform) or join our community and discuss this post on our [forum](https://forum.bela.io).*
