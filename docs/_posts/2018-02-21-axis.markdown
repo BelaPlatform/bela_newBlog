@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Axis: A kinetic sculpture made with Bela"
+date: 2017-02-21
+categories:
+  - Projects
+description: "Making the ‘one-handed bass’ with Bela"
+image: axis/axis_cover.jpg
+author: astrid
+---
+ 
+Axis is a kinetic sculpture that is made to illustrate the irrational number Phi. It is constructed out of paper, and its movement is done with 20 stepper motors controlled by Bela. In this post Astrid explains the concept, design and execution of Axis, which uses Bela to control 20 independent stepper motors.
+
+{% include youtube.html youtube="fdsngYUfhqM" %}
+
+## Exploring Phi
+
+The number Phi is great. Phi is roughly equivalent to 1.61803, but is irrational; much like the more well-known Pi, Phi’s decimal fraction parts don’t have a pattern, and never settle into a repeatable cycle. 
+
+Phi's best-known application is the Golden Ratio, the proportional relationship that has guided artists and architects for centuries, from the designers of the Parthenon to Leonardo da Vinci. However, Phi wasn’t invented by humans - this proportion is seen over and over in the way that nature is organised, from the arrangements of leaves on stems to the structure of entire galaxies.
+
+{% include single-image.html fileName="axis/01_nature.jpg" caption="Examples of Phi in nature." %}
+
+Besides the wonder of Phi and the Golden Ratio, we were particularly inspired by the stop-motion animations of [John Edmark](http://instagram.com/johnedmark), a mathematician and sculptor. His animations showed that when these shapes are rotated, there is continual harmony and chaos on the surfaces. We decided to make a sculpture based on Phi and the Golden Ratio that was kinetic and constantly rotating, to show this continual evolution and movement created by shapes based on Phi.
+
+## Design and construction
+
+We first had to really understand these shapes and the mathematical relationships in order to model them on a computer. We decided to make a sculpture made up of slices that each were based on a 5 and 8 spiral (a very common spiral found in nature, with 5 spirals in one direction and 8 in the other):
+
+{% include single-image.html fileName="axis/02_model.jpg" caption="Screen shots of the pre-construction simulation of Axis" %}
+
+We then had to decide what material to use for construction. There is a fascinating material called Finn board that we found at an architectural model shop, which is laser-cutter friendly and adhesive free - it’s made out of compressed sawdust of Finnish pine trees. 
+
+Before cutting the shape, however, we needed to build the motor and pulley system first. We used a stepper motor to turn each plate, which meant that we needed to make pulleys and bearing enclosures for each one, and get everything on the central support pole. In order to save space and place the plates closer together placed the pairs of stepper motors back to back. 
+
+{% include single-image.html fileName="axis/03_construction.jpg" caption="Left: The assembled motors. Right: The first few bearings on the central support." %}
+
+Each motor driver is controlled by an ATTiny. This chip is mounted on a dedicated board that delivers power to the motor, driver, and ATTiny, and also houses a timer crystal (by default the ATTiny has a clock speed variance of +/- 10%, so we needed to implement another way of keeping them in sync). There's one of these boards for each of the stepper motors (20 in total).
+
+{% include single-image.html fileName="axis/04_electronics.jpg" caption="1 of 20 boards that held the drivers and timing crystal and delivered power to each stepper motor." %}
+
+When we got the bearing and motor pairs as small as we could, we knew how big the opening in the middle of each plate needed to be, and how they were going to be mounted. We then cut these in many layers of Finn board, adhered them together, and painted them (based on the colours from the cover of the Beatles' Yellow Submarine). We picked bright colours so there would be sufficient contrast to see the supporting spirals when Axis is viewed from its end. We kept the outside of the sculpture matte black to provide a contrast between the moving surface and the collision of colour happening in the interior.
+
+{% include single-image.html fileName="axis/05_plates.jpg" caption="Plates waiting to be painted, and plates finished." %}
+
+## Putting it all together with Bela
+
+Each of the 20 stepper motors is controlled by its own ATTiny integrated circuit. Bela acts as a central control unit, controlling each of these using i2c. Bela cycles through a long sequence of choreographed “movements” that show Phi’s chaotic nature in motion, and generates new parameters for each repetition to provide some visual variety. Axis rotates, undulates, pauses, and turns, Bela keeping each motor in close syncronisation. 
+
+Because of Bela’s small size, Axis doesn’t require an external laptop or bulky computer to run in a gallery. Instead, Bela and the power supply live in a box at the sculpture’s base, and when power is switched on, Bela boots up and runs the Axis code. The first thing that runs is a process to get all plates in sync, and then Bela begins its long generative choreography. This means Axis is easy to transport, easy to install, and easy to run, with no expensive equipment needing close monitoring. The result is a kinetic sculpture that communicates the chaos and harmony of Phi and the wonder of a proportion that is around us all every day.
+
+{% include single-image.html fileName="axis/06_intersections.jpg" caption="Axis in its most recent exhibition, at Intersections 2016" %}
+
+Axis has been exhibited at Digital Shoreditch (2015), [Kinetica](http://kinetica-artfair.com/) (2015) and [Intersections](http://intersections.io) (2016.) Bela was conceived, designed, built, and programmed by [Liam Donovan](http://liamdonovan.co.uk), [Daniel Gabana](http://www.danielgabana.com) and [Astrid Bin](http://astridbin.com).
