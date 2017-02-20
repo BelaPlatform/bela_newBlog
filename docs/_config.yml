@@ -5,6 +5,7 @@ email: info@bela.io
 # ... and comment out this line:
 baseurl: "http://blog.bela.io"
 # IMPORTANT! Before deploying, make sure you change them back so the github url is active. 
+future: false
 imageurl: "/assets/images/"
 paginate: 10
 paginate_path: "/blog/page-:num"
