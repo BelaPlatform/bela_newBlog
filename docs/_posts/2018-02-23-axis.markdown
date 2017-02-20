@@ -1,15 +1,15 @@
 ---
 layout: post
 title: "Axis: A kinetic sculpture made with Bela"
-date: 2017-02-21
+date: 2017-02-23
 categories:
   - Projects
-description: "Making the ‘one-handed bass’ with Bela"
+description: "Axis: A kinetic sculpture made with Bela"
 image: axis/axis_cover.jpg
 author: astrid
 ---
  
-Axis is a kinetic sculpture that is made to illustrate the irrational number Phi. It is constructed out of paper, and its movement is done with 20 stepper motors controlled by Bela. In this post Astrid explains the concept, design and execution of Axis, which uses Bela to control 20 independent stepper motors.
+Axis is a kinetic sculpture that is made to illustrate the irrational number Phi. It is constructed out of paper, and its movement is created with 20 stepper motors controlled by Bela. In this post Astrid explains the concept, design and execution of Axis, which uses Bela to control 20 independent stepper motors.
 
 {% include youtube.html youtube="fdsngYUfhqM" %}
 
@@ -21,17 +21,17 @@ Phi's best-known application is the Golden Ratio, the proportional relationship 
 
 {% include single-image.html fileName="axis/01_nature.jpg" caption="Examples of Phi in nature." %}
 
-Besides the wonder of Phi and the Golden Ratio, we were particularly inspired by the stop-motion animations of [John Edmark](http://instagram.com/johnedmark), a mathematician and sculptor. His animations showed that when these shapes are rotated, there is continual harmony and chaos on the surfaces. We decided to make a sculpture based on Phi and the Golden Ratio that was kinetic and constantly rotating, to show this continual evolution and movement created by shapes based on Phi.
+Besides the wonder of Phi and the Golden Ratio, we were particularly inspired by the stop-motion animations of [John Edmark](http://instagram.com/johnedmark), a mathematician and sculptor. His animations showed that when these shapes are rotated, there is continual harmony and chaos on the surfaces. We decided to make a sculpture based on Phi and the Golden Ratio that was kinetic and constantly rotating to show this continual evolution and movement created by shapes based on Phi.
 
 ## Design and construction
 
-We first had to really understand these shapes and the mathematical relationships in order to model them on a computer. We decided to make a sculpture made up of slices that each were based on a 5 and 8 spiral (a very common spiral found in nature, with 5 spirals in one direction and 8 in the other):
+We first had to really understand these shapes and their mathematical relationships in order to model them on a computer. We decided to make a sculpture made up of slices that each were based on a 5 and 8 spiral (a very common spiral found in nature, with 5 spirals in one direction and 8 in the other):
 
 {% include single-image.html fileName="axis/02_model.jpg" caption="Screen shots of the pre-construction simulation of Axis" %}
 
 We then had to decide what material to use for construction. There is a fascinating material called Finn board that we found at an architectural model shop, which is laser-cutter friendly and adhesive free - it’s made out of compressed sawdust of Finnish pine trees. 
 
-Before cutting the shape, however, we needed to build the motor and pulley system first. We used a stepper motor to turn each plate, which meant that we needed to make pulleys and bearing enclosures for each one, and get everything on the central support pole. In order to save space and place the plates closer together placed the pairs of stepper motors back to back. 
+Before cutting the shape, however, we needed to build the motor and pulley system. We used a stepper motor to turn each plate, which meant that we needed to make pulleys and bearing enclosures for each one, and get everything on the central support pole. In order to save space and place the plates closer together we placed the pairs of stepper motors back to back. 
 
 {% include single-image.html fileName="axis/03_construction.jpg" caption="Left: The assembled motors. Right: The first few bearings on the central support." %}
 
@@ -39,7 +39,7 @@ Each motor driver is controlled by an ATTiny. This chip is mounted on a dedicate
 
 {% include single-image.html fileName="axis/04_electronics.jpg" caption="1 of 20 boards that held the drivers and timing crystal and delivered power to each stepper motor." %}
 
-When we got the bearing and motor pairs as small as we could, we knew how big the opening in the middle of each plate needed to be, and how they were going to be mounted. We then cut these in many layers of Finn board, adhered them together, and painted them (based on the colours from the cover of the Beatles' Yellow Submarine). We picked bright colours so there would be sufficient contrast to see the supporting spirals when Axis is viewed from its end. We kept the outside of the sculpture matte black to provide a contrast between the moving surface and the collision of colour happening in the interior.
+Once we got the bearing and motor pairs as small as we could we knew how big the opening in the middle of each plate needed to be and how they were going to be mounted. We then cut these in many layers of Finn board, adhered them together, and painted them (based on the colours from the cover of the Beatles' Yellow Submarine). We picked bright colours so there would be sufficient contrast to see the supporting spirals when Axis is viewed from its end. We kept the outside of the sculpture matte black to provide a contrast between the moving surface and the collision of colour happening in the interior.
 
 {% include single-image.html fileName="axis/05_plates.jpg" caption="Plates waiting to be painted, and plates finished." %}
 
@@ -52,3 +52,5 @@ Because of Bela’s small size, Axis doesn’t require an external laptop or bul
 {% include single-image.html fileName="axis/06_intersections.jpg" caption="Axis in its most recent exhibition, at Intersections 2016" %}
 
 Axis has been exhibited at Digital Shoreditch (2015), [Kinetica](http://kinetica-artfair.com/) (2015) and [Intersections](http://intersections.io) (2016.) Bela was conceived, designed, built, and programmed by [Liam Donovan](http://liamdonovan.co.uk), [Daniel Gabana](http://www.danielgabana.com) and [Astrid Bin](http://astridbin.com).
+
+*This project was made using [Bela](http://bela.io), the [open-source](https://github.com/BelaPlatform/Bela) platform for ultra-low latency audio and sensor processing. Find out more on our [website](http://bela.io), buy Bela at our [shop](https://shop.bela.io), follow us on [twitter](https://twitter.com/BelaPlatform) or join our community and discuss this post on our [forum](https://forum.bela.io).*
