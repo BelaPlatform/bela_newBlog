@@ -5,7 +5,7 @@ date: 2017-02-20
 categories:
   - Workshops
 description: "Scottish Bela Workshops 2017"
-image: scottish-workshops/zither-bela.jpg
+image: scottish-workshops/zither-bela-header.jpg
 author: robert
 ---
 
