@@ -3,7 +3,7 @@ email: info@bela.io
 # TO TEST YOUR BUILD, uncomment this line:
 # baseurl: ""
 # ... and comment out this line:
-baseurl: "https://belaPlatform.github.io/bela_newBlog"
+baseurl: "http://blog.bela.io"
 # IMPORTANT! Before deploying, make sure you change them back so the github url is active. 
 imageurl: "/assets/images/"
 paginate: 10
