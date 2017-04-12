@@ -1,0 +1,50 @@
+---
+layout: post
+title: "LovePad: Bela and Soft Robotics at Goldsmiths' Sex Technology Hackathon"
+date: 2017-04-15
+categories:
+  - "Hardware"
+  - "Projects"
+  - "Events"
+description: "Description of the LovePad sensory play interface, a Bela soft robot hack which won the best in show prize at Goldsmiths' Sex Tech Hack in December 2016."
+image: lovepad/winners_cropped.jpg
+author: jack
+---
+
+## LovePad: Bela and Soft Robotics at Goldsmiths' Sex Technology Hackathon
+
+*NSFW Warning*: this post contains no explicit imagery, but does reference adult themes.
+
+## Introduction
+
+This post describes the _LovePad_, a sensory play interface which was awarded the _Best in Show_ prize during [Goldsmiths University of London's](http://gold.ac.uk) [Sex Technology Hackathon](http://sexhack.tech) on December 17th 2016. _LovePad_ is a proof-of-concept, body-neutral stimulating interface combining a [soft robot](http://wikipedia.org/wiki/Soft_robotics) and real-time vibrotactile interaction via [Bela](http://bela.io). It was created by [Caroline Yan Zheng](http://feuetbois.net), [Jack Armitage](http://jackarmitage.com), [Patricia Alessandrini](http://patriciaalessandrini.com) and [Francisco Bernardo](http://frantic0.com).
+
+{% include single-image.html fileName="lovepad/diagram.png" %}
+
+## LovePad Description
+
+The _LovePad_ features two interfaces: one is a hand-sized _controller_ inspired by the human breast that is used to activate the second interface, which is a silicone robotic _actuator_ worn on the body and inspired by the octopus. The hackathon demo showed how the two interfaces could be used by a single person, or by two people in close proximity. Additionally, in future it could be used remotely over the Internet and in larger groups as part of a connected platform, and more interfaces could be added to tease different body parts in different ways. The overall goal was to design a sensory experience which is open to interpretation in terms of how and where on the body it could be used. We also wanted to enable sharing of intimate sensory experiences between individuals or groups, face-to-face or remotely, in real-time.
+
+There are two interaction methods with the _LovePad's_ controller that can be used to gently stimulate the wearer of the actuator. Firstly, when the controller's nipple is gently teased or pinched with one or two fingers, the actuator will vibrate depending on how much pressure is applied. The controller will also vibrate at the same rate as the actuator to offer sympathetic feedback. Secondly, when the controller is squeezed more vigorously with the whole hand, the actuator's arms will inflate and start to gently grasp the wearer. Combining the two interaction methods creates a composite third interaction, with both grasping and vibrating sensations occurring simultaneously.
+
+## Implementation
+
+The starting point for our hack was developing the actuator by adapting a [Soft Robotics Toolkit](http://softroboticstoolkit.com) design into a wearable, playful, grasping device. To augment its capabilities, we decided to see how it would feel if it could also vibrate in a similar manner to common sensory toys. We were able to dismantle an ordinary plastic vibrator, attach the motor to our soft robot, and control it using [Bela](http://bela.io), which resulted in a peculiar and arousing sensual experience!
+
+{% include single-image.html fileName="lovepad/lovepad.png" %}
+
+The next challenge was to make design decisions that would enable us to finish the hack on time. We settled on a course that we hoped would achieve our initial goals, whilst simplifying the design enough for it to be achievable:
+
+* A second device would control the actuator, which could be used by the wearer for self-stimulation, or by someone else in close proximity.
+* The controller should invite squeezing and tickling, to match the capabilities of the actuator.
+* The broader design concepts should be communicated in our hack presentation; wearing the teasing device on different parts of the body, remote interaction and sharing over a network for group interaction.
+
+To build the controller, we cast the actuator's handheld air pump into a breast-shaped hemisphere of silicone and implanted a pressure sensor under the nipple to sense teasing and pinching (in a future prototype it would be exciting to connect a motorised pump instead!). The pressure sensor was read by Bela and used to control the amount of vibration sent to the motor. Verifying the mechanical integration of the pressure sensor, and developing the corresponding motor signals under time pressure was made especially easy by the [Bela IDE's built-in oscilloscope](https://www.youtube.com/watch?v=AoP7rPAMpvk). Once the hack was complete, we prepared our demo and presentation slides as the clock ticked down to zero...
+
+{% include single-image.html fileName="lovepad/lovepad2.png" %}
+
+## Results
+
+The judges were impressed by the _LovePad_ hack and the team was awarded the _Best in Show_ prize of a [Mystery Vibe Crescendo](http://mysteryvibe.com/en/crescendo) each. The event was a fantastic opportunity to explore alternative ideas of sex technology and was brilliantly put together by [Hacksmiths - Goldsmiths' Tech Society](http://hacksmiths.club). There are write-ups of the event by [Girl on the Net](https://www.girlonthenet.com/2016/12/21/amazing-inventions-from-the-goldsmiths-sex-tech-hack/) and [Makery](http://sexhack.tech/www.makery.info/en/2016/12/20/au-premier-sex-tech-hack-un-hackathon-sur-la-sexualite-a-londres/). Additionally, all of the hackathon presentations are available to watch [here](https://www.youtube.com/playlist?list=PLDmeXp90KI9leIRVQGsrOZvFXVo28F8wO).
+
+{% include single-image.html fileName="lovepad/winners.jpg" %}
