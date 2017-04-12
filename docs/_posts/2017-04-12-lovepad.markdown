@@ -11,11 +11,7 @@ image: lovepad/winners_cropped.jpg
 author: jack
 ---
 
-## LovePad: Bela and Soft Robotics at Goldsmiths' Sex Technology Hackathon
-
 *NSFW Warning*: this post contains no explicit imagery, but does reference adult themes.
-
-## Introduction
 
 This post describes the _LovePad_, a sensory play interface which was awarded the _Best in Show_ prize during [Goldsmiths University of London's](http://gold.ac.uk) [Sex Technology Hackathon](http://sexhack.tech) on December 17th 2016. _LovePad_ is a proof-of-concept, body-neutral stimulating interface combining a [soft robot](http://wikipedia.org/wiki/Soft_robotics) and real-time vibrotactile interaction via [Bela](http://bela.io). It was created by [Caroline Yan Zheng](http://feuetbois.net), [Jack Armitage](http://jackarmitage.com), [Patricia Alessandrini](http://patriciaalessandrini.com) and [Francisco Bernardo](http://frantic0.com).
 
