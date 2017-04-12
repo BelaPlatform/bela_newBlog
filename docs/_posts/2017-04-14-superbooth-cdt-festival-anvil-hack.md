@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Bela at Superbooth, CDT Festival & Anvil Hack"
-date: 2017-04-15
+title: "Upcoming: SuperBooth, Imperial CDT, Anvil Hack III"
+date: 2017-04-14
 categories:
   - "Events"
 description: "Bela will be present at three very exciting events this April; Superbooth in Berlin, and CDT Festival and Anvil Hack in London."
@@ -13,7 +13,7 @@ We are excited to be participating in three events next week; the [Superbooth](h
 
 ## Bela Booth and DIY Workshop at Superbooth, Berlin
 
-We have for a long time been excited about the possibilities of combining Bela with modular synthesizers. One year ago we created this demo of combining Bela with the Doepfer Dark Energy II:
+We have for a long time been excited about the possibilities of combining Bela with modular synthesizers. One year ago we created this demo of combining Bela with the Doepfer Dark Energy II which was the focus of [this post](http://blog.bela.io/2016/11/15/analog-synth/):
 
 {% include youtube.html youtube="xAYvp6fVWBM" %}
 
