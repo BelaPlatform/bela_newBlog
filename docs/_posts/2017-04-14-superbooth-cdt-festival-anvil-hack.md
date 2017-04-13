@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Upcoming: SuperBooth, Imperial CDT, Anvil Hack III"
-date: 2017-04-14
+date: 2017-04-13
 categories:
   - "Events"
 description: "Bela will be present at three very exciting events this April; Superbooth in Berlin, and CDT Festival and Anvil Hack in London."

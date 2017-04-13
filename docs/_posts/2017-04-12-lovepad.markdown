@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "LovePad: Bela and Soft Robotics at Goldsmiths' Sex Technology Hackathon"
-date: 2017-04-13
+date: 2017-04-17
 categories:
   - "Hardware"
   - "Projects"
