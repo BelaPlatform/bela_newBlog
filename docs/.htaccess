@@ -1,4 +1,0 @@
-RewriteEngine On
-# redirect https to http
-RewriteCond %{HTTPS} ^on$
-RewriteRule ^(.*)$ http://blog.bela.io/$1 [NC,L,R]
