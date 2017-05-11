@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kalichord Strum by Dan Moses"
-date: 2017-05-10
+date: 2017-05-15
 categories:
   - Projects
   - Instruments
@@ -21,7 +21,7 @@ The Kalichord Strum is a new instrument designed to offer keyboardists an intuit
 
 {% include single-image.html fileName="kalichord/image5.jpg" %}
 
-The tines each feature a piezoelectric pickup and utilize a hybrid acoustic-electric physical modeling sound synthesis found in its predecessor, the Kalichord (read about the original Kalichord [here](http://bit.ly/kalichord).  Signals from a piezoelectric pickup on each tine are used as excitation signals for a digital physical model of a string, creating a nuanced and expressive plucking interface.  The unique shape of the tines gives them different acoustic colors when plucked in different places, and they are arranged in alternating orientations to facilitate easy strumming of one, two, or three tines at a time.  
+The tines each feature a piezoelectric pickup and utilize a hybrid acoustic-electric physical modeling sound synthesis found in its predecessor, the Kalichord (read about the original Kalichord [here](http://bit.ly/kalichord)).  Signals from a piezoelectric pickup on each tine are used as excitation signals for a digital physical model of a string, creating a nuanced and expressive plucking interface.  The unique shape of the tines gives them different acoustic colors when plucked in different places, and they are arranged in alternating orientations to facilitate easy strumming of one, two, or three tines at a time.  
 
 The audio signal from the tines is connected to a preamplifier to clean up the signal and then routed into the audio and analog inputs on Bela.  Future versions will almost certainly make use of the audio expander capelet, which was not available at the time.
 
