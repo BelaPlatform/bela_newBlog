@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kalichord Strum by Dan Moses"
-date: 2017-05-15
+date: 2017-05-14
 categories:
   - Projects
   - Instruments
