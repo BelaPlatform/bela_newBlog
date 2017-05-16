@@ -61,6 +61,6 @@ A high level block diagram is shown below.
 
 {% include single-image.html fileName="kalichord/image6.png" %}
 
-The Bela board was an absolute dream of a prototyping platform.  We were able to implement the Kalichord Strum as a standalone instrument, focusing on on what we are interested in - instrument building - without getting bogged down by the mechanics of hardware management and signal plumbing.  We look forward to building the next generation of Kalichord Strum as well as other instruments with the help of the Bela board!
+The Bela board was an absolute dream of a prototyping platform.  We were able to implement the Kalichord Strum as a standalone instrument, focusing on what we are interested in - instrument building - without getting bogged down by the mechanics of hardware management and signal plumbing.  We look forward to building the next generation of Kalichord Strum as well as other instruments with the help of the Bela board!
 
 *This project was made using [Bela](http://bela.io), the [open-source](https://github.com/BelaPlatform/Bela) platform for ultra-low latency audio and sensor processing. Find out more on our [website](http://bela.io), buy Bela at our [shop](https://shop.bela.io), follow us on [twitter](https://twitter.com/BelaPlatform) or join our community and discuss this post on our [forum](https://forum.bela.io).*
