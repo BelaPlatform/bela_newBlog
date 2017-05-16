@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Kalichord Strum by Dan Moses"
-date: 2017-05-14
+date: 2017-05-15
 categories:
   - Projects
   - Instruments
@@ -31,7 +31,7 @@ The audio signal from the tines is connected to a preamplifier to clean up the s
 
 The Kalichord Strum was designed so that one hand strums while the other hand plays notes on a MIDI keyboard.  However, we also wanted it to be able to be played without an attached keyboard, so we added a capacitive-sensing tactile keyboard, with a mirror image keyboard one octave down to increase the note reach of a single hand.
 
-{% include youtube.html youtube="MzCIdw6" %}
+{% include youtube.html youtube="MzCIdw6-jaw" %}
 
 {% include single-image.html fileName="kalichord/image1.png" %}
 
