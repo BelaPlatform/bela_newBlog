@@ -11,7 +11,7 @@ image: tardif/factory.png
 author: bela
 ---
  
-[Pierre Tardif](http://codingcoolsh.it/index.html) shared this video of a performance he did as part of the Water Tower Festival 2017.
+[Pierre Tardif](http://codingcoolsh.it/index.html) shared this video of a performance he did as part of the [Water Tower Festival 2017](http://watertowerartfest.com/en/) in Sofia, Bulgaria.
 
 {% include vimeo.html vimeo="233096591" %}
 
