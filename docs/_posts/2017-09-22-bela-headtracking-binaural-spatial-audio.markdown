@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Interactive Spatial Audio Workshop"
-date: 2017-09-21
+date: 2017-09-22
 categories:
   - Tutorials
   - Workshops
