@@ -6,7 +6,7 @@ categories:
   - "Hardware"
   - "Tutorials"
 description: "Details on analogue and audio channels on Bela, with respect to timing, noise and aliasing performance"
-image: bela-analogue-vs-audio.jpg
+image: bela-analogue-vs-audio/bela-analogue-vs-audio.jpg
 author: andrew
 ---
 
@@ -100,7 +100,7 @@ To use the analogue I/Os as extra audio channels, then, we need to do three thin
 
 The capelet does all of these things. AC coupling is fairly easy: basically, just add a capacitor in series with the outputs, and a capacitor and a couple resistors for the inputs.
 
-{% include single-image.html fileName="audioExp01.jpg" %}
+{% include single-image.html fileName="bela-analogue-vs-audio/audioExp01.jpg" %}
 
 Filtering is less easy, mainly because the more aliasing we want to eliminate, the higher the order of filter we need. Higher-order filters in turn mean more parts, more board space, tighter component tolerances, and above all more cost. So we have to make a decision on the price/performance balance. For studio-quality applications, no embedded board can possibly match the performance of multi-thousand-dollar rack gear. But we want something that is good enough to use in a musical instrument with decent sound. We are still finalising the design of the audio capelet but the most likely scenario will be second-order filters on each input and output.
 

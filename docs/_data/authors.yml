@@ -4,59 +4,59 @@ astrid:
   twitter: disastrid
   profile: Astrid researches how error can make better electronic music. <br />More of her work can be found at <a href="http://astridbin.com">astribin.com</a>.
   email: astrid@bela.io
-  author-image: astrid.jpg
+  author-image: Authors/astrid.jpg
 someoneElse:
   name: Someone Else
   github: someoneElse
   twitter: someoneElse
   email: someone@bela.io
   profile: This is someone completely different.
-  author-image: someoneElse.jpg
+  author-image: Authors/someoneElse.jpg
 robert:
   name: Robert Jack
   github: roberthjack
   twitter: rjack0101
   email: robert@bela.io
   profile: Robert is a musician and instrument designer. He is currently a doctoral candidate in the Augmented Instruments Lab at QMUL.
-  author-image: robert.jpg
+  author-image: Authors/robert.jpg
 andrew:
   name: Andrew McPherson
   github: apmcpherson
   twitter: InstrumentsLab
   email: andrew@bela.io
   profile: Andrew is an instrument designer, composer and engineer. He is a Reader (Associate Professor) in the Centre for Digital Music at QMUL, where he leads the Augmented Instruments Laboratory.
-  author-image: andrew.jpg
+  author-image: Authors/andrew.jpg
 giulio:
   name: Giulio Moro
   github: giuliomoro
   email: giulio@bela.io
   profile: Doing PhD while doing Bela while doing PhD while doing Bela.
-  author-image: giulio.jpg
+  author-image: Authors/giulio.jpg
 alessia:
   name: Alessia Milo
   email: a.milo@qmul.ac.uk
   twitter: alesmilo
   profile: Alessia is an architect currently researching education in acoustics for architecture while pursuing her PhD in Media and Arts Technology, QMUL.
-  author-image: alessia.jpg
+  author-image: Authors/alessia.jpg
 jacob:
   name: Jacob Harrison
   email: j.harrison@qmul.ac.uk
   twitter: Jcb_H
   profile: Jacob Harrison is currently doing a PhD in the Augmented Instruments Lab at QMUL. His research focuses on interface and instrument design, neurologic music therapy and accessible music technology.
-  author-image: jacob.jpg
+  author-image: Authors/jacob.jpg
 jack:
   name: Jack Armitage
   email: j.d.k.armitage@qmul.ac.uk
   profile: Jack Armitage is currently doing a PhD in the Augmented Instruments Lab at QMUL. His research focuses on craft in digital musical instrument design.
-  author-image: jack.jpg
+  author-image: Authors/jack.jpg
 dan:
   name: Dan Moses
   profile: Dan Moses is a multi-instrumentalist, musical instrument designer, DSP engineer and composer living in Oakland, CA. Dan has a Masters degree in Jazz Studies from New England Conservatory of Music and an MS in Electrical Engineering from Stanford University, and when he is not writing music with his band <a href="http://www.kilbanes.com/" target="_blank">The Kilbanes</a>, or creating new musical instruments, he works on DSP algorithms for Sennheiser.  Two of Dan's instruments, the Kalichord and Kalichord Strum, have been finalists at the Guthman Instrument Competition. <a href="http://www.dannymo.com" target="_blank">www.dannymo.com</a>
-  author-image: dan_beer.jpg
+  author-image: Authors/dan_beer.jpg
 bela:
   name: Bela
   github: BelaPlatform
   twitter: BelaPlatform
   email: info@bela.io
   profile: Bela is an open-source platform for ultra-low latency audio and sensor processing. Find out more on our <a href="http://bela.io" target="_blank">website</a>, buy Bela at our <a href="http://shop.bela.io" target="_blank">shop</a>, follow us on <a href="https://twitter.com/BelaPlatform" target="_blank">twitter</a> or join our community and discuss this post on our <a href="http://forum.bela.io" target="_blank">forum</a>.
-  author-image: belaboard.jpg
+  author-image: Authors/belaboard.jpg

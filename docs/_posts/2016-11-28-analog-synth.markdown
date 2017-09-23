@@ -6,7 +6,7 @@ categories:
   - Hardware
   - Synths
 description: "Interfacing with a Doepfer Dark Energy II Analog Synth using Bela and Pure Data"
-image: darknrg.jpg
+image: analog-synth/darknrg.jpg
 author: giulio
 ---
 
@@ -22,7 +22,7 @@ The circuit diagram below shows how to connect Bela to the Dark Energy. The conn
 
 When connecting up the mono jack sockets it's important to make sure that ground is connected to the sleeve of the socket and the signal to the tip. In the circuit diagram and also in the video you'll see that we're using a force sensitive resistor to add some physical control to the Dark Energy. This sensor changes its resistance when you apply pressure to the circular part by squeezing it. In Pure Data we measure the change in voltage at the analog input. This type of circuit we're using to read the FSR is known as a voltage divider circuit. If you'd like to learn more about voltage dividers take a look at the documentation for the LDR example that comes on the board: [examples/06-Sensors/LDR](https://github.com/BelaPlatform/Bela/blob/master/examples/06-Sensors/LDR/render.cpp).
 
-{% include single-image.html fileName="bela-darknrg.jpg" %}
+{% include single-image.html fileName="analog-synth/bela-darknrg.jpg" %}
 
 ## CV In
 

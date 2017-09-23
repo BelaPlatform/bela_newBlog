@@ -8,7 +8,7 @@ categories:
   - Synths
   - Projects
 description: "Hackable Musical Instruments"
-image: hacking.jpg
+image: Dbox/hacking.jpg
 author: andrew
 ---
 
@@ -24,7 +24,7 @@ To investigate appropriation of digital instruments, we took a page from the pra
 
 Though the exterior of the instrument is simple -- a wooden cube with two capacitive touch sensors and a speaker -- inside is a sophisticated analog and digital system based on Bela. In addition to the BeagleBone Black, Bela cape and battery, cracking open the side of the box reveals a breadboard populated with wires and electronic components which can be changed by the user:
 
-{% include single-image.html fileName="dbox_1.jpg" caption="The D-Box, with the side panel exposed to show the rewirable breadboard." %}
+{% include single-image.html fileName="Dbox/dbox_1.jpg" caption="The D-Box, with the side panel exposed to show the rewirable breadboard." %}
 
 The behaviour of the D-Box is determined by low-latency feedback loops between hardware and software (described in [this paper](http://www.nime.org/proceedings/2015/nime2015_258.pdf)). The loops exhibit nonlinear and sometimes chaotic behaviour, so that changing the circuits on the board can have unpredictable yet generally repeatable effects. The goal of this design was to create an instrument whose space of sonic possibilities was not limited by the original imagination of the designers: the performer can discover effects and behaviours that were never explicitly consider in the original design.
 

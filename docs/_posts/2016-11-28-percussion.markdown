@@ -8,7 +8,7 @@ categories:
   - Instruments
   - Projects
 description: "Making a low latency percussion instrument with ceramic tiles, piezo disks, and Bela"
-image: percussion-instrument.jpg
+image: tiles/percussion-instrument.jpg
 author: robert
 ---
 
@@ -26,7 +26,7 @@ Piezo disks generate a voltage when they are deformed and are great sensors for 
 
 By using the voltage biasing circuit we realign the zero point of the piezo signal up to around 2V, which gives us enough headroom to read both the positive and negative part of the piezo signal. Here’s an image of the voltage divider circuit for three piezo disks: in our circuit we used two 2.2 MOhm resistors for each piezo disk.
 
-{% include single-image.html fileName="percussion-fritzing.jpg" %}
+{% include single-image.html fileName="tiles/percussion-fritzing.jpg" %}
 
 ## Signal conditioning
 
