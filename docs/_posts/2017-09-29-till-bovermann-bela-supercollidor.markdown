@@ -12,7 +12,7 @@ image: bovermann/bela_rotary.jpg
 author: bela
 ---
  
-Till Bovermann has put a series of tips and trick for using Bela on his [website](http://tai-studio.org/tag/bela/) that cover topics such as [connecting bela to wifi](http://tai-studio.org/2017/08/06/wifi-on-bela-boards.html), [SuperCollider](http://tai-studio.org/2017/08/06/bela-crosscompile.html) and [interfacing with hardware](http://tai-studio.org/2016/08/12/bela-rotary.html).
+Till Bovermann has put a series of tips and tricks for using Bela on his [website](http://tai-studio.org/tag/bela/) that cover topics such as [connecting bela to wifi](http://tai-studio.org/2017/08/06/wifi-on-bela-boards.html), [SuperCollider](http://tai-studio.org/2017/08/06/bela-crosscompile.html) and [interfacing with hardware](http://tai-studio.org/2016/08/12/bela-rotary.html).
 
 {% include single-image.html fileName="bovermann/bela-pin-remix-remix.jpg" %}
 
