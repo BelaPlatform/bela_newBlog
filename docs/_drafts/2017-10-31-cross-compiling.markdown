@@ -14,7 +14,7 @@ Add these lines to `~/.bashrc`
 ```
 export DISTCC_HOSTS=192.168.7.1
 export DISTCC_VERBOSE=1
-export DISTCC_FALLBACK=0
+export DISTCC_FALLBACK=1 # In principle this should be 0, but on my system it does not work as expected
 export DISTCC_SAVE_TEMPS=1
 export DISTCC_BACKOFF_PERIOD=0
 export TMPDIR=/tmp/distcc
@@ -35,7 +35,7 @@ clang-3.9 $@
 create file in /usr/local/bin/clang++-3.9-arm
 ```
 #!/bin/bash
-clang++-3.9 $@
+clang++-3.9 $@ -stdlib=libstdc++
 ```
 and make them executable:
 ```
@@ -85,8 +85,11 @@ Start the distccd on the host:
 distccd --verbose --no-detach --daemon --allow 192.168.7.2 --log-level debug --log-file ~/distccd.log
 ```
 
-run the compiler
+You should now be able to compile a test program:
 
+```
+distcc clang-3.9-arm ~/Bela/resources/network/udpclient.c
+```
 
 Monitoring:
 on the host
