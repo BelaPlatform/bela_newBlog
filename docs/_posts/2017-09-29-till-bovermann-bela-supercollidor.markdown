@@ -20,7 +20,6 @@ Based in Berlin, Till Bovermann is a reseacher and artist whose work touches upo
 
 {% include single-image.html fileName="bovermann/bela-speakers.jpg" %}
 
-
 Till was one of principal investigators of the project [3DMIN — Design, Development and Dissemination of New Musical Instruments](http://www.3dmin.org/), a collaboration between UdK Berlin and TU Berlin that brought together an interdisciplinary team of researchers and artists to work on questions regarding historical and contemporary electronic musical instruments. 
 As part of this project Till participated in our [workshop at STEIM](http://blog.bela.io/2016/12/15/steim/) in 2016. 
 At the workshop [we explored](https://3dmin.github.io/#bela-stand-alone) the potential of porting [PushPull](https://3dmin.github.io/), a digital accordion-like instrument created as part of the 3DMIN project, to Bela. 
