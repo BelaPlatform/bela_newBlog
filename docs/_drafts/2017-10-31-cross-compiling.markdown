@@ -43,6 +43,14 @@ chmod +x /usr/local/bin/clang-3.9-arm
 chmod +x /usr/local/bin/clang++-3.9-arm
 ```
 
+In practice this will do everything for you:
+```
+printf '#!/bin/bash\nclang-3.9 $@' > /usr/local/bin/clang-3.9-arm
+printf '#!/bin/bash\nclang++-3.9 $@' > /usr/local/bin/clang++-3.9-arm
+chmod +x /usr/local/bin/clang-3.9-arm
+chmod +x /usr/local/bin/clang++-3.9-arm
+```
+
 You should now be able to compile a simple file:
 clang-3.9-arm test.c
 
