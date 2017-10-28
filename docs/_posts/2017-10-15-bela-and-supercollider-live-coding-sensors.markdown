@@ -96,7 +96,7 @@ In the snippet below, the values read from the analog inputs 0 and 1 are sent ba
 	SendReply.kr(Impulse.kr(10), '/ctrl', [a0, a1]);
 ```
 
-When using SuperCollider on Bela you can also take advantage of the server/client architecture by running the language and the SuperCollider IDE on your computer while running `scsynth` on Bela. Like this so you can use a live coding approach for experimenting and trying things out. Then once you've finalized your project you may want to run `sclang` on Bela to be able to run your program without live-coding interaction, for instance to make a stand-alone instrument running on battery.
+When using SuperCollider on Bela you can also take advantage of the server/client architecture by running the language and the SuperCollider IDE on your computer while running `scsynth` on Bela. Like this you can use a live coding approach for experimenting and trying things out. Then once you've finalized your project you may want to run `sclang` on Bela to be able to run your program without live-coding interaction, for instance to make a stand-alone instrument running on battery.
 
 If you want to live code Bela from the SuperCollider IDE, you have to download the [Bela class files](https:/github.com/sensestage/bela-remote) on your computer and follow the instructions in the README file. This way of working allows you to execute code on your machine and directly communicate with scsynth running on the Bela board.
 For this to work you need to make sure you are running SuperCollider 3.8 or above on your computer.
@@ -144,7 +144,7 @@ We are going to add the possibility of executing snippets of code from within th
 
 SuperCollider was designed with a desktop environment in mind, and porting it to the constrained environment of an embedded platform requires further work and optimizations.
 We hope that some of the improvements we propose will eventualy make their way upstream so that they can be useful to all SuperCollider users, not only those that use it on Bela.
-Ultimately we aim to be able to merge the Bela developmnet branch back into the main SuperCollider development branch, which would make maintenance easier for us.
+Ultimately we aim to be able to merge the Bela development branch back into the main SuperCollider development branch, which would make maintenance easier for us.
 You can track the open issues on [github.com/sensestage/supercollider/issues](https://github.com/sensestage/supercollider/issues) and get the latest release of SuperCollider for Bela from [github.com/giuliomoro/supercollider/releases](https://github.com/giuliomoro/supercollider/releases).
 
 ### Links
