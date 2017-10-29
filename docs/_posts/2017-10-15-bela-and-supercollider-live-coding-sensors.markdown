@@ -13,6 +13,7 @@ This post is an update on the latest developments in using SuperCollider with Be
 
 {% include single-image.html fileName="bela-and-supercollider-live-coding-sensors/bela-sc-3.png" %}
 
+Bela is a polyglot: we've always wanted it to be as flexible as possible and to be able to speak the favourite computer music language of the people who use it. Right now it is possible to code Bela projects in [C++](https://github.com/BelaPlatform/Bela/wiki/Example-projects-and-tutorials) and [Pure Data](https://github.com/BelaPlatform/Bela/wiki/Running-Puredata-patches-on-Bela), and more experimentally in [Faust](https://github.com/BelaPlatform/Bela/wiki/Compiling-Faust-code-for-Bela) and [Pyo](https://github.com/belangeo/pyo-bela). This post gives an update on the latest language that is supported on Bela, the ever-flexible [SuperCollider](https://supercollider.github.io/).
 
 ## What is SuperCollider?
 
