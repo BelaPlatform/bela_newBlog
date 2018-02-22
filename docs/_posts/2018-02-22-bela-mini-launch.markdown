@@ -8,8 +8,6 @@ categories:
   - "Projects"
 description: "Introducing the new Bela Mini"
 image: bela-mini-launch/header.jpg
-visible: 0
-hidden: true
 author: bela
 ---
 
