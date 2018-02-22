@@ -11,7 +11,7 @@ image: bela-mini-launch/header.jpg
 author: bela
 ---
 
-Bela Mini is the latest evolution of Bela, the open-source platform for responsive audio and sensor processing.
+Bela Mini is the latest evolution of Bela, the open-source platform for responsive audio and sensor processing. It is now available for pre-order at a special discounted price.
 
 <div style="text-align: center; margin-bottom: 10px;"><a href="https://shop.bela.io/bela-mini" name="Preorder Bela Mini now"><button name="button" style="font-size: larger; font-weight: bold; cursor: pointer; color: #ffffff; padding: 10px; background-color: #00bea4; border-radius: 4px; border: 4px #00bea4;">Preorder now</button></a></div>
 
