@@ -15,7 +15,7 @@ author: bela
 
 Bela Mini is the latest evolution of Bela, the open-source platform for responsive audio and sensor processing.
 
-<div style="text-align: center; margin-bottom: 10px;"><a href="https://shop.bela.io/" name="Preorder Bela Mini now"><button name="button" style="font-size: larger; font-weight: bold; cursor: pointer; color: #ffffff; padding: 10px; background-color: #00bea4; border-radius: 4px; border: 4px #00bea4;">Preorder now</button></a></div>
+<div style="text-align: center; margin-bottom: 10px;"><a href="https://shop.bela.io/bela-mini" name="Preorder Bela Mini now"><button name="button" style="font-size: larger; font-weight: bold; cursor: pointer; color: #ffffff; padding: 10px; background-color: #00bea4; border-radius: 4px; border: 4px #00bea4;">Preorder now</button></a></div>
 
 Over the past two years Bela has been used to create hundred of interactive audio projects worldwide from musical instruments to sound installations, from e-textiles to assistive technology, as well as kinetic sculptures, research experiments and teaching tools. If you’re interested in creating interactive projects that use sensors and sound, then Bela is the platform for you.
 
@@ -34,7 +34,7 @@ If you choose the [Bela Mini cape](https://shop.bela.io/bela-mini-cape-preorder)
 
 {% include single-image.html fileName="bela-mini-launch/blog_scale.jpg" %}
 
-<div style="text-align: center; margin-bottom: 10px;"><a href="https://shop.bela.io/" name="Preorder Bela Mini now"><button name="button" style="font-size: larger; font-weight: bold; cursor: pointer; color: #ffffff; padding: 10px; background-color: #00bea4; border-radius: 4px; border: 4px #00bea4;">Preorder now</button></a></div>
+<div style="text-align: center; margin-bottom: 10px;"><a href="https://shop.bela.io/bela-mini" name="Preorder Bela Mini now"><button name="button" style="font-size: larger; font-weight: bold; cursor: pointer; color: #ffffff; padding: 10px; background-color: #00bea4; border-radius: 4px; border: 4px #00bea4;">Preorder now</button></a></div>
 
 ## Comparison of Bela Mini and the original Bela
 
