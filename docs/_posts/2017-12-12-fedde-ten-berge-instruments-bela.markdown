@@ -6,6 +6,7 @@ categories:
   - "Instruments"
   - "Hardware"
   - "Projects"
+  - Installations
 description: "An Ensemble of Instruments by Fedde ten Berge: of Nature and Things"
 image: fedde/KES-header.jpg
 author: bela

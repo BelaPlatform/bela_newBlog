@@ -6,6 +6,7 @@ categories:
   - "Software"
   - "Hardware"
   - "Projects"
+  - "Synths"
 description: "TSR: Bela on the Trans-Siberian Railway"
 image: tsr/instrument-siberia-2.jpg
 author: bela

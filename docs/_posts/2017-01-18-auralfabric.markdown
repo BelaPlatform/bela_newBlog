@@ -5,6 +5,7 @@ date: 2017-01-18
 categories:
   - Hardware
   - Projects
+  - Installations
 description: "Aural Fabric, an interactive textile map that plays back field recordings when touched"
 image: aural-fabric/auralfabric-head.jpg
 author: alessia

@@ -6,6 +6,7 @@ categories:
   - Projects
   - Instruments
   - Hardware
+  - "Synths"
 description: "Pierre Tardif making music concrete with a sheep's skull."
 image: tardif/factory.jpg
 author: bela

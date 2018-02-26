@@ -7,6 +7,7 @@ categories:
   - Instruments
   - Hardware
   - Projects
+  - Installations
 description: "A series of useful guides and tips for using Bela."
 image: bovermann/bela_rotary.jpg
 author: bela

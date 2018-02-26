@@ -4,6 +4,7 @@ title: "Axis: A kinetic sculpture made with Bela"
 date: 2017-02-27
 categories:
   - Projects
+  - Installations
 description: "Axis: A kinetic sculpture made with Bela"
 image: axis/axis_cover.jpg
 author: astrid
