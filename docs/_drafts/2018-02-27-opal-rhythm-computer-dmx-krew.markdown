@@ -12,16 +12,18 @@ image: opal-rhythm/header.jpg
 author: eddmx
 ---
 
-In this post Ed Upton (AKA DMX Krew) talks us through the Opal Rhythm Computer, a drum machine and sampler that Ed built from scratch using Bela. 
+In this post Ed DMX (AKA DMX Krew) talks us through the Opal Rhythm Computer, a drum machine and sampler that Ed built from scratch using Bela. 
 
 
-Under the name [DMX Krew](http://www.dmxkrew.com), Ed has been a stalwart of the British DIY electronic music scene for the past 25 years. Continually producing and releasing music over this period, his work has been released on Aphex Twin's [Rephlex](https://www.discogs.com/label/107-Rephlex) label, and his own [Breakin' Records](https://www.discogs.com/label/2408-Breakin-Records) and [Fresh Up Records](https://www.discogs.com/label/202483-Fresh-Up-Records). In this post Ed talks us through the reasons that brought him to recreate a [RSF SD140](http://www.muzines.co.uk/articles/rsf-140-sampling-drum-machine/1221) sampling drum machine. He also guides us through his first experience of building his own music hardware from scratch, including programming the behaviour of the instrument, interfacing with buttons and screens, soldering everything together and designing a great looking enclosure to house the instrument, ready for the road. Over to Ed to tell us more about this great project. 	
+Under the name [DMX Krew](https://www.discogs.com/artist/983-DMX-Krew), Ed has been a stalwart of the British DIY electronic music scene for the past 25 years. Continually producing and releasing music over this period, his work has been released on Aphex Twin's [Rephlex](https://www.discogs.com/label/107-Rephlex) label, and his own [Breakin' Records](https://www.discogs.com/label/2408-Breakin-Records) and [Fresh Up Records](https://www.discogs.com/label/202483-Fresh-Up-Records). In this post Ed talks us through the reasons that brought him to recreate a [RSF SD140](http://www.muzines.co.uk/articles/rsf-140-sampling-drum-machine/1221) sampling drum machine. He also guides us through his first experience of building his own music hardware from scratch, including programming the behaviour of the instrument, interfacing with buttons and screens, soldering everything together and designing a great looking enclosure to house the instrument, ready for the road. Over to Ed to tell us more about this great project. 	
+
+<!-- Mention that Ed had never programmed or soldered before taking on this project. -->
 
 # The Opal Rhythm Computer
 
 {% include single-image.html fileName="opal-rhythm/opal-rhythm-computer.jpg" caption="The Opal Rhythm Computer" %}
 
-In the 90s I had an [S950](http://www.vintagesynth.com/akai/s900.php) and everything I sampled came out sounding
+In the 90s I had an [S950](https://www.emusician.com/gear/akai-s950) and everything I sampled came out sounding
 different to what went in. I was desperate to get a sampler that
 sounded clean and lifelike, and eventually I spent a huge amount (for
 me) on a secondhand [Kurzweil K2000](http://www.vintagesynth.com/kurzweil/k2000.php). It's still the most expensive
@@ -31,9 +33,7 @@ later I got my first [MPC2000](http://www.vintagesynth.com/akai/mpc2000.php) and
 integrated sampler and sequencer, especially for drums, but I still
 never got the idea that you would want a sampler to colour the sound
 in any way. The first time I heard aliasing from a sampler was when Bass Junkie
-brought his [EIII](http://www.matrixsynth.com/2016/01/e-mu-emulator-iii-rack-rm45-disk-drive.html) to my house to mix tracks like this:
-
-{% include youtube.html youtube="dyiWwY8zBYY" %}
+brought his [EIII](http://www.vintagesynth.com/emu/emulator3.php) to my house to mix tracks like [this](https://www.kudosrecords.co.uk/track/btcd001/4/cybernet-systems-delta-city.html).
 
 
 10 years later I had read the internet hype about [SP1200s](http://www.vintagesynth.com/emu/sp1200.php), [MPC60s](http://www.vintagesynth.com/akai/mpc60.php) and
