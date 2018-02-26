@@ -83,7 +83,7 @@ Bela Mini is approximately 55mm long, 35mm wide and 21mm tall, counting both the
 
 Bela Mini keeps the most popular features of the original Bela in a package one third the size. To achieve the size reduction, Bela Mini keeps the stereo audio output but removes the 8 analog outputs, and Bela Mini does not have the onboard speaker amps (external speakers can still be used if they have their own amps). On the other hand, Bela Mini adds a bi-color indicator LED which is not on the original Bela.
 
-Both Bela and Bela Mini have a 1GHz Cortex-A8 CPU and 512MB of RAM. The both have stereo audio I/O, 8x 16-bit analog inputs and 16 digital I/Os. They run the same software and support the same programming languages. Bela Mini requires an SD card to boot: it is based on the PocketBeagle which does not have the 4GB of eMMC found on the BeagleBone Black. An SD image for Bela Mini will be available on our release page by shipping time.
+Both Bela and Bela Mini have a 1GHz Cortex-A8 CPU and 512MB of RAM. The both have stereo audio I/O, 8x 16-bit analog inputs and 16 digital I/Os. They run the same software and support the same programming languages. Bela Mini requires an SD card to boot: it is based on the PocketBeagle which does not have the 4GB of eMMC found on the BeagleBone Black. An SD image for Bela Mini will be available on our [release page](https://github.com/BelaPlatform/bela-image-builder/releases) by shipping time.
 
 ### Will a program written for Bela run on Bela Mini?
 
@@ -105,7 +105,7 @@ Probably not. The capelets are designed to fit the original Bela board and will 
 
 If you are buying a Bela Mini starter kit, then it’s already done for you! The starter kit comes pre-soldered and also includes a USB cable and pre-flashed SD card. If you buy a Bela Mini cape and source your own PocketBeagle, you will need to solder them together. You can either solder the Bela Mini cape directly on the PocketBeagle or solder two 18x2 socket headers to the top side of the PocketBeagle and then attach the cape.
 
-If you plan to add sockets to the PocketBeagle, please note that the location of the holes on the PocketBeagle make it very difficult to fit most standard 18x2 headers around the CPU. For this reason, we recommend soldering the Bela Mini cape directly to the PocketBeagle. The cape will then give you sockets to connect further devices. Please see this post on the PocketBeagle forum for further discussion on attaching socket headers to the PocketBeagle.
+If you plan to add sockets to the PocketBeagle, please note that the location of the holes on the PocketBeagle make it very difficult to fit most standard 18x2 headers around the CPU. For this reason, we recommend soldering the Bela Mini cape directly to the PocketBeagle. The cape will then give you sockets to connect further devices. Please see [this post](https://groups.google.com/forum/embed/?parenturl=http%3A%2F%2Fbeagleboard.org%2Fcape&showsearch=true&showtabs=true&place=forum%2Fbeagleboard&theme=default#!category-topic/beagleboard/pocketbeagle/Uxx_9ce2YHM) on the PocketBeagle forum for further discussion on attaching socket headers to the PocketBeagle.
 
 ### What is the correct orientation of the Bela Mini cape?
 
