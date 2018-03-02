@@ -69,6 +69,8 @@ If you choose the [Bela Mini cape](https://shop.bela.io/bela-mini-cape-preorder)
 
 [What is the correct orientation of the Bela Mini cape?](#what-is-the-correct-orientation-of-the-bela-mini-cape)
 
+[What is the relationship between Bela and BeagleBoard.org?](#what-is-the-relationship-between-bela-and-beagleboardorg)
+
 ### When will Bela Mini be available?
 
 Bela Mini is available for pre-order now. The design is finished and tested and production is underway. Barring any unforeseen delays, we expect Bela Mini orders to ship in May.
@@ -111,3 +113,8 @@ If you plan to add sockets to the PocketBeagle, please note that the location of
 
 The Bela Mini cape goes on the top of the PocketBeagle, i.e. on top of the side where the connectors and components are located. As for rotation, the USB connector on the Bela Mini should be above the USB connector on the PocketBeagle, and the Molex-style connectors on the Bela Mini should be above the SD card slot on the PocketBeagle.
 
+### What is the relationship between Bela and BeagleBoard.org?
+
+[Bela](https://bela.io) and [BeagleBoard.org](https://beagleboard.org) are separate organisations based in different countries (the UK and the US, respectively), but we are both committed to open hardware and software, and we are active collaborators. Bela Mini is a hardware board which works with the PocketBeagle; it is BeagleBoard.org approved. We are working with them on software and community support to make the best possible user experience.
+
+{% include single-image.html fileName="bela-mini-launch/beagle_approved.png" %}
