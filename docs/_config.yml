@@ -19,7 +19,7 @@ title: Bela Blog
 description: A blog about Bela.
 url: ""
 twitter_username: BelaPlatform
-default_img: "assets/images/STEIM/steim-7.jpg"
+default_img: "STEIM/steim-7.jpg"
 
 #Author names
 github: "http://www.github.com/"
