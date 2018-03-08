@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "ChandeLIA: sound, light and brass by Lia Mice"
-date: 2018-03-07
+date: 2018-03-08
 categories:
   - "Instruments"
   - "Hardware"
