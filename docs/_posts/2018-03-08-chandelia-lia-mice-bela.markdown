@@ -14,6 +14,7 @@ author: bela
 
 The ChandeLIA is a suspended musical instrument created by [Lia Mice](https://www.liamice.com) that transforms a chandelier into an audio-visual performance instrument.
 
+
 {% include vimeo.html vimeo="247490374" %}
 
 ## Performing with sound, light and brass
