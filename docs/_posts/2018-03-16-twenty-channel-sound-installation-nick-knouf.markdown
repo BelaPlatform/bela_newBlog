@@ -29,7 +29,7 @@ Nicholas built a series of custom antennas from scratch and used them to track t
 
 # Piezoelectric speakers
 
-Nicholas made the speakers from a piezoelectric element embedded between two sheets of handmade abaca paper that was then air dried over a mold. Each of the elements were then hung from the light grid in the gallery.
+Nicholas made the speakers from a piezoelectric element embedded between two sheets of handmade abaca paper that was then air dried over a mold. The wires that carried the audio signal to the piezo speakers doubled up as mechanical supports to hang the elements from the light grid in the gallery.
 
 {% include single-image.html fileName="nick-knouf/installation-close-up.jpg" caption="Close-up of one of the piezo speakers. Photo by Nicholas Knouf." %}
 
@@ -43,7 +43,7 @@ Nicholas made the speakers from a piezoelectric element embedded between two she
 
 {% include youtube.html youtube="tTAeZltjVUM" %}
 
-Nicholas used Bela in combination with [audio expander capelet](https://shop.bela.io/bela-accessories/bela-audio-expander-capelet-preorder-shipping-in-march) in order to have low-cost access to a large number of audio output channels. He used SuperCollider as his programming language of choice for this project and you can find it in his repo: [https://gitlab.com/OfThoseMoments/OfThoseMomentsSC](https://gitlab.com/OfThoseMoments/OfThoseMomentsSC). Nicholas had the following to say about working with Bela on the project:
+Nicholas used Bela in combination with an [audio expander capelet](https://shop.bela.io/bela-accessories/bela-audio-expander-capelet-preorder-shipping-in-march) in order to have low-cost access to a large number of audio output channels. The audio signals from Bela were then sent to some small power amplifiers before being fed to the piezo speakers. He used SuperCollider as his programming language of choice for this project and you can find it in his repo: [https://gitlab.com/OfThoseMoments/OfThoseMomentsSC](https://gitlab.com/OfThoseMoments/OfThoseMomentsSC). Nicholas had the following to say about working with Bela on the project:
 
 
 > "The SuperCollider integration was a big plus coupled with the integrated IDE, as it enabled me to quickly prototype the work within the space after the hardware was installed above the lighting grid and thus out of reach. Building upon the BeagleBone platform allowed for easy starting and stopping of the work each day through the provided scripts and standard Debian utilities. Bela's stack of hardware and software made the realization of this installation within a short timeframe possible."
