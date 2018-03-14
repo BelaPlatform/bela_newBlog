@@ -41,7 +41,7 @@ Nicholas made the speakers from a piezoelectric element embedded between two she
 
 # How Bela was used
 
-{% include youtube.html youtube="tTAeZltjVUM" %}
+{% include youtube.html youtube="KxgRcVVwy-w" %}
 
 Nicholas used Bela in combination with an [audio expander capelet](https://shop.bela.io/bela-accessories/bela-audio-expander-capelet-preorder-shipping-in-march) in order to have low-cost access to a large number of audio output channels. The audio signals from Bela were then sent to some small power amplifiers before being fed to the piezo speakers. He used SuperCollider as his programming language of choice for this project and you can find it in his repo: [https://gitlab.com/OfThoseMoments/OfThoseMomentsSC](https://gitlab.com/OfThoseMoments/OfThoseMomentsSC). Nicholas had the following to say about working with Bela on the project:
 
