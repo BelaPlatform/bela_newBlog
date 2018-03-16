@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Of these moments in-between, everything: 20-channel sound installation by Nicholas Knouf"
-date: 2018-03-13
+date: 2018-03-16
 categories:
   - "Projects"
   - Installations
@@ -9,7 +9,6 @@ categories:
   - "Hardware"
 description: "Of these moments in-between, everything: 20-channel sound installation by Nicholas Knouf"
 image: nick-knouf/installation-from-below.jpg
-hidden: true
 author: bela
 ---
 
