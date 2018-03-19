@@ -1,27 +1,28 @@
 ---
 layout: post
-title: "Opal Rhythm Computer - DMX Krew"
-date: 2018-02-25
+title: "Opal Rhythm Computor - DMX Krew"
+date: 2018-03-19
 categories:
   - "Software"
   - "Hardware"
   - "Projects"
   - "Synths"
-description: "Opal Rhythm Computer - DMX Krew"
-image: opal-rhythm/header.jpg
-author: eddmx
+description: "Opal Rhythm Computor - DMX Krew"
+image: opal-rhythm/opal-computor.jpg
+author: bela
+hidden: true
 ---
 
-In this post Ed DMX (AKA DMX Krew) talks us through the Opal Rhythm Computer, a drum machine and sampler that Ed built from scratch using Bela. 
+In this post Ed DMX (AKA DMX Krew) talks us through the Opal Rhythm Computor, a drum machine and sampler that Ed built from scratch using Bela. 
 
 
 Under the name [DMX Krew](https://www.discogs.com/artist/983-DMX-Krew), Ed has been a stalwart of the British DIY electronic music scene for the past 25 years. Continually producing and releasing music over this period, his work has been released on Aphex Twin's [Rephlex](https://www.discogs.com/label/107-Rephlex) label, and his own [Breakin' Records](https://www.discogs.com/label/2408-Breakin-Records) and [Fresh Up Records](https://www.discogs.com/label/202483-Fresh-Up-Records). In this post Ed talks us through the reasons that brought him to recreate a [RSF SD140](http://www.muzines.co.uk/articles/rsf-140-sampling-drum-machine/1221) sampling drum machine. He also guides us through his first experience of building his own music hardware from scratch, including programming the behaviour of the instrument, interfacing with buttons and screens, soldering everything together and designing a great looking enclosure to house the instrument, ready for the road. Over to Ed to tell us more about this great project. 	
 
 <!-- Mention that Ed had never programmed or soldered before taking on this project. -->
 
-# The Opal Rhythm Computer
+# The Opal Rhythm Computor
 
-{% include single-image.html fileName="opal-rhythm/opal-rhythm-computer.jpg" caption="The Opal Rhythm Computer" %}
+{% include youtube.html youtube="N5WYu1k4zso" caption="Ed showcasing the instrument in an interview with FACT magazine."%}
 
 In the 90s I had an [S950](https://www.emusician.com/gear/akai-s950) and everything I sampled came out sounding
 different to what went in. I was desperate to get a sampler that
@@ -107,7 +108,7 @@ simplistic but it worked. I added a couple of features like tuning of samples, a
 each sound, and pattern swing, and suddenly it began to sound pretty
 good!
 
-{% include single-image.html fileName="opal-rhythm/missing.jpg" caption="Missing Image: software version 8." %}
+{% include single-image.html fileName="opal-rhythm/LED drum 8.jpg" %}
 
 I took the plunge and pledged my money to the [Bela Kickstarter](https://www.kickstarter.com/projects/423153472/bela-an-embedded-platform-for-low-latency-interact). It was
 a few months until the unit would arrive so in the meantime I could
@@ -136,7 +137,7 @@ all new to me and I found this part extremely hard to program. It took
 weeks of attempts plus several days of solid concentration to get it
 to work.
 
-{% include single-image.html fileName="opal-rhythm/missing.jpg" caption="Missing Image: realtime38." %}
+{% include single-image.html fileName="opal-rhythm/realitime38.jpg" %}
 
 # First Adventures in Hardware
 
@@ -149,7 +150,7 @@ and cables. I think this kind of knowledge is assumed to be so basic
 that it is almost impossible to find out if you haven't got someone to
 ask. In the end I settled on these:
 
-{% include single-image.html fileName="opal-rhythm/missing.jpg" caption="Missing Image: ribbon cables." %}
+{% include single-image.html fileName="opal-rhythm/jumper wire.jpg" %}
 
 I looked at some beginners' electronics projects online and bought
 some parts from RS & CPC. I managed to get the BBB to turn on and off
@@ -175,7 +176,7 @@ trouble shoot many times because I had accidentally soldered two
 tracks together, or failed to solder a connection at all despite using
 huge amounts of solder.
 
-{% include single-image.html fileName="opal-rhythm/missing.jpg" caption="Missing Image: switch tree circuit / perfboard." %}
+{% include single-image.html fileName="opal-rhythm/switchtree.jpg" %}
 
 ## Buttons
 
@@ -188,7 +189,7 @@ few and tried them out, and settled on Cherry MX Brown. I used
 [this website](addlink) to design a keyplate layout and had a local guy with a
 laser cutter cut out a keyplate from acrylic.
 
-{% include single-image.html fileName="opal-rhythm/missing.jpg" caption="Missing Image: keyplate." %}
+{% include 2up.html left="opal-rhythm/redkeys3.jpg" right="opal-rhythm/whitesticker.jpg" %}
 
 By this time I was reasonably OK with the soldering iron but hand
 wiring the keyboard was the biggest and hardest soldering job I have
@@ -225,7 +226,7 @@ Bela's analogue outputs to control the LCD, simply because it needed
 5V and the digital lines are only 3.3V. I didn't want to risk mixing
 3.3V and 5V on my LCD board in case I messed up and fried the Bela.
 
-{% include single-image.html fileName="opal-rhythm/missing.jpg" caption="Missing Image: screen." %}
+{% include single-image.html fileName="opal-rhythm/screen.jpg" %}
 
 Once the screen was mostly working, there was a lot of programming to do to port the whole thing over from working with a monitor and mouse, to working in the embedded environment that I had created. After soldering some nice long slider pots and some quarter inch jacks to the audio cables that came with Bela, I was finally able to hook all
 my messy little circuits together with my home made keyboard and the BBB/Bela and the LCD. I had the whole lot sitting in an old cardboard box and it looked mad but it kind of worked! I stuck a piece of paper over they keys to tell me what they were supposed to do.
@@ -274,7 +275,7 @@ mount the aluminium inside the case, so I bought some from eBay along
 with a centre punch and some good drill bits, and found that it's
 pretty easy to work on.
 
-{% include single-image.html fileName="opal-rhythm/missing.jpg" caption="Missing Image: panel pic." %}
+{% include single-image.html fileName="opal-rhythm/combined-shots.jpg" %}
 
 Due to the cables and the need to make it possible to get fingers
 inside to assemble the whole thing, I had to make the case a bit
@@ -284,7 +285,7 @@ My friend Dave from [RaingerFX](http://www.raingerfx.com/
 ) he uses to make cases for his pedals and gave me some tips on how to lay it
 out.
 
-{% include single-image.html fileName="opal-rhythm/missing.jpg" caption="Missing Image: box layout." %}
+{% include single-image.html fileName="opal-rhythm/enclosure-2.jpg" %}
 
 I made the layout in InDesign and printed it out and built it out of
 paper to check for mistakes. Then I did it again until it was right,
@@ -300,7 +301,7 @@ assembled and working!
 
 # The Final Instrument
 
-{% include youtube.html youtube="N5WYu1k4zso" caption="Ed showcasing the instrument in an interview with FACT magazine."%}
+{% include single-image.html fileName="opal-rhythm/opal-rhythm-computer.jpg" caption="The Opal Rhythm Computor" %}
 
 I had several more software revisions to do to stabilise the screen
 more and streamline features such as copy & paste. There was a bug
@@ -310,7 +311,7 @@ editing of start and end points for each sample and a "randomise
 pattern" feature suggested by a couple of friends, which uses an
 algorithm to create semi-random variations from a pattern.
 
-{% include single-image.html fileName="opal-rhythm/missing.jpg" caption="Missing Image: audio example." %}
+<!-- {% include single-image.html fileName="opal-rhythm/missing.jpg" caption="Missing Image: audio example." %} -->
 
 And of course, since there is a USB socket on the back that lets you
 connect to a computer and update the software that is being run, what
