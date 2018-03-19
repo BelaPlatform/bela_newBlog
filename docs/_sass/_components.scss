@@ -594,6 +594,16 @@
     padding-bottom: 1em;
 }
 
+/* TEST For videos on two rows */
+.row {
+  clear: both;
+}
+
+.column-2 {
+  float: left;
+  width: 50%;
+}
+
 /* image handlers */
 
 .image-include {

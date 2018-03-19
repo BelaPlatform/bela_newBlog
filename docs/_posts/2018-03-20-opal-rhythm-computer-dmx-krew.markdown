@@ -1,28 +1,27 @@
 ---
 layout: post
 title: "Opal Rhythm Computor - DMX Krew"
-date: 2018-03-19
+date: 2018-03-20
 categories:
+  - "Synths"
+  - "Projects"
   - "Software"
   - "Hardware"
-  - "Projects"
-  - "Synths"
 description: "Opal Rhythm Computor - DMX Krew"
-image: opal-rhythm/opal-computor.jpg
+image: opal-rhythm/header.png
 author: bela
 hidden: true
 ---
 
 In this post Ed DMX (AKA DMX Krew) talks us through the Opal Rhythm Computor, a drum machine and sampler that Ed built from scratch using Bela. 
 
-
-Under the name [DMX Krew](https://www.discogs.com/artist/983-DMX-Krew), Ed has been a stalwart of the British DIY electronic music scene for the past 25 years. Continually producing and releasing music over this period, his work has been released on Aphex Twin's [Rephlex](https://www.discogs.com/label/107-Rephlex) label, and his own [Breakin' Records](https://www.discogs.com/label/2408-Breakin-Records) and [Fresh Up Records](https://www.discogs.com/label/202483-Fresh-Up-Records). In this post Ed talks us through the reasons that brought him to recreate a [RSF SD140](http://www.muzines.co.uk/articles/rsf-140-sampling-drum-machine/1221) sampling drum machine. He also guides us through his first experience of building his own music hardware from scratch, including programming the behaviour of the instrument, interfacing with buttons and screens, soldering everything together and designing a great looking enclosure to house the instrument, ready for the road. Over to Ed to tell us more about this great project. 	
-
-<!-- Mention that Ed had never programmed or soldered before taking on this project. -->
+{% include youtube.html youtube="N5WYu1k4zso" caption="Ed showcasing the instrument in an interview with FACT magazine."%}
 
 # The Opal Rhythm Computor
 
-{% include youtube.html youtube="N5WYu1k4zso" caption="Ed showcasing the instrument in an interview with FACT magazine."%}
+Under the name [DMX Krew](https://www.discogs.com/artist/983-DMX-Krew), Ed has been a stalwart of the British DIY electronic music scene for the past 25 years. Continually producing and releasing music over this period, his work has been released on Aphex Twin's [Rephlex](https://www.discogs.com/label/107-Rephlex) label, and his own [Breakin' Records](https://www.discogs.com/label/2408-Breakin-Records) and [Fresh Up Records](https://www.discogs.com/label/202483-Fresh-Up-Records). In this post Ed talks us through the reasons that brought him to recreate a [RSF SD140](http://www.muzines.co.uk/articles/rsf-140-sampling-drum-machine/1221) sampling drum machine. He also guides us through his first experience of building his own music hardware from scratch, including programming the behaviour of the instrument, interfacing with buttons and screens, soldering everything together and designing a great looking enclosure to house the instrument, ready for the road. Over to Ed to tell us more about this great project. 	
+
+## Inspiration
 
 In the 90s I had an [S950](https://www.emusician.com/gear/akai-s950) and everything I sampled came out sounding
 different to what went in. I was desperate to get a sampler that
@@ -32,7 +31,7 @@ thing I've ever bought for my studio and it's now worth far less than
 synths that cost me under £100 during the same period. A few years
 later I got my first [MPC2000](http://www.vintagesynth.com/akai/mpc2000.php) and instantly loved the concept of an
 integrated sampler and sequencer, especially for drums, but I still
-never got the idea that you would want a sampler to colour the sound
+never got why you would want a sampler to colour the sound
 in any way. The first time I heard aliasing from a sampler was when Bass Junkie
 brought his [EIII](http://www.vintagesynth.com/emu/emulator3.php) to my house to mix tracks like [this](https://www.kudosrecords.co.uk/track/btcd001/4/cybernet-systems-delta-city.html).
 
@@ -43,30 +42,25 @@ most of his early tracks. I came across a damaged SD140 that I manged
 to buy very cheaply. Straight away I fell in love with the grungy
 sound it made, and I made some records with it like these:
 
-{% include youtube.html youtube="mlvLppn8c2Q" %}
 
-{% include youtube.html youtube="97dgmGAS4Tc" %}
-
-I didn't use it for this one, but you can see what it looks like in the video:
-
-{% include youtube.html youtube="fFB_eG_cWyQ" %}
+{% include youtube-2.html left="mlvLppn8c2Q" right="97dgmGAS4Tc" %}
 
 The sound was amazing and gritty, and the user interface was extremely
 simple and quick to use, much faster than an MPC. I could easily make
 Aphex weirdness or very authentic Prince-style Linn sounds.
 Unfortunately mine only had 6 of the 14 sound memories working -
 either the PCB was damaged or the ancient PRAM chips had died. After a
-while I discovered there was one repair guy in France called CEM3374
-CHECK who specialised in fixing RSF gear so I sent it off to him.
+while I discovered there was one repair guy in France called CEM3374 who specialised in fixing RSF gear so I sent it off to him.
 After a few months he stopped replying to my emails and I never heard
 from him again. He stole my SD140 and I couldn't find another one
 anywhere. There didn't seem any point flying to France to confront him
 when he had probably long since sold it. Instead I tried a lot of
 experiments with the bit grunger effect on the [MPC1000](http://www.vintagesynth.com/akai/mpc1000.php), and I bought
 an [Eventide DSP4000](https://www.eventideaudio.com/products/rackmount/dsp-harmonizer/dsp4000-series) and made my own bit crunch and sample rate
-reduction programs on it, in an effort to recapture the SD140 sound.
+reduction programs on it, in an effort to recapture the SD140 sound which you can hear in the video on the left. In the video on the right you can also see what the SD140 looked like.
 
-{% include youtube.html youtube="V1PTULVK48g" %}
+{% include youtube-2.html left="V1PTULVK48g" right="fFB_eG_cWyQ" %}
+
 
 Although I discovered some cool sounds, it wasn't much like the SD140
 and besides, it's a real vibe killer to have to run each sound through
@@ -150,7 +144,8 @@ and cables. I think this kind of knowledge is assumed to be so basic
 that it is almost impossible to find out if you haven't got someone to
 ask. In the end I settled on these:
 
-{% include single-image.html fileName="opal-rhythm/jumper wire.jpg" %}
+{% include double-image.html left="opal-rhythm/jumper wire.jpg" right="opal-rhythm/switchtree.jpg" caption="On the left the jumper cables used. On the right the schematic for the switch tree."%}
+
 
 I looked at some beginners' electronics projects online and bought
 some parts from RS & CPC. I managed to get the BBB to turn on and off
@@ -176,8 +171,6 @@ trouble shoot many times because I had accidentally soldered two
 tracks together, or failed to solder a connection at all despite using
 huge amounts of solder.
 
-{% include single-image.html fileName="opal-rhythm/switchtree.jpg" %}
-
 ## Buttons
 
 I didn't like the feel of the tact switches I was using and I missed my old [TR-909](http://www.vintagesynth.com/roland/909.php)
@@ -189,7 +182,7 @@ few and tried them out, and settled on Cherry MX Brown. I used
 [this website](addlink) to design a keyplate layout and had a local guy with a
 laser cutter cut out a keyplate from acrylic.
 
-{% include 2up.html left="opal-rhythm/redkeys3.jpg" right="opal-rhythm/whitesticker.jpg" %}
+{% include single-image.html fileName="opal-rhythm/whitesticker.jpg" %}
 
 By this time I was reasonably OK with the soldering iron but hand
 wiring the keyboard was the biggest and hardest soldering job I have
