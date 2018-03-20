@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Opal Rhythm Computor - DMX Krew"
-date: 2018-03-20
+date: 2018-03-28
 categories:
   - "Synths"
   - "Projects"
