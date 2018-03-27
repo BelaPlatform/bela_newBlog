@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Opal Rhythm Computor - DMX Krew"
-date: 2018-03-28
+date: 2018-03-27
 categories:
   - "Synths"
   - "Projects"
@@ -19,7 +19,8 @@ In this post Ed DMX (AKA DMX Krew) talks us through the Opal Rhythm Computor, a 
 
 # The Opal Rhythm Computor
 
-Under the name [DMX Krew](https://www.discogs.com/artist/983-DMX-Krew), Ed has been a stalwart of the British DIY electronic music scene for the past 25 years. Continually producing and releasing music over this period, his work has been released on Aphex Twin's [Rephlex](https://www.discogs.com/label/107-Rephlex) label, and his own [Breakin' Records](https://www.discogs.com/label/2408-Breakin-Records) and [Fresh Up Records](https://www.discogs.com/label/202483-Fresh-Up-Records). In this post Ed talks us through the reasons that brought him to recreate a [RSF SD140](http://www.muzines.co.uk/articles/rsf-140-sampling-drum-machine/1221) sampling drum machine. He also guides us through his first experience of building his own music hardware from scratch, including programming the behaviour of the instrument, interfacing with buttons and screens, soldering everything together and designing a great looking enclosure to house the instrument, ready for the road. Over to Ed to tell us more about this great project. 	
+Under the name [DMX Krew](https://www.discogs.com/artist/983-DMX-Krew), Ed has been a stalwart of the British DIY electronic music scene for the past 25 years. Continually producing and releasing music over this period, his work has been released on Aphex Twin's [Rephlex](https://www.discogs.com/label/107-Rephlex) label, and his own [Breakin' Records](https://www.discogs.com/label/2408-Breakin-Records) and [Fresh Up Records](https://www.discogs.com/label/202483-Fresh-Up-Records). In this post Ed talks us through the reasons that brought him to recreate a [RSF SD140](http://www.muzines.co.uk/articles/rsf-140-sampling-drum-machine/1221) sampling drum machine. 
+Having never built a circuit, soldered or programmed before, Ed also guides us through his first experience of building his own music hardware from scratch. This includes coding the behaviour of the instrument, interfacing with buttons and screens, soldering everything together and designing an enclosure to house the instrument, ready for the road. Over to Ed to tell us more about this great project. 	
 
 ## Inspiration
 
