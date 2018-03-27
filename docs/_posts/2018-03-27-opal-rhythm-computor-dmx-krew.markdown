@@ -10,7 +10,6 @@ categories:
 description: "Opal Rhythm Computor - DMX Krew"
 image: opal-rhythm/header.png
 author: bela
-hidden: true
 ---
 
 In this post Ed DMX (AKA DMX Krew) talks us through the Opal Rhythm Computor, a drum machine and sampler that Ed built from scratch using Bela. 
@@ -123,14 +122,7 @@ that are out now:
 
 I realised I couldn't afford to have such a huge amount of buttons and
 LEDs on the real device so I decided on a real-time system of tapping
-in rhythms as on an MPC or LinnDrum. I prefer this to 808-style anyway
-- I am a musician, not a data-entry technician.
-I wanted to allow the user to set the amount of quantisation, or to
-leave notes unquantised, which meant I needed to create an entirely
-new data structure for the sequencer called a linked list. This was
-all new to me and I found this part extremely hard to program. It took
-weeks of attempts plus several days of solid concentration to get it
-to work.
+in rhythms as on an MPC or LinnDrum. I prefer this to 808-style anyway -- I am a musician, not a data-entry technician. I wanted to allow the user to set the amount of quantisation, or to leave notes unquantised, which meant I needed to create an entirely new data structure for the sequencer called a linked list. This was all new to me and I found this part extremely hard to program. It took weeks of attempts plus several days of solid concentration to get it to work.
 
 {% include single-image.html fileName="opal-rhythm/realitime38.jpg" %}
 
