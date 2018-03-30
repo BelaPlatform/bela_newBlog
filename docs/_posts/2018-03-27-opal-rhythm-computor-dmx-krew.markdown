@@ -171,9 +171,7 @@ so I decided to buy some mechanical keyboard switches. I went down a
 big rabbithole of websites about making your own keyboard, mostly for
 people who are into computer games and want a custom layout with fast
 keys. I learnt all about the various kinds of [Cherry MX keys](http://www.keyboardco.com/blog/index.php/2012/12/an-introduction-to-cherry-mx-mechanical-switches/), bought a
-few and tried them out, and settled on Cherry MX Brown. I used
-[this website](addlink) to design a keyplate layout and had a local guy with a
-laser cutter cut out a keyplate from acrylic.
+few and tried them out, and settled on Cherry MX Brown. I used a website to design a keyplate layout and had a local guy with a laser cutter cut out a keyplate from acrylic.
 
 {% include single-image.html fileName="opal-rhythm/whitesticker.jpg" %}
 
