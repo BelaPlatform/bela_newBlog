@@ -45,7 +45,7 @@ If you choose the [Bela Mini cape](https://shop.bela.io/bela-mini-cape-preorder)
 | Digital I/O | 16 | 16 |
 | UART serial | yes | yes |
 | I2C bus | yes | yes |
-| SPI bus | yes | yes |
+| SPI bus | yes | yes(soft) |
 | Ethernet | - | 1 |
 | Dimensions | 56mm (l) x 35mm (w) x 21mm (h) | 87mm (l) x 54mm (w) x 27mm (h)
 
