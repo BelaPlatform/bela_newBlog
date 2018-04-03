@@ -65,6 +65,8 @@ If you choose the [Bela Mini cape](https://shop.bela.io/bela-mini-cape-preorder)
 
 [Can I use the Audio Expander or Multiplexer Capelets with Bela Mini?](#can-i-use-the-audio-expander-or-multiplexer-capelets-with-bela-mini)
 
+[What is the difference in the SPI busses of Bela and Bela Mini?](#what-is-the-difference-in-the-spi-busses-of-bela-and-bela-mini)
+
 [How do I attach the Bela Mini cape to the PocketBeagle?](#how-do-i-attach-the-bela-mini-cape-to-the-pocketbeagle)
 
 [What is the correct orientation of the Bela Mini cape?](#what-is-the-correct-orientation-of-the-bela-mini-cape)
@@ -103,6 +105,14 @@ This is a USB host port that you can use to connect USB devices such as MIDI con
 
 Probably not. The capelets are designed to fit the original Bela board and will not attach to the Bela Mini. If you are truly determined, you might be able to use the input portion of the Audio Expander Capelet with Bela Mini if you run wires for all the necessary signals (the output portion will not work as Bela Mini does not have the 8 analog outputs of the original Bela). The Multiplexer Capelet would need additional digital signals that are not currently available on the Bela Mini headers.
 
+### What is the difference in the SPI busses of Bela and Bela Mini?
+
+The Bela cape uses one shared SPI bus for the DC-coupled ADC and DAC and it uses I2S to communicate with the stereo audio codec. Although there is one extra SPI peripheral on the AM3358 chip, it uses the same pins as the I2S bus so they cannot be used simultaneously
+
+On Bela Mini the SPI1 bus is entirely available (though it will use two of the pins normally used for Bela Digital I/O). 
+
+However, for both platforms is possible to use the Linux `spi_gpio` driver, which allows to use any set of 4 GPIO pins as a fully-featured "soft" SPI device. This is slower (in the order of a few tens kHz) and the throughput of the bus will be affected by system load. An example use of this is on our code for the CTAG: [device-tree overlay](https://github.com/giuliomoro/Bela/blob/1651958f665d6e39fdcd5d293debeb4eae994f7c/resources/ctag/BELA-CTAG-00A0.dts) and [C++ code](https://github.com/giuliomoro/Bela/blob/1651958f665d6e39fdcd5d293debeb4eae994f7c/core/Spi_Codec.cpp) to use it.  Another alternative available on both platforms, which yields higher speed, is to use the unused PRU to bitbang the SPI protocol. An example of this is [here](https://github.com/giuliomoro/spi-pru). Adapting this code to your application will involve writing some PRU assembly code.
+
 ### How do I attach the Bela Mini cape to the PocketBeagle?
 
 If you are buying a Bela Mini starter kit, then it’s already done for you! The starter kit comes pre-soldered and also includes a USB cable and pre-flashed SD card. If you buy a Bela Mini cape and source your own PocketBeagle, you will need to solder them together. You can either solder the Bela Mini cape directly on the PocketBeagle or solder two 18x2 socket headers to the top side of the PocketBeagle and then attach the cape.
@@ -118,3 +128,4 @@ The Bela Mini cape goes on the top of the PocketBeagle, i.e. on top of the side 
 [Bela](https://bela.io) and [BeagleBoard.org](https://beagleboard.org) are separate organisations based in different countries (the UK and the US, respectively), but we are both committed to open hardware and software, and we are active collaborators. Bela Mini is a hardware board which works with the PocketBeagle; it is BeagleBoard.org approved. We are working with them on software and community support to make the best possible user experience.
 
 {% include single-image.html fileName="bela-mini-launch/beagle_approved.png" %}
+
