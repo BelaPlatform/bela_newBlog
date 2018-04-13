@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Paper and Paint Synth with Conductive Ink"
-date: 2018-04-12
+date: 2018-04-13
 categories:
   - "Synths"
   - "Projects"
@@ -44,13 +44,16 @@ After the paint was dry, I attached wires to the end of each strip. I did this b
 
 {% include single-image.html fileName="conductive-ink/p-4.jpg" %}
 
-To get the instrument working with Bela I attached the wires now coming from the top of each strip to the 5v pin, and the wires coming from the bottom of each strip to a GND pin. I then attached two more wires to analogue pins 1 & 2 to use as wipers. The wipers send different voltages to the Bela depending on where they are touched along each strip. To make sound, I loaded a super simple Pure Data patch onto Bela using the IDE. The patch is a slightly edited version of one of the [Bela example projects](https://github.com/BelaPlatform/Bela/tree/master/examples/08-PureData) and it just creates a sine tone at a suitable frequency and uses analogue pins 1 & 2 to control frequency and amplitude. 
+To get the instrument working with Bela I attached the wires now coming from the top of each strip to the 5v pin, and the wires coming from the bottom of each strip to a GND pin. I then attached two more wires to analogue pins 0 & 1 to use as wipers. The wipers send different voltages to the Bela depending on where they are touched along each strip. To make sound, I loaded a super simple Pure Data patch onto Bela using the IDE. The patch is a slightly edited version of one of the [Bela example projects](https://github.com/BelaPlatform/Bela/tree/master/examples/08-PureData) and it just creates a sinetone at a suitable frequency and uses analogue pins 0 & 1 to control frequency and amplitude. 
 <br />
 <br />
 
 {% include single-image.html fileName="conductive-ink/pure-data.png" %}
 
-As I’m primarily a musician and fairly new to Pure Data and electronics, I stuck with the basic PD patch for the moment and added a bit of crunchy overdrive and reverb in my DAW when recording the above video. I'm sure more advanced PD users will be able to create similar or more interesting effects and synth sounds within the patch!
+I’m primarily a musician and fairly new to Pure Data and electronics, so to begin with I stuck with a basic PD patch, and added a bit of crunchy overdrive and reverb in my DAW when recording the above video. 
+One slightly tricky step to deal with was mapping the values of the analog input to the frequency range I wanted for the sinetone.
+This involved a couple of steps including shifting the range and then converting it to be exponential instead of linear.
+The patch above shows a version that takes care of everything. If you'd like to try it yourself you can download the [patch here](https://github.com/roberthjack/Bela-examples/tree/master/Pure-data/conductive-ink-synth).
 <br />
 <br />
 
