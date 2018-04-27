@@ -25,14 +25,14 @@ The CTAG capes are fully compatible with Bela, and can take advantage of Bela's 
 
 For more details on the CTAG build, take a look at the [hackaday project page](https://hackaday.io/project/9634-beaglebone-multi-channel-audio-card-ctag-face24).
 
-The capes will available for preorder at a special discounted price from the Bela shop very soon. To be the first to hear when more info is released, [sign up to our mailing list](https://bela.us1.list-manage.com/subscribe?u=984c0ed7483851c64760303d2&id=d2150b705c).
+The capes will soon be available for preorder at the Bela shop. To be the first to hear when they are released and to get a special pre-order discount code, [sign up to our mailing list](https://bela.us1.list-manage.com/subscribe?u=984c0ed7483851c64760303d2&id=d2150b705c).
 
 ## Tech specs
 
 | Feature | Spec |
 | :-: | :-: |
-| audio I/O (FACE) | 4/8 |
-| audio I/O (BEAST) | 8/16 |
+| audio inputs/outputs (FACE) | 4/8 |
+| audio inputs/outputs (BEAST) | 8/16 |
 | latency (Bela) | 1ms\* |
 | latency (ALSA) | 3.2ms\*\* |
 | sample-rate/bit-depth (Bela) | 48KHz/16bit |
