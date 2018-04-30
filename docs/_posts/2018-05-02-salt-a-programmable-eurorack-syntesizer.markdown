@@ -35,7 +35,7 @@ Salt is a joint effort between RebelTechnology and Bela.
 
 The module is split into two sub-modules, in order to provide maximum flexibility for placement in your Eurorack case:
 
-{% include single-image.html fileName="salt/salt-salt+.jpg" caption="Salt with the BeagleBone Green (left) and the Salt+ (right)" %}
+{% include single-image.html fileName="salt/salt-salt+.jpg" caption="Salt with the BeagleBone Green (left) and Salt+ (right)" %}
 
 ### Salt:
 
