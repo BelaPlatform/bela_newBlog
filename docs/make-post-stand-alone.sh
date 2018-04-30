@@ -20,6 +20,11 @@ loop do
   match.parent.remove # remove containing element
 end
 loop do 
+  match = doc.at("a.nav--white")
+  break unless match
+  match.remove
+end
+loop do 
   match = doc.at("section.next")
   break unless match
   match.remove
