@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Salt"
-date: 2018-03-19
+date: 2018-04-30
 categories:
   - "Hardware"
 description: "Salt: a programmable Eurorack module"
@@ -13,7 +13,7 @@ author: bela
 
 Salt is a Bela-powered programmable Eurorack module, developed by [RebelTechnology](https://rebeltech.org) and [Bela](https://bela.io).
 
-{% include single-image.html fileName="modular/Bela-Modular-Proto.jpg" caption="An early prototype of Salt" %}
+{% include single-image.html fileName="salt/salt-front.jpg" caption="An early prototype of Salt" %}
 
 ## What does it do?
 
@@ -35,9 +35,9 @@ Salt is a joint effort between RebelTechnology and Bela.
 
 The module is split into two sub-modules, in order to provide maximum flexibility for placement in your Eurorack case:
 
-{% include single-image.html fileName="modular/modular-core-expander.jpg" caption="The Bela Core with the BeagleBone Green (left) and the Bela Expander (right)" %}
+{% include single-image.html fileName="salt/salt-salt+.jpg" caption="Salt with the BeagleBone Green (left) and the Salt+ (right)" %}
 
-### The Bela Core:
+### Salt:
 
 * Width: 12HP
 * Physical dimensions (excluding faceplate): 109mm (height), 60mm(width), 43mm(depth)
@@ -52,9 +52,9 @@ The module is split into two sub-modules, in order to provide maximum flexibilit
 * Controls:
 	* 4x pots (offset for CV in)
 	* 2x button with integrated bi-color LED
-* Power consumption (off the +12V rail): 450mA max.
+* Power consumption: 200mA/12V, 50mA/-12V.
 
-### The Bela Expander:
+### Salt+:
 
 * Width: 10HP
 * Physical dimensions (excluding faceplate): 109mm (height), 48mm(width), 30mm(depth)
@@ -68,9 +68,9 @@ The module is split into two sub-modules, in order to provide maximum flexibilit
 * Controls:
 	* 4x pots (offset for CV in)
 	* 2x button with integrated bi-color LED
-* Power consumption: 20mA (off the +12V rail)
+* Power consumption: 50mA/12V, 50mA/-12V
 
-The Bela Core is the main unit, at the back of which is plugged a Beaglebone Green with a Bela cape. A 20-pin ribbon cable is used to connect the Expander to the Core, providing power and signals, and only the Core is connected to the power supply of your case. The Core can work on its own, but the Expander requires the Core.
+Salt is the main unit, at the back of which is plugged a Beaglebone Green with a Bela cape. A 20-pin ribbon cable is used to connect Salt+ to Salt, providing power and signals. Only Salt is connected to the power supply of your case. Salt can work on its own, but Salt+ requires Salt.
 
 ## Coming soon:
 
