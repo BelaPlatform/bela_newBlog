@@ -74,17 +74,17 @@ Salt is the main unit, at the back of which is plugged a Beaglebone Green with a
 
 ## Coming soon:
 
-More images, diagrams, demos, example code, price ...
+Diagrams, demos, example code ...
 
 ## Frequently asked questions
 
 ### When will Salt be available?
 
-Salt will be launched in early May 2018 at SuperBooth in Berlin. A limited run of modules will be available for sale at the SuperBooth workshop and on our shop. The price is TBA.
+Salt will be launched in early May 2018 at SuperBooth in Berlin. A limited run of modules will be available for sale at the SuperBooth workshop and on our shop.
 
 ### Do I need to know how to program in order to use Salt?
 
-Salt will come with a number of existing example patches which can work out of the box, without need to write a single line of code. You can program your own patches using C++, PureData or SuperCollider. [PureData](http://puredata.info) is a graphical programming language with which you can create and shape sounds connecting blocks, not too dissimilar from patching modules together.
+Salt will come with a number of existing example patches which can work out of the box, without need to write a single line of code. You can program your own patches using C++, PureData or SuperCollider. [PureData](http://puredata.info) is a graphical programming language with which you can create and shape sounds connecting blocks, not too dissimilar from patching modules together. Some patches are already available [here](https://github.com/BelaPlatform/Bela/tree/dev-modular/examples/13-Salt) and many more are on their way!
 
 ### Do I need a computer to use Salt?
 
@@ -92,11 +92,7 @@ In order to program Salt, or load the example patches, you need to connect it to
 
 ### Can I run my existing Bela projects with Salt?
 
-Yes, Salt runs the same software as the regular Bela.
-
-### I already have a Bela kit, can I use it with Salt?
-
-Salt will be sold either as a kit with a Bela cape and a BeagleBone Green, or without the BeagleBone and Bela cape, so that you can re-use your existing Bela kit. However, if you use a BeagleBone Black, you may have trouble fitting the module with the USB host cable inside some Eurorack cases. For this reason, we recommend using the BeagleBone Green, which has the USB host port on the same side as the USB device port.
+Yes, Salt runs the same user software as the regular Bela.
 
 <a name="featured-projects"></a>
 
