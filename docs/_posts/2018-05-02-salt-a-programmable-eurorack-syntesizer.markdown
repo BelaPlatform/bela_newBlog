@@ -1,19 +1,17 @@
 ---
 layout: post
-title: "Salt"
-date: 2018-04-30
+title: "Salt: a programmable Eurorack module"
+date: 2018-05-02
 categories:
   - "Hardware"
-description: "Salt: a programmable Eurorack module"
+description: "Bela in a Eurorack"
 image: salt/salt-header.jpg
 author: bela
 ---
 
-# Salt
-
 Salt is a Bela-powered programmable Eurorack module, developed by [RebelTechnology](https://rebeltech.org) and [Bela](https://bela.io).
 
-{% include single-image.html fileName="salt/salt-front.jpg" caption="An early prototype of Salt" %}
+{% include single-image.html fileName="salt/salt-front.jpg" caption="Salt and Salt+" %}
 
 ## What does it do?
 
@@ -22,6 +20,8 @@ With plenty of inputs and outputs, you can even assign different functions to di
 
 The module comes with a number of example patches which are ready to go; additionally you can write programs using a number of programming languages, including: PureData, Supercollider, C++.
 You will need to connect a computer in order to program it, but you can then take it to the stage in stand-alone mode. Scroll down for some [great examples](#featured-projects).
+
+<div style="text-align: center; margin-bottom: 10px;"><a href="https://shop.bela.io/salt" name="Buy Salt now"><button name="button" style="font-size: larger; font-weight: bold; cursor: pointer; color: #ffffff; padding: 10px; background-color: #00bea4; border-radius: 4px; border: 4px #00bea4;">Buy Salt now</button></a></div>
 
 ## Who is making it?
 
@@ -35,12 +35,14 @@ Salt is a joint effort between RebelTechnology and Bela.
 
 The module is split into two sub-modules, in order to provide maximum flexibility for placement in your Eurorack case:
 
-{% include single-image.html fileName="salt/salt-salt+.jpg" caption="Salt with the BeagleBone Green (left) and Salt+ (right)" %}
+{% include single-image.html fileName="salt/salt-salt+.jpg" caption="Salt with the BeagleBone Green and Bela cape (left) and Salt+ (right)" %}
 
 ### Salt:
 
-* Width: 12HP
-* Physical dimensions (excluding faceplate): 109mm (height), 60mm(width), 43mm(depth)
+* Dimensions 
+	* Width: 12HP / 61mm
+	* Height: 3U / 129mm
+	* Depth: 43mm
 * I/O (1/8" jacks):
 	* 2 audio in (AC-coupled)
 	* 2 audio out (DC-coupled)
@@ -52,39 +54,46 @@ The module is split into two sub-modules, in order to provide maximum flexibilit
 * Controls:
 	* 4x pots (offset for CV in)
 	* 2x button with integrated bi-color LED
-* Power consumption: 200mA/12V, 50mA/-12V.
+* Power:
+	* +12V: 250mA
+	* -12V: 50mA
 
 ### Salt+:
 
 * Width: 10HP
-* Physical dimensions (excluding faceplate): 109mm (height), 48mm(width), 30mm(depth)
+* Dimensions 
+	* Width: 10HP / 51mm
+	* Height: 3U / 129mm
+	* Depth: 15mm
 * I/O (1/8" jacks):
 	* 4xCV in
 	* 4xCV out
 	* 2x trigger in
 	* 2x trigger out
 	* 2x button with integrated bi-color LED
- 	* USB host port
+	* USB host port
 * Controls:
 	* 4x pots (offset for CV in)
 	* 2x button with integrated bi-color LED
-* Power consumption: 50mA/12V, 50mA/-12V
+* Power:
+	* +12V: 40mA
+	* -12V: 40mA
 
-Salt is the main unit, at the back of which is plugged a Beaglebone Green with a Bela cape. A 20-pin ribbon cable is used to connect Salt+ to Salt, providing power and signals. Only Salt is connected to the power supply of your case. Salt can work on its own, but Salt+ requires Salt.
+Salt is the main unit, at the back of which is plugged a Beaglebone Green with a Bela cape. A 20-pin ribbon cable is used to connect Salt+ to Salt, providing power and signals. Only Salt is connected to the Eurorack power supply. Salt+ requires Salt in order to work.
 
-## Coming soon:
+## Faceplate
 
-Diagrams, demos, example code ...
+Salt and Salt+ come with a white aluminium faceplate with black prints. Given that we cannot imagine what you are going to do with it, we also ship with two spare transparent acrylic faceplates that you can use for your customized designs.
 
 ## Frequently asked questions
 
-### When will Salt be available?
+### How long will Salt be available for?
 
-Salt will be launched in early May 2018 at SuperBooth in Berlin. A limited run of modules will be available for sale at the SuperBooth workshop and on our shop.
+Salt was released in May 2018 at SuperBooth in Berlin. This is a limited edition product, so [get yours](https://shop.bela.io/salt) while you can!
 
 ### Do I need to know how to program in order to use Salt?
 
-Salt will come with a number of existing example patches which can work out of the box, without need to write a single line of code. You can program your own patches using C++, PureData or SuperCollider. [PureData](http://puredata.info) is a graphical programming language with which you can create and shape sounds connecting blocks, not too dissimilar from patching modules together. Some patches are already available [here](https://github.com/BelaPlatform/Bela/tree/dev-modular/examples/13-Salt) and many more are on their way!
+Salt will come with a number of existing example patches which will work out of the box, without need to write a single line of code. You can program your own patches using C++, PureData or SuperCollider. [PureData](http://puredata.info) is a graphical programming language with which you can create and shape sounds connecting blocks, not too dissimilar from patching modules together. Some patches are already available [here](https://github.com/BelaPlatform/Bela/tree/dev-modular/examples/13-Salt) and many more are on their way!
 
 ### Do I need a computer to use Salt?
 
