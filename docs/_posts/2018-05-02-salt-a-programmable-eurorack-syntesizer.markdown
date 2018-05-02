@@ -81,13 +81,13 @@ The module is split into two sub-modules, in order to provide maximum flexibilit
 
 Salt is the main unit, at the back of which is plugged a Beaglebone Green with a Bela cape. A 20-pin ribbon cable is used to connect Salt+ to Salt, providing power and signals. Only Salt is connected to the Eurorack power supply. Salt+ requires Salt in order to work.
 
-#### Voltage ranges:
+#### Voltage ranges:
 
 The trigger in and outs are 0V to +5V.
 The CV inputs have a 10V pk-to-pk range, and the offset potentiometer allows to shift the usable input range down to -10V to 0V or up to 0V to 10V.
 The CV and audio outputs have a -5V to +5V range.
 
-#### Sampling frequency::
+#### Sampling frequency:
 
 The audio and trigger channels are sampled at 44.1kHz, while the CV channels are sampled at 22.05kHz when all 8 are in use, or 44.1kHz when only 4 are used.
 
