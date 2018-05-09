@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing the new CTAG FACE and BEAST multichannel audio systems"
-date: 2018-06-08
+date: 2018-05-08
 categories:
   - "Hardware"
   - "Software"
