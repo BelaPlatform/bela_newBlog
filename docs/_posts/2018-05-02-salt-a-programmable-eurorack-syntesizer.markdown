@@ -135,5 +135,5 @@ Sound designer [Robert Thomas](https://twitter.com/robertthomassnd) has been pla
 
 This [project](https://github.com/giuliomoro/pink-trombone) ported the original Javascript code to C++ in order to run it on Salt, allowing to use CV inputs to control the shape of the vocal tract, so that fricatives, plosives and a wide range of vowel sounds can be sequenced in your modular.
 
-The built-in quasi-sawtooth oscillator is modelled after the vibration of the vocal folds in the glottis and can be controlled independently via CV, has well as using the internal brownian LFO which gives the drone in the original Trombone its trademark wond. External sounds can be processed through the vocal tract filter.
+The built-in quasi-sawtooth oscillator is modelled after the vibration of the vocal folds in the glottis and can be controlled independently via CV, has well as using the internal brownian LFO which gives the drone in the original Trombone its trademark wondering pitch. External sounds can be processed through the vocal tract filter.
 
