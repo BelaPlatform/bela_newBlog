@@ -97,6 +97,8 @@ Start the distccd on the host:
 distccd --verbose --no-detach --daemon --allow 192.168.7.2 --log-level debug --log-file ~/distccd.log
 ```
 
+`--make-me-a-botnet` may also be required
+
 You should now be able to compile a test program:
 
 ```
