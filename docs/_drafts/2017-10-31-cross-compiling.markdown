@@ -65,7 +65,7 @@ install clang-3.9 with macports:
 ```
 sudo port install clang++-3.9
 ```
-^ returns `Error: Port clang++-3.9 not found`
+^ returns `Error: Port clang++-3.9 not found`. Try from here instead: http://releases.llvm.org/download.html#3.9.0
 
 Create files:
 /usr/local/bin/clang-3.9-arm
