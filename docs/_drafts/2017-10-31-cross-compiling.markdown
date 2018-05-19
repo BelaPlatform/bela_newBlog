@@ -10,6 +10,10 @@ image: bela-and-supercollider-live-coding-sensors/alo-allik.jpg
 author: giulio
 ---
 
+`distcc` release: https://github.com/distcc/distcc/releases
+
+When installing `distcc`, you may need to configure with `./configure --without-libiberty --disable-Werror`. See https://github.com/marksatt/DistCode/issues/13.
+
 Add these lines to `~/.bashrc`
 ```
 export DISTCC_HOSTS=192.168.7.1
