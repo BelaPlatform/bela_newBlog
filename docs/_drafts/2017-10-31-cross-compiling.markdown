@@ -24,6 +24,8 @@ export DISTCC_BACKOFF_PERIOD=0
 export TMPDIR=/tmp/distcc
 mkdir -p /tmp/distcc
 ```
+Note: once you're certain the process is working correctly, you may want to change `DISTCC_SAVE_TEMPS` to `0` to save disk space.
+
 and source it to apply the changes:
 ```
 source ~/.bashrc
