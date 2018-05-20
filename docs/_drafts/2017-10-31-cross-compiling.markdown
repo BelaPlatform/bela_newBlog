@@ -23,6 +23,8 @@ export DISTCC_SAVE_TEMPS=1 # Should be 0 if you're building something large, or 
 export DISTCC_BACKOFF_PERIOD=0
 export TMPDIR=/tmp/distcc
 mkdir -p /tmp/distcc
+
+export CXX="distcc /usr/local/bin/clang++-3.9-arm"
 ```
 Note: once you're certain the process is working correctly, you may want to change `DISTCC_SAVE_TEMPS` to `0` to save disk space.
 
