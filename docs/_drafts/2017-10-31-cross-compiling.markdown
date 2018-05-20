@@ -10,11 +10,11 @@ image: bela-and-supercollider-live-coding-sensors/alo-allik.jpg
 author: giulio
 ---
 
-`distcc` release: https://github.com/distcc/distcc/releases
+Install `distcc` on Bela and on the host. `distcc` releases: https://github.com/distcc/distcc/releases
 
 When installing `distcc`, you may need to configure with `./configure --without-libiberty --disable-Werror`. See https://github.com/marksatt/DistCode/issues/13.
 
-Add these lines to `~/.bashrc`
+Add these lines to `~/.bashrc` on Bela
 ```
 export DISTCC_HOSTS=192.168.7.1
 export DISTCC_VERBOSE=1
@@ -86,6 +86,10 @@ sudo chmod +x /usr/local/bin/clang-3.9-arm
 sudo chmod +x /usr/local/bin/clang++-3.9-arm
 ```
 
+Notes: 
+- The `mp` stands for Mac Ports, so if Clang was not installed via MacPorts (and likely it wasn't), then `mp` should be removed from the above.
+- Default Apple Clang will not suffice.
+
 Install OS X Fuse
 
 mount the remote filesytem:
@@ -99,7 +103,7 @@ Start the distccd on the host:
 distccd --verbose --no-detach --daemon --allow 192.168.7.2 --log-level debug --log-file ~/distccd.log
 ```
 
-`--make-me-a-botnet` may also be required
+`--make-me-a-botnet` may also be required. It seems that `distcc` thinks that user installed software on a Mac should be in `/usr` instead of `/usr/local`, but this changed a few macOS' ago.
 
 You should now be able to compile a test program:
 
