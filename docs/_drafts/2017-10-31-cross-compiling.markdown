@@ -124,8 +124,9 @@ watch -n 0.4 bash -c "ps aux | grep clang-3.9-arm"
 ```
 watch -n 0.4 bash -c "ps aux | grep clang++-3.9-arm"
 ```
+You can also see it in `top` and Activity Monitor.
 
-on the client (Bela), inspect the `stderr` returned by the host
+On the client (Bela), inspect the `stderr` returned by the host
 ```
 cat /tmp/distcc/*txt
 ```
