@@ -28,15 +28,15 @@ and source it to apply the changes:
 ```
 source ~/.bashrc
 ```
-create file in /usr/local/bin/clang-3.9-arm
+create file in `/usr/local/bin/clang-3.9-arm`
 with:
 
-create file in /usr/local/bin/clang-3.9-arm
+create file in `/usr/local/bin/clang-3.9-arm`
 ```
 #!/bin/bash
 clang-3.9 $@
 ```
-create file in /usr/local/bin/clang++-3.9-arm
+create file in `/usr/local/bin/clang++-3.9-arm`
 ```
 #!/bin/bash
 clang++-3.9 $@ -stdlib=libstdc++
@@ -56,10 +56,11 @@ chmod +x /usr/local/bin/clang++-3.9-arm
 ```
 
 You should now be able to compile a simple file:
+```
 clang-3.9-arm test.c
+```
 
-
-on the host: 
+On the host: 
 
 install clang-3.9 with macports:
 ```
@@ -67,14 +68,13 @@ sudo port install clang++-3.9
 ```
 ^ returns `Error: Port clang++-3.9 not found`. Try from here instead: http://releases.llvm.org/download.html#3.9.0
 
-Create files:
-/usr/local/bin/clang-3.9-arm
+Create files: `/usr/local/bin/clang-3.9-arm`
 with:
 ```
 #!/bin/bash
 clang-mp-3.9 -target armv7l-unknown-linux-gnueabihf --sysroot ~/arm $@
 ```
-and /usr/local/bin/clang++-3.9-arm
+and `/usr/local/bin/clang++-3.9-arm`
 with:
 ```
 #!/bin/bash
@@ -88,9 +88,9 @@ sudo chmod +x /usr/local/bin/clang++-3.9-arm
 
 Notes: 
 - The `mp` stands for Mac Ports, so if Clang was not installed via MacPorts (and likely it wasn't), then `mp` should be removed from the above.
-- Default Apple Clang will not suffice.
+- Default Apple Clang will not suffice. Download from http://releases.llvm.org/download.html#3.9.0
 
-Install OS X Fuse
+Install OS X Fuse: https://osxfuse.github.io/
 
 mount the remote filesytem:
 ```
@@ -98,7 +98,7 @@ mkdir -p ~/arm
 sshfs root@192.168.7.2: ~/arm
 ```
 
-Start the distccd on the host:
+Start the `distccd` on the host:
 ```
 distccd --verbose --no-detach --daemon --allow 192.168.7.2 --log-level debug --log-file ~/distccd.log
 ```
@@ -121,7 +121,11 @@ To make sure the process is actually called:
 ```
 watch -n 0.4 bash -c "ps aux | grep clang-3.9-arm"
 ```
-on the client, inspect the stderr returned by the host
+```
+watch -n 0.4 bash -c "ps aux | grep clang++-3.9-arm"
+```
+
+on the client (Bela), inspect the `stderr` returned by the host
 ```
 cat /tmp/distcc/*txt
 ```
