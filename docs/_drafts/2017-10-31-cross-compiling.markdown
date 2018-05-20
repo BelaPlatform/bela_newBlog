@@ -19,7 +19,7 @@ Add these lines to `~/.bashrc` on Bela
 export DISTCC_HOSTS=192.168.7.1
 export DISTCC_VERBOSE=1
 export DISTCC_FALLBACK=1 # In principle this should be 0, but on my system it does not work as expected
-export DISTCC_SAVE_TEMPS=1
+export DISTCC_SAVE_TEMPS=1 # Should be 0 if you're building something large, or this will fill your disk
 export DISTCC_BACKOFF_PERIOD=0
 export TMPDIR=/tmp/distcc
 mkdir -p /tmp/distcc
