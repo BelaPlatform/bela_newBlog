@@ -13,6 +13,7 @@ author: bela
 
 In this post [Luca Turchet](http://www.lucaturchet.it/) introduces us to the Smart Cajón, an acoustic percussion instrument that has been extended to include, sensors and actuators alongside wireless connectivity that he created using Bela. Over to Luca:
 
+
 ## Smart Cajón – version 1
 
 The Smart Cajón is an exemplar of smart musical instruments. Smart Instruments are a family of musical instruments that embed intelligence and wireless connectivity to local and remote networks. They may be equipped with sensors, actuators, and a loudspeaker. The embedded intelligence is responsible to perform all computations related to audio and sensor processing, as well as to handle the communication with external world.
