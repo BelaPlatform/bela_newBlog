@@ -8,7 +8,6 @@ categories:
   - "Projects"
 description: "The Smart Cajón by Luca Turchet: a wireless electroacoustic instrument"
 image: cajon/header.png
-hidden: true
 author: bela
 ---
 
