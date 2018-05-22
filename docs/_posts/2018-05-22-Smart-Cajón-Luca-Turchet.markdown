@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Smart Cajón by Luca Turchet: a wireless electroacoustic instrument"
-date: 2018-05-21
+date: 2018-05-22
 categories:
   - "Hardware"
   - "Instruments"
@@ -16,7 +16,7 @@ In this post [Luca Turchet](http://www.lucaturchet.it/) introduces us to the Sma
 
 ## Smart Cajón – version 1
 
-The Smart Cajón is an exemplar of smart musical instruments. Smart Instruments are a family of musical instruments that embed intelligence and wireless connectivity to local and remote networks. They might be equipped with sensors, actuators, and a loudspeaker. The embedded intelligence is responsible to perform all computations related to audio and sensor processing, as well as to handle the communication with external world.
+The Smart Cajón is an exemplar of smart musical instruments. Smart Instruments are a family of musical instruments that embed intelligence and wireless connectivity to local and remote networks. They may be equipped with sensors, actuators, and a loudspeaker. The embedded intelligence is responsible to perform all computations related to audio and sensor processing, as well as to handle the communication with external world.
 This post provides some details regarding the first prototype of Smart Cajón that I have made. This version of the instrument offers a sensor interface, embedded audio processing, Wi-Fi connectivity to a smartphone app, as well as haptic feedback thanks to motors embedded in a cushion where the player sits.
 
 {% include youtube.html youtube="WFdvrfmVWlU" %}
@@ -57,14 +57,16 @@ The position of the sensors and of the rest of the smartifying equipment is illu
 Software for audio and sensor processing, and tactile stimuli generation was developed in [Pure Data](https://puredata.info/). Data reception and forwarding over Wi-Fi were achieved using Open Sound Control ([OSC](http://opensoundcontrol.org/introduction-osc)) over the User Datagram Protocol. 
 The three configurations of the instrument can be selected from a dedicated smartphone app developed using the [TouchOSC](https://hexler.net/software/touchosc) environment. The app acts both as a visual display and as a control interface letting players or audience members program the instrument in real-time.
 
-
 In the virtual instrument configuration, to trigger the sound samples we detected each hit by using the PD onset detector bonk∼. To determine the position of each hit according to two zones of the front panel, the top part and the central part, we developed a signal processing technique based on the spectral content of the hit. The technique relies on the fact that sounds produced by hitting the top part of the front panel have a richer high frequency content than sounds produced by hits on the central part for which the lower frequency content is dominant. To capture these differences, we computed the spectral centroid from the output of the bonk∼ object and used a discriminative threshold on it. Specifically, we calculated the centroid by utilizing the loudness and bandwidth of the first 5 of the 11 frequency bands produced by bonk∼. The hits associated to these two regions were then mapped to two distinct sound samples of the simulated instrument. The dynamics of each hit tracked by the bonk∼ object were mapped to the volume of the triggered samples. 
+
+{% include single-image.html fileName="cajon/feature_extraction_1.jpeg" %}
 
 Two banks of four presets were developed to simulate different percussive instruments: drum kit, bongo, djembe, and congas. Each preset was associated to a button with a specific LED color. The status and colour of the buttons were synchronized with information displayed in a smartphone app, from which the banks and presets could be navigated and selected. 
 Tactile stimuli were generated using Pulse Width Modulation to produce four types of dynamics and patterns of activations on the eight motors embedded in the cushion.
 
 In the audio effects configuration eight presets divided into two banks provided different tunings of the equalizer and reverberation effects applied to the sound captured by the microphone. These presets could be navigated and selected using both the buttons and the smartphone app. The app also displayed the status of the parameters of the two effects using faders and rotary knobs widgets. The same widgets could be used to interactively control the parameters of the effects.
 
+{% include single-image.html fileName="cajon/feature_extraction_2.jpeg" %}
 
 In the interactive sound control configuration, the sensors were used to control the parameters of audio effects applied to the sound captured by the contact microphone. The left and right FSRs controlled continuously the input volume of a delay effect with feedback, configured in two different ways so to have fast and slow decaying repetitions. The pitch component of the IMU was mapped to the room size parameter of a reverb; the roll of the IMU was mapped to a frequency shifter, in such a way that tilting the instrument to the left/right side caused a shift towards low/high frequencies; the four buttons were used to start or stop four backing tracks in different genres (flamenco, Brazilian jazz, blues, electronic pop); the ribbon sensor (under which a pressure sensor was placed so as to detect both pressure and position) was used to control the overall volume of electronically-generated sounds. The smartphone app displayed the parameters controlled by sensors in real time through knobs and faders. 
 
