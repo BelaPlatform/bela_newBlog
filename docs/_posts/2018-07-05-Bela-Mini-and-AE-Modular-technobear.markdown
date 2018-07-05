@@ -51,12 +51,12 @@ The module features the following:
     
 
 
-{% include double-image.html left="ae-modular/sideview.png" right="ae-modular/innerview.png" caption="The minature module from the side and the custom breakouts created to interface with the AE modular rig."%}
+{% include double-image.html left="ae-modular/sideview.jpg" right="ae-modular/innerview.jpg" caption="The minature module from the side and the custom breakouts created to interface with the AE modular rig."%}
 
 
 Getting this to fit into the AE Modular 2U format was such a tight squeeze that Mark even had to trim the Bela sticker! He managed to pack in 8 voltage dividers, a mcp 6002 with 4 resistors, and 2 headers for patching on a 5x3 cm board.
 
-{% include double-image.html left="ae-modular/breakout-top.png" right="ae-modular/breakout-bottom.png" caption="The top and bottom of the breakout for the Bela Mini."%}
+{% include double-image.html left="ae-modular/breakout-top.jpg" right="ae-modular/breakout-bottom.jpg" caption="The top and bottom of the breakout for the Bela Mini."%}
 
 Look out for future extension boards that could feature digital I/O and some LEDs too. For more detailed information on this build you can visit the [orginal forum post](https://forum.bela.io/d/591-belamini-and-ae-modular) where Technobear discusses the project.
 
