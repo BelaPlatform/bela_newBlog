@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bela Mini and AE Modular are brought together by Technobear"
-date: 2018-07-05
+date: 2018-07-06
 categories:
   - "Hardware"
   - "Instruments"
@@ -10,7 +10,6 @@ categories:
 description: "Bela Mini and AE Modular are brought together by Technobear"
 image: ae-modular/before.png
 author: bela
-hidden: true
 ---
 
 [Mark Harris (AKA Technobear)](https://linktr.ee/thetechnobear) has made Bela mini into a module that fits snuggly into [Tangible Waves' AE Modular synthesiser](http://tangiblewaves.weebly.com/store/c5/AE_modular%3A_modules.html), the budget modular system that is based on a new maker-friendly standard.
