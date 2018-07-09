@@ -27,9 +27,9 @@ The AE Modular system created by Tangible Waves first appeared on [kickstarter i
 
 AE Modular was created to make modular synthesis available to musicians at a much lower price point.
 In order to cut costs Tangible Waves opted to create a new standard for modular synthesisers that differs from the predominant Eurorack standard. 
-Firstly instead of basing everything on patching that requires jack sockets and patching cables the AE Modular uses pin headers and jumper cables that will be familiar to those of you that have used breadboards for prototyping. 
+Firstly instead of basing everything on patching that requires jack sockets and patching cables the AE Modular uses pin headers and jumper cables that will be familiar to those of us that have used breadboards for prototyping. 
 This has the effect of making things much cheaper but also means that the modules can be miniaturised significantly.
-The other main difference is the voltage that the system runs on: 5V max as opposed to the 12V of Eurorack. 
+The other main difference is the voltage that the CV connection on the system use: 0V-5V, as opposed to the ±10V of Eurorack. 
 This makes the modules much more appealing to DIY and maker communities who are used to building devices with microcontrollers like Arduino or Teensy, or embedded platforms like Bela, and this is where Technobear comes in!
 
 
