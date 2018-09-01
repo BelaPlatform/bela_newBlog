@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Giraf by Hjalte Bested Møller: a polyphonic sampler built using Bela"
-date: 2018-07-21
+date: 2018-10-21
 categories:
   - "Hardware"
   - "Instruments"
