@@ -27,8 +27,8 @@ With Bela Mini we have condensed our original design to create a board that has 
 ## Tech specs
 
 Bela Mini is based on the [PocketBeagle](http://beagleboard.org/pocket) "key-fob computer", an ultra-tiny open-source computer. It has stereo audio I/O, 8x 16-bit analog inputs and 16 digital I/O.
-The [Bela Mini starter kit](https://shop.bela.io/bela-mini-starter-kit-preorder) comes with the board pre-soldered to the PocketBeagle and an SD card, so that you can get started straight away.
-If you choose the [Bela Mini cape](https://shop.bela.io/bela-mini-cape-preorder) and provide your own PocketBeagle, then the cape can be installed on the Pocket Beagle by inserting into upward-facing pin headers, or soldering directly to the board.
+The [Bela Mini starter kit](https://shop.bela.io/bela-mini/bela-mini-starter-kit) comes with the board pre-soldered to the PocketBeagle and an SD card, so that you can get started straight away.
+If you choose the [Bela Mini cape](https://shop.bela.io/bela-mini/bela-mini-cape) and provide your own PocketBeagle, then the cape can be installed on the Pocket Beagle by inserting into upward-facing pin headers, or soldering directly to the board.
 
 {% include single-image.html fileName="bela-mini-launch/blog_scale.jpg" %}
 
@@ -75,7 +75,7 @@ If you choose the [Bela Mini cape](https://shop.bela.io/bela-mini-cape-preorder)
 
 ### When will Bela Mini be available?
 
-Bela Mini is available for pre-order now. The design is finished and tested and production is underway. Barring any unforeseen delays, we expect Bela Mini orders to ship in May.
+Bela Mini is available to order now on [our shop](https://shop.bela.io/bela-mini). 
 
 
 ### What are the dimensions of Bela Mini?
