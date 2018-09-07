@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Giraf by Hjalte Bested Møller: a polyphonic sampler built using Bela"
-date: 2018-10-21
+date: 2018-09-14
 categories:
   - "Hardware"
   - "Instruments"
@@ -55,10 +55,8 @@ The code implementation is written in C++ using the browser-based Bela IDE, whic
 
 ## About Hjalte Bested Møller
 
-Hjalte Bested Møller started making electronic music about 20 years ago.
-From 2006-2009 he was part of the cyber-jazz project "Badun" where he got into sound design and programming with MaxMSP and SuperCollider.
-In 2012 he started the interactive music/tech art performance project "Tromleorkestret".
-He is currently refining his technical skill and studying for as a Civil Engineer in Robotics and Electrotechnology at the Technical University of Denmark where he also teaches DSP, and uses Bela to do so.
+
+Hjalte Bested Møller started making electronic music about 20 years ago. From 2006-2009 he was part of the cyber-jazz project “Badun” where he got into sound design and programming with MaxMSP and SuperCollider. In 2012 he started the interactive music/tech art performance project “Tromleorkestret” where he got into microcontroller programming, using mainly Arduino to create custom interfaces to his Max and SuperCollider patches. He is educated as a Civil Engineer in Robotics and Electrotechnology at the Technical University of Denmark where he currently works on the development of teaching material for a DSP course. The material is focused on embedded audio and the Bela is the platform used in the course.
 
 {% include single-image.html fileName="giraf/hjalte.jpg" %}
 
