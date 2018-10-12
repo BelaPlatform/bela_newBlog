@@ -11,7 +11,7 @@ image: soundstack-2018/header.jpg
 author: bela
 ---
 
-In this post we discuss how Bela can be used to prototype immersive interactive audio, the main topic of the Soundstack 2018 Bela Mini workshop led by Becky Stewart.
+In this post we discuss how Bela can be used to prototype immersive interactive audio scenes, the main topic of the Soundstack 2018 Bela Mini workshop led by Becky Stewart.
 
 {% include single-image.html fileName="soundstack-2018/hot-bela-blue.jpg" %}
 
