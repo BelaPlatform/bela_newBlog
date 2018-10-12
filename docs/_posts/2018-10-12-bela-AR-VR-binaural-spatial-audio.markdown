@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Prototyping Spatial Audio for VR/AR with Bela Mini"
-date: 2018-10-11
+date: 2018-10-12
 categories:
   - Tutorials
   - Workshops
@@ -18,15 +18,15 @@ In this post we discuss how Bela can be used to prototype immersive interactive 
 
 ## Prototyping interactive spatial audio
 
-Virtual and augmented reality is finally maturing as a technology and with this new medium comes the need for new tools and approaches to creating the immersive content. Being able to work with low-latency interactive audio is an important piece of this puzzle, particularly when it is spatialised in a virtual environment. 
+Virtual and augmented reality is finally maturing as a technology and with this new artistic medium comes the need for new tools and approaches to creating immersive content. Being able to work with low-latency interactive audio is an important piece of this puzzle, particularly when it is spatialised in a virtual environment. 
 Latency between a player's movements and the response of a virtual environment is a well-known problem in VR and AR: delays between action and reaction can degrade feelings of presence and immersion in a virtual world.
 It is for these reasons that Bela is particularly well positioned for prototyping spatial audio interactions. 
-By utilising a combination of low-latency head-tracking and binaural spatialisation it is possible to create extremely responsive interactive audio scenes that can be rapidly designed, played with and iterated upon. 
+By utilising a combination of low-latency head-tracking and binaural spatialisation it is possible to create extremely responsive interactive audio scenes that can be rapidly designed, explored and refined. 
 
 
 ## Soundstack 2018
 
-[Soundstack 2018](http://angelamcarthur.com/soundstack-2018/), which took place on the 5-7th Oct 2018, consisted of a three-day series of workshops & masterclasses on the art and technology of spatial audio. The event brought together a group of spatial audio researchers and content creators. The future of spatial audio was the overarching topic for the three days, from ambisonics to object-based audio, interactivity to synthesis. This is the second edition of Soundstack: for a summary of last year's event see our [blog post](https://blog.bela.io/2017/09/22/bela-headtracking-binaural-spatial-audio/).
+[Soundstack 2018](http://angelamcarthur.com/soundstack-2018/) took place on the 5-7th Oct 2018 and consisted of three days of workshops and masterclasses on the art and technology of spatial audio, bringing together spatial audio researchers, sound designers and content creators. The future of spatial audio was the overarching topic for the three days, from ambisonics to object-based audio, interactivity to synthesis. This is the second edition of Soundstack: for a summary of last year's event see our [blog post](https://blog.bela.io/2017/09/22/bela-headtracking-binaural-spatial-audio/).
 
 {% include single-image.html fileName="soundstack-2018/dark-potentiometers.jpg" %}
 
