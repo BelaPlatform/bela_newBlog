@@ -19,37 +19,37 @@ Small low-voltage DC motors (Direct-Current motors) like the ones below are comm
 
 {% include single-image.html fileName="motors/dc-motors.jpg" %}
 
-Motors are current hunger components and many motors will require more current than the Bela board can supply through its pins by default (limited to ..mA). With the small DC motors that are shown above and that are common to find in robotics or Arduino starter kits it is possible for the board to provide enough current to control the motor. Below there are three approaches to controlling motors with Bela, each with their own circuit diagram and explanation.
+Motors are current hunger components and many motors will require more current than the Bela board can supply through its pins by default (limited to 250mA). With the small DC motors that are shown above and that are common to find in robotics or Arduino starter kits it is possible for the board to provide enough current to control the motor. Below there are three approaches to controlling motors with Bela, each with their own circuit diagram and explanation.
 
 ## A note of warning before we proceed
 
 There a few important things to note when working with motors and Bela:
 
 - When controlling motors or solenoids a flyback diode in the circuit is essential to protect the board from voltage spikes.
-- No voltage higher than 3.3V should go into the digital I/O. Failing to do so can make the BeagleBone unusable.
+- No voltage higher than 3.3V should go into the digital I/O. Failing to do so can make the your Bela board unusable.
 - No voltage higher than 5V should go into the analog inputs. Failing to do so will at least make the analog inputs unusable, or perhaps do something worse.
 
 # Components
 
 - DC motor
-- NPN transistor (or MOSFET?)
-- Diode
+- NPN transistor or MOSFET, with high enough collector current (anything in a TO-220 package will most likely do, but check the datasheet!)
+- Diodes (e.g.: 1n4007)
 - 2.2K Ohm Resistor
 
 
 ### Using a transistor to amplify the current
 
-Motors, solenoids and other types of actuators generally require a large current to work. The pins on the Bela board only can supply a maximum of (..mA) so we need to include a transistor in our circuit that acts like a current amplifier. With transistors a small base current can be used to control a large collector current.
+Motors, solenoids and other types of actuators generally require a large current to work. The digital pins on the Bela board only can supply a maximum of (6mA) so we need to include a transistor in our circuit that acts like a current amplifier. With transistors a small base current can be used to control a large collector current.
 
 ### Flyback diode
 
-When a motor stops spinning it is possible that it creates a reverse current beacuse of its momentum. If this happens the reverse current generated (known as flyback) will try and find the most direct route to ground. This route could be back towards the Bela board which we don't want to happen and so we can put a protection diode in place to block the current from reaching the pins of the Bela board.
+When a motor stops spinning it is possible that it creates a reverse current because of its momentum. If this happens the reverse current generated (known as flyback) will try and find the most direct route to ground. This route could be back towards the Bela board which we don't want to happen and so we need to put a protection diode in place to block the current from reaching the pins of the Bela board.
 
 # Powering motors from the onboard supply
 
 {% include single-image.html fileName="motors/DC Motor_PINS.png" %}
 
-In this case we are powering the motors from the 5V supply that comes straight from the Beaglebone. This can be found on headers `P9_07` and `P9_08`. With the above circuit you will be able to run the small hobbyist DC motors. The resistor in series with the Bela Analog output pin serves to limit the current that the transitor receives at its base: changing this resistor to a lower value will result in the motor spinning faster but with the risk that the motor will pull too much current and shut down the board or stop communication between your laptop and the Bela IDE.
+In this case we are powering the motors from the 5V supply that comes straight from the Beaglebone. This can be found on headers `P9_07` and `P9_08`. With the above circuit you will be able to run the small hobbyist DC motors. The resistor in series with the Bela Analog output pin serves to limit the current that the transitor receives at its base. There needs to be enough current going through to turn on the transistor. 
 
 # Powering motors from the barrel jack supply
 
