@@ -33,16 +33,17 @@ There a few important things to note when working with motors and Bela:
 ## Components
 
 - DC motor or Solenoid.
-- NPN transistor or MOSFET with high enough collector current (anything in a TO-220 package will likely do, but check the datasheet!). Also note that different transistors may have different pin layouts to the schematics below, check base, collector and emitter).
 - Diode (e.g.: 1n4007).
 - 1K Ohm Resistor.
-
+- NPN BJT (or MOSFET) transistor with high enough collector (or drain) current and adequate power dissipation capabilities. A TIP31AG would work for most purposes when handling small motors.
 
 ## Using a transistor to amplify the current
 
-Motors, solenoids and other types of actuators generally require a large current to work. The digital pins on the Bela board only can supply a maximum of 6mA, so they are not suitable to drive a motor directly. We therefore need to include a transistor or a MOSFET in our circuit that acts like a current amplifier. This way a small current provided by Bela's digital pins and connected to the transistor base can be used to switch on and off a larger current, running through the collector of the transistor and the motor.
+Motors, solenoids and other types of actuators generally require a large current to work. The digital pins on the Bela board only can supply a maximum of 6mA, so they are not suitable to drive a motor directly. We therefore need to include a transistor (BJT or MOSFET) in our circuit that acts like a current amplifier. This way a small current provided by Bela's digital pins and connected to the transistor base can be used to switch on and off a larger current, running through the collector of the transistor and the motor.
+You can also choose to use MOSFETs which are more efficient and do not require any current from the Bela pin. You need to find a MOSFET with a Vgs (gate-to-source voltage) of less than 3.3V to ensure that the Bela digital output reliably switches it on.
 
-When picking your transistor the important specs are the collector current which is why we recommend the TO-220 package: a TO-220 is normally an indication of higher current capabilities. You can also choose to use MOSFETs which are more efficient and do not require any current from the Bela pin. You need to find a MOSFET with a Vgs (gate-to-source voltage) of less than 3.3V to ensure that the Bela digital output reliably switches it on.
+When picking your power transistor, the most important specs to consider are the collector (or drain) current, the collector-emitter voltage and the power dissipation capabilities. The [datasheet for the TIP31AG](https://www.onsemi.com/pub/Collateral/TIP31A-D.PDF) shows that it can handle up to 60V of collector-emitter voltage (allowing to use an external power supply up to 60V), and up to 3A of current, to drive powerful motors. Additionally, it can handle up to 2W of power dissipation (or more, with a heatsink), so it can easily be used for controlling motors using PWM.
+All of these characteristics make it more than suitable to drive small DC motors like the ones in the figure (or even more powerful ones), and it can be a good starting point for your experiments. Just remember, if later on you move to a larger motor, which draws more current, or requires a higher voltage external power supply to always check the specs of the power transistor in use to make sure it is capable of handling the currents and voltages at play, and fit it with a heatsink if needed. Failure to do so may lead to a failure of the transistor itself, the power supply and/or the Bela board!
 
 ## Flyback (or freewheeling) diode
 
@@ -52,7 +53,7 @@ When a motor stops spinning it is possible that it creates a voltage spike becau
 
 ## Switching a motor on and off with a transistor
 
-The simplest way to control a motor is by using one of Bela's digital outputs. This is connected to the base of the transistor and can switch the larger current of the transistor on and off. This results in the motor spinning when the digital output is `HIGH`, and stopping when the pin is set to `LOW`. If this is all you need to do then you can skip straight to the [circuit diagrams](#circuit-diagrams) section. If, however, you want to control of the speed of the motor then you need to use a more sophisticated technique known as Pulse Width Modulation.
+The simplest way to control a motor is by using one of Bela's digital outputs. This is connected to the base of the transistor and can switch the larger current of the transistor on and off. This results in the motor spinning when the digital output is `HIGH`, and stopping when the pin is set to `LOW`. If this is all you need to do then you can skip straight to the [circuit diagrams](#circuit-diagrams) section. If, however, you want to control the speed of the motor then you need to use a more sophisticated technique known as Pulse Width Modulation.
 
 ## Pulse Width Modulation for variable speed
 
