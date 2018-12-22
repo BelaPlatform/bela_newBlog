@@ -52,8 +52,6 @@ Newcastle-based artist and musician made STEAMY, an interactive and solar-powere
 
 [Click here to read about STEAMY](http://localhost:4000/2018/09/07/rob-blazey-steamy-bela/).
 
-http://localhost:4000/2018/09/07/rob-blazey-steamy-bela/
-
 # Giraf
 
 {% include youtube.html youtube="huHpao-UUPo" %}
