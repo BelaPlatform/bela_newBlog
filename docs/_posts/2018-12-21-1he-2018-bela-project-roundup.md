@@ -8,17 +8,17 @@ categories:
   - "Sound Design"
   - "Installations"
 description: "Some of our favourite projects from the community this year"
-image: table-sonore/header.jpg
+image: the-2018-bela-project-roundup/header.jpg
 author: bela
 ---
 
 Bela has been busy, but the makers in the Bela community have been busier. In this post we survey a sample of the exciting projects built by the Bela community of creators.
 
-2018 has been a banner year for Bela. We've launched [three]() [new] [products], held workshops and [talks](https://loop.ableton.com/2018/program/activity/touch-code-play-creating-hybrid-physical-digital-music-instruments/) all over the world, and even built a new and expanded [website](https://bela.io).
+2018 has been a banner year for Bela. We've launched [three](https://blog.bela.io/2018/02/22/bela-mini-launch/) [new](https://blog.bela.io/2018/05/08/CTAG-multichannel-audio-cape/) [products](http://blog.bela.io/2018/05/02/salt-a-programmable-eurorack-syntesizer/), held [workshops](http://localhost:4000/2018/10/12/bela-AR-VR-binaural-spatial-audio/) and [talks](https://loop.ableton.com/2018/program/activity/touch-code-play-creating-hybrid-physical-digital-music-instruments/) all over the world, and even built a new and expanded [website](https://bela.io).
 
-The global Bela community of makers, musicians, artists, designers, researchers, tinkerers and engineers has been hard at work too, using Bela to produce inspiring, exciting, and beautiful things. From installations to instruments, synthesizers to sound sculptures, 
+As busy as we've been, we have nothing on the global Bela community of makers, musicians, artists, designers, researchers, tinkerers and engineers. These creators have been using Bela to produce inspiring and exciting, and beautiful things. These applications range from installations to instruments, synthesizers to sound sculptures, and we continue to be amazed by them and humbled to be part of so many great projects.
 
-Here's some of our favourites, in no particular order.
+Here's some of our favourites from 2018.
 
 # Opal Rhythm Computor
 
