@@ -14,7 +14,7 @@ author: bela
 
 Bela has been busy, but the makers in the Bela community have been busier. In this post we survey a sample of the exciting projects built by the Bela community of creators.
 
-2018 has been a banner year for Bela. We've launched [three](https://blog.bela.io/2018/02/22/bela-mini-launch/) [new](https://blog.bela.io/2018/05/08/CTAG-multichannel-audio-cape/) [products](http://blog.bela.io/2018/05/02/salt-a-programmable-eurorack-syntesizer/), held [workshops](http://localhost:4000/2018/10/12/bela-AR-VR-binaural-spatial-audio/) and [talks](https://loop.ableton.com/2018/program/activity/touch-code-play-creating-hybrid-physical-digital-music-instruments/) all over the world, and even built a new and expanded [website](https://bela.io).
+2018 has been a banner year for Bela. We've launched [three](https://blog.bela.io/2018/02/22/bela-mini-launch/) [new](https://blog.bela.io/2018/05/08/CTAG-multichannel-audio-cape/) [products](http://blog.bela.io/2018/05/02/salt-a-programmable-eurorack-syntesizer/), held [workshops](http://blog.bela.io/2018/10/12/bela-AR-VR-binaural-spatial-audio/) and [talks](https://loop.ableton.com/2018/program/activity/touch-code-play-creating-hybrid-physical-digital-music-instruments/) all over the world, and even built a new and expanded [website](https://bela.io).
 
 As busy as we've been, we have nothing on the global Bela community of makers, musicians, artists, designers, researchers, tinkerers and engineers. These creators have been using Bela to produce inspiring and exciting, and beautiful things. These applications range from installations to instruments, synthesizers to sound sculptures, and we continue to be amazed by them and humbled to be part of so many great projects.
 
@@ -50,7 +50,7 @@ ChandeLIA, created by [Lia Mice](https://www.liamice.com/), is an audio-visual p
 
 Newcastle-based artist and musician made STEAMY, an interactive and solar-powered sound sculpture that lived among 4000 sunflowers.
 
-[Click here to read about STEAMY](http://localhost:4000/2018/09/07/rob-blazey-steamy-bela/).
+[Click here to read about STEAMY](http://blog.bela.io/2018/09/07/rob-blazey-steamy-bela/).
 
 # Giraf
 
