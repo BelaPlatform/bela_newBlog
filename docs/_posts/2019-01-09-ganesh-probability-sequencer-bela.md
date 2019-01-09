@@ -24,14 +24,14 @@ The Hindu god Ganesh is known as the overcomer of obstacles. I've often found th
 
 ## Hardware
 
-The sequencer runs on a [Bela board](https://shop.bela.io/bela/starter-kit) attached to the [Mux Cape](https://shop.bela.io/bela-accessories/bela-mux-capelet), which multiplexes the standard 8 analogue inputs to provide 64 at a reduced sample rate. 48 inputs are used for the potentiometers and two more for clock and reset inputs. The gate outputs for each channel are sent from the native analogue outputs on the Bela. Bela’s audio outputs are also used for user defined sample playback while all 16 of Bela’s digital pins are used as outputs to trigger the LEDs.
+The sequencer runs on a [Bela board](https://shop.bela.io/bela/starter-kit) attached to the [Mux Capelet](https://shop.bela.io/bela-accessories/bela-mux-capelet), which multiplexes the standard 8 analogue inputs to provide 64 at a reduced sample rate. 48 inputs are used for the potentiometers and two more for clock and reset inputs. The gate outputs for each channel are sent from the native analogue outputs on the Bela. Bela’s audio outputs are also used for user defined sample playback while all 16 of Bela’s digital pins are used as outputs to trigger the LEDs.
 The skiff and faceplate have been laser cut in 3mm ply and later stained with wood stain. 
 
 {% include single-image.html fileName="ganesh-sequencer/mux-sq-new.jpg" caption="The Bela Multiplexer Capelet" %}
 
 ## Software
 
-The software side of the project is in essence quite simple. On each step the value of all potentiometers are read and scaled to a range of 0-100. This value is then compared to a randomly generated number of the same range, the likelihood of an event calculated and a trigger signal generated. The internal sample based sequencer supports user chosen samples and has 16 voices to aid polyphony for longer samples. Due to Bela’s ultra low latency operation, the system is fully real-time and unhindered by latency or jitter issues.
+The software side of the project is in essence quite simple. On each step the value of all potentiometers are read and scaled to a range of 0-100. This value is then compared to a randomly generated number of the same range, the likelihood of an event calculated and a trigger signal generated. The internal sample based sequencer supports user-defined samples and has 16 voices to aid polyphony for longer samples. Due to Bela’s ultra low latency operation, the system is fully real-time and unhindered by latency or jitter issues.
 
 {% include single-image.html fileName="ganesh-sequencer/main-image.jpeg" %}
 
