@@ -60,7 +60,7 @@ One of the biggest challenges faced when working with e-textiles is how to make 
 
 {% include single-image.html fileName="e-textiles/sophie-back.jpg" caption="Sophie Skach wearing the garment with integrated textile sensors. The Bela board attached to the back of the garment."%}
 
-In order to deal with the connection problem a fabric circuit board, seen below, was created to provide a soft circuit breakout for five analog inputs and two digital inputs on the Bela board. Snap button fasteners provide an interface between the conductive fabric pads and the fabric connection cables which attach to the sensors. 
+In order to deal with the connection problem, a fabric circuit board, seen below, was created to provide a soft circuit breakout for five analog inputs and two digital inputs on the Bela board. Snap button fasteners provide an interface between the conductive fabric pads and the fabric connection cables which attach to the sensors. 
 Wires soldered to header pins on one end, and stitched to the conductive fabric pads on the other, provide the connections between the Bela board and the fabric breakout.
 
 {% include single-image.html fileName="e-textiles/bela-connectors-01.jpg" caption="The snap connectors for interfacing with the Bela board."%}
