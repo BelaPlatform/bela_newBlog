@@ -24,8 +24,6 @@ Bela is having a **FLASH SALE** from Monday 4th February to Friday 8th February!
 
 <div style="text-align: center; margin-bottom: 10px;"><a href="https://shop.bela.io/bela-mini" name="Buy the Bela Mini Starter Kit now!"><button name="button" style="font-size: larger; font-weight: bold; cursor: pointer; color: #ffffff; padding: 10px; background-color: #00bea4; border-radius: 4px; border: 4px #00bea4;">Buy the Bela Mini Starter Kit now!</button></a></div>
 
-
-
 # What can I use Bela for?
 
 {% include single-image.html fileName="feb-sale/uses-bela.jpg" %}
