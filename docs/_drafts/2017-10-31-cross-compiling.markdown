@@ -51,12 +51,15 @@ chmod +x /usr/local/bin/clang-3.9-arm
 chmod +x /usr/local/bin/clang++-3.9-arm
 ```
 
+It can be also good to have distcc-clang and distcc-clang++ as shorthands.
+
 In practice this will do everything for you:
 ```
 printf '#!/bin/bash\nclang-3.9 $@' > /usr/local/bin/clang-3.9-arm
-printf '#!/bin/bash\nclang++-3.9 $@' > /usr/local/bin/clang++-3.9-arm
-chmod +x /usr/local/bin/clang-3.9-arm
-chmod +x /usr/local/bin/clang++-3.9-arm
+printf '#!/bin/bash\nclang++-3.9 $@ -stdlib=libstdc++' > /usr/local/bin/clang++-3.9-arm
+printf '#!/bin/bash\ndistcc clang-3.9-arm $@' > /usr/local/bin/distcc-clang
+printf '#!/bin/bash\ndistcc clang++-3.9-arm $@ -stdlib=libstdc++' > /usr/local/bin/distcc-clang++
+chmod +x /usr/local/bin/clang-3.9-arm /usr/local/bin/clang++-3.9-arm /usr/local/bin/distcc-clang /usr/local/bin/distcc-clang++
 ```
 
 You should now be able to compile a simple file:
@@ -112,7 +115,7 @@ distccd --verbose --no-detach --daemon --allow 192.168.7.2 --log-level debug --l
 You should now be able to compile a test program:
 
 ```
-distcc clang-3.9-arm ~/Bela/resources/network/udpclient.c
+distcc clang-3.9-arm ~/Bela/resources/network/udp-client.c
 ```
 
 Monitoring:
