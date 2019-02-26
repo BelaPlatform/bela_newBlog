@@ -101,4 +101,4 @@ The third and most robust strategy for driving motors with Bela is to use an ext
 
 {% include single-image.html fileName="Jacob-OHMI/jacob-head.png" %}
 
-For some project inspiration have a look at [making a one handed bass with Bela](https://blog.bela.io/2016/02/01/making-the-one-handed-bass-with-bela/) which uses a series of solenoids to fret a bass guitar, and [Axis: a kinetic sculpture made with Bela](https://blog.bela.io/2017/02/27/axis/) which uses multiple stepper motors to create waves of movement and patterns related to the golden ratio.
+For some project inspiration have a look at [making a one handed bass with Bela](https://blog.bela.io/2017/02/01/making-the-one-handed-bass-with-bela/) which uses a series of solenoids to fret a bass guitar, and [Axis: a kinetic sculpture made with Bela](https://blog.bela.io/2017/02/27/axis/) which uses multiple stepper motors to create waves of movement and patterns related to the golden ratio.
