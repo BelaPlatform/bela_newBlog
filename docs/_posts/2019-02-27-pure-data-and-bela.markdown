@@ -7,7 +7,7 @@ categories:
   - "Software"
 description: "Learn: Bela and Pure Data"
 image: puredata/header-2.png
-author: bela
+author: robert
 ---
 
 This post gives an in-depth run through of using Pure Data with Bela. It explains what Pure Data is, how to get Pure Data patches running on Bela, and how we treat sensor signals like audio signals.
