@@ -24,9 +24,9 @@ From the very beginning of the Bela project we have endeavoured to support as ma
 
 # Pure Data
 
-For those of you unfamiliar with Pure Data you may recognise the boxes and patching cables in the below image from [Max/MSP](https://cycling74.com/). From first appearances Pure Data may seem to be the poor man's Max/MSP (which objectively it is as it's free) but it is in fact Max's open source twin sister. Originally developed in the 1990s by Miller Puckette at [IRCAM](https://www.ircam.fr/) (who was also the creator of Max), Pure Data was designed to allow musicians, artists and researchers to design interactive audio software without having to write a line of code. 
+For those of you unfamiliar with Pure Data you may recognise the boxes and patching cables in the below image from [Max/MSP](https://cycling74.com/). From first appearances Pure Data may seem like an impoverished version of Max/MSP (which objectively it is as it's free) but it is in fact Max's open source twin. Originally developed in the 1990s by Miller Puckette at [IRCAM](https://www.ircam.fr/) (who was also the creator of Max), Pure Data was designed to allow musicians, artists and researchers to design interactive audio software without having to write a line of code. 
 
-{% include single-image.html fileName="puredata/PureData-Example.png" caption="The dataflow structure of Pure Data programming." %}
+{% include single-image.html fileName="puredata/max-and-pd.png" caption="An example of simple additive synthesis in Max/MSP on the right and Pure Data on the left." %}
 
 The 'patcher' or 'dataflow' programming logic that Pure Data follows works through a series of interconnected *objects* where the signal flow, whether that is MIDI notes or audio, is controlled via patcher cables that connect one object to another. This makes it very easy to quickly sketch programmes for synthesis, live effects and interactive audio in general.
 
@@ -56,6 +56,8 @@ These inputs and outputs are sampled at audio sampling rate, so handle them as y
 
 {% include single-image.html fileName="puredata/snapshot.png" %}
 
+Note that the CTAG multichannel cape is also compatible with Pure Data but in this case there are a few additional considerations to do with channel numbering to accommodate the extra audio channels. See [here]() for more details.
+
 ## Digital I/O
 
 Bela's digital inputs and outputs can be also be addressed from within Pd. They can either be received as messages at message rate or as signals at audio rate. Unlike the analog channels which have a set direction, each digital pin can function as an input or an output and so this needs to be set explicitly from within the patch.
@@ -68,15 +70,17 @@ See the [digital example](https://github.com/BelaPlatform/Bela/tree/master/examp
 
 ## MIDI I/O
 
-MIDI also works with Pure Data on Bela: most class-compliant USB MIDI devices are compatible. You can use the `[notein]` and `[ctlin]` objects to receive midinote and CC messages from the device. See the `hello-midi` example inside the Puredata examples folder for more information. There is also an example of how Bela running Pd can be used as a MIDI to CV converter: [midi-cv-midi](https://github.com/BelaPlatform/Bela/tree/master/examples/08-PureData/midi-cv-midi).
+MIDI also works with Pure Data on Bela: most class-compliant USB MIDI devices are compatible. You can use the `[notein]` and `[ctlin]` objects to receive midinote and CC messages from the device. See the [hello midi](https://github.com/BelaPlatform/Bela/tree/master/examples/08-PureData/hello-midi) example inside the Pure Data examples folder for more information. There is also an example of how Bela running Pd can be used as a MIDI to CV converter: [midi-cv-midi](https://github.com/BelaPlatform/Bela/tree/master/examples/08-PureData/midi-cv-midi).
 
 {% include single-image.html fileName="puredata/midi.png" %}
+
+Bela also shows up as a MIDI device on your host PC meaning that you can send MIDI messages to your favourite DAW to control further VSTs or anything else. You will find Bela listed among your MIDI devices. 
 
 # Running Pure Data patches in IDE
 
 Once you have opened a Pure Data project in the browser you can run it by selecting it and hitting the run button, just like any other project. When you open the example, the `_main.pd` file will be previewed in the browser window. At this point, it is not possible to edit the file in the browser. To edit the file you will need to download it from the browser and edit it in Pure Data on your machine.
 
-{% include single-image.html fileName="puredata/ide.jpg" %}
+{% include single-image.html fileName="puredata/ide.png" %}
 
 You can now simply drag-and-drop your PD patch onto the IDE in your browser window, which will replace the default `_main.pd` file in that folder. Note that the top-level patch always needs to be named `_main.pd`.
 
