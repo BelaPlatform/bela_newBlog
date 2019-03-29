@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Halldorophone: Icelandic electro-acoustic feedback cello now uses Bela"
+title: "Halldorophone: Icelandic Electro-acoustic Feedback Cello now uses Bela"
 date: 2019-03-14
 categories:
   - "Instruments"
   - "Hardware"
   - "Workshops"
-description: "Halldorophone: Icelandic electro-acoustic feedback cello now uses Bela"
+description: "Halldorophone: Icelandic Electro-acoustic Feedback Cello now uses Bela"
 image: halldor/HighResHorizontal.jpeg
 author: bela
 ---
