@@ -17,7 +17,7 @@ This blanket was originally created for a small workshop and was connected to a 
 
 {% include vimeo.html vimeo="327921201" %}
 
-The code that is running in this example is a PD patch based on a patch created by Esteban De La Torre of [EJTech](http://ejtechnology.net/) and Andrea Guidi from the [Augmented Instruments Lab](http://instrumentslab.org/people/). It is simplified to just to trigger sound files when crossing a threshold and the sound files were also created by Esteban.
+The code that is running in this example is a PD patch based on a patch created by Esteban De La Torre of [EJTech](http://ejtechnology.net/) and Andrea Guidi from the [Augmented Instruments Lab](http://instrumentslab.org/people/). It is simplified to just trigger sound files when crossing a threshold -- the sound files were also created by Esteban.
 
 ## Breadboard
 
