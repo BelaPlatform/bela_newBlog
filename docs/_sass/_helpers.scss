@@ -24,3 +24,21 @@
 .bg-white {
   background-color: $color-white;
 }
+
+/** 
+ * Front page layout helpers
+ */
+
+.prev-left {
+
+  >img {
+    width: 95%;
+    height: auto;
+  }
+  margin-bottom: 1em;
+}
+
+.prev-right {
+}
+
+

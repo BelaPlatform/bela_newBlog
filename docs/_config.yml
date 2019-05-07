@@ -1,9 +1,9 @@
 # Site settings
 email: info@bela.io
 # TO TEST YOUR BUILD, uncomment this line:
-# baseurl: ""
+baseurl: ""
 # ... and comment out this line:
-baseurl: "https://blog.bela.io"
+# baseurl: "https://blog.bela.io"
 # IMPORTANT! Before deploying, make sure you change them back so the github url is active. 
 future: false
 imageurl: "/assets/images/"
