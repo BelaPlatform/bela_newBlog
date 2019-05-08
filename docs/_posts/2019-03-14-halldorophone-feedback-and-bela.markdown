@@ -39,7 +39,7 @@ Some additional possibilities for routing the signal to and from external effect
 Halldór has been keen to protect the identity of the halldorophone as a simple and pure feedback system, and so has kept gain control as the only built-in electronic control parameter.
 Over the years collaborators and musicians have requested more specific onboard signal processing (band-pass, band-stop, delays) to meet their particular musical ideas, but up until this point Halldor has resisted. We're very happy to say that Halldór has now decided to open his wonderful instrument to the world of digital processing and is doing so with Bela running Pure Data. He had the following to say on the topic:
 
-> Having becoming familiar with Bela and its affordances I see a chance to evaporate feelings of conflict in opening up the instrument to onboard DSP. With Bela onboard the system is flexible enough to allow each performer to implement their own processing without me prescribing a specific set controls.
+> Having become familiar with Bela and its affordances I see a chance to evaporate feelings of conflict in opening up the instrument to onboard DSP. With Bela onboard the system is flexible enough to allow each performer to implement their own processing without me prescribing a specific set controls.
 
 This newly created version of the instrument will be used in some user studies over the next year where Halldor will collaborate with musicians who have the right skillset to work with the halldorophone, Bela and Pure Data in combination. We can't wait to see the results! Below is a photograph of Halldor visiting us in London where we had a hands-on workshop and demo session and we explored the integration of Bela into the instrument.
 
