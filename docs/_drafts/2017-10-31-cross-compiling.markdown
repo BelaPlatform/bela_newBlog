@@ -56,9 +56,9 @@ It can be also good to have distcc-clang and distcc-clang++ as shorthands.
 In practice this will do everything for you:
 ```
 printf '#!/bin/bash\nclang-3.9 $@' > /usr/local/bin/clang-3.9-arm
-printf '#!/bin/bash\nclang++-3.9 $@ -stdlib=libstdc++' > /usr/local/bin/clang++-3.9-arm
+printf '#!/bin/bash\nclang++-3.9 $@ -stdlib=libstdc++ -Wno-unused-command-line-argument' > /usr/local/bin/clang++-3.9-arm
 printf '#!/bin/bash\ndistcc clang-3.9-arm $@' > /usr/local/bin/distcc-clang
-printf '#!/bin/bash\ndistcc clang++-3.9-arm $@ -stdlib=libstdc++' > /usr/local/bin/distcc-clang++
+printf '#!/bin/bash\ndistcc clang++-3.9-arm $@' > /usr/local/bin/distcc-clang++
 chmod +x /usr/local/bin/clang-3.9-arm /usr/local/bin/clang++-3.9-arm /usr/local/bin/distcc-clang /usr/local/bin/distcc-clang++
 ```
 
