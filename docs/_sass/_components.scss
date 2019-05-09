@@ -266,12 +266,23 @@
     @include border-slide();
     @extend %letter-spacing;
     border: none;
+    color: black;
+    &:hover {
+      color: black;
+    }
   }
 
   &__social {
     display: flex;
     margin-top: 1em;
     border: none;
+
+    >li a.link {
+      color: $teal-base;
+      &:hover {
+        color: $teal-main;
+      }
+    }
 
     @media (min-width: $mq-sm) {
       margin-top: 0;
