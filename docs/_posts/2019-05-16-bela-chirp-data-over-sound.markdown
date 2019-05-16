@@ -18,7 +18,7 @@ In this blog post the team from [Chirp](https://chirp.io/) introduce us to their
 
 ## How does it work?
 
-Chirp’s free-to-use data-over-sound SDKs enable devices to exchange data wirelessly using sound, without the need for dedicated modules (e.g. Bluetooth or Wi-Fi). The data is encoded into a series of audible or inaudible tones to form a “sonic barcode” -- it’s no more complicated than a traditional telephone modem, but because it’s implemented purely in software it can run on any device with a speaker or mic. 
+Chirp's free-to-use data-over-sound SDKs enable devices to exchange data wirelessly using sound, without the need for dedicated modules (e.g. Bluetooth or Wi-Fi). The data is encoded into a series of audible or inaudible tones to form a “sonic barcode” -- it's no more complicated than a traditional telephone modem, but because it's implemented purely in software it can run on any device with a speaker or mic. 
 
 {% include single-image.html fileName="chirp/image4.png" %}
 
@@ -39,11 +39,11 @@ In general, compared to RF-based communication technologies, data-over-sound can
 
 ## Chirp + Bela: empowering real-time audio boards using robust audio tech
 
-With all of this in consideration, Chirp’s technology is the perfect candidate to give your Bela board the power of wireless communication. You can send control data to Bela, broadcast sensor data to nearby devices, create a wireless interactive experience where users control the board using their smartphone, or set up a Bela-to-Bela wireless network - the possibilities are endless! 
+With all of this in consideration, Chirp's technology is the perfect candidate to give your Bela board the power of wireless communication. You can send control data to Bela, broadcast sensor data to nearby devices, create a wireless interactive experience where users control the board using their smartphone, or set up a Bela-to-Bela wireless network - the possibilities are endless! 
 
-Chirp aims to make it’s SDKs widely compatible with a myriad of platforms and architectures, including iOS, Android, Linux, macOS, Windows, and the Web Audio API, as well as a range of Arm architectures, including the Arm v7a used by the Arm Cortex A8 processor present on the BeagleBone board. 
+Chirp aims to make its SDKs widely compatible with a myriad of platforms and architectures, including iOS, Android, Linux, macOS, Windows, and the Web Audio API, as well as a range of Arm architectures, including the Arm v7a used by the Arm Cortex A8 processor present on the BeagleBone board. 
 
-Given this compatibility, Chirp felt it couldn’t miss the opportunity to try see what it takes to get Bela Chirping. The process was remarkably quick. Integration with the Bela API was straightforward, and led to the example below working almost out of the box - demonstrating both the quality of the audio interface of Bela and ‘drop-in’ nature of the Chirp SDKs. 
+Given this compatibility, Chirp felt it couldn't miss the opportunity to try see what it takes to get Bela Chirping. The process was remarkably quick. Integration with the Bela API was straightforward, and led to the example below working almost out of the box - demonstrating both the quality of the audio interface of Bela and ‘drop-in' nature of the Chirp SDKs. 
 
 # Tutorial: Bela and Chirp
 
@@ -62,7 +62,7 @@ The following tutorial uses some files from our [example repo](https://github.co
 Connect the microphone as follows: 
 - GND --> P9_01
 - VCC --> P9_03
-- AUD --> LEFT IN - ADC1
+- AUD --> LEFT IN
 
 {% include single-image.html fileName="chirp/image3.png" %}
 
@@ -89,7 +89,7 @@ A warning window will tell you `render.cpp` already exist. Click on **Overwrite*
 LDFLAGS=-L/root/Bela/projects/<name_of_your_project>;LDLIBS=-lchirp-connect_linux-arm-hard-shared;
 ```
 
-## That’s it! It’s done. Save, compile and run the project. 
+## That's it! It's done. Save, compile and run the project. 
 
 In this example we show how to implement both sending and receiving on a single board. The string "Hello World !" will start to be Chirped out of the speaker as soon as the program starts, and will be received at the microphone and decoded at (almost) the same time. 
 
@@ -110,7 +110,7 @@ bela : Data received : Hello World !
 
 From a web browser to an embedded computer, you can now explore the possibilities of having a device capable of interacting with any other device compatible with Chirp. Let us know what projects you create!
 
-{% include single-image.html fileName="chirp/image5.jpg" caption="And to finish up, here’s a Chirp of ‘we love bela’ using our standard audible protocol!" %}
+{% include single-image.html fileName="chirp/image5.jpg" caption="And to finish up, here's a Chirp of ‘we love bela' using our standard audible protocol!" %}
 
 
 
