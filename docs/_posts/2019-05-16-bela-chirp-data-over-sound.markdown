@@ -1,14 +1,13 @@
 ---
 layout: post
 title: "Bela + Chirp: Wireless Connectivity through Data-over-Sound"
-date: 2019-05-16
+date: 2019-05-17
 categories:
 - "Tutorials"
 - "Software"
 - "Hardware"
 description: "Bela + Chirp: How to add wireless connectivity to Bela using data-over-sound"
 image: chirp/header-4.png
-hidden: true
 author: bela
 ---
 
