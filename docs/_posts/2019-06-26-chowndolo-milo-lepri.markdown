@@ -36,4 +36,5 @@ During the development of the Chowndolo, we were lucky enough to welcome John Ch
 
 {% include single-image.html fileName="chowndolo/Chowning_01.jpg" %}
 
+The Chowndolo was created by [Giacomo Lepri](http://www.giacomolepri.com/) and [Alessia Milo](http://www.alessiamilo.com/).
 
