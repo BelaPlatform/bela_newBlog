@@ -68,7 +68,7 @@ This effect is basically a simple granulator. It stores the last 5 seconds of th
 The volume of the effect is controlled by the pick-signal using the integrator preamp. This sound can be used as a sort of reversed delay on top of what a guitarist is playing or might even “record” a short phrase as per normal playing and then play it back, scrambled, by moving the Magpick above the pickup area.
 The below pseudocode shows how little signal processing is needed to achieve a satisfying interaction when the sensor and physical design work well.
 
-{% include single-image.html fileName="magpick/puredata-example.png" %}
+{% include single-image.html fileName="magpick/puredata-examples.png" %}
 
 ## Magpick
 
