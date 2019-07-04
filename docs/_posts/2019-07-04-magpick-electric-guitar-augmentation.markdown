@@ -12,7 +12,7 @@ author: bela
 ---
 
 
-Magpick is an augmented pick for electric guitar created by Fabio Morreale, Andrew McPherson and Andrea Guidi at the [Augmented Instruments Lab](https://instrumentslab.org), Queen Mary University of London.
+Magpick is an augmented pick for electric guitar created by Fabio Morreale, Andrew McPherson and Andrea Guidi at the [Augmented Instruments Lab](http://instrumentslab.org/), Queen Mary University of London.
 
 ## Playing the Pickups
 
