@@ -69,4 +69,4 @@ The volume of the effect is controlled by the pick-signal using the integrator p
 
 ## Magpick
 
-Magpick is an ongoing project. You can find more information in the research papers: [Magpick: an Augmented Guitar Pick for Nuanced Control](instrumentslab.org/data/andrea/2019NIMEFinal.pdf), and [Designing Creative Tensions between Concept and Embodied Practice](instrumentslab.org/data/andrea/2019CHIFinal.pdf). Stay tuned for further developments!
+Magpick is an ongoing project. You can find more information in the research papers: [Magpick: an Augmented Guitar Pick for Nuanced Control](http://instrumentslab.org/data/andrea/2019NIMEFinal.pdf), and [Designing Creative Tensions between Concept and Embodied Practice](http://instrumentslab.org/data/andrea/2019CHIFinal.pdf). Stay tuned for further developments!
