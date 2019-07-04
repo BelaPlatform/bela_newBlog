@@ -6,6 +6,7 @@ categories:
 - "Tutorials"
 - "Software"
 - "Hardware"
+- "Education"
 description: "Csound and Bela: touching opcodes"
 image: Csound/header.jpg
 author: bela
@@ -19,7 +20,7 @@ Thanks to the concentrated efforts of Bernt Isak Wærstad, Victor Lazarini, Alex
 
 ## What is Csound?
 
-[Csound](https://csound.com/) is an open source audio software and programming language for sound synthesis and composition. It was developed by Barry Vercoe at MIT Media Lab in 1986, but its roots go all the way back to the Music III Software developed by Max Matthews in 1961. 
+[Csound](https://csound.com/) is an open source audio software and programming language for sound synthesis and composition. It was developed by Barry Vercoe at MIT Media Lab in 1986, but its roots go all the way back to the Music III Software developed by Max Matthews in 1961.
 
 Today Csound is developed by a group of core developers with a wider community of volunteers contributing. One of the main principles in Csound development is to guarantee backwards compatibility. You can still run Csound source files from 1986 on the latest Csound release.
 
@@ -104,7 +105,7 @@ A small team, namely [Bernt Isak Wærstad](http://berntisak.no), [Victor Lazzari
 {% include single-image.html fileName="Csound/BelaIDE-NewProject.png" style="width:48%"%}
 
 
-Bela comes with a very nice browser based IDE which makes developing and setting up a Bela with Csound extremely easy. To get started, you simply click "Create new project", select ```Csound``` as project type and type in your desired name for the project. 
+Bela comes with a very nice browser based IDE which makes developing and setting up a Bela with Csound extremely easy. To get started, you simply click "Create new project", select ```Csound``` as project type and type in your desired name for the project.
 
 This will automatically create a default example project which introduces some key concepts like how to read in values from the analog pins and how to turn an LED on and off. Other and more advanced concepts can be explored in the Examples section under ```Csound```
 
@@ -115,7 +116,7 @@ See [https://github.com/BelaPlatform/Bela/wiki/Getting-started-with-Bela](https:
 
 ## Bela inputs and outputs in Csound
 
-To communicate with the analog channels on the Bela, we're using the Csound channel system. The input channels are named ```analogIn0``` to ```analogIn7``` and output channels ```analogOut0``` to ```analogOut7```. To read values, we use the [chnget](https://csound.com/docs/manual/chnget.html) opcode and [chnset](https://csound.com/docs/manual/chnset.html) is used to write values. Note that these are a-rate channels, so a downsampling is needed if you want to use the input values as k-rate control signals 
+To communicate with the analog channels on the Bela, we're using the Csound channel system. The input channels are named ```analogIn0``` to ```analogIn7``` and output channels ```analogOut0``` to ```analogOut7```. To read values, we use the [chnget](https://csound.com/docs/manual/chnget.html) opcode and [chnset](https://csound.com/docs/manual/chnset.html) is used to write values. Note that these are a-rate channels, so a downsampling is needed if you want to use the input values as k-rate control signals
 
 	;------------------------------------------------------
 	;  	Simple AM synth with analoge in and out
@@ -136,7 +137,7 @@ To communicate with the analog channels on the Bela, we're using the Csound chan
 		; Analog in 2 controls modulator amount
 		aAM_vol init 1
 		aAM_vol chnget "analogIn2"
-		
+
 
 		; Modulator
 		aMod oscil aAM_vol*0.5, kModFreq
@@ -149,11 +150,11 @@ To communicate with the analog channels on the Bela, we're using the Csound chan
 
 		; Set LED to blink in time
 		; with modulation frequency
-		
+
 		chnset aMod, "analogOut0"
 
 		outs aOut, aOut
-		
+
 	endin
 
 ## Building a simple effect processor using the COSMO dsp-library
@@ -177,14 +178,14 @@ The name and a quick explanation of the arguments can be found in the header of 
 
 	#include "../DSP-Library/Effects/Reverb.udo"
 
-	instr 1 
+	instr 1
 		aL, aR ins
 
 		aPot0 chnget "analogIn0"
 		kMix = k(aPot0)
 
 		; Reverb arguments: decay, cutoff, mix
-		aL, aR Reverb aL, aR, 0.9, 0.5, kMix 
+		aL, aR Reverb aL, aR, 0.9, 0.5, kMix
 
 		outs aL, aR
 	endin
@@ -262,9 +263,9 @@ endin
 
 ## Good programming practices for Csound on Bela
 
- In a real-time audio system like Bela, accessing other hardware than the audio device (eg. printing to console, reading writing to harddisk etc.) should be avoided (although it is sometimes required during debugging). In Csound printing and other console messages can be suppressed by adding ```-m0d``` to the ```<CsOptions>``` section. Loading files from disk should also be avoided (for instance loading audio files with ```diskin2```), but should rather be loaded into memory with function table generators (see examples below). Using ```reinit``` to re-initialize i-rate variables should also be avoided if possible as it can cause a mode switch which normally leads to a drop-out. 
+ In a real-time audio system like Bela, accessing other hardware than the audio device (eg. printing to console, reading writing to harddisk etc.) should be avoided (although it is sometimes required during debugging). In Csound printing and other console messages can be suppressed by adding ```-m0d``` to the ```<CsOptions>``` section. Loading files from disk should also be avoided (for instance loading audio files with ```diskin2```), but should rather be loaded into memory with function table generators (see examples below). Using ```reinit``` to re-initialize i-rate variables should also be avoided if possible as it can cause a mode switch which normally leads to a drop-out.
 
-Example of how to load and playback a file from memory using function table and the ```loscil``` opcode (see [https://csound.com/docs/manual/loscil.html](https://csound.com/docs/manual/loscil.html) for a thorough explanation) 
+Example of how to load and playback a file from memory using function table and the ```loscil``` opcode (see [https://csound.com/docs/manual/loscil.html](https://csound.com/docs/manual/loscil.html) for a thorough explanation)
  ```
 ;------------------------------------------------------
 ;	Playback of a stereo sound file (looping)
@@ -284,10 +285,10 @@ f1 0 0 1 "soundfile.wav" 0 0 0
 </CsScore>
 ```
 
-# Projects made with Csound and Bela 
+# Projects made with Csound and Bela
 
 ## Augmented Tenor-Saxophone (COSMO)
-Based on the effects collection in the COSMO library, [Alex Hofmann](https://homepage.univie.ac.at/alex.hofmann/) built a Tenor-Saxophone with integrated live-electronics. Inside the bell of the instrument he mounted a Bela board, with speaker and microphone, all powered by a regular 5V-phone charger power-bank. On the Bela board, a Csound-Patch is running that processes his playing in realtime, either by adding modulation effects or by live-sampling and playback. 
+Based on the effects collection in the COSMO library, [Alex Hofmann](https://homepage.univie.ac.at/alex.hofmann/) built a Tenor-Saxophone with integrated live-electronics. Inside the bell of the instrument he mounted a Bela board, with speaker and microphone, all powered by a regular 5V-phone charger power-bank. On the Bela board, a Csound-Patch is running that processes his playing in realtime, either by adding modulation effects or by live-sampling and playback.
 
 This figure shows an augmented Tenor-Saxophone setup, with Bela running Csound, an active speaker, a microphone and a 5V power-bank mounted inside the bell of the instrument.
 
@@ -302,7 +303,7 @@ A video with excerpts from a performance with the augmented Tenor-Saxophone at t
 
 ## Trampeklang
 
-**Trampeklang** is an interactive sound installation for kids commisioned by Oslo Philharmonic Orchestra. It was designed and built by Bernt Isak Wærstad and Peter Baden using custom built wooden platforms with velostat material for pressure sensing and Csound for triggering and playback of different sounds (from a sound back chosen by the operator). Everything connected to and running on a Bela of course. 
+**Trampeklang** is an interactive sound installation for kids commisioned by Oslo Philharmonic Orchestra. It was designed and built by Bernt Isak Wærstad and Peter Baden using custom built wooden platforms with velostat material for pressure sensing and Csound for triggering and playback of different sounds (from a sound back chosen by the operator). Everything connected to and running on a Bela of course.
 
 {% include single-image.html fileName="Csound/Trampeklang_InUse.jpg" caption="Trampeklang" %}
 
@@ -327,5 +328,3 @@ The Half-Physler is a hybrid acoustic-virtual instrument. A physical model of a 
 {% include youtube.html youtube="2ICv0E9Czmc" %}
 
 The Half-Physler was developed at the [Department of Music Acoustics at the University of Music and Performing Arts Vienna](https://iwk.mdw.ac.at/ar-pilot) were you can find more information about the project.
-
-

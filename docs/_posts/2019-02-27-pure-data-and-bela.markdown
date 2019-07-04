@@ -5,6 +5,7 @@ date: 2019-03-06
 categories:
   - "Tutorials"
   - "Software"
+  - "Education"
 description: "Learn: Bela and Pure Data"
 image: puredata/header-2.png
 author: robert
@@ -24,7 +25,7 @@ From the very beginning of the Bela project we have endeavoured to support as ma
 
 # Pure Data
 
-For those of you unfamiliar with Pure Data you may recognise the boxes and patching cables in the below image from [Max/MSP](https://cycling74.com/). From first appearances Pure Data may seem like an impoverished version of Max/MSP (which objectively it is as it's free) but it is in fact Max's open source twin. Originally developed in the 1990s by Miller Puckette at [IRCAM](https://www.ircam.fr/) (who was also the creator of Max), Pure Data was designed to allow musicians, artists and researchers to design interactive audio software without having to write a line of code. 
+For those of you unfamiliar with Pure Data you may recognise the boxes and patching cables in the below image from [Max/MSP](https://cycling74.com/). From first appearances Pure Data may seem like an impoverished version of Max/MSP (which objectively it is as it's free) but it is in fact Max's open source twin. Originally developed in the 1990s by Miller Puckette at [IRCAM](https://www.ircam.fr/) (who was also the creator of Max), Pure Data was designed to allow musicians, artists and researchers to design interactive audio software without having to write a line of code.
 
 {% include single-image.html fileName="puredata/max-and-pd.png" caption="An example of simple additive synthesis in Max/MSP on the right and Pure Data on the left." %}
 
@@ -40,7 +41,7 @@ As Pure Data is open source software it can be run on a whole host of machines f
 
 ## Audio I/O
 
-Just as in normal Pd you can use the `[adc~]` and `[dac~]` objects for inputs and outputs. In the case of Bela the stereo input is accessed through `[adc~ 1 2]` and you can send to the stereo output by connecting to `[dac~ 1 2]`. 
+Just as in normal Pd you can use the `[adc~]` and `[dac~]` objects for inputs and outputs. In the case of Bela the stereo input is accessed through `[adc~ 1 2]` and you can send to the stereo output by connecting to `[dac~ 1 2]`.
 
 {% include single-image.html fileName="puredata/pass-through.png" %}
 
@@ -74,7 +75,7 @@ MIDI also works with Pure Data on Bela: most class-compliant USB MIDI devices ar
 
 {% include single-image.html fileName="puredata/midi.png" %}
 
-Bela also shows up as a MIDI device on your host PC meaning that you can send MIDI messages to your favourite DAW to control further VSTs or anything else. You will find Bela listed among your MIDI devices. 
+Bela also shows up as a MIDI device on your host PC meaning that you can send MIDI messages to your favourite DAW to control further VSTs or anything else. You will find Bela listed among your MIDI devices.
 
 # Running Pure Data patches in IDE
 
@@ -94,5 +95,3 @@ You can now simply drag-and-drop your PD patch onto the IDE in your browser wind
 - [TSR](https://blog.bela.io/2018/02/12/bela-trans-siberian-railway-egegonul/) by Ege Gonul
 - [Audio Lightsaber](https://blog.bela.io/2016/12/01/saber/) by Christian Heinrichs and Robert Jack
 - [Of Nature and Things](https://blog.bela.io/2017/12/12/fedde-ten-berge-instruments-bela/) by Fedde ten Berge
-
-

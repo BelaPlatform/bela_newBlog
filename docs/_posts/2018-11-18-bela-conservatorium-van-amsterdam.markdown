@@ -6,7 +6,7 @@ categories:
   - Tutorials
   - Workshops
   - Events
-  - Education
+  - "Education"
 description: "Live Electronics at the Conservatorium van Amsterdam with Bela Mini"
 image: conservatorium/bela10.jpg
 author: bela
