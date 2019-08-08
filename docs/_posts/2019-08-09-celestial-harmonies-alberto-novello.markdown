@@ -32,4 +32,4 @@ Alberto Novello created this installation using a Vectrex games console and the 
 
 ## About Alberto Novello
 
-Alberto Novello ([JesterN](www.jestern.com)) is an Italian scientist, composer and multimedia artist. His main focus is the creation of probabilistic multi-media architectures, on the technological limit between instability and error, failure and expression. His works have been presented at Centre Pompidou in Paris, BoCA- Biennial of Contemporary Arts, Amsterdam Dance Event, New York Computer Music Festival, Seoul Computer Music Festival. He is currently a teacher of Electronic Music at the Conservatory of Padua.
+Alberto Novello ([JesterN](http://jestern.com/)) is an Italian scientist, composer and multimedia artist. His main focus is the creation of probabilistic multi-media architectures, on the technological limit between instability and error, failure and expression. His works have been presented at Centre Pompidou in Paris, BoCA- Biennial of Contemporary Arts, Amsterdam Dance Event, New York Computer Music Festival, Seoul Computer Music Festival. He is currently a teacher of Electronic Music at the Conservatory of Padua.
