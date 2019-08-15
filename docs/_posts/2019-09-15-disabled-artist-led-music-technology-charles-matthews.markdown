@@ -137,3 +137,5 @@ To accompany the code, we use a board that fits on top of the Bela as a sort of 
 The point is not just to simplify everything, although this can be part of a solution. Simplifying is not good enough if the ability to expand is closed off in the process. The real work lies in creating a way through the objects that help create a learning experience for those that want it, without getting in the way of those people who are confident to get stuck in. This isn’t the sort of thing that can be guessed or worked out through “empathy” – it’s only going to come about through conversation and direct involvement.
 
 So that’s it for now... please let me know what you think of all this (I don’t keep a public email account, but you can reach me at @matthewscharles on Twitter).
+
+You can learn more about Charles' work on his website: [http://ardisson.net/a/](http://ardisson.net/a/).
