@@ -22,7 +22,7 @@ When the Bela team asked me to write a guest blog post about what I’m doing wi
 
 ## Bela in my work
 
-I use Bela on a daily basis and have for the last couple of years. As an embedded computer designed to handle sound it helps me move from making controllers toward making what I might more readily call instruments: self-contained objects that don’t require an expensive laptop sitting at the side doing all the hard work. This helps create contexts that de-emphasises screens places the focus on more tangible types of interaction.
+I use Bela on a daily basis and have for the last couple of years. As an embedded computer designed to handle sound it helps me move from making controllers toward making what I might more readily call instruments: self-contained objects that don’t require an expensive laptop sitting at the side doing all the hard work. This helps create contexts that de-emphasises screens and places the focus on more tangible types of interaction.
 
 {% include single-image.html fileName="matthews/2-1024x768.jpg" caption="A visitor explores an exhibition of instruments created by a group of Disabled students through the Hidden Sounds course at City Lit. "%}
 
