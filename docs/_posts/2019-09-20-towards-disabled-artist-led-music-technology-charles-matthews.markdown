@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Disabled Artist-led Music Technology by Charles Matthews"
-date: 2019-08-15
+title: "Towards Disabled Artist-led Music Technology by Charles Matthews"
+date: 2019-08-20
 categories:
 - "Projects"
 - "Hardware"
@@ -152,4 +152,4 @@ And of course, not everyone seeks independence or aspires to be an audio program
 
 That’s it for now... please let me know what you think of all this (the most immediate way is to tweet me at [@matthewscharles](http://twitter.com/matthewscharles)).
 
-You can learn more about Charles' work on his website: [ardisson.net](http://ardisson.net/) and at [instrumentmaker.org](http://instrumentmaker.org/). 
+You can learn more about Charles' work on his website: [ardisson.net](http://ardisson.net/) and at [instrumentmaker.org](http://instrumentmaker.org/).
