@@ -140,6 +140,8 @@ Robyn Steward has been instrumental in pushing this forward; we used Instrument 
 
 <!--<! need to unpack that statement a little, but ideally with direct input from Robyn>-->
 
+{% include youtube.html youtube="MJmQxAr8jtk" %}
+
 {% include single-image.html fileName="matthews/barry.jpg" caption="Robyn's pedal 'Barry Mk3' at a recent performance night curated by QMUL's Centre for Digital Music." %}
 
 <!--!image description:-->
