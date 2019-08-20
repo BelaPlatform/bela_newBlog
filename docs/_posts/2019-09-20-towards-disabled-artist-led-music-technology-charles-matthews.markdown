@@ -107,7 +107,7 @@ Most significantly, the code for Instrument Maker has come together in collabora
 
 <!--!image description:-->
 
-We wanted to fill a gap we’d noticed in currently available resources. During an excited conversation about the potential for enhanced accessibility through “dataflow” programming, Gift challenged me to make a two minute demonstration video of the instrument making process.  Of course, I failed — there was just too much to explain to even make a few oscillators play notes from a scale.  Furthermore, my perception of  We went on to discuss how we could develop a set of tools and abstractions to help establish quick, solid introduction.  
+We wanted to fill a gap we’d noticed in currently available resources. During an excited conversation about the potential for enhanced accessibility through “dataflow” programming, Gift challenged me to make a two minute demonstration video of the instrument making process.  Of course, I failed — there was just too much to explain to even make a few oscillators play notes from a scale. We went on to discuss how we could develop a set of tools and abstractions to help establish quick, solid introduction.  
 
 Our aim is to find a situation where the spark of excitement — the raw potential in that moment in a  hackathon or workshop — is led by an even distribution of power for everyone involved.  We want to create something to challenge gatekeeping and the existing barriers around assumed knowledge as well as more practical barriers to code.
 
