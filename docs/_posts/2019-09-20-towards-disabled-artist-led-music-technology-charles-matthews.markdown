@@ -10,7 +10,6 @@ categories:
 description: "Towards Disabled Artist-led Music Technology by Charles Matthews"
 image: matthews/the-kellycaster-header.jpg
 author: bela
-hidden: true
 ---
 
 In this post Charles Matthews guides us through his work in accessibility, education and musical instrument design. He explains how Bela has become a tool-of-choice and shares his thoughts on the future of instrument development in relation to disability. Over to Charles.
