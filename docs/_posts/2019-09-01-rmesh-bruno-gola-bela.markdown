@@ -32,7 +32,7 @@ The web's shape is determined by the place where it is installed, while the over
 
 rmesh uses [SuperCollider](https://supercollider.github.io) running on a Bela board for the sound processing and composition.
 
-{% include single-image.html fileName="rmesh/Bela_original.jpg" %}
+{% include single-image.html fileName="rmesh/bela_original.jpg" %}
 
 For The Changing Room exhibition at [ACUD MACHT NEU](https://acudmachtneu.de) in Berlin the materials used were:
 
