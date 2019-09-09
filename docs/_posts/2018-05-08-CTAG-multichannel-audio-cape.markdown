@@ -12,7 +12,7 @@ author: bela
 
 We are excited to announce the release of the CTAG FACE and BEAST multichannel audio systems, available for pre-order now from the Bela shop.
 
-<div style="text-align: center; margin-bottom: 10px;"><a href="https://shop.bela.io/ctag" name="Order CTAG now"><button name="button" style="font-size: larger; font-weight: bold; cursor: pointer; color: #ffffff; padding: 10px; background-color: #00bea4; border-radius: 4px; border: 4px #00bea4;">Preorder now</button></a></div>
+<div style="text-align: center; margin-bottom: 10px;"><a href="https://shop.bela.io/ctag" name="Order CTAG now"><button name="button" style="font-size: larger; font-weight: bold; cursor: pointer; color: #ffffff; padding: 10px; background-color: #00bea4; border-radius: 4px; border: 4px #00bea4;">Order now</button></a></div>
 
 Developed by Henrik Langer and Robert Manzke of [CTAG Audio](http://www.ctag-audio.de) in collaboration with Bela, the FACE is a cape for the BeagleBone Black with 4 audio input channels and 8 audio output channels. The BEAST, created by stacking two FACE capes on top of each other, doubles the amount of available audio I/O to an impressive 8 input channels and 16 output channels.
 
