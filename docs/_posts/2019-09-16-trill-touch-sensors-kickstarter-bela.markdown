@@ -11,7 +11,7 @@ image: trill/header-2.png
 author: bela
 ---
 
-The Trill touch sensors are now [live on Kickstarter](https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers?ref=5h34wt&token=6b96b598)! This new family of sensors from Bela bring precise and easy-to-use touch interaction to your digital projects.
+The Trill touch sensors are now [live on Kickstarter](https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers)! This new family of sensors from Bela bring precise and easy-to-use touch interaction to your digital projects.
 
 {% include single-image.html fileName="trill/trill-logo-tagline.png" %}
 
@@ -23,7 +23,7 @@ From computer interfaces to textiles, musical instruments to interactive artwork
 
 The Trill sensors use capacitive sensing to precisely track finger movements, making it quick and easy to create beautifully responsive new touch interfaces.
 
-<div style="text-align: center; margin-bottom: 10px;"><a href="https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers?ref=5h34wt&token=6b96b598" name="Trill on Kickstarter"><button name="button" style="font-size: larger; font-weight: bold; cursor: pointer; color: #ffffff; padding: 30px; background-color: #00bea4; border-radius: 15px; border: 4px #00bea4;">Visit Trill on Kickstarter</button></a></div>
+<div style="text-align: center; margin-bottom: 10px;"><a href="https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers" name="Trill on Kickstarter"><button name="button" style="font-size: larger; font-weight: bold; cursor: pointer; color: #ffffff; padding: 30px; background-color: #00bea4; border-radius: 15px; border: 4px #00bea4;">Visit Trill on Kickstarter</button></a></div>
 
 
 # The Trill Family
@@ -71,6 +71,6 @@ As part of our Kickstarter campaign there are special early bird prices and disc
 
 {% include single-image.html fileName="trill/trill-experimenter-kit.jpg" %}
 
-<div style="text-align: center; margin-bottom: 10px;"><a href="https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers?ref=5h34wt&token=6b96b598" name="Trill on Kickstarter"><button name="button" style="font-size: larger; font-weight: bold; cursor: pointer; color: #ffffff; padding: 30px; background-color: #00bea4; border-radius: 15px; border: 4px #00bea4;">See our Rewards on Kickstarter</button></a></div>
+<div style="text-align: center; margin-bottom: 10px;"><a href="https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers" name="Trill on Kickstarter"><button name="button" style="font-size: larger; font-weight: bold; cursor: pointer; color: #ffffff; padding: 30px; background-color: #00bea4; border-radius: 15px; border: 4px #00bea4;">See our Rewards on Kickstarter</button></a></div>
 
 The campaign runs until 5pm 18th October so don't miss your chance to get your hands on this new family of touch sensors for makers. See you on Kickstarter and stay tuned for updates!
