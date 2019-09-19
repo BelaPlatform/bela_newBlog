@@ -3,6 +3,7 @@ layout: post
 title: "Trill: Touch Sensing for Makers on Kickstarter"
 date: 2019-09-16
 categories:
+- "Trill"
 - "Projects"
 - "Hardware"
 - "Instruments"
