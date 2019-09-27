@@ -21,7 +21,7 @@ author: bela
 
 # Working with the Trill Sensors
 
-At the core of this synthesiser are the [Trill Touch Sensors](https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers) that are the latest maker tool from us at Bela and are live on Kickstarter until the 18th of October 2019. There are three types of Trill sensor used in this module: **Trill Bar**, **Trill Square** and **Trill Craft**.
+At the core of this synthesiser are the [Trill Touch Sensors](https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers) which are the latest maker tool from the team at Bela, and are live on Kickstarter until the 18th of October 2019. There are three types of Trill sensor used in this module: **Trill Bar**, **Trill Square** and **Trill Craft**.
 
 {% include single-image.html fileName="euro-trill/euro-trill-labelled.jpg" %}
 
