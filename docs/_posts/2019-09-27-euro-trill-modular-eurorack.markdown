@@ -11,7 +11,6 @@ categories:
 description: "Euro-Trill: Touch Sensing for Modular Synthesisers"
 image: euro-trill/header.JPG
 author: bela
-hidden: true
 ---
 
 [Trill Touch Sensors](https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers) are the perfect tools for building synthesisers and electronic musical instruments. In this post we'll have a close look at a synth module we've created with Trill that works alongside our DIY Eurorack module [Pepper](https://github.com/BelaPlatform/bela-pepper/wiki).
