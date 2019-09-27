@@ -27,7 +27,7 @@ At the core of this synthesiser are the [Trill Touch Sensors](https://www.kickst
 
 ## Producing Control Voltage from the Trill Sensors
 
-The Trill sensors alone cannot produce a control voltage and need to be connected to a microcontroller or embedded computer to translate the readings from the sensor into the required voltage ranges. To do this you can use a low cost microcontroller like Arduino, Teensy or many other popular maker boards so long as they have an I2C port available (see the [Trill Arduino examples](https://github.com/BelaPlatform/Trill/tree/master/examples)). In this case we've used a more sophisticated embedded computer that can also perform complex synthesis of sound alongside producing control voltage out.
+The Trill sensors alone cannot produce a control voltage and need to be connected to a microcontroller or embedded computer to translate the readings from the sensor into the required voltage ranges. To do this you can use a low cost microcontroller like Arduino, Teensy or many other popular maker boards so long as they have an I2C port available (see the [Trill Arduino examples](https://github.com/BelaPlatform/Trill/tree/master/examples)). In this case we've used a more sophisticated embedded computer ([Bela and BeagleBone Black](https://shop.bela.io/bela/starter-kit)) that can also perform complex synthesis of sound alongside producing control voltage out. Bela is particularly well suited for creating synthesisers and you can see previous synth projects made with the board [here](https://blog.bela.io/category/synths/).
 
 {% include single-image.html fileName="euro-trill/pepper-all-around.jpg" caption="The Pepper Eurorack Module."%}
 
@@ -76,7 +76,7 @@ Trill Square is a touch pad that senses two axes of movement that we use to cont
 
 {% include single-image.html fileName="euro-trill/trill-square-close-up.jpg" caption="Trill Square: x-y sensing for controlling synthesis parameters." %}
 
-This synthesiser serves to demonstrate some of the possibilities that the Trill touch sensors can open up for the development of Eurorack modules, standalone electronic instruments and sound producing machines in general. They provide an really intuitive and responsive form of control for digital synthesisers and offer plenty of opportunities for experimenting with free-form interfaces and control surfaces.
+Euro-Trill serves to demonstrate some of the possibilities that the Trill touch sensors open up for the development of Eurorack modules, standalone electronic instruments, and sound-producing machines in general. They provide a really intuitive and responsive form of control for digital synthesisers and offer plenty of opportunities for experimenting with free-form interfaces and control surfaces.
 
 # Visit Trill on Kickstarter
 
