@@ -27,7 +27,7 @@ At the core of this synthesiser are the [Trill Touch Sensors](https://www.kickst
 
 ## Producing Control Voltage from the Trill Sensors
 
-The Trill sensors alone cannot produce a control voltage and need to be connected to a microcontroller or embedded computer to translate the readings from the sensor into the required voltage ranges. To do this you can use a low cost microcontroller like Arduino, Teensy or many other popular maker boards so long as they have an i2c port available (see the [Trill Arduino examples](https://github.com/BelaPlatform/Trill/tree/master/examples)). In this example we've used a more sophisticated embedded computer that can also do complex synthesis of sound alongside producing control voltage out.
+The Trill sensors alone cannot produce a control voltage and need to be connected to a microcontroller or embedded computer to translate the readings from the sensor into the required voltage ranges. To do this you can use a low cost microcontroller like Arduino, Teensy or many other popular maker boards so long as they have an I2C port available (see the [Trill Arduino examples](https://github.com/BelaPlatform/Trill/tree/master/examples)). In this case we've used a more sophisticated embedded computer that can also perform complex synthesis of sound alongside producing control voltage out.
 
 {% include single-image.html fileName="euro-trill/pepper-all-around.jpg" caption="The Pepper Eurorack Module."%}
 
@@ -38,13 +38,13 @@ Pepper offers 8 CV inputs (attenuated by the pots), 8 CV outputs, stereo audio i
 
 {% include single-image.html fileName="euro-trill/pepper-side-money-shot.jpg" %}
 
-To connect the Trill sensors to Pepper we use [i2c](https://learn.sparkfun.com/tutorials/i2c/all), a digital communication protocol that requires only two connections in addition to power and ground: SCL (clock) and SDA (data). On the Pepper module these four pins are broken out on the back of the PCB for exactly these kind of situations.
+To connect the Trill sensors to Pepper we use [I2C](https://learn.sparkfun.com/tutorials/i2c/all), a digital communication protocol that requires only two connections in addition to power and ground: SCL (clock) and SDA (data). On the Pepper module these four pins are broken out on the back of the PCB for exactly these kind of situations.
 
 ## Using Multiple Trill Sensors at once
 
-To use multiple Trill sensors at the same time you just need to make sure that each sensor has a unique i2c address. The i2c address of each sensor can be changed via the solder bridges on the back of each sensor.
+To use multiple Trill sensors at the same time you just need to make sure that each sensor has a unique I2C address. The I2C address of each sensor can be changed via the solder bridges on the back of each sensor.
 
-{% include single-image.html fileName="euro-trill/changing-i2c-address.jpg" caption="Changing the i2c address of the Trill sensor via the solder bridges on the back." %}
+{% include single-image.html fileName="euro-trill/changing--address.jpg" caption="Changing the I2C address of the Trill sensor via the solder bridges on the back." %}
 
 Once each of the sensors has an individual address they can be connected together by simply daisy-chaining the SDA and SCL cables together. To make the module more durable and road-friendly we created a simple break-out using protoboard that connects all of the wires together.
 
