@@ -44,7 +44,7 @@ At the core of each sculpture is the new Trill Craft sensor that is available as
 
 {% include single-image.html fileName="trill/craft_specs-01.png" %}
 
-Trill Craft is a 30-channel capacitive sensing breakout board that lets you make your own touch interfaces out of anything conductive. In this case it is used to identify when contact is made with the metal rods attached to the board. Trill Craft is then connected to the Bela caoe ontop of a BeagleBone which make it quick and easy to get the readings from the sensor producing sound.
+Trill Craft is a 30-channel capacitive sensing breakout board that lets you make your own touch interfaces out of anything conductive. In this case it is used to identify when contact is made with the metal rods attached to the board. Trill Craft is then connected to the Bela cape on top of a BeagleBone which make it quick and easy to get the readings from the sensor producing sound.
 
 {% include single-image.html fileName="helen/black-bread-board.jpg" %}
 
