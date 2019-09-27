@@ -44,7 +44,7 @@ To connect the Trill sensors to Pepper we use [I2C](https://learn.sparkfun.com/t
 
 To use multiple Trill sensors at the same time you just need to make sure that each sensor has a unique I2C address. The I2C address of each sensor can be changed via the solder bridges on the back of each sensor.
 
-{% include single-image.html fileName="euro-trill/changing--address.jpg" caption="Changing the I2C address of the Trill sensor via the solder bridges on the back." %}
+{% include single-image.html fileName="euro-trill/changing-i2c-address.jpg" caption="Changing the I2C address of the Trill sensor via the solder bridges on the back." %}
 
 Once each of the sensors has an individual address they can be connected together by simply daisy-chaining the SDA and SCL cables together. To make the module more durable and road-friendly we created a simple break-out using protoboard that connects all of the wires together.
 
