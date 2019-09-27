@@ -18,8 +18,7 @@ hidden: true
 
 # Euro-Trill in Action
 
-{% include youtube.html youtube="er07EFHnh1k" %}
-
+{% include youtube.html youtube="lsTCIzxxa18" %}
 
 # Working with the Trill Sensors
 
