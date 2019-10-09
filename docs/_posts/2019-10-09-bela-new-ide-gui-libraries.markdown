@@ -51,11 +51,11 @@ There are several core features of the IDE:
 
 With this new update we have added some exciting new features that make the Bela IDE more useful than ever before. We started with a sleek new design to make the IDE more integrated, cohesive, and organised. Then, we added two important new features:
 
-- **Graphical User Interfaces (GUI) integration.** You can now create GUIs as part of your project which can be used to control the code running on the board and visualise any signals or data from your project.
+- <p><strong>Graphical User Interfaces (GUI) integration.</strong> You can now create GUIs as part of your project which can be used to control the code running on the board and visualise any signals or data from your project.</p>
 
 {% include single-image.html fileName="new-ide/gui.gif" %}
 
-- **Library support** to make code sharing easier plus a whole host of exciting libraries for you to try out including synthesis methods, utilities and code for interacting with custom sensors.
+- <p><strong>Library support.</strong> to make code sharing easier plus a whole host of exciting libraries for you to try out including synthesis methods, utilities and code for interacting with custom sensors.</p>
 
 {% include single-image.html fileName="new-ide/libraries.png" %}
 
