@@ -9,7 +9,7 @@ categories:
 - "Instruments"
 - "Tutorials"
 description: "Bela’s New IDE: GUIs, Libraries and More"
-image: new-ide/header.JPG
+image: new-ide/header.jpg
 author: bela
 ---
 
