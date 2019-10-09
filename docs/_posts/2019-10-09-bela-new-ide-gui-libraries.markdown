@@ -70,7 +70,7 @@ The GUI functionality works with [p5.js](https://p5js.org/) which is one of our 
 
 {% include youtube.html youtube="kBFNnON0Hoo" %}
 
-To use a GUI in your project, add an additional file called `sketch.js`. This file contains the code for your GUI. As usual, you can write and edit the code within the IDE, then click the "GUI" button in the lower toolbar to open your GUI sketch in a new browser tab.
+To use a GUI in your project, add an additional file called `sketch.js`. This file contains the code for your GUI. As usual, you can write and edit the code within the IDE, then click the "GUI" button in the lower toolbar to open your GUI sketch in a new browser tab. The p5.js code that you create has to be written in [instance mode](https://github.com/processing/p5.js/wiki/Global-and-instance-mode).
 
 We have created simple methods for passing data between your Bela project and the GUI sketch. You can visualise data from your Bela project or interact with it from the browser, for example using the mouse or keyboard to control your code. There are several examples to get started. Even while you use the browser to interact, your Bela project is still running in [Bela’s high-performance real-time, low-latency environment](https://bela.io/about).
 
