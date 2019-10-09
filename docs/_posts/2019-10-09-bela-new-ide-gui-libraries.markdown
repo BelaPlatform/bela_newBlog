@@ -74,26 +74,28 @@ To use a GUI in your project, add an additional file called `sketch.js`. This fi
 
 We have created simple methods for passing data between your Bela project and the GUI sketch. You can visualise data from your Bela project or interact with it from the browser, for example using the mouse or keyboard to control your code. There are several examples to get started. Even while you use the browser to interact, your Bela project is still running in [Bela’s high-performance real-time, low-latency environment](https://bela.io/about).
 
+
+## Technical Details
 ------
 
-### Sending to the GUI
+### Sending to the GUI:
 
-Sending data from your `render.cpp` file to the GUI is as simple as using the `sendBuffer(0, data)`, where the first parameter is the index assigned to the buffer and the second parameter is the data you want to send over. This data can be a single value, array, or vector. The GUI library takes care of sending this data from `render.cpp` to `sketch.js` via a web socket. Within `sketch.js` the data can then be accessed via `Bela.data.buffers`.
+Sending data from your `render.cpp` file to the GUI is as simple as using `sendBuffer(0, data)`, where the first parameter is the index assigned to the buffer and the second parameter is the data you want to send over. This data can be a single value, array, or vector. The GUI library takes care of sending this data from `render.cpp` to `sketch.js` via a web socket. Within `sketch.js` the data can then be accessed via `Bela.data.buffers`.
 
 ------
 
-### Receiving data from the GUI
+### Receiving data from the GUI:
 
-Receiving data from `sketch.js` in `render.cpp` very similar except that we have to predefine the type and number of elements in the buffer.
-To do so we use `setBuffer('f', 2)` in `setup()`. The first parameter indicates the type of the buffer ('f': float, 'd': int, 'c': char) while the second one refers to the number of elements to be expected.
+Receiving data from `sketch.js` in `render.cpp` is very similar except that we have to predefine the type and number of elements in the buffer.
+To do so we use `setBuffer('f', 2)` in `setup()` of our `sketch.js` file. The first parameter indicates the type of the buffer ('f': float, 'd': int, 'c': char) while the second one refers to the number of elements to be expected.
 
-To send the data from `sketch.js` we use  `Bela.data.sendBuffer(0, 'float', buffer)`, where the first argument is the index of the buffer, the second one the type, and the third the data to exchange. Data is then exchanged via the web socket. This buffer can be accessed in `render.cpp` by using the following function: `getDataBuffer(0)` part of the GUI library, which obtains a DataBuffer a given index (0 in this case). The new data available on the buffer can be retrieved in its correct form using `float* data = buffer.getAsFloat();`.
+To send the data from `sketch.js` we use  `Bela.data.sendBuffer(0, 'float', buffer)`, where the first argument is the index of the buffer, the second is the type, and the third is the data to exchange. Data is then exchanged via a web socket. This buffer can be accessed in `render.cpp` by using the following function: `getDataBuffer(0)`, part of the GUI library, which obtains a DataBuffer a given index (0 in this case). The new data available on the buffer can be retrieved in its correct form using `float* data = buffer.getAsFloat();`.
 
 -----
 
 # Libraries
 
-Libraries are reusable blocks of code which you can include in your projects, without having to copy all the files into every project you want to use with them. This new IDE allows you to choose from a variety of built-in libraries which take care of things like communicating with sensors (for example, our new [Trill capacitive touch sensors](https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers)), audio synthesis routines, and communication protocols like websockets, MIDI and OSC.
+Libraries are reusable blocks of code which you can easily include in your projects, without having to copy all the files into each project. This new IDE allows you to choose from a variety of built-in libraries which take care of things like communicating with sensors (for example, our new [Trill capacitive touch sensors](https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers)), audio synthesis routines, and communication protocols like websockets, MIDI and OSC.
 
 {% include youtube.html youtube="b3_tXtx-mGE" %}
 
@@ -110,7 +112,7 @@ The new IDE will soon be shipping with every Bela board. You can update your exi
 
 # Visualising Trill Sensors in the Bela IDE
 
-As the above video shows, the Trill sensors are the perfect counterpart with Bela. The Trill touch sensors are now [live on Kickstarter](https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers)! This new family of sensors from Bela bring precise and easy-to-use touch interaction to your digital projects.
+As the above videos show, the Trill sensors are the perfect counterpart for Bela. The Trill touch sensors are now [live on Kickstarter](https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers)! This new family of sensors from Bela bring precise and easy-to-use touch interaction to your digital projects.
 
 {% include youtube.html youtube="xzaf2bBKuQI" %}
 
