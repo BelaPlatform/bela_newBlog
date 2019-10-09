@@ -26,7 +26,7 @@ This post takes you through the basics of the Bela IDE and introduces the exciti
 
 Using a system like Bela used to be complicated and require a complex system of software tools. When we started Bela we wanted to provide everything necessary for editing, compiling and running code on Bela, with the goal of making creating projects with sensors and sound as intuitive and convenient for as many makers as possible.
 
-{% include youtube.html youtube="WnxSIwjUdqw" %}
+{% include youtube.html youtube="XJ2fFqGexCM" %}
 
 To make this IDE easily accessible, we made it entirely browser-based. Accessing the Bela IDE requires only plugging in your Bela and navigating to [bela.local](http://bela.local/), thereby removing the need for complicated toolchains and even an internet connection. The entire IDE is served locally from your Bela board.
 
@@ -68,7 +68,7 @@ Over the past couple of years we have had many requests from our users for GUIs 
 
 The GUI functionality works with [p5.js](https://p5js.org/) which is one of our favourite open-source languages for visual programming. p5.js is a JavaScript library for creative coding which focuses on making coding accessible and inclusive for artists, designers, educators, aligning perfectly with our aims at Bela. It’s easy to get started with p5.js and it will be familiar to many coders as it is an interpretation of [Processing](https://processing.org/) for today’s web.
 
-{% include youtube.html youtube="kBFNnON0Hoo" %}
+{% include youtube.html youtube="jkeO7en7s5M" %}
 
 To use a GUI in your project, add an additional file called `sketch.js`. This file contains the code for your GUI. As usual, you can write and edit the code within the IDE, then click the "GUI" button in the lower toolbar to open your GUI sketch in a new browser tab. The p5.js code that you create has to be written in [instance mode](https://github.com/processing/p5.js/wiki/Global-and-instance-mode).
 
@@ -97,7 +97,7 @@ To send the data from `sketch.js` we use  `Bela.data.sendBuffer(0, 'float', buff
 
 Libraries are reusable blocks of code which you can easily include in your projects, without having to copy all the files into each project. This new IDE allows you to choose from a variety of built-in libraries which take care of things like communicating with sensors (for example, our new [Trill capacitive touch sensors](https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers)), audio synthesis routines, and communication protocols like websockets, MIDI and OSC.
 
-{% include youtube.html youtube="b3_tXtx-mGE" %}
+{% include youtube.html youtube="jogAASpHX50" %}
 
 Functionality for community contributed libraries will be coming soon. In the meantime, if you have library ideas, [send us an email](mailto:info@bela.io)!
 
