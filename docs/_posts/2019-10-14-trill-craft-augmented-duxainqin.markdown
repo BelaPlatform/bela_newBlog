@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Augmented Duxainqin with Trill Craft"
-date: 2019-10-14
+date: 2019-10-16
 categories:
 - "Trill"
 - "Projects"
@@ -53,6 +53,8 @@ The readings from Trill Craft were run into Pure Data on Bela, where they trigge
 ## Body
 
 As a nod to the origins of the instrument bamboo was used for the body, as would have been the case many moons ago. I was also able to hollow out the bamboo body, enabling the joystick to be packed inside for transportation. Speakers were placed at either end of the bamboo tube, using the tubes resonance and natural acoustic properties to add some authentic timbral character to the output signal.
+
+{% include youtube.html youtube="atulPlQMFao" %}
 
 ## About Jon Pigrem
 
