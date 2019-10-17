@@ -1,28 +1,28 @@
 ---
 layout: post
-title: "Augmented Duxainqin with Trill Craft"
+title: "Augmented Duxianqin with Trill Craft"
 date: 2019-10-17
 categories:
 - "Trill"
 - "Projects"
 - "Instruments"
 - "Synths"
-description: "Augmented Duxainqin with Trill Craft"
+description: "Augmented Duxianqin with Trill Craft"
 image: duxainqin/header.jpeg
 author: bela
 ---
 
-The duxainqin is a traditional plucked string instrument from China and in this post we'll learn about an instrument building exchange which used Trill Craft to reimagine the duxainqin as an electronic instrument. Over to Jon Pigrem to tell us all about it:
+The duxianqin is a traditional plucked string instrument from China and in this post we'll learn about an instrument building exchange which used Trill Craft to reimagine the duxianqin as an electronic instrument. Over to Jon Pigrem to tell us all about it:
 
 # Chinese Tradition and Digital Musical Instrument Design
 
-Earlier this month a small team of researchers from Queen Mary University of London’s [Media and Arts Technology programme](http://www.mat.qmul.ac.uk) participated in a cross-cultural workshop with students and researchers from the [Central Conservatory of Music](http://www.ccom.edu.cn/) in China to reimagine the duxainqin, an instrument rich in Chinese intangible cultural heritage, originating from Vietnam a few hundred years ago.
+Earlier this month a small team of researchers from Queen Mary University of London’s [Media and Arts Technology programme](http://www.mat.qmul.ac.uk) participated in a cross-cultural workshop with students and researchers from the [Central Conservatory of Music](http://www.ccom.edu.cn/) in China to reimagine the duxianqin, an instrument rich in Chinese intangible cultural heritage, originating from Vietnam a few hundred years ago.
 
 {% include single-image.html fileName="duxainqin/composer.jpg" %}
 
 As members of the [Augmented Instrument Lab](http://instrumentslab.org/) at Queen Mary, and early adopters of the Bela platform, we naturally stuffed the suitcases full of Bela goodies, and even were lucky to get our hands on a few of the unreleased [Trill Craft sensors](https://www.kickstarter.com/projects/423153472/trill-touch-sensing-for-makers).
 
-As a product of a few days of cultural immersion (mainly eating far too much Beijing Duck and other unspeakable offal-ings) a design framework was drawn up for the development of three new approaches to the duxainqin, one augmented and two digital.
+As a product of a few days of cultural immersion (mainly eating far too much Beijing Duck and other unspeakable offal-ings) a design framework was drawn up for the development of three new approaches to the duxianqin, one augmented and two digital.
 
 
 # The Instrument
@@ -42,7 +42,7 @@ Using Trill Craft I quickly rigged up 16 note triggers, increasing the pitch spa
 
 {% include single-image.html fileName="duxainqin/internal-wiring.png" %}
 
-Due to the short amount of time that we had for this build copper tape was used for the capacitive touch triggers. With more time, solid brass strips would provide a much more robust and aesthetically pleasing solution. The 'joystick' was kept, and its movement sensed using a flex sensor. This joystick was the key to the sound of the duxainqin, and a vital part of the gestures used by players to perform the instrument's repertoire.
+Due to the short amount of time that we had for this build copper tape was used for the capacitive touch triggers. With more time, solid brass strips would provide a much more robust and aesthetically pleasing solution. The 'joystick' was kept, and its movement sensed using a flex sensor. This joystick was the key to the sound of the duxianqin, and a vital part of the gestures used by players to perform the instrument's repertoire.
 
 
 ## Software
