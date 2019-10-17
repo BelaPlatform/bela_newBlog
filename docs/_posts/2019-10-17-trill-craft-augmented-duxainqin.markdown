@@ -10,7 +10,6 @@ categories:
 description: "Augmented Duxainqin with Trill Craft"
 image: duxainqin/header.jpeg
 author: bela
-hidden: true
 ---
 
 The duxainqin is a traditional plucked string instrument from China and in this post we'll learn about an instrument building exchange which used Trill Craft to reimagine the duxainqin as an electronic instrument. Over to Jon Pigrem to tell us all about it:
