@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Augmented Duxainqin with Trill Craft"
-date: 2019-10-16
+date: 2019-10-17
 categories:
 - "Trill"
 - "Projects"
