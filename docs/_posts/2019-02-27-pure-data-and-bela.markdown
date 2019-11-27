@@ -17,7 +17,7 @@ This post gives an in-depth run through of using Pure Data with Bela. It explain
 
 # Open source computer music
 
-Bela has been designed to speak many languages. When it comes to building interactive projects and particularly to the world of computer music we all have our favourites. When Bela was first created it was based solely around a core of [C++](http://www.cplusplus.com/) files and much of the versitility and power of Bela comes from the low level control and elegance of this programming language. C++ in the right hands can achive great things, but it has a substantial learning curve and can be limiting when it comes to quick prototyping. Over the last 30 years there has been a proliferation of new languages that specifically target sound and music and each one comes with its own philosophy, ways of working, aesthetics and (most importantly perhaps) community.
+Bela has been designed to speak many languages. When it comes to building interactive projects and particularly to the world of computer music we all have our favourites. When Bela was first created it was based solely around a core of [C++](http://www.cplusplus.com/) files and much of the versatility and power of Bela comes from the low level control and elegance of this programming language. C++ in the right hands can achieve great things, but it has a substantial learning curve and can be limiting when it comes to quick prototyping. Over the last 30 years there has been a proliferation of new languages that specifically target sound and music and each one comes with its own philosophy, ways of working, aesthetics and (most importantly perhaps) community.
 
 {% include single-image.html fileName="software.jpg" caption="An example of creating oscillators in C++ on Bela." %}
 
