@@ -11,7 +11,7 @@ image: brown/header.jpg
 author: bela
 ---
 
-In this post we introduce *On the Division of a String* (2019) by Dublin-based artist and composer [Nicholas Brown](www.nicholasbrown.co.uk). The work is a six-channel installation-performance for monochord, Bela and loudspeakers.
+In this post we introduce *On the Division of a String* (2019) by Dublin-based artist and composer [Nicholas Brown](http://nicholasbrown.co.uk/). The work is a six-channel installation-performance for monochord, Bela and loudspeakers.
 
 {% include vimeo.html vimeo="377372042" %}
 
@@ -58,4 +58,4 @@ Nicholas Brown (GB) is an artist-composer, performer and writer. His interdiscip
 
 He has also written scores for silent films, which have been recorded and released on DVD by the British Film Institute. Recent work includes *Chit-chat* (2017), an interactive installation for Science Gallery, Dublin that transforms a visitor's vocalisation into birdsong; *Vanishing Points* (2017) for clavichord, mobile phones and live electronics; and *The Undulatory Theory of Light* (2018), an installation-performance that investigates wave motion through interrelations between light, sound and water. Nicholas Brown was educated at Oxford University and Manhattan School of Music, New York. He holds the post of Ussher Assistant Professor in Sonic Arts at Trinity College Dublin and is an Associate Researcher at the Orpheus Institute, Ghent.
 
-To learn more about Nicholas's work visit [his website](www.nicholasbrown.co.uk).
+To learn more about Nicholas's work visit [his website](http://nicholasbrown.co.uk/).
