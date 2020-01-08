@@ -57,8 +57,9 @@ bela:
   name: Bela
   github: BelaPlatform
   twitter: BelaPlatform
+  instagram: belaplatform
   email: info@bela.io
-  profile: Bela is an open-source platform for ultra-low latency audio and sensor processing. Find out more on our <a href="http://bela.io" target="_blank">website</a>, buy Bela at our <a href="http://shop.bela.io" target="_blank">shop</a>, follow us on <a href="https://twitter.com/BelaPlatform" target="_blank">twitter</a> or join our community and discuss this post on our <a href="http://forum.bela.io" target="_blank">forum</a>.
+  profile: Bela is an open-source platform for ultra-low latency audio and sensor processing. Find out more on our <a href="http://bela.io" target="_blank">website</a>, buy Bela at our <a href="http://shop.bela.io" target="_blank">shop</a>, follow us on <a href="https://twitter.com/BelaPlatform" target="_blank">twitter</a>, <a href="https://www.instagram.com/belaplatform/" target="_blank">instagram</a> or join our community and discuss this post on our <a href="http://forum.bela.io" target="_blank">forum</a>.
   author-image: Authors/belaboard.jpg
 eddmx:
   name: Ed DMX
