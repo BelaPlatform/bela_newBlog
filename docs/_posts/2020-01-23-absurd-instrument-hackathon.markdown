@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Absurd Instruments Hackathon – Unuseless Musical Designs"
-date: 2020-01-20
+date: 2020-01-23
 categories:
 - "Projects"
 - "Instruments"
