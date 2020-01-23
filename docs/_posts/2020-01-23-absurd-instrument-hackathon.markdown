@@ -34,7 +34,7 @@ Over the course of two days the hackathon participants were given technical and 
 
 ## Featured Mentors
 
-[Hannah Perner-Wilson](https://www.plusea.at) and [John Bowers](https://www.ncl.ac.uk/sacs/staff/profile/johnbowers.html) supported the hackathon in a sublime fashion. These mentors have both significant experience in the fields of music technology, craft, research through design and DIY. They were on site for the all duration of the event, guiding and challenging participants from both technical and theoretical viewpoints.
+[Hannah Perner-Wilson](https://www.plusea.at) and [John Bowers](https://www.ncl.ac.uk/sacs/staff/profile/johnbowers.html) supported the hackathon in a sublime fashion. These mentors have both significant experience in the fields of music technology, craft, research through design and DIY. They were on site for the full duration of the event, guiding and challenging participants from both technical and theoretical viewpoints.
 
 
 {% include single-image.html fileName="absurd-music-design/Hannah.jpg"%}
