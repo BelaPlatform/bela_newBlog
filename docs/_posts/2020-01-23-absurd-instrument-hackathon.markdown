@@ -18,7 +18,7 @@ This post describes a hackathon which brought together artists, technologists an
 
 # Making absurd musical interfaces
 
-The hackathon took place at Queen Mary University of London on the 8th and 9th of November and began with the following call to arms:
+The hackathon, which was organised by Giacomo Lepri, took place at Queen Mary University of London on the 8th and 9th of November and began with the following call to arms:
 
 > Making absurd, surreal and silly musical propositions.
 Composing unconventional artefacts challenging current music technology.
@@ -244,7 +244,7 @@ ___
 
 ___
 
-A special thank goes to the wonderful team that, in one way or another, made this event possible: Jonathan Winfield, Angela McArthur, Sophie Skach, Charlotte Nordmoen, Andrea Guidi, Jacob Harrison, Robert Jack, Andrew McPherson, Antonella Nonnis, Lia Mice and Nick Bryan-Kinns.
+A special thank goes to the wonderful team that, in one way or another, made this event possible: Giacomo Lepri, Jonathan Winfield, Angela McArthur, Sophie Skach, Charlotte Nordmoen, Andrea Guidi, Jacob Harrison, Robert Jack, Andrew McPherson, Antonella Nonnis, Lia Mice and Nick Bryan-Kinns.
 
 The Hackathon was supported by the [Media and Arts Technology](http://www.mat.qmul.ac.uk/) (MAT) doctoral training centre as part of [Inter/sections](https://intersections.io/) 2019.
 
