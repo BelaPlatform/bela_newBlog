@@ -18,7 +18,7 @@ Simon Iten, a long term Bela-user and [lokki](https://forum.bela.io/u/lokki) on 
 
 Bela features on the track Arktis on BLAER's latest album which was originally composed about one and a half year's ago. When rehearsing the song it quickly became apparent that some non-instrumental acoustic sounds would help the overall mood and that's where Bela came in. In this version of the track a Bela running Pure Data is used to manipulate the sound of the piano in realtime.
 
-<iframe style="border: 0; width: 700px; height: 1037px;" src="https://bandcamp.com/EmbeddedPlayer/album=3594209295/size=large/bgcol=ffffff/linkcol=0687f5/transparent=true/" seamless><a href="http://roninrhythmrecords.bandcamp.com/album/yellow">Yellow by Blaer</a></iframe>
+<iframe style="border: 0; width: 700px; height: 820px;" src="https://bandcamp.com/EmbeddedPlayer/album=3594209295/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/track=1747872086/transparent=true/" seamless><a href="http://roninrhythmrecords.bandcamp.com/album/yellow">Yellow by Blaer</a></iframe>
 
 
 
