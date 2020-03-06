@@ -10,7 +10,6 @@ categories:
 description: "The Book of Knowledge of Impractical Musical Devices by Yann Seznec"
 image: yann/header.jpg
 author: bela
-hidden: true
 ---
 
 In this post Yann Seznec introduces the Book of Knowledge of Impractical Musical Devices. This series of three musical devices are each guided by very specific rules which encourage players to reflect on their listening experience. Here Yann focuses on his auto-destructive work, Volume 3: Everything You Love Will One Day Be Taken From You.
