@@ -33,7 +33,7 @@ The 'patcher' or 'dataflow' programming logic that Pure Data follows works throu
 
 # Bela and Pure Data
 
-As Pure Data is open source software it can be run on a whole host of machines from PCs and laptops to smart phones and embedded devices (i.e. Bela!). On Bela we use the [libPd library](https://puredata.info/downloads/libpd), a means on embedding the core DSP functionality of Pure Data on the board. We have a number of Pure Data examples on the board that cover all basic functionality – the best place to begin is with our [getting started example](https://github.com/BelaPlatform/Bela/tree/master/examples/08-PureData/gettingStarted).
+As Pure Data is open source software it can be run on a whole host of machines from PCs and laptops to smart phones and embedded devices (i.e. Bela!). On Bela we use the [libPd library](https://puredata.info/downloads/libpd), a means on embedding the core DSP functionality of Pure Data on the board. We have a number of Pure Data examples on the board that cover all basic functionality – the best place to begin is with our [getting started example](https://github.com/BelaPlatform/Bela/tree/master/examples/PureData/getting-started).
 
 {% include single-image.html fileName="puredata/bela-and-puredata
 .jpg" caption="The details of how Bela and Pure Data relate." %}
@@ -67,11 +67,11 @@ The digital I/O pins area initialised by sending messages to `bela_setDigital`.
 
 {% include single-image.html fileName="puredata/digital-init.png" %}
 
-See the [digital example](https://github.com/BelaPlatform/Bela/tree/master/examples/08-PureData/digital) inside the Pure Data examples folder for more information and practical uses.
+See the [digital example](https://github.com/BelaPlatform/Bela/tree/master/examples/PureData/digital) inside the Pure Data examples folder for more information and practical uses.
 
 ## MIDI I/O
 
-MIDI also works with Pure Data on Bela: most class-compliant USB MIDI devices are compatible. You can use the `[notein]` and `[ctlin]` objects to receive midinote and CC messages from the device. See the [hello midi](https://github.com/BelaPlatform/Bela/tree/master/examples/08-PureData/hello-midi) example inside the Pure Data examples folder for more information. There is also an example of how Bela running Pd can be used as a MIDI to CV converter: [midi-cv-midi](https://github.com/BelaPlatform/Bela/tree/master/examples/08-PureData/midi-cv-midi).
+MIDI also works with Pure Data on Bela: most class-compliant USB MIDI devices are compatible. You can use the `[notein]` and `[ctlin]` objects to receive midinote and CC messages from the device. See the [hello midi](https://github.com/BelaPlatform/Bela/tree/master/examples/PureData/hello-midi) example inside the Pure Data examples folder for more information. There is also an example of how Bela running Pd can be used as a MIDI to CV converter: [midi-cv-midi](https://github.com/BelaPlatform/Bela/tree/master/examples/PureData/midi-cv-midi).
 
 {% include single-image.html fileName="puredata/midi.png" %}
 
