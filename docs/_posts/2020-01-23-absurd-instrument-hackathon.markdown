@@ -173,7 +173,7 @@ ___
 
 ## Sasha de Koninck
 
-{% include youtube.html youtube="KFHPjPtY94g" %}
+{% include youtube.html youtube="5LLuUQpyzyY" %}
 
 Sasha's ongoing project on seventeenth century embellishment textile techniques. An artistic research that will culminates with a final act in which e-textiles connected to audio circuits are disassembled after many hours of labour. A musical interface that vanishes while the performance takes place.
 
