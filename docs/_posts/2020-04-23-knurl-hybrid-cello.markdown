@@ -12,12 +12,12 @@ image: knurl/header-1.jpg
 author: bela
 ---
 
-In this post artist and musician Rafaele Andrade introduces us to her instrument Knurl, an exploration of reprogrammable instruments which has taken the form of a 16 string cello running SuperCollider at its core.
+In this post artist and musician Rafaele Andrade introduces us to her instrument Knurl. An exploration of reprogrammable instruments, Knurl takes the form of a 16 string cello running SuperCollider at its core.
 
 # Reimagining the cello in hybrid form
 
-This project explores the idea of reprogrammability in music creation. In a reprogrammable sound performance, as I imagine it, the musicians, audience, environment and musical instrument can all manipulate and interact with musical forms through blocks of code.
-I started this project in 2018 with the aim of building an instrument which embody embody this concept, as a way of connecting sonic expression with digital dynamism.
+This project explores the idea of reprogrammability in musical creation. In a reprogrammable musical performance, as I imagine it, the musicians, audience, environment and musical instrument can all manipulate and interact with musical forms through structures of code.
+I started this project in 2018 with the aim of building an instrument which could embody this concept, as a way of connecting sonic expression with digital dynamism.
 
 {% include youtube.html youtube="TELqA96xlaI"%}
 
@@ -33,11 +33,11 @@ The instrument has various modes of performance using synthesis, pitch detection
 
 {% include single-image.html fileName="knurl/bridge-piece.jpg" %}
 
-Knurl's circular form places the force of the strings between the neck and tailpiece, directing the sound into the neck's resonant chamber. Most of the electronic components are held in the tailpiece, encased in the solar panels. The different performance modes are programmed in SuperCollider running on Bela can manipulate the sound through live processing and more musical compositional methods that relate to piece structure.
+Knurl's circular form places the force of the strings between the neck and tailpiece, directing the sound into the neck's resonant chamber. Most of the electronic components are held in the tailpiece, encased in the solar panels. The different performance modes, which are programmed in SuperCollider, manipulate the sound through live processing and more musical compositional methods that relate to piece structure.
 
 {% include single-image.html fileName="knurl/bow-screen.jpg" %}
 
-As a way of keeping track of the processes running on the board I have a screen at the bow which streams parts of the code. Capacitive buttons (made with [Trill Craft](https://bela.io/trill)) are also attached to cavities in the neck and are used to trigger specific conditional functions.
+As a way of keeping track of the processes running on the board I have a screen on the bow which streams parts of the code. Capacitive buttons (made with [Trill Craft](https://bela.io/trill)) are also attached to cavities in the neck and are used to trigger specific conditional functions.
 
 ## Development
 
