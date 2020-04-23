@@ -17,7 +17,7 @@ Bela is a polyglot: we've always wanted it to be as flexible as possible and to 
 
 ## What is SuperCollider?
 
-[SuperCollider](https://supercollider.github.io/) is an open source software environment and dynamic coding language for audio synthesis and algortithmic composition. It was developed by James McCartney in 1996, and since 2002 when it was released with as a free and open software it has blossomed into one of the most popular computer music languages used by musicians, artists and researchers working with sound. The SuperCollider software offers a different paradigm for creating electronic music in comparison to code-based options such as C++ or data-flow options such as Pure Data and Max/MSP: instead of having to compile your code after every edit SuperCollider allows execution of lines of code on-the-fly, without interupting the audio. This opens up a set of new possibilities that revolve around the practice of live-coding: rewritting programs on-the-fly in an improvised manner to create live sound or visuals.
+[SuperCollider](https://supercollider.github.io/) is an open source software environment and dynamic coding language for audio synthesis and algorithmic composition. It was developed by James McCartney in 1996, and since 2002 when it was released with as a free and open software it has blossomed into one of the most popular computer music languages used by musicians, artists and researchers working with sound. The SuperCollider software offers a different paradigm for creating electronic music in comparison to code-based options such as C++ or data-flow options such as Pure Data and Max/MSP: instead of having to compile your code after every edit SuperCollider allows execution of lines of code on-the-fly, without interrupting the audio. This opens up a set of new possibilities that revolve around the practice of live-coding: rewriting programs on-the-fly in an improvised manner to create live sound or visuals.
 
 {% include single-image.html fileName="bela-and-supercollider-live-coding-sensors/live-code-fest-knotts-allik.jpg" caption="Shelley Knotts and Alo Allik live coding visuals and sounds at the Live Code Festival 2013." %}
 
@@ -76,7 +76,7 @@ This snippet of code shows how to read a digital input and activate a digital ou
 	SynthDef('buttonControl', {arg inPin, outPin;
 		var button = DigitalIn.ar(inPin);
 		DigitalOut.ar(outPin, button);
-	}).add;	
+	}).add;
 ```
 
 {% include single-image.html fileName="bela-and-supercollider-live-coding-sensors/blinking_led_bela_sc.gif" %}
@@ -87,10 +87,10 @@ Similarly the analog inputs and outputs can be read as follows, and are received
 ```supercollider
 	SynthDef('ledFade', {
 		var rate = AnalogIn.ar(0).exprange(0.3, 20);
-		var amp = AnalogIn.ar(1); 
+		var amp = AnalogIn.ar(1);
 		// returns a value from 0-1
 		rate.poll(1); amp.poll(1);
-		AnalogOut.ar(0, SinOsc.ar(rate).range(0.0, amp)); 
+		AnalogOut.ar(0, SinOsc.ar(rate).range(0.0, amp));
 		// send to Analog Output 0
 	}).add;
 ```
@@ -166,6 +166,3 @@ For more information about supercollider and some great resources for learning t
 - [Algorave](https://algorave.com/about/)
 - [Toplap](https://toplap.org/)
 - [Till Bovermann's pointers for using Bela and SuperCollider](http://blog.bela.io/2017/09/29/till-bovermann-bela-supercollidor/)
-
-
-
