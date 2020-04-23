@@ -45,7 +45,7 @@ The first version of Knurl was made from laser cut plywood and used a microcontr
 
 {% include single-image.html fileName="knurl/plywood-proto.jpg" %}
 
-The name ‘Knurl’ (metal slippery surfaces with tiny grippy tips) comes from the apprehension involved in human body movement, from the friction on the performer's knees necessary to change the position of the instrument in relation to their body. It was also inspired by the way crickets grip their their legs on a knurling surface to produce 'energy'.
+The name ‘Knurl’ (metal slippery surfaces with tiny grippy tips) comes from the apprehension involved in human body movement, from the friction on the performer's knees necessary to change the position of the instrument in relation to their body. It was also inspired by the way crickets grip their legs on a knurling surface to produce 'energy'.
 
 ### Solar charging and sensing
 
