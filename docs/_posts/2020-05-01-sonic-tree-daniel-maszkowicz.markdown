@@ -18,14 +18,14 @@ In this post we present Sonic Tree by Daniel Maszkowicz, an algorithmic hexadeca
 
 {% include single-image.html fileName="sonic-tree/full-installation.jpg" %}
 
-Sonic Tree is a metallic structure in a room of concrete, contrasting with the organic movements it incarnates. Its virtual neuron cells exchange electric signals, and its metallic cells propagate sound faster than in the air. Just like any tree, it offers a comforting shelter with the sounds of insects and the soft breeze in its leaves.
+Sonic Tree is a metallic structure in a room of concrete contrasting with the organic movements it incarnates. Its virtual neuron cells exchange electric signals, and its metallic cells propagate sound faster than in the air. Just like any tree, it offers a comforting shelter with the sounds of insects and the soft breeze in its leaves.
 
 {% include vimeo.html vimeo="407982570" %}
 
 
 # Algorithmics
 
-This sound installation features an autonomous audio dedicated programmable processor containing the algorithms for the real-time processing of audio signals.
+This sound installation features an autonomous audio-dedicated programmable processor containing the algorithms for the real-time processing of audio signals (Bela + CTAG).
 
 {% include single-image.html fileName="sonic-tree/viewed-from-below.jpg" %}
 
@@ -38,7 +38,7 @@ An artificial neural network has been implemented with sixteen neurons, each of 
 
 {% include single-image.html fileName="sonic-tree/neuron_model-01.png" %}
 
-The signal emitted by each neuron results from a matrix combination which coefficients reflect the sound interactions in the network. The original sound source comes from the contact microphone, and is processed by the neuron network for an effect of an organic movement through the branches of the tree.
+The signal emitted by each neuron results from a matrix combination whose coefficients reflect the sound interactions in the network. The original sound source comes from the contact microphone, and is processed by the neuron network to create an effect of organic movement through the branches of the tree.
 
 # Working with Bela
 
