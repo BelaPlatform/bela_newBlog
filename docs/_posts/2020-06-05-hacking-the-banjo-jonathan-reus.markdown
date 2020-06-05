@@ -11,13 +11,13 @@ image: banjela/header.jpg
 author: bela
 ---
 
-In this post Jonathan Reus introduces us to his augmented Appalachian banjo which was created as part of a residency with us in the Augmented Instruments Lab. The instrument brings together prototype Trill sensors, magnetic sensing and Bela. Over to Jon:
+In this post Jonathan Reus introduces us to his augmented Appalachian banjo which was created during a residency with us in the Augmented Instruments Lab. The instrument brings together prototype Trill sensors, magnetic sensing and Bela.
 
 # Hacking the Five-String Banjo
 
 {% include vimeo.html vimeo="423540292" %}
 
-In the summer of 2019 I was graciously received by [Andrew McPherson](http://andrewmcpherson.org/) and the rest of the [Augmented Instruments Lab](http://instrumentslab.org/) at [C4DM](https://c4dm.eecs.qmul.ac.uk/) in London for a series of micro-residencies. I've had a longstanding interest in "old time" American folk music since getting wrapped up in that culture a lifetime ago when I lived and worked in Northern Florida. You may have heard that Florida is the state where the farther north you go, the farther South you get.
+In the summer of 2019 I was graciously received by Andrew McPherson and the rest of the [Augmented Instruments Lab](http://instrumentslab.org/) at [C4DM](https://c4dm.eecs.qmul.ac.uk/) in London for a series of micro-residencies. I've had a longstanding interest in "old time" American folk music since getting wrapped up in that culture a lifetime ago when I lived and worked in Northern Florida. You may have heard that Florida is the state where the farther north you go, the farther South you get.
 
 A lot of that hands-on, material/social-oriented cultural ethos that I associate with Southern craft and folk art still sticks with me in the way that I approach digital music, in that I often see new technological approaches to art-making from a perspective grounded in materiality, sociability and egalitarianism. In some senses, folk instruments and music practices could be thought of as an archetype of the "convivial technology" that philosopher of science Ivan Illich described in his 1973 book "Tools for Conviviality".
 
