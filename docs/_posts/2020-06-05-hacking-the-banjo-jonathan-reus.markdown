@@ -94,7 +94,7 @@ From the first time the Bela team introduced me to Trill I started thinking abou
 
 After designing some paper prototypes, taped to the banjo and testing the ergonomics of these along with Dana, I moved on to making some copper stick-on inlays using a vinyl cutter and copper foil. I also used the C4DM's laser cutter to fashion a new head for the banjo from blue acrylic, featuring some ornamental patterns inspired by the Fancy aesthetic.
 
-{% include single-image.html fileName="banjela/proto_lasercuts.jpg" caption="Acrylic drum-head fresh off the laser cutter at the C4DM's materials lab." %}
+{% include single-image.html fileName="banjela/lasercut-surface.jpg" caption="Acrylic drum-head fresh off the laser cutter at the C4DM's materials lab." %}
 
 To attach the inlays I first transferred the cut foil to a piece of thin acetate using transfer tape. Once on the acetate each inlay segment was (carefully!) soldered to a thin-gauge piece of hookup wire. Finally, the whole thing gets 'sealed' to the acetate using a piece of transparent packing tape. The packing tape layer has the double benefit of both holding the assembly together and providing an extra thin layer of isolation on the copper, which makes the sensor response more linear when you attach it to a Trill craft board.
 
