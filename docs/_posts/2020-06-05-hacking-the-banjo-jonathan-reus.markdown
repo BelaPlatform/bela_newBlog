@@ -31,7 +31,7 @@ American folk instruments and music have transformed historically through convol
 
 Despite its rustic aura, the 5-string banjo's history holds within it modernist mythology. During a period in the 19th century there were certain (white) entrepreneurs who, through varied combinations of musical idealism and business opportunism, wanted to ... for lack of a better term ... "rescue" the banjo from its reputation as a crude and untamed instrument (a reputation strongly linked to its association with African music). The 19th century elite believed that civility came through the development of high levels of technology. The industrial revolution was in full swing, but the banjo's story puts into relief the fact that this was not everybody's revolution.
 
-This is the time when the 5-string started morphing from all-wooden or gourd-based designs to the metal tone rings and steampunk-esque tension brackets that you see today. Take one cup of selective memory, mixed vigorously with nostalgia, add two tablespoons of technological fetishism and garnish with a dollop of capitalism.
+This is the time when the 5-string started morphing from all-wooden or gourd-based designs to the metal tone rings and steampunk-esque tension brackets that you see today. The push to industrialize and mass-produce the instrument also came at a time when the first truly American pop entertainment form, the blackface minstrel show, was coming to prominence and popularizing the banjo as an object of popular culture. Take one cup historical revisionism, mixed vigorously with romantic nostalgia, add two tablespoons of technological fetishism and garnish with a dollop of industrial capitalism.
 
 
 {% include double-image.html left="banjela/Creole-bania3.jpg" right="banjela/banjo_smithsonian.jpg" caption="Kalebas banjo from 1770 Surinam, the oldest surviving banjo from the American continent, Tropenmuseum Amsterdam: https://hdl.handle.net/20.500.11840/609575. Five-string fretless banjo from the National Museum of American History." %}
@@ -67,9 +67,9 @@ When I used to work at <a href="https://en.wikipedia.org/wiki/STEIM">STEIM</a> i
 
 Stroke techniques are sometimes called "knocking", because of the way you knock on the head of the banjo like knocking on a door. It's a more or less constant motion and you don't want to 'break rhythm'. While in London I teamed up with banjo diva Dana Immanuel, of [Dana Immanuel and the Stolen Band](http://danaimmanuel.com/), to experiment with possibilities for extended right hand techniques.
 
-{% include single-image.html fileName="banjela/banjo_parts.jpeg" %}
+{% include single-image.html fileName="banjela/banjo_parts.png" %}
 
-Skilled banjoists like Dana work the right hand at different positions up and down the pot and the neck while playing to vary the timbre and move emphasis from rhythm to melody. There is an especially important sweet spot for frailing near the 19th fret of most banjos (sometimes accompanied by a scoop carved into the neck). This is the location of some of the banjo's noisiest natural harmonics, and is used for extra oomph when ["clucking"](https://www.youtube.com/watch?v=xtLhXkV17fQ), a technique where the down stroke of the right hand plays a sort of muted harmonic slap across the strings to vary up the rhythmic emphasis.
+Skilled banjoists like Dana work the right hand at different positions up and down the pot and the neck while playing to vary the timbre and move emphasis from rhythm to melody. There is an especially important sweet spot for frailing near the 19th fret of most banjos (sometimes accompanied by a scoop carved into the neck). This is the location of some of the banjo's noisiest natural harmonics, and is used for extra oomph when ["clucking"](https://www.youtube.com/watch?v=RVqWF_FC554), a technique where the down stroke of the right hand plays a sort of muted harmonic slap across the strings to vary up the rhythmic emphasis.
 
 More generally, the closer the right hand is to the bridge, the more upper harmonics are created, generating a brighter, twanging timbre.
 
@@ -239,14 +239,11 @@ Here I'm mapping the Trill segments above and below the neck to synthetic string
 
 Well, there's still a lot of design work to be done. Now that I've got a prototype it would be great to make it more sturdy and solid. I'm also beginning to experiment with translating the Banjela extensions over to a standard banjo.. I think the main question there would be mounting of the embedded electronics inside the pot in a way that doesn't disturb the natural vibrations of the drum skin.
 
-{% include single-image.html fileName="banjela/AmmyPhull-IKLECTIK.JPG" caption="3 folk songs: the premier performance with the Banjela at IKLECTIK in London, performing with members of the Augmented Instruments Lab and Kuljit Bhamra." %}
-
-
 Artistically I'm looking to further explore an extended sonic language for the banjo that carries with it a sense of multi-temporality. Making it possible that the multiple music histories of this instrument can co-exist and perhaps project towards the future. I'm also thinking about how these extended techniques and augmentations could work to making the banjo into a sculptural object - for example, autonomously playing banjos (and other drum or spiked lute-like objects) filling a space, or creating a virtual social communion of sorts.
 
 {% include vimeo.html vimeo="423539752" %}
 
-
+3 folk songs was the premier performance with the Banjela which took place at [IKLECTIK](https://iklectikartlab.com/) in London, performing with members of the Augmented Instruments Lab and Kuljit Bhamra.
 A big thank you to all those who supported me at the Centre for Digital Music and elsewhere with great discussions, conceptual and technical support, including: Andrew McPherson, Lia Mice, Laurel Pardue, Dana Immanuel, Duncan Menzies, Giulio Moro, Adán L. Benito Temprano, Giacomo Lepri, Jack Armitage, Charlotte Nordmoen, Francesca Ter-Berg and Fedor Tuinisse. In addition, I want to express extreme gratitude to the <a href="https://stimuleringsfonds.nl/en/">Dutch Creative Industries Fund</a> who supported the travel and stay costs of my residency through a development grant.
 
 {% include single-image.html fileName="banjela/sci-logo.png" %}
