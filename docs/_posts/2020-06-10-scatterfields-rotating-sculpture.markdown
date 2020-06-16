@@ -1,16 +1,15 @@
 ---
 layout: post
-title: "Scatter: towering solar-powered rotating sound sculptures"
-date: 2020-06-10
+title: "Scatter: towering rotating sound sculptures"
+date: 2020-06-16
 categories:
 - "Projects"
 - "Instruments"
 - "Hardware"
 - "Installations"
-description: "Scatter: towering solar-powered rotating sound sculptures"
+description: "Scatter: towering rotating sound sculptures"
 image: scatter/scatter-header.jpg
 author: bela
-hidden: true
 ---
 
 Scatter is a series of 4-meter-tall rotating sound sculptures created by a team of artists and creative technologists at Griffith university in Australia. These immense solar-powered structures scatter sound in all directions via the speakers attached to either end of the rotating bar.
@@ -34,7 +33,7 @@ Various predefined compositional segments are activated by individually seeded r
 
 {% include single-image.html fileName="scatter/scatter-h+s.jpg" %}
 
-The sound-world is created digitally through a combination of audio samples and synthesis using graphical programming environment Pure data (Pd). This runs on a Bela, with audio, motor speed and direction of rotation, and LED lighting all controlled from the Bela boards. Additionally, a Teensy microcontroller is connected to Bela via the USB host port in order to access the Neopixel library and control the LEDs via MIDI from Pd.  A slip ring is utilised to feed power and signal through the motor axle to the moving rotor.
+The sound-world is created digitally through a combination of audio samples and synthesis using graphical programming environment Pure data (Pd). This runs on Bela, with audio, motor speed and direction of rotation, and LED lighting all controlled from the Bela boards. Additionally, a Teensy microcontroller is connected to Bela via the USB host port in order to access the Neopixel library and control the LEDs via MIDI from Pd.  A slip ring is utilised to feed power and signal through the motor axle to the moving rotor.
 
 {% include vimeo.html vimeo="371152122" %}
 
