@@ -13,9 +13,13 @@ image: becky-stewart/header.jpg
 author: BeckyStewart
 ---
 
-Digital crafts are a growing community with roots in both academic research (often found in academic conferences like [DIS](https://programs.sigchi.org/dis/2020/program/session/39147), [TEI](https://tei.acm.org/2020/program/), and [CHI](https://programs.sigchi.org/chi/2020/program/session/36704)) and DIY maker spaces (like the [eTextile Summer Camps](http://etextile-summercamp.org/) and [Spring Break](http://etextilespringbreak.org/) or products such as the [LilyPad](https://store.arduino.cc/lilypad-arduino-main-board), or [Chibitronics](https://store.arduino.cc/lilypad-arduino-main-board)). The exact definition of what constitutes a digital craft project can vary across those sub-communities, but are usually considered to be the combination of electronics and computing with materials often seen in hand-crafts like textiles and paper.
+In this post Becky Stewart introduces the embelashed toolkit for prototyping with paper sensors and Bela Mini – a brilliant way to get started creating interactive projects from traditional craft materials.
 
 # Crafting electronics
+
+Digital crafts are a growing community with roots in both academic research (often found in academic conferences like [DIS](https://programs.sigchi.org/dis/2020/program/session/39147), [TEI](https://tei.acm.org/2020/program/), and [CHI](https://programs.sigchi.org/chi/2020/program/session/36704)) and DIY maker spaces (like the [eTextile Summer Camps](http://etextile-summercamp.org/) and [Spring Break](http://etextilespringbreak.org/) or products such as the [LilyPad](https://store.arduino.cc/lilypad-arduino-main-board), or [Chibitronics](https://store.arduino.cc/lilypad-arduino-main-board)). The exact definition of what constitutes a digital craft project can vary across those sub-communities, but are usually considered to be the combination of electronics and computing with materials often seen in hand-crafts like textiles and paper.
+
+{% include single-image.html fileName="becky-stewart/pressure.gif" caption="Documentation showing how a pressure sensor could be used." %}
 
 A big benefit to working with a material like paper is that is you don't need a lot of specialist knowledge or tools to get going. Everyday household items like scissors and glue along with the construction skills you learned in art class as a small child go a long way. You can very quickly make simple paper circuits - like making an LED light up - but when combined with code and sensors, you can also create sophisticated interactive projects like the work of [Jie Qi](http://technolojie.com/) which combine traditional craft techniques with digital technologies.
 
@@ -34,8 +38,6 @@ The toolkit consists of four main parts:
 - [Paper sensor hardware and tutorials](http://embelashed.org/paper/paper-index.html#) - Downloadable templates that can be printed and cut out to make sensors with tutorials to guide you step-by-step. Plus a Paper Capelet and Pocket Connector system to simplify connecting your paper sensors to a Bela Mini.
 - [Pure Data abstractions](http://embelashed.org/code/abstractions-index.html) - to simplify some of the messy part of the Pd language and make some common functions wrapped up and ready to go.
 - [Pure Data examples](http://embelashed.org/code/examples-index.html) - a collection of working Pd examples showing how to use the abstractions and also just to give a starting point so you aren't stuck staring at a blank patcher window.
-
-{% include single-image.html fileName="becky-stewart/pressure.gif" caption="Documentation showing how a pressure sensor could be used." %}
 
 Both the abstractions and examples work with any Bela board and analog or digital sensor. You don't have to use the paper sensors or the Paper Capelet. Equally, you can use the paper sensors and Pocket Connectors with other boards like Arduinos, they aren't Bela-specific.
 
