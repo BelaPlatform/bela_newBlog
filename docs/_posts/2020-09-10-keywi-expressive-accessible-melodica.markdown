@@ -58,13 +58,15 @@ To be as accessible to as many users as possible, the KeyWI is entirely open sou
 
 A central component of the design of the KeyWI as a platform is its workflow and ease of development. Sound is synthesized using Faust running on a Bela Mini — the Faust compiler can build directly to a Bela C++ architecture, and the resulting file is simply compiled onto the Bela. Using the online Faust editor and Bela IDE, this entire process can be executed in less than a minute, using exclusively GUI-based systems, without any setup or installations. This creates an extremely accessible and efficient workflow that allows for quick iteration of ideas.
 
+To find out more about using Faust with Bela check out the [Faust language guide](https://learn.bela.io/using-bela/languages/faust-experimental/).
+
 ## Performing with the instrument
 
 The sound synthesis for the melodica model in the demo video below is based on the symmetrical clipping of a sine wave in order to create the odd harmonics characteristic of the vibration of free reeds. In addition to the melodica model, patches for the KeyWI include clarinet and brass instrument physical models and several subtractive synthesis-style synth sounds.
 
 {% include youtube.html youtube="u4_JpFIlvss" %}
 
-Using Bela and Faust to develop the KeyWI really helped accelerate and focus the project — without having to worry about latency, MIDI libraries, or lower-level DSP, we could focus completely on designing and building the instrument itself. To find out more about using Faust with Bela check out the [Faust language guide](https://learn.bela.io/using-bela/languages/faust-experimental/).
+Using Bela and Faust to develop the KeyWI really helped accelerate and focus the project — without having to worry about latency, MIDI libraries, or lower-level DSP, we could focus completely on designing and building the instrument itself.
 
 ## Project files and technical details
 
