@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Making E-Textile Interfaces with Trill Craft"
-date: 2020-09-25
+date: 2020-09-29
 categories:
   - Tutorials
   - Hardware
