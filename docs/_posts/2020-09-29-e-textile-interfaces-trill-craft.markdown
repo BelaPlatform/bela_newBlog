@@ -23,6 +23,7 @@ Trill sensors make adding capacitive touch interactions to any project incredibl
 
 This means you can break free from PCBs and work with other materials like conductive textiles or paper circuitry. However, it can be deceptively difficult to figure out the best way to connect a PCB like the Trill Craft with a flexible material like paper or fabric. In this video we go through one way you can build robust electrical connections between the Trill Craft PCB and an e-textile circuit to create a fabric breakout board.
 
+
 ## What the tutorial covers
 
 Let’s sum up what we’re going to do really quickly, we’re going to use conductive thread to sew an electrical trace away from the Trill Craft PCB. We’ll cover the ends of that sewn trace with a conductive fabric pad, and then place a press-fit snap onto that fabric pad to provide a non-permanent electrical contact point so that we can attach and detach our Trill Craft from a larger touch interface. In the video we go through each of those steps in a bit more detail.
