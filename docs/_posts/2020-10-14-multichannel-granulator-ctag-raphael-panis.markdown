@@ -46,4 +46,4 @@ A further development of this idea is forthcoming towards the end of 2020. This 
 
 {% include single-image.html fileName="granulator-panis/4_SmallVersion.jpg" %}
 
-For more information on Raphael's work you can visit his blog [http://rpanis.blogspot.fr/](http://rpanis.blogspot.fr/). Thanks to Raphael for sharing this project with us and we look forward to hearing more in the future.
+For more information on Raphael's work you can visit his blog [http://rpanis.blogspot.fr/](http://rpanis.blogspot.fr/) and his website for technical projects: [https://www.rpanis-tekhne.fr/](https://www.rpanis-tekhne.fr/). Thanks to Raphael for sharing this project with us and we look forward to hearing more in the future.
