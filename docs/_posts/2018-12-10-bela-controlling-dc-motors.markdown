@@ -5,7 +5,7 @@ date: 2018-12-10
 categories:
   - "Hardware"
   - "Tutorials"
-  - "Education"
+  - Education
 description: "Learn: Controlling Motors with Bela"
 image: motors/header.jpg
 author: bela
@@ -58,7 +58,7 @@ The simplest way to control a motor is by using one of Bela's digital outputs. T
 
 ## Pulse Width Modulation for variable speed
 
-The best way to drive motors is using Pulse Width Modulation (PWM) which is a technique of switching a digital output pin `ON` and `OFF` at a certain frequency and with a set duty cycle (proportion of `ON` time to the overall period) to simulate a true analog voltage. This signal is a pulse wave where the width of the pulse is adjustable. If the frequency of the PWM signal is within a suitable range (e.g.: around 1000Hz - 5000Hz), then the motor effectively sees the PWM input as if it was an analog signal with a voltage proportional to the duty cycle. So, with a PWM signal oscillating between 0 and 5V, a duty cycle of 50% will be equivalent to a 2.5V analog signal, 25% as 1.25V, 75% as 3.75V etc. 
+The best way to drive motors is using Pulse Width Modulation (PWM) which is a technique of switching a digital output pin `ON` and `OFF` at a certain frequency and with a set duty cycle (proportion of `ON` time to the overall period) to simulate a true analog voltage. This signal is a pulse wave where the width of the pulse is adjustable. If the frequency of the PWM signal is within a suitable range (e.g.: around 1000Hz - 5000Hz), then the motor effectively sees the PWM input as if it was an analog signal with a voltage proportional to the duty cycle. So, with a PWM signal oscillating between 0 and 5V, a duty cycle of 50% will be equivalent to a 2.5V analog signal, 25% as 1.25V, 75% as 3.75V etc.
 
 {% include single-image.html fileName="motors/PWM.png" %}
 
@@ -81,7 +81,7 @@ To vary the duty cycle of the PWM signal (and hence the speed of the motor) we s
 
 {% include single-image.html fileName="motors/DC Motor_PINS.jpg" %}
 
-In this case we are powering the motors from the 5V supply that comes straight from the Beaglebone. This can be found on headers `P9_07` and `P9_08`. With the above circuit you will be able to run the small hobbyist DC motors. The resistor in series with the Bela digital output pin serves to limit the current that the transitor receives at its base. There needs to be enough current going through to turn on the transistor. 
+In this case we are powering the motors from the 5V supply that comes straight from the Beaglebone. This can be found on headers `P9_07` and `P9_08`. With the above circuit you will be able to run the small hobbyist DC motors. The resistor in series with the Bela digital output pin serves to limit the current that the transitor receives at its base. There needs to be enough current going through to turn on the transistor.
 
 ## Powering motors from the barrel jack supply
 

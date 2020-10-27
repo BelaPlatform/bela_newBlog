@@ -6,6 +6,7 @@ categories:
   - Tutorials
   - Hardware
   - Education
+  - Trill
 description: "Making E-Textile Interfaces with Trill Craft"
 image: becky-tutorial/header.jpg
 author: BeckyStewart
