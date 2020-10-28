@@ -45,6 +45,8 @@ The frequency extracted from the voice is mapped to the fundamental frequency of
 
 {% include single-image.html fileName="ring-synth/mapping.png" %}
 
+You can find the code for this synth here: [https://github.com/Thib03/The-Ring-Synth](https://github.com/Thib03/The-Ring-Synth).
+
 # MTC Masters
 
 The [Music, Communication & Technology](https://www.ntnu.edu/studies/mmct/about) (MCT) joint Master's programme takes place between the Norwegian University of Science and Technology and University of Oslo. This project comes from the Interactive Music Systems module where the focus is on building interactive systems and instruments using Bela and Trill amongst other components. We will be featuring more projects from this course in the coming weeks and for further information you can also check out their [blog](https://mct-master.github.io/).
