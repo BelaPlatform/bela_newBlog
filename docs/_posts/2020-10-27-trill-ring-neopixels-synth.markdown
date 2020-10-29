@@ -47,6 +47,11 @@ The frequency extracted from the voice is mapped to the fundamental frequency of
 
 You can find the code for this synth here: [https://github.com/Thib03/The-Ring-Synth](https://github.com/Thib03/The-Ring-Synth).
 
+## About Thibault Jaccard
+
+Having grown up in a professional family of musicians, Thibault Jaccard developed an attentive ear for music at an early age. With a passion for jazz music theory he developed a strong appreciation for harmonic complexity, joining "Gipsy Tonic" in 2015.
+During his bachelor's degree he discovered the [Digital and Cognitive Musicology Lab](https://www.epfl.ch/labs/dcml/) at [EPFL](https://www.epfl.ch/en/) which allowed him to discover an unsuspected link between engineering and music theory. He has designed a new digital instrument, AutoScale, which was presented at the International Conference for New Interfaces for Musical Expression (NIME) 2020. He is now pursuing his studies as part of the MTC programme.
+
 # MTC Masters
 
 The [Music, Communication & Technology](https://www.ntnu.edu/studies/mmct/about) (MCT) joint Master's programme takes place between the Norwegian University of Science and Technology and University of Oslo. This project comes from the Interactive Music Systems module where the focus is on building interactive systems and instruments using Bela and Trill amongst other components. We will be featuring more projects from this course in the coming weeks and for further information you can also check out their [blog](https://mct-master.github.io/).
