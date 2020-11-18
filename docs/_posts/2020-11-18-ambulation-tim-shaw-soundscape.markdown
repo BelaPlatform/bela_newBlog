@@ -66,8 +66,8 @@ An example patch for an Ambulation soundwalk can be found [here](../../../../ass
 
 ## Future possibilities
 
-I will soon participate in an online residency where I propose to develop Ambulation further, I would like to develop the technical system which supports the walk so that it incorporates other sense data collection and sonification (using portable sensors and other data streams). These could work well going straight into the BELA's analogue inputs. I also imagine further developing this piece as a lockdown project, going on walks and presenting them online to a remote audiences.
+I will soon participate in an online residency where I propose to develop Ambulation further, I would like to develop the technical system which supports the walk so that it incorporates other sense data collection and sonification (using portable sensors and other data streams). These could work well going straight into the Bela's analogue inputs. I also imagine further developing this piece as a lockdown project, going on walks and presenting them online to remote audiences.
 
 {% include single-image.html fileName="ambulation/Credit_TimShaw.jpg" %}
 
-More detail of the soundwalk and system can be found in [this paper](https://www.nime.org/proceedings/2020/nime2020_paper4.pdf) I wrote for the NIME 2020 conference in collaboration with [John Bowers]().
+More detail of the soundwalk and system can be found in [this paper](https://www.nime.org/proceedings/2020/nime2020_paper4.pdf) I wrote for the NIME 2020 conference in collaboration with John Bowers.
