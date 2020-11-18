@@ -62,7 +62,7 @@ This was made using the `[rfft~]` object in PD. By sending a feed of incoming au
 
 This part of the system allowed sounds to be recorded to the disk of the computer and then loaded into four separate wavetables. A single button on the NanoKontrol was used to randomise parameters for the position, size, frequency and volume of each grain. This gave a less predictable sound and was often used to improvise in transitional periods of the walk.
 
-An example patch for an Ambulation soundwalk can be found [here](../../../../assets/images/ambulation/_main.pd).
+An example patch for an Ambulation soundwalk can be found [here](../../../../assets/images/ambulation/ambulation.pd).
 
 ## Future possibilities
 
