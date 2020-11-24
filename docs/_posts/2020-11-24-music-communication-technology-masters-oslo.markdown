@@ -76,11 +76,11 @@ Watch a video of the project in action [here](https://youtu.be/gEq9EnWrApc).
 
 This instrument uses a [9 DOF IMU LSM9DS1](https://www.sparkfun.com/products/13284) from SparkFun. This is an IMU which houses a 3-axis accelerometer, a 3-axis gyroscope and a 3-axis magnetometer and so gives you nine degrees of freedom (9DOF). If you analyse the output from the three sensors and fuse them together you can then calculate the roll, pitch and yaw.
 
-Simon mapped the pitch and the roll of the 9DOF to different parameters of a spectral delay and a granular synthesis-patch. All of the audio-programming is done in Pure Data. In the GIF below you can see how the pitch is mapped to the bin-position of the spectral delay.
+Thomas mapped the pitch and the roll of the 9DOF to different parameters of a spectral delay and a granular synthesis-patch. All of the audio-programming is done in Pure Data. In the GIF below you can see how the pitch is mapped to the bin-position of the spectral delay.
 
 {% include single-image.html fileName="mct-masters-part-1/hyperguitar_pitch.gif" %}
 
-Simon had the following to say about his project:
+Thomas had the following to say about his project:
 
 > ...the main issue when creating an interactive music system where you involve a guitar, is that you don't have much spare bandwidth. Both of your hands are involved in the sound creation and letting go of the strings will stop the musical output. Therefore a motion sensor fits perfectly in this context.
 
