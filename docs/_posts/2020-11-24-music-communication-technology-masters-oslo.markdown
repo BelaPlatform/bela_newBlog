@@ -49,7 +49,7 @@ The vase has a speaker embedded inside so all the output acoustically feeds back
 
 ## Design
 
-In addition to the vase which is the main part of the instrument, there is a 9DF accelerometer and a force sensitive resistor. By turning the accelerometer on three axis you can interact with multiple parameters of the granular synthesis: windowsize, pitch, and delay. The force sensor is mapped to control feedback in the system.
+In addition to the vase which is the main part of the instrument, there is a 9DF accelerometer and a force sensitive resistor. By turning the accelerometer on three axes you can interact with multiple parameters of the granular synthesis: windowsize, pitch, and delay. The force sensor is mapped to control feedback in the system.
 
 {% include single-image.html fileName="mct-masters-part-1/dolphin-drum.png" %}
 
@@ -97,11 +97,13 @@ Watch a video of the project in action [here](https://youtu.be/gEq9EnWrApc?t=901
 
 ## Design
 
-This project incorporates a [Muse portable EEG headband](https://choosemuse.com/) with 4 electrodes recording at 256Hz which was communicated to via Bluetooth. This data was streamed to the Bela which also had a couple of potentiometers and an accelerometer attached.
+This project incorporates a [Muse portable EEG headband](https://choosemuse.com/) with 4 electrodes recording at 256Hz which was communicated with via Bluetooth. This data was streamed to the Bela which also had a couple of potentiometers and an accelerometer attached.
 
 {% include double-image.html right="mct-masters-part-1/jacksong_bela.jpg" left="mct-masters-part-1/jacksong_muse.jpg" %}
 
-At the core of my system was a method for interpolating between short audio grains. Audio files are read into an array and these arrays are then interpolated using the external `iemmatrix`.
+At the core of the system was a method for interpolating between short audio grains. Audio files are read into an array and these arrays are then interpolated using the external `iemmatrix`.
+
+{% include single-image.html fileName="mct-masters-part-1/muse-pd.gif" %}
 
 The two physical pots control an oscillator which reads from the resultant table, they serve as tuners for the synth whose timbre can explored by rotating the whole breadboard. The EEG stream modulates the amplitude of the read table so that, in theory, a wandering, active mind would lead to a distorted synth.
 
