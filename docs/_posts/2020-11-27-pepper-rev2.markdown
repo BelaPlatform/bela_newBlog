@@ -1,0 +1,114 @@
+---
+layout: post
+title: "Pepper: our DIY Eurorack Module"
+date: 2020-11-27
+categories:
+- "Synths"
+- "Instruments"
+- "Hardware"
+- "Installations"
+description: "Pepper: our DIY Eurorack Module"
+image: pepper/threequarter.jpg
+author: bela
+---
+
+Pepper is our DIY Eurorack module for synth builders. It's the easiest way to get Bela into your synthesiser case and once assembled with give you a fully programmable module. In this post we have gathered some videos of Pepper in action.
+
+
+# Get Bela in your Eurorack case
+
+Pepper is our DIY module for hardware enthusiasts who love Bela, Eurorack, and building synths.
+
+{% include double-image.html left="pepper/frontcopy.jpg" right="pepper/profile01.jpg" %}
+
+Pepper is available to buy [here](https://shop.bela.io/collections/modular) and comes as a bare PCB with matching faceplate, as well as an additional faceplate for USB breakouts. We provide a [bill of materials](https://github.com/BelaPlatform/bela-pepper/wiki/Bill-of-Materials) of common through-hole components for you to source, and an [in-depth, illustrated build guide](https://github.com/BelaPlatform/bela-pepper/wiki/Building-the-Module). Once assembled you can attach your Bela board and start prototyping and experimenting with Bela and as part of your modular synth.
+
+{% include double-image.html left="pepper/faceplate.jpg" right="pepper/pcb.jpg" %}
+
+Pepper is 18HP wide and adds the following to your modular setup once assembled:
+
+- Stereo audio I/O
+- 8 CV inputs (up to 4 can be swapped for trigger ins)
+- 8 CV offset potentiometers (normalised to analog inputs)
+- 8 CV outputs
+- 4 buttons
+- 10-LEDs
+
+You can plug Pepper into your laptop and access Bela's [browser-based IDE](https://learn.bela.io/the-ide/). Code synth patches using C++, Pure Data, SuperCollider, Csound; start from scratch or use one of the dozens of included examples covering everything from synthesis to sensors. Working with Pepper is exactly the same as working with Bela so a good place to start is our [guide to getting up and running](https://learn.bela.io/get-started-guide/). Below is a screenshot of the Bela IDE with the default Pepper project loaded.
+
+{% include single-image.html fileName="pepper/bela-ide.png" %}
+
+Pepper comes with a library of example Pd patches ready to go which can be found in the Pepper folder in the examples menu. These include patches such as an analogue-style tape delay, 4 channel looper. inharmonic oscillator bank, physically-inspired vocal synthesiser, LFO playground, granulator, a couple of drum machines, and template projects for creating your own patches.
+
+# Pepper in Action
+
+Below we have some videos of Pepper in action which have come for the wider Bela community. Note that many of these videos were made with rev1 of Pepper which only has 2 buttons. Since July 2020 we have been shipping rev2 which has 4 buttons, amplification on the audio outputs and better noise performance.
+
+## Oscillators on Pepper
+
+A good first test patch to run once you have your Pepper assembled is the inharmonic oscillator patch. This patch comes as default on the board and is a dual inharmonic additive oscillator. Each oscillator contains 9 partials and the inharmonicity of the oscillator can be controlled via the pots or CV. All the Pepper examples can be found in the Pepper folder of the examples tab of the Bela IDE.
+
+{% include youtube.html youtube="Bbhu2YP63c8"%}
+
+## Sequencing with Pepper
+
+In this video Stephan Whitmarsh transforms Pepper into a powerful generative sequencer inspired by the Music Thing Modular Turing Machine. He created a Pure Data patch for this which you can find here: [https://github.com/stephenwhitmarsh/Bela/tree/master/turing](https://github.com/stephenwhitmarsh/Bela/tree/master/turing).
+
+{% include youtube.html youtube="bBxQC9pNccY"%}
+
+## Effects with Pepper
+
+This example is a 4 voice granular sampler and we also have an analog tape delay for you to play with.
+
+{% include youtube.html youtube="_7hG2tUQCSQ"%}
+
+## Drum synthesis on Pepper
+
+Pepper ships with two drum machines. One takes a 1st principles approach to synthesis using only oscillators, filters, noise generators and ramp generators. The other can be seen in the video below and was created by Cherif Hashizume. It's a wavetable based drum machine which allows you to interpolate between different tables on the fly, and sounds great.
+
+{% include youtube.html youtube="JU9cq1tWWPI"%}
+
+## Diving deep into the code
+
+Technobear (Mark Harris) will be a familiar face for many of you in the music technology and synthesiser world. He is the creator of [ORAC](https://www.youtube.com/watch?v=mywEOeth40Y) an open source virtual modular environment based on Pure Data. In his new series 'Musical Hacks' he covers many topics related to music technology. In this episode he creates a step sequencer inspired by the Moog Subharmonicon and takes a deep dive into how to code it on Pepper.
+
+{% include youtube.html youtube="OAEuMkb3r0g"%}
+
+## Trill Touch Sensors with Pepper
+
+Trill are a new [family of touch sensors](https://bela.io/products/trill/) created by us at Bela. These sensors are designed to make touch sensing as easy as possible to integrate into your projects and they work via the I2C protocol which just requires two connections in addition to power and ground. On Pepper we have broken out the I2C pins from Bela to make it as easy as possible to connect additional sensors and other I2C devices to the Pepper module. You can read more about this synth here: [https://blog.bela.io/2019/09/27/euro-trill-modular-eurorack/](https://blog.bela.io/2019/09/27/euro-trill-modular-eurorack/).
+
+{% include youtube.html youtube="lsTCIzxxa18"%}
+
+# Learning more
+
+At Bela we are deeply invested in helping people learn new skills and about providing the best creative tools for instrument builders and makers in general. We have a wealth of material online that will help you gain the skills necessary to start programming your own modules.
+
+If you would like to keep on the Pure Data route then check our [introductory course on Bela and Pure Data](https://learn.bela.io/tutorials/pure-data/fundamentals/course-introduction/) (no experience required). This course teaches you how to create interactive sound devices and synthesisers with Bela and Pd and is a gentle introducing to the world of interaction sound and programming.
+
+{% include single-image.html fileName="pepper/pure-data-tutorial.png" %}
+
+For a deeper dive into the world of real time audio programming in c++ have a look at our extensive course on YouTube, [C++ Real-Time Audio Programming with Bela](https://www.youtube.com/playlist?list=PLCrgFeG6pwQmdbB6l3ehC8oBBZbatVoz3), which will guide you through the theory and implementation of programming a full modular synth. All the examples which you work on during this course will run on Pepper so can immediately be brought into your modular set up.
+
+{% include youtube.html youtube="aVLRUyPBBJk"%}
+
+
+# New to Eurorack?
+
+If you are new to Eurorack check out this great introduction by Dave Ives at RS Online. He guides you through everything you need to get started, from choosing a case and power supply, to assembling the core modules necessary for a complete set up (although be warned that there is no such thing as a complete set up). To top it all off Pepper is the first module he adds to his set up.
+
+[Building a Modular Synthesiser Part 1: Introduction and Planning](https://www.rs-online.com/designspark/building-a-modular-synthesiser-part-1-introduction-and-plannin)
+
+[Building a Modular Synthesiser Part 2: Using Bela for The First Module](https://www.rs-online.com/designspark/building-a-modular-synthesiser-part-2-using-bela-for-the-first-module)
+
+[Building a Modular Synthesiser Part 3: Modulation](https://www.rs-online.com/designspark/building-a-modular-synthesiser-part-3-modulation)
+
+[Building a Modular Synthesiser Part 4: Soldering Surface Mount Devices](https://www.rs-online.com/designspark/building-a-modular-synthesiser-part-4-soldering-surface-mount-components)
+
+[Building a Modular Synthesiser Part 5: A Multi-Function Module](https://www.rs-online.com/designspark/building-a-modular-synthesiser-part-5-a-multi-function-module)
+
+[Building a Modular Synthesiser Part 6: Finishing Touches and Putting It to Use](https://www.rs-online.com/designspark/building-a-modular-synthesiser-part-6-finishing-touches-and-putting-it-to-use)
+
+# Buy Pepper
+
+Pepper is available to buy on [our shop](https://shop.bela.io/collections/modular) and on [Thonk](https://www.thonk.co.uk/). Pepper is a DIY project that requires quite a lot of soldering, and is intended for people who like experimenting. If you're looking for a fully-assembled Eurorack module then check out [Salt, our programmable module](https://shop.bela.io/products/salt) which is newly available in a limited quantity.
