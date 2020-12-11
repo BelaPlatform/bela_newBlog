@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "New Pure Data + Bela Course Online"
-date: 2020-12-10
+date: 2020-12-11
 categories:
   - Hardware
   - Software
