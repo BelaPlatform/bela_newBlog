@@ -27,6 +27,8 @@ Pepper is available to buy [here](https://shop.bela.io/collections/modular) and 
 
 Pepper is 18HP wide and adds the following to your modular setup once assembled:
 
+{% include single-image.html fileName="pepper/pepper-labels.jpeg" %}
+
 - Stereo audio I/O
 - 8 CV inputs (up to 4 can be swapped for trigger ins)
 - 8 CV offset potentiometers (normalised to analog inputs)
