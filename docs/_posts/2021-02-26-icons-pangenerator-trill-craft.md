@@ -11,7 +11,7 @@ image: icons/2020_12_13_PAN_GENERATOR_WYSTAWA_01.jpg
 author: bela
 ---
 
-Created for the National Ethnographic museum in Warsaw by new media art and design collective panGenerator, the exhibition *ICONS* is a deep exploration of the daily rituals that make up our digital lives.
+Created for the National Ethnographic Museum in Warsaw by new media art and design collective panGenerator, the exhibition *ICONS* is a deep exploration of the daily rituals that make up our digital lives.
 
 {% include vimeo.html vimeo="502343386" %}
 
