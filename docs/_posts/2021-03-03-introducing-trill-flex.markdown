@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introducing Trill Flex"
-date: 2021-03-02
+date: 2021-03-03
 categories:
   - "Trill"
   - "Hardware"
@@ -21,7 +21,7 @@ Trill Flex is the sixth addition to the Trill family of sensors. Trill Flex feat
 
 {% include single-image.html fileName="trill/bendy.gif" %}
 
-Get Trill Flex Now 
+{% include button.html url="https://shop.bela.io/collections/trill/products/trill-flex" button-text="Get Trill Flex Now" %}
 
 ## A sensor in two parts
 
@@ -37,7 +37,7 @@ Because Trill Flex’s incuded sensor is detachable, you can swap it out for a f
 
 Like all Trill sensors, Trill Flex offers 30 channels of flexible sensing. Use each as a button and make a flexible touch interface, or chain the channels together to create a sensor of any shape … or any combination thereof! When you’ve created your flex sensor plug it into the Trill Flex base and start experimenting.
 
-Want to learn how to design your own flex sensor? We’ve created a step-by-step tutorial for learning how using KiCad. You can read it on our Knowledge Base, and it’s also available as a video:
+Want to learn how to design your own flex sensor? We’ve created a step-by-step tutorial for learning how using KiCad. You can [read the tutorial on our Knowledge Base](https://learn.bela.io/flex-design), and it’s also available as a video:
 
 {% include youtube.html youtube="gIRUQSaB3e0" %}
 
@@ -45,4 +45,4 @@ Want to learn how to design your own flex sensor? We’ve created a step-by-step
 
 Trill Flex is now available on the Bela Shop. Each Trill Flex comes with both the base and the detachable flex bar sensor. Click below to get yours now:
 
-Get Trill Flex Now 
+{% include button.html url="https://shop.bela.io/collections/trill/products/trill-flex" button-text="Get Trill Flex Now" %}
