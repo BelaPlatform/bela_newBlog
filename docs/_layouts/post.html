@@ -14,7 +14,7 @@ layout: default
       <h1 itemprop="name headline">{{ page.title }}</h1>
       {% if page.categories.size > 0 %}
         <span>
-                    Posted in 
+                    Posted in
           {% for cat in page.categories %}
           <a class="category_link" href="{{ site.baseurl }}/category/{{ cat | slugify }}">{{ cat }}</a>
           {% endfor %}
@@ -31,18 +31,17 @@ layout: default
   <section class="profile">
     <div class="profile__card">
       <div class="profile__img">
-        <figure class="absolute-bg" style="background-image: url('../../../../assets/images/{{ site.data.authors.[page.author].author-image }}');"></figure>
+        <figure class="absolute-bg" style="background-image: url('../../../../assets/images/{{ site.data.authors[page.author].author-image }}');"></figure>
       </div>
       <div class="profile__container">
-        <h3>{{ site.data.authors.[page.author].name }}</h3>
-        <p>{{ site.data.authors.[page.author].profile }}</p>
-        {% if site.data.authors.[page.author].email or site.data.authors.[page.author].social %}
+        <h3>{{ site.data.authors[page.author].name }}</h3>
+        <p>{{ site.data.authors[page.author].profile }}</p>
+        {% if site.data.authors[page.author].email or site.data.authors[page.author].social %}
           <ul class="profile__social">
-              <li><a class="fa fa-lg fa-envelope" href="mailto:{{ site.data.authors.[page.author].email }}"></a></li>
-              <li><a class="fa fa-lg fa-github" href="http://www.github.com/{{ site.data.authors.[page.author].github }}" target="_blank"></a></li>
-              <li><a class="fa fa-lg fa-twitter" href="http://www.twitter.com/{{ site.data.authors.[page.author].twitter }}" target="_blank"></a></li>
-              <!-- <li><a class="fa fa-lg fa-link" href="{{ site.data.authors.[page.author].link }}" target="_blank"></a></li> -->
-            
+              <li><a class="fa fa-lg fa-envelope" href="mailto:{{ site.data.authors[page.author].email }}"></a></li>
+              <li><a class="fa fa-lg fa-github" href="http://www.github.com/{{ site.data.authors[page.author].github }}" target="_blank"></a></li>
+              <li><a class="fa fa-lg fa-twitter" href="http://www.twitter.com/{{ site.data.authors[page.author].twitter }}" target="_blank"></a></li>
+              <li><a class="fa fa-lg fa-instagram" href="http://www.instagram.com/{{ site.data.authors[page.author].instagram }}" target="_blank"></a></li>
           </ul>
         {% endif %}
       </div>

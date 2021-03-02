@@ -57,10 +57,19 @@ bela:
   name: Bela
   github: BelaPlatform
   twitter: BelaPlatform
+  instagram: belaplatform
   email: info@bela.io
-  profile: Bela is an open-source platform for ultra-low latency audio and sensor processing. Find out more on our <a href="http://bela.io" target="_blank">website</a>, buy Bela at our <a href="http://shop.bela.io" target="_blank">shop</a>, follow us on <a href="https://twitter.com/BelaPlatform" target="_blank">twitter</a> or join our community and discuss this post on our <a href="http://forum.bela.io" target="_blank">forum</a>.
+  profile: Bela is an open-source platform for ultra-low latency audio and sensor processing. Find out more on our <a href="http://bela.io" target="_blank">website</a>, buy Bela at our <a href="http://shop.bela.io" target="_blank">shop</a>, follow us on <a href="https://twitter.com/BelaPlatform" target="_blank">twitter</a>, <a href="https://www.instagram.com/belaplatform/" target="_blank">instagram</a> or join our community and discuss this post on our <a href="http://forum.bela.io" target="_blank">forum</a>.
   author-image: Authors/belaboard.jpg
 eddmx:
   name: Ed DMX
   profile: <a href="https://www.discogs.com/artist/983-DMX-Krew" target="_blank">DMX Krew</a>. DJ, producer and label owner from UK. He is the founder of Breakin' Records and Fresh Up Records.
   author-image: Authors/DMX_Krew.jpg
+BeckyStewart:
+  name: Becky Stewart
+  profile: Becky Stewart is a Lecturer in the <a href="https://www.imperial.ac.uk/design-engineering/" target="_blank">Dyson School of Design Engineering</a> at <a href="https://www.imperial.ac.uk/" target="_blank">Imperial College London</a>. Her research centres around how the body can be enhanced by embedded sensors and computing, particularly through textiles and audio.
+  author-image: Authors/becky-stewart.jpeg
+timshaw:
+  name: Tim Shaw
+  profile: Tim Shaw is an artist working with sound, light and communication media. Presenting work through musical performances, installations and sound walks Tim is interested in how listening environments can be constructed or explored using a diverse range of techniques and technologies. He works with field recordings, electronics, video, modular synthesis, sound objects, self-made hardware and DIY software.
+  author-image: Authors/Credit_onTheNorway.JPG

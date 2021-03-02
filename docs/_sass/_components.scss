@@ -18,7 +18,7 @@
     padding-left: 10em;
     padding-right: 10em;
   }
-  
+
   &__item {
     cursor: pointer;
 
@@ -70,7 +70,7 @@
 
 .preview {
   transition: background-color 0.2s ease-in-out;
-  
+
   &:nth-child(even) {
     background-color: $color-white;
   }
@@ -173,7 +173,7 @@
       &:after {
         // opacity: 0.5;
       }
-      
+
       .card__more {
         box-shadow: inset 175px 0 0 0 rgba($teal-base, 0.7);
         color: $color-white;
@@ -274,7 +274,7 @@
 
     & > *:not(:last-child) {
       margin-right: 1em;
-    }    
+    }
   }
 }
 
@@ -383,6 +383,11 @@
   font-size: 0.93em;
   line-height: 2em;
 
+  pre {
+    line-height: 1.1em;
+    font-size: 0.9em;
+  }
+
   @media (min-width: $mq-md) {
     width: 55%;
   }
@@ -392,7 +397,7 @@
     font-weight: bold;
   }
 
-  h1, 
+  h1,
   h2 {
     line-height: 1.2em;
     margin-bottom: 15px;
@@ -422,7 +427,7 @@
     padding-bottom: 0.75em;
     &.caption {
       font-size: 0.7em;
-      line-height: 1em;
+      line-height: 1.5em;
     }
   }
 
@@ -592,11 +597,13 @@
     width: 100%;
     height: 100%;
     padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 /* TEST For videos on two rows */
 .row {
   clear: both;
+  margin-bottom: 2em;
 }
 
 .column-2 {
@@ -610,13 +617,14 @@
   display: block;
   > img {
     overflow: hidden;
-    padding-bottom: 5px;
+    padding-bottom: 0em;
+    padding-top: 1em;
   }
   .image-caption {
       padding: 0 0 30px;
-      margin-top: 0;
+      margin-top: 10px;
       font-size: 0.7em;
-      line-height: 1em;
+      line-height: 1.5em;
   }
 }
 

@@ -1,10 +1,10 @@
 # Site settings
 email: info@bela.io
 # TO TEST YOUR BUILD, uncomment this line:
-# baseurl: ""
-# ... and comment out this line:
+# baseurl: ""
+#... and comment out this line:
 baseurl: "https://blog.bela.io"
-# IMPORTANT! Before deploying, make sure you change them back so the github url is active. 
+# IMPORTANT! Before deploying, make sure you change them back so the github url is active.
 future: false
 imageurl: "/assets/images/"
 paginate: 10
@@ -23,17 +23,17 @@ default_img: "STEIM/steim-7.jpg"
 
 #Author names
 github: "http://www.github.com/"
-twitter: "http://www.twitter.com/"  
+twitter: "http://www.twitter.com/"
 
 # images
 
 
 # Profile settings
-# name: 
-# profile_img: 
-# profile: 
+# name:
+# profile_img:
+# profile:
 # social:
-#   github: 
+#   github:
 
 # Build settings
 include: ["_categories", "_authors"]
@@ -46,4 +46,4 @@ sass:
   style: compressed
 
 # Gems
-gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer, youtube]
+gems: [jekyll-paginate, jekyll-sitemap, octopress-autoprefixer, youtube, jekyll, ffi]
