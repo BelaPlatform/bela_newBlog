@@ -405,7 +405,7 @@
   }
 
   h2 {
-    color: rgba($teal-base, 0.5);
+    color: rgba($teal-base, 1);
   }
 
   ul,
@@ -658,4 +658,23 @@ code.highlighter-rouge {
 
 .footer__social ul li a {
   border: none;
+}
+
+/* styling of button include */
+
+.button {
+  text-align: center;
+  padding: 2em 0;
+  >.button-link {
+    background: $accent-red;
+    border-bottom: 0;
+    color: white;
+    font-family: $font-header;
+    font-size: 1.6em;
+    padding: 15px 50px 17px;
+    text-decoration: none;
+    &:hover {
+      background: rgba($accent-red, 0.85);
+    }
+  }
 }
