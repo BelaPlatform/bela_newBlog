@@ -1,7 +1,7 @@
 # Site settings
 email: info@bela.io
 # TO TEST YOUR BUILD, uncomment this line:
-# baseurl: ""
+#  baseurl: ""
 #... and comment out this line:
 baseurl: "https://blog.bela.io"
 # IMPORTANT! Before deploying, make sure you change them back so the github url is active.
@@ -9,7 +9,7 @@ future: false
 imageurl: "/assets/images/"
 paginate: 10
 paginate_path: "/blog/page-:num"
-google_analytics: "UA-74206403-3"
+google_analytics: "UA-90171977-1"
 # This is the image on the about page:
 about-image: main.jpg
 site-image: belaboard.jpg
