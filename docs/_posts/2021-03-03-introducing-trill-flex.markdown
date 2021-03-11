@@ -17,7 +17,7 @@ Today we’re thrilled to announce the debut of Trill Flex, the sixth Trill sens
 
 # Trill Flex: A sensor that bends to your project
 
-Trill Flex is the sixth addition to the Trill family of sensors. Trill Flex features a sensor that’s printed on flexible PCB, and this bendy, malleable, extremely flexible sensor that bends effortlessly around corners and conforms to virually any curve means that you can add touch sensing to more surfaces than ever before.
+Trill Flex is the sixth addition to the Trill family of sensors. Trill Flex features a sensor that’s printed on flexible PCB, and this bendy, malleable, extremely flexible sensor that bends effortlessly around corners and conforms to virtually any curve means that you can add touch sensing to more surfaces than ever before.
 
 {% include single-image.html fileName="trill/bendy.gif" %}
 
@@ -33,7 +33,7 @@ Connecting is easy: Open the gate connector, insert the end of the sensor, click
 
 ## A world of possibilities for touch interaction
 
-Because Trill Flex’s incuded sensor is detachable, you can swap it out for a flex sensor of your own creation to fit your unique project.
+Because Trill Flex’s included sensor is detachable, you can swap it out for a flex sensor of your own creation to fit your unique project.
 
 Like all Trill sensors, Trill Flex offers 30 channels of flexible sensing. Use each as a button and make a flexible touch interface, or chain the channels together to create a sensor of any shape … or any combination thereof! When you’ve created your flex sensor plug it into the Trill Flex base and start experimenting.
 
