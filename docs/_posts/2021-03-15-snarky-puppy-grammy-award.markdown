@@ -34,7 +34,7 @@ Next came typical challenges like designing and constructing a nice box for it -
 
 # Snarky Puppy
 
-Eventually I made two prototypes for Snarky Puppy and sent them to the Pori Jazz Festival in Finland, where they were slated to perform. Seeing the pictures and videos of the BenderBox in action was very very cool.
+Eventually I made two prototypes for Snarky Puppy and sent them to the Pori Jazz Festival in Finland, where they were slated to perform. Seeing the pictures and videos of the BenderBox in action was very very cool. See it in action in this clip at around 1 minute 11 seconds:
 
 {% include youtube.html youtube="-Ww6BVe4acE?t=59" %}
 
@@ -48,7 +48,7 @@ Thanks a lot, Bela team, for facilitating cool stuff like this.
 
 Here are two of my favourite solos of Bobby Sparks on clavinet & BenderBox:
 
-{% include youtube.html youtube="vxUDzdvBPaQ?t=228" caption="Salle Pleyel Paris, November 2019" %}
+{% include youtube.html youtube="vxUDzdvBPaQ?t=228" caption="Salle Pleyel Paris, November 2019 (solo starts around 3 minutes 50 seconds)" %}
 
 {% include youtube.html youtube="YMdckRq9SPg" caption="GroundUP Music Festival, February 2020" %}
 
