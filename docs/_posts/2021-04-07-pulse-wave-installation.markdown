@@ -3,7 +3,7 @@ layout: post
 title: "Pulse//Wave connects wood and flesh in a sound installation"
 date: 2021-04-07
 categories:
-  - "Installation"
+  - "Installations"
   - "Hardware"
   - "Instruments"
 description: ""
