@@ -11,7 +11,7 @@ image: here-and-now/close-hand.jpg
 author: bela
 ---
 
-Here + Now is a tactile auditory experience inviting participants to be gentle and focus on the present moment, by directly squeezing the music they hear. This project was created by Kelvin Lee.
+Here + Now is a tactile auditory experience inviting participants to be gentle and focus on the present moment, by directly squeezing the music they hear. This project was created by Kevin Lee.
 
 <div class="vimeo">
 	<iframe src="https://player.vimeo.com/video/527483800" width="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
@@ -42,7 +42,7 @@ Here + Now was made with a [Bela Mini](https://shop.bela.io/products/bela-mini-s
 
 {% include single-image.html fileName="here-and-now/detail.jpg" %}
 
-# About Kelvin Lee
+# About Kevin Lee
 
 {% include single-image.html fileName="here-and-now/kelvin-lee.jpg" %}
 
