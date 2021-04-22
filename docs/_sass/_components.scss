@@ -600,6 +600,26 @@
     padding-top: 1em;
 }
 
+/* responsive vimeo to resolve the black bars at the sides */
+
+.vimeo {
+    position: relative;
+    nowhitespace: afterproperty;
+    padding-bottom: 54.1%;
+	padding-top: 2.2%;
+    height: 0;
+}
+
+.vimeo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
 /* TEST For videos on two rows */
 .row {
   clear: both;
