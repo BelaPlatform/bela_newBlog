@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dissonance and noise by Nuotio Antton"
+title: "Dissonance and noise by Antton Nuotio"
 date: 2021-05-18
 categories:
   - "Installations"
@@ -12,7 +12,7 @@ image: dissonance/touching-b.jpg
 author: bela
 ---
 
-Dissonance is a series of interactive sound installations by Nuotio Antton which reflect on the nature of noise and dissonant sounds. Leather jackets are hung, speared with metal rods, studs and spikes which the audience are invited to touch as they're enveloped in waves of sound.
+Dissonance is a series of interactive sound installations by Antton Nuotio which reflect on the nature of noise and dissonant sounds. Leather jackets are hung, speared with metal rods, studs and spikes which the audience are invited to touch as they're enveloped in waves of sound.
 
 <div class="vimeo">
 	<iframe src="https://player.vimeo.com/video/536670969" width="100%" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
