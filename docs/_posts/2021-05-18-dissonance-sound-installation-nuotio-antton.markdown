@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Dissonance and noise by Antton Nuotio"
+title: "Noise does not judge: dissonance by Antton Nuotio"
 date: 2021-05-18
 categories:
   - "Installations"
