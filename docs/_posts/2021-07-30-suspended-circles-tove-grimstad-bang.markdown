@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Suspended Circles: interactive hanging mobile with knitted sensors "
+title: "Suspended Circles: interactive hanging mobile with knitted sensors"
 date: 2021-07-30
 categories:
   - "Installations"
@@ -31,7 +31,11 @@ The experiential qualities of the installation's design were primarily drawn fro
 
 {% include single-image.html fileName="suspended-circles/03.png" caption="Various shots of the Trill Craft breakout and sensor experiments including the syncopated sensor patterns."%}
 
-As I was working with movement and hoped to build a tangible musical instrument, I started exploring conductive materials and textile surfaces. I used the Trill craft sensor and made a textile interface for easy, non-permanent connections, following [Becky Stewart’s tutorial](https://learn.bela.io/tutorials/trill-sensors/working-with-trill-craft/#conductive-fabric-and-thread). Using a Bela board, Pd (Pure Data) for programming and the Trill craft I explored different materials using sound as an output. Using simple oscillators in Pd, with the sensor data controlling frequency and/or amplitude, I explored different ways to get rich and varying sonic responses from touch input, e.g. squeezing or pulling resulting in gradually increasing pitch. I then crafted a variety of ‘sensor’ materials from a mix of conductive and non-conductive materials.
+As I was working with movement and hoped to build a tangible musical instrument, I started exploring conductive materials and textile surfaces. I used the Trill craft sensor and made a textile interface for easy, non-permanent connections, following [Becky Stewart’s tutorial](https://learn.bela.io/tutorials/trill-sensors/working-with-trill-craft/#conductive-fabric-and-thread).
+
+{% include single-image.html fileName="suspended-circles/05.png" %}
+
+Using a Bela board, Pd (Pure Data) for programming and the Trill craft I explored different materials using sound as an output. Using simple oscillators in Pd, with the sensor data controlling frequency and/or amplitude, I explored different ways to get rich and varying sonic responses from touch input, e.g. squeezing or pulling resulting in gradually increasing pitch. I then crafted a variety of ‘sensor’ materials from a mix of conductive and non-conductive materials.
 
 ## Making syncopation physical
 
@@ -52,11 +56,7 @@ The conductive areas of the instrument are connected to the touch sensor breakou
 
 ## Sound design
 
-In this first iteration of the Suspended Circles the sound design is kept simple. Each sensing area is mapped to a note on a C major scale (with a few exceptions), with increasing pitch across height.
-
-{% include single-image.html fileName="suspended-circles/05.png" %}
-
-As in the material exploration stage, the sensor data controls amplitude and/or frequency of cosine wave oscillators. While the patch is simple, the interface provides interesting sonic output depending on how one interacts with it. Here are a few audio examples of two very different sounding scores, one played by a tall person, mostly staying in the higher pitch area of the instrument:
+In this first iteration of the Suspended Circles the sound design is kept simple. Each sensing area is mapped to a note on a C major scale (with a few exceptions), with increasing pitch across height. As in the material exploration stage, the sensor data controls amplitude and/or frequency of cosine wave oscillators. While the patch is simple, the interface provides interesting sonic output depending on how one interacts with it. Here are a few audio examples of two very different sounding scores, one played by a tall person, mostly staying in the higher pitch area of the instrument:
 
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1080083911&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 
