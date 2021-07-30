@@ -20,7 +20,7 @@ Suspended Circles is an interactive sonic installation which was designed and bu
 The project is grounded in the idea that music is movement, drawing on theories of phenomenology and embodied music cognition. It looks into how a body–centered design process might open up possibilities for the cultivation of musical sensitivities
 As a way to practically explore music as movement, I reached out to Dalcroze Eurhythmics practitioners at the Royal College of Music in Stockholm, and participated in classes throughout the autumn of 2020.
 
-{% include single-image.html fileName="suspended-circles/close-up.jpg" caption="Close up of the Suspended Circles installation." %}
+{% include single-image.html fileName="suspended-circles/close-up.jpeg" caption="Close up of the Suspended Circles installation." %}
 
 [Dalcroze Eurhythmics](https://en.wikipedia.org/wiki/Dalcroze_eurhythmics) is a pedagogical approach of teaching music through movement. The approach started with composer and music teacher Émile Jaques-Dalcroze at the beginning of the 1900s, as he noticed how his students at the Geneva Conservatory were lacking musicality despite their solid theoretical knowledge. Dalcroze’s approach to music pedagogy was a practical one based on the idea that music is perceived, performed and understood through movement, opposing the tradition of body–mind separation, which was (and still is) the prevailing school of thought in score-based Western music education.
 
@@ -29,11 +29,11 @@ As a way to practically explore music as movement, I reached out to Dalcroze Eur
 
 The experiential qualities of the installation's design were primarily drawn from discussions with experienced Dalcroze practitioners and from my subjective experiences with Dalcroze Eurythmics. Many exercises included in the Dalcroze classes provided me with strong examples of unfamiliar and disruptive musical experiences, many making the body move in strange and uncommon ways. As I was learning these movements, and learned more about the music theory behind them, I started building up a repertoire of gestures that I could later revisit and use to inform my design choices.
 
-{% include single-image.html fileName="suspended-circles/03.png" caption="Various shots of the Trill Craft breakout and sensor experiments including the syncopated sensor patterns."%}
+{% include single-image.html fileName="suspended-circles/03.jpg" caption="Various shots of the Trill Craft breakout and sensor experiments including the syncopated sensor patterns."%}
 
 As I was working with movement and hoped to build a tangible musical instrument, I started exploring conductive materials and textile surfaces. I used the Trill craft sensor and made a textile interface for easy, non-permanent connections, following [Becky Stewart’s tutorial](https://learn.bela.io/tutorials/trill-sensors/working-with-trill-craft/#conductive-fabric-and-thread).
 
-{% include single-image.html fileName="suspended-circles/05.png" %}
+{% include single-image.html fileName="suspended-circles/05.jpg" %}
 
 Using a Bela board, Pd (Pure Data) for programming and the Trill craft I explored different materials using sound as an output. Using simple oscillators in Pd, with the sensor data controlling frequency and/or amplitude, I explored different ways to get rich and varying sonic responses from touch input, e.g. squeezing or pulling resulting in gradually increasing pitch. I then crafted a variety of ‘sensor’ materials from a mix of conductive and non-conductive materials.
 
@@ -41,7 +41,7 @@ Using a Bela board, Pd (Pure Data) for programming and the Trill craft I explore
 
 From my practice with Dalcroze Eurhythmics, various music-movement related experiences stood out to me. For example the relationship between the body and rhythm and repetition and how musical pulse can be displaced around the body. I began to see how also my listening to music had developed since practicing Dalcroze: I could listen to or play a piece of music that I had known for years, but suddenly feel new sensations of, for example, dissonance in specific body parts.
 
-{% include single-image.html fileName="suspended-circles/04.png" caption="Details of the knitted sensors." %}
+{% include single-image.html fileName="suspended-circles/04.jpg" caption="Details of the knitted sensors." %}
 
 Movement and touch qualities were now linked together with the musical experience of rhythm and repetition, which were used to inform the design and conception of the musical instrument. Touch-sensitive interfaces were made from machine knitted cotton and conductive thread. These provided nuanced sonic output from stroking, dabbing, holding and squeezing.
 
